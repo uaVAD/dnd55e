@@ -16,6 +16,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HelpAction" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e38549b5-0d0b-40c1-a46d-7a4cdb92e490" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Help" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SG_Sleeping);RemoveStatus(SG_Helpable_Condition);RemoveStatus(BURNING);RemoveStatus(SG_Prone);RemoveStatus(SG_Restrained);RemoveStatus(PRONE);RemoveStatus(SLEEPING);RemoveStatus(SLEEP);RemoveStatus(ENSNARING_STRIKE);RemoveStatus(WEB);IF(IsDowned() and SkillCheck(Skill.Medicine,10)):RegainHitPoints(1);RemoveStatus(HYPNOTIC_PATTERN);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
