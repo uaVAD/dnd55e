@@ -5,3 +5,6 @@ game/Story/story_orphanqueries_found.txt
 game/Story/story_orphanqueries_ignore.txt
 game/Story/story.div
 game/Story/story.div.osi
+resource/Stats/Generated/Data/Passive.txt
+resource/Stats/Generated/Data/Spell_Shout.txt
+resource/Stats/Generated/Data/Status_BOOST.txt
