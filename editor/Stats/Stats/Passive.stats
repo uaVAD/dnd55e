@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68145b69-891b-4f5f-8858-7db1b53ec127" />
+        <field name="Name" type="NameTableFieldDefinition" value="EquippingWeapons" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6b384962g5a7bg33e2g8993g0708cacc7834" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e686044g6737gd055gea94g27a7a4c34341" version="3" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnEquip" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not HasStatus('FIRST_ATTACK_TURN',context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SELF,ActionPoint,1,0)" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1000" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbf7aca2-e8ab-4746-a1bc-62e73e1c9fa7" />
+        <field name="Name" type="NameTableFieldDefinition" value="EquippingWeaponsTechnical" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,FIRST_ATTACK_TURN,100,1)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

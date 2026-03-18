@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h6b384962g5a7bg33e2g8993g0708cacc7834" version="3">Rule: Equipping Weapons</content>
+  <content contentuid="h7e686044g6737gd055gea94g27a7a4c34341" version="3">You can equip weapons when you make an attack as part of attack action. Equipping a weapon includes drawing it from a sheath or picking it up.</content>
+</contentList>
