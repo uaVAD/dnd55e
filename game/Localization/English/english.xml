@@ -32,4 +32,26 @@
   <content contentuid="h53e29765gaf78g1680g5805g24b5594244ac" version="1">Club, Javelin, Light Crossbow, Sling, Longbow, Musket</content>
   <content contentuid="h8ab19fdega28dg1fd1g0de1gc672bac4e6d3" version="2">Quarterstaff, Battleaxe, Maul, Trident</content>
   <content contentuid="hd724f72fgcda8gb6acgb5c4gd95d169dd0b4" version="1">Handaxe, Shortbow, Rapier, Shortsword, Hand Crossbow, Pistol</content>
+  <content contentuid="h6e0a316bg6ce3gc18fgb7c0ge96c73d6dfa0" version="1">Weapon Mastery</content>
+  <content contentuid="h8c28362ag369agee34gc8d4g6ccec5460b53" version="1">Your training with weapons allows you to use weapon mastery properties.&lt;br&gt;&lt;br&gt;As you reach certain levels in your class, you gain the ability to use the mastery properties of additional weapon types.</content>
+  <content contentuid="h8abec533g47afgabaag5370ga724a70ed863" version="1">Level 1: Unarmoured Defence</content>
+  <content contentuid="hfc1b8fd5g336eg3648g3224g9cae0aaac491" version="1">Level 2: Danger Sense</content>
+  <content contentuid="hb6dea583g9359gddf3g2360g74669f67b1a6" version="1">Level 3: Primal Knowledge</content>
+  <content contentuid="h860b399bg558cg749fgb64bg707d53758400" version="1">You can channel primal power when you attempt certain tasks. Whenever you make an ability check using Acrobatics, Intimidation, Perception, Stealth, or Survival, you can add your Strength modifier to the roll. When you use this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and senses.</content>
+  <content contentuid="h3fa58ccfg135bg7a66g14degc3c8b5bb8261" version="1">Level 5: Fast Movement</content>
+  <content contentuid="h7c047839g4177g2aaega022g36a5cb07886a" version="1">Level 7: Feral Instinct</content>
+  <content contentuid="h28d4b453gc36cg810egf9e2g1dbff5d018d8" version="1">Level 7: Instinctive Pounce</content>
+  <content contentuid="hdb025275gf26dg03dfg7370g4dddf3f0ffb9" version="1">As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.</content>
+  <content contentuid="hb6144726g336aga60cg63d6gf6c4bc669e6a" version="1">Level 9: Brutal Strike</content>
+  <content contentuid="h3a320da8g90b9g9714ge237g45c9782afbd0" version="1">If you use Reckless Attack, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice.&lt;br&gt;&lt;br&gt;Forceful Blow. The target is pushed [1] straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attacks.&lt;br&gt;Hamstring Blow. The target’s Speed is reduced by [1] until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.</content>
+  <content contentuid="hf41a9d96ge143g36f0g9f1eg51d9ca5a4cee" version="1">Reckless Attack: Forceful Blow</content>
+  <content contentuid="hab5f59ebgf7a8g70bag4453g8c9195f80563" version="1">The target is pushed [1] straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attacks.</content>
+  <content contentuid="hebd8f833g052cg4774g5e19geb34be606a5f" version="1">Reckless Attack: Hamstring Blow</content>
+  <content contentuid="h0eff4b2bgeb61g4e62ga1ffg3b4f777317e1" version="1">The target’s Speed is reduced by [1] until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.</content>
+  <content contentuid="h2fea2840g0902gdf2bg7797g549c20c3d6e3" version="1">Forceful Blow</content>
+  <content contentuid="hcd10eb1fgc367ga39egd371g5e071e079549" version="1">You can move up to half your Speed straight toward the target without provoking Opportunity Attacks.</content>
+  <content contentuid="hd5311cf0g6f4fg9a03g45f9gf5ba41e2994c" version="1">Hamstring Blow</content>
+  <content contentuid="hcba666bcgdd43g5b9agef09gdcfd2c3d20ff" version="1">The Speed is reduced by [1] until the start of attacker's next turn.</content>
+  <content contentuid="hebad3866ga362g915cge97fg661e8b92ea36" version="1">Level 11: Relentless Rage</content>
+  <content contentuid="hfd45d1c1g9dd3g206agfb7eg456c6af02ac0" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, when you would drop to [1] &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; while &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Enraged&lt;/LSTag&gt;, you instead regain hit points equal to twice your Barbarian level and avoid being &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt;.</content>
 </contentList>

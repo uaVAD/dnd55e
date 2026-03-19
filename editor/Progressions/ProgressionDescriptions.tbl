@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bfa22a59-fd65-4e35-ae0f-ac960c3b5fd2">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_188" />
+        <field name="UUID" type="IdTableFieldDefinition" value="61d7a977-f2e9-4df4-b922-23421eba42a3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6e0a316bg6ce3gc18fgb7c0ge96c73d6dfa0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c28362ag369agee34gc8d4g6ccec5460b53" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="WeaponMasteryList" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

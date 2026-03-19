@@ -11,5 +11,13 @@
         <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e5048c8-90f6-4630-bffe-0f4c186dda69" />
+        <field name="Name" type="NameTableFieldDefinition" value="RELENTLESS_RAGE_DOWNED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f08bd1d0-0574-4cb9-a3d5-8ed11b39730e" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RELENTLESS_RAGE);RegainHitPoints(ClassLevel(Barbarian)*2,Guaranteed)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

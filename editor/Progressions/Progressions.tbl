@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="710f5e93-2b5c-42f4-b1ae-4b588c335376" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CLASSES" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_513" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a2198ee9-ea4c-468e-b6b4-22b32d37806e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Rage,2,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RageUnlock;UnarmouredDefence_Barbarian;Rage_Armour_Message;Rage_NoHeavyArmour_VFX" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2dc1015e-6fd9-48aa-923e-eecaf72a83f1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RageUnlock;UnarmouredDefence_Barbarian;Rage_Armour_Message;Rage_NoHeavyArmour_VFX" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Rage,2,0)" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_54" />
+        <field name="UUID" type="IdTableFieldDefinition" value="89986e8a-09b1-4163-b1d0-ddb2332bf3c5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DangerSense;RecklessAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_46" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0d4a6b4b-8162-414b-81ef-1838e36e778a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rage,1,0)" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;07234f31-c239-4a57-aeb4-868f3e1a318e;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_3_PrimalKnowledge" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_57" />
+        <field name="UUID" type="IdTableFieldDefinition" value="942265f9-bb74-4f9b-82e4-0c8c8036ac7f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_168" />
+        <field name="UUID" type="IdTableFieldDefinition" value="76654cf4-89a5-4255-8e2a-cd4d08df0fe4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;FastMovement" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_101" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2c296206-6a78-4ff4-8b5e-a8ba7c62a62a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rage,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_100" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2ad3b99d-3dae-4c9e-b8b0-8d2e4e0da805" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FeralInstinct;Barbarian_7_InstinctivePounce" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_99" />
+        <field name="UUID" type="IdTableFieldDefinition" value="26c5e940-6f74-43a1-b46e-7eb98e211cf5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_98" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2b2be55c-8c01-4bcd-84ff-b4c9ca23faf8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_9_BrutalStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_97" />
+        <field name="UUID" type="IdTableFieldDefinition" value="38f50ca6-9511-4b32-81e6-bb9a8a941a3d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_96" />
+        <field name="UUID" type="IdTableFieldDefinition" value="37055929-9081-4337-831f-7ac427ef02fd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RelentlessRage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d31c7f2f-52e6-4c83-8a7b-9f0b7b953a79" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rage,1,0)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
