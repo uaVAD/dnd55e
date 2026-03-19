@@ -16,3 +16,5 @@ resource/Stats/Generated/Data/Status_KNOCKED_DOWN.txt
 resource/Stats/Generated/Data/Data.txt
 resource/Stats/Generated/Data/Spell_Throw.txt
 resource/ActionResourceDefinitions/ActionResourceDefinitions.lsx
+resource/Stats/Generated/Data/Weapon.txt
+resource/Stats/Generated/Data/Spell_Zone.txt
