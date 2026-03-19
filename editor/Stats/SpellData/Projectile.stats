@@ -20,7 +20,6 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10, Slashing);ExecuteWeaponFunctors(MainHand);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and Enemy() and not HasStatus('WEAPONMASTERY_CLEAVE_TARGET');" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleave_New" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d10, Slashing);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
       </fields>
     </stat_object>
@@ -30,7 +29,25 @@
         <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryCleave_12" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6f7e778d-7203-4e95-997b-aa8782701457" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d12, Slashing);ExecuteWeaponFunctors(MainHand);" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d12, Slashing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aea85133-6e81-47cf-b41e-a6d420fe4111" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryNick_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f7e778d-7203-4e95-997b-aa8782701457" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeOffHandWeaponAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(0,OffhandMeleeWeapon), OffhandMeleeWeaponDamageType);ExecuteWeaponFunctors(OffHand);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and Enemy();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Target_OffHandAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a482c2ce-c894-4218-8bab-d92d5d204463" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryNick_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aea85133-6e81-47cf-b41e-a6d420fe4111" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(0,OffhandMeleeWeapon), OffhandMeleeWeaponDamageType);ExecuteWeaponFunctors(OffHand);" />
       </fields>
     </stat_object>
   </stat_objects>

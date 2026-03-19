@@ -86,6 +86,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d292a184-1e33-4691-86d1-005ee8cbc484" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryNick_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9f7c060-6a28-4dd7-9dfb-b2a4fbbe58bf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdbe460a9gf800gdb75g15bbg2b81a80fe8ab" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h84f8977cg06ecg1e31gebd6g21e4b7346121" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Target_OffHandAttack" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="AttackedWithPassiveSourceWeapon() and IsOffHandAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="SpawnExtraProjectiles(Projectile_WeaponMasteryNick_4)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7644895a-1fe9-461b-98f2-7d638cac3016" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryNick_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d292a184-1e33-4691-86d1-005ee8cbc484" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="SpawnExtraProjectiles(Projectile_WeaponMasteryNick_6)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="483cb96d-db7e-4d80-801c-cd7d1ec0d7cb" />
         <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryPush" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c58896d9-e503-4967-8c2f-afb00d7cc4c0" />
