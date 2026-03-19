@@ -432,6 +432,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="26a9fba6-1a60-4691-84ea-da7ffcb304e0" />
         <field name="Weight" type="FloatTableFieldDefinition" value="1.8" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5363,7 +5364,7 @@
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_FlashingDawn)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Radiant_RadiatingOrb_Melee_OnDamage_Passive;MAG_UndeadTurning_Weapon_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_Radiant_RadiatingOrb_Melee_OnDamage_Passive;MAG_UndeadTurning_Weapon_Passive;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
