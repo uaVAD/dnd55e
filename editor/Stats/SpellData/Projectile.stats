@@ -9,5 +9,29 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="Movement:Distance;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f7e778d-7203-4e95-997b-aa8782701457" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryCleave_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21252e04-71ca-447d-91b3-7dc76b13979f" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="2" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10, Slashing);ExecuteWeaponFunctors(MainHand);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and Enemy() and not HasStatus('WEAPONMASTERY_CLEAVE_TARGET');" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleave_New" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d10, Slashing);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb17127e-c383-4ad3-9793-5c27892d4ba0" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryCleave_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f7e778d-7203-4e95-997b-aa8782701457" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d12, Slashing);ExecuteWeaponFunctors(MainHand);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d12, Slashing);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
