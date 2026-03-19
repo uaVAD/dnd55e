@@ -70,5 +70,17 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_CLEAVE_TARGET,100,0);SpawnExtraProjectiles(Projectile_WeaponMasteryCleave_12)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c58896d9-e503-4967-8c2f-afb00d7cc4c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryGraze" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9f7c060-6a28-4dd7-9dfb-b2a4fbbe58bf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h240aa2f4g6571ge23eg8142g83ee7b985b8d" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0fbee9aag6abeg6294g3fd8gbeb26ffd19f6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Slash" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeWeaponAttack() and IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WeaponAttackRollAbility(Ability.Strength)):DealDamage(StrengthModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Dexterity)):DealDamage(DexterityModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Intelligence)):DealDamage(IntelligenceModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Wisdom)):DealDamage(WisdomModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Charisma)):DealDamage(CharismaModifier, MainMeleeWeaponDamageType)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
