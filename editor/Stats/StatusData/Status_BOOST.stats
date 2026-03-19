@@ -51,7 +51,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_SLOW" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e57f2a84-8fcc-4b27-949b-06a97467523e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb839de91gb995ge42eg62b9g1dd41fe4da4b" version="1" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7773a857g54d9g0e61gc338g5671eef1378d" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
         <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
         <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
@@ -62,6 +61,20 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Restrained;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="887222d9-26cb-4859-81f3-a9415f8b23df" />
+        <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_VEX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e57f2a84-8fcc-4b27-949b-06a97467523e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfca5f76g305cgff0cg0532gbc6b23ff9367" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf0019ff2g27f5g13abg7a86g646b2f8a1f55" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_OpeningAttack" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="SourceAdvantageOnAttack();" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -131,5 +131,16 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(not SavingThrow(Ability.Constution, ManeuverSaveDC())):ApplyStatus(PRONE,100,1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5b4f3df-4feb-4956-bb0a-5fd7e60b113e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryVex" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="483cb96d-db7e-4d80-801c-cd7d1ec0d7cb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfca5f76g305cgff0cg0532gbc6b23ff9367" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf0019ff2g27f5g13abg7a86g646b2f8a1f55" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_OpeningAttack" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_VEX,100,2)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
