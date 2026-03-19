@@ -55,7 +55,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h57100728g823cg76f4g4795g878063b680ae" version="2" />
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleave_New" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9000" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="900" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('HasWeaponMastery_Cleave', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack();" />
@@ -264,6 +264,19 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0be7940c-ca66-4b1e-9547-52b4f0ecef61" />
         <field name="Name" type="NameTableFieldDefinition" value="__BARBARIAN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="214a6e8b-5758-4133-b217-6d3d20d75a54" />
+        <field name="Name" type="NameTableFieldDefinition" value="Barbarian_1_RageRestore" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he54ffab7g9288g792age85bg3fc0a39a63db" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha33a602cg9bb2gec42g889dg5983a5346c84" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1000" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(Rage,1,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
