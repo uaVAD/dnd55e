@@ -145,4 +145,20 @@
   <content contentuid="hf73a03f1g9a62g7708g6ac9ge3ea9b45c4a8" version="1">As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose Bloodied creatures within [1] of yourself (which can include you), and divide those Hit Points among them.</content>
   <content contentuid="haed19d90g7118gfa81g42d5gba4d717eba4c" version="1">Blooded</content>
   <content contentuid="h28bdf1edg1a62gc8a2gc601gdedb4f01f3b6" version="1">This creature’s Hit Points have dropped below 50%.</content>
+  <content contentuid="h12e63398gc863ged08g09d8g9e2fffc91af3" version="1">Channel Divinity</content>
+  <content contentuid="h62870381g3b8dgbb2cgfc78gf6ba26bd778f" version="1">The number of times you can channel your divine powers.</content>
+  <content contentuid="h39b48f39g9a41g2ba3g3567g7ab1cb265f82" version="1">Level 3: Warding Flare</content>
+  <content contentuid="ha7d55e66g6f97ga4b7g45b4g5829f0c36910" version="2">When a creature that you can see within [1] of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll, causing light to flare before it hits or misses.&lt;br&gt;&lt;br&gt;You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</content>
+  <content contentuid="h67f1e6b2g8adcge989g555ag3cbae9d62375" version="1">Level 6: Improved Warding Flare</content>
+  <content contentuid="hcac62cb2g678dgbdc4g4a80g875b53ed7a48" version="1">You regain all expended uses of your Warding Flare when you finish a Short or Long Rest.&lt;br&gt;&lt;br&gt;In addition, whenever you use Warding Flare, you can give the target of the triggering attack a number of Temporary Hit Points equal to 2d6 plus your Wisdom modifier.</content>
+  <content contentuid="h772e3772g49fdg8cf4g0f02g893153584b30" version="1">Warding Flare</content>
+  <content contentuid="h6c1ab5a0g8a40g1755g2eacg01f53db2903f" version="1">When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll, causing light to flare before it hits or misses.</content>
+  <content contentuid="h03dc1992g1d8agc3e0ga6bbg22607e81d966" version="1">Warding Flare (Ally)</content>
+  <content contentuid="hcb0f1d4dg6ea8gf1eag5e72g32b56f306af2" version="1">Warding Flare (Self)</content>
+  <content contentuid="hdc4e30afg0702g20ddgf4a5g1751c8b46770" version="1">Level 3: Invoke Duplicity</content>
+  <content contentuid="h31748432g34ebg740cgf353g2071d6cae486" version="1">As a Bonus Action, you can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within [1]. The illusion lasts for 1 minute. As a Bonus Action, you can move the illusion up to [1] to another unoccupied space you can see.</content>
+  <content contentuid="h002b7ed0g2d07g9ecbg0301g13b767a04c7e" version="1">Level 6: Trickster’s Transposition</content>
+  <content contentuid="h9d5766b9g0e51g3888g5633gd570f3096a0f" version="1">Whenever you take the Bonus Action to create or move the illusion of your Invoke Duplicity, you can teleport, swapping places with the illusion.</content>
+  <content contentuid="ha73b8276g56b2g1bdegc73bgf16610d268ab" version="1">Trickster’s Transposition</content>
+  <content contentuid="h82f58797g491fg0f3ag42b4g05c22ee9679d" version="1">Whenever you take the Bonus Action to create or move the illusion of your Invoke Duplicity, you can teleport, swapping places with the illusion.</content>
 </contentList>

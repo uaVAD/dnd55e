@@ -299,5 +299,46 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_FlameStrike;Shout_DestructiveWave" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c35cb4e6-2690-4e1f-bd89-69f4f69ae818" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Trickery Domain channel divinity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f603ac8-2e51-4ce9-b924-c8093148bdf5" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 TrickeryLevel 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Invisibility;Shout_PassWithoutTrace;Target_CharmPerson;Shout_DisguiseSelf;Target_BlessingOfTheTrickster;Target_InvokeDuplicity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a9faf7a-aacf-43f4-a0dd-5ea7e72449f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 TrickeryLevel 5 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_Fear;Target_HypnoticPattern" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90acd47f-3475-4c85-99ea-7fd503591be4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric, Trickery Domain Cloak of Shadows 6" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_CloakOfShadows" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="18e97e4a-d97b-4595-af80-8eb43766386e" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 TrickeryLevel 7 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Confusion;Teleportation_DimensionDoor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="154b461e-23c2-4147-97fd-b7892f031a50" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 TrickeryLevel 9 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson;Target_Seeming" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -703,5 +703,68 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3106" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91edef7e-60ad-45e2-b79c-a6987dd8abe6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WardingFlare" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39b48f39g9a41g2ba3g3567g7ab1cb265f82" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha7d55e66g6f97ga4b7g45b4g5829f0c36910" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WardingFlare" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_WardingFlare);UnlockInterrupt(Interrupt_WardingFlare_Improved);" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3203" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3c4ffb2-00b9-4afc-bf71-dc456f7e7062" />
+        <field name="Name" type="NameTableFieldDefinition" value="WardingFlare_Improved" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h67f1e6b2g8adcge989g555ag3cbae9d62375" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcac62cb2g678dgbdc4g4a80g875b53ed7a48" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ImprovedFlare" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceReplenishTypeOverride(WardingFlare,ShortRest);" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3206" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94151548-1212-41da-836b-1e80909bd681" />
+        <field name="Name" type="NameTableFieldDefinition" value="Trickery_3_InvokeDuplicity" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc4e30afg0702g20ddgf4a5g1751c8b46770" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h31748432g34ebg740cgf353g2071d6cae486" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Target_InvokeDuplicity');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,INVOKE_DUPLICITY_MOVE,100,10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e4f6949-74e4-406b-bc7c-a4f31142f433" />
+        <field name="Name" type="NameTableFieldDefinition" value="Trickery_6_TrickstersTransposition" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h002b7ed0g2d07g9ecbg0301g13b767a04c7e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d5766b9g0e51g3888g5633gd570f3096a0f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3306" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Target_InvokeDuplicity');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,TRICKSTERS_TRANSPOSITION,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5626b21a-f80a-4f55-bb46-19cca7ba91b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Illusion_Disappear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d409d52c-cf4c-4890-bd3c-0917c63a066f" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ACT1_HAG_ILLUSION);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

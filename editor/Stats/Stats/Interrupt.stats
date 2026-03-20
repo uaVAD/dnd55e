@@ -44,5 +44,31 @@
         <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37bb8c04-d752-4ade-bda2-7a0df3415754" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CLERIC__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a056b056-8248-4397-9692-bdadbf72584a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_WardingFlare" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f1d3f56f-25b2-4a75-9702-525202d4d57c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb0f1d4dg6ea8gf1eag5e72g32b56f306af2" version="1" />
+        <field name="Properties" type="StringTableFieldDefinition" value="SetDisadvantage();ApplyStatus(OBSERVER_TARGET,PASSIVE_WARDING_FLARE,100,0);IF(HasPassive('WardingFlare_Improved', context.Source)):ApplyStatus(OBSERVER_TARGET,IMPROVED_WARDINGFLARE,100,-1);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;WardingFlare:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c16ee8c-df88-41ca-93b5-4e4b1c8f8d2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_WardingFlare_Improved" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a145fb3d-ba85-4877-8ed4-2ff105abee90" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03dc1992g1d8agc3e0ga6bbg22607e81d966" version="1" />
+        <field name="Properties" type="StringTableFieldDefinition" value="SetDisadvantage();ApplyStatus(OBSERVER_TARGET,PASSIVE_WARDING_FLARE,100,0);IF(not Self(context.Target,context.Observer)):UseSpell(OBSERVER_TARGET,Target_ImprovedFlare_Interrupt,true,true,true);IF(HasPassive('WardingFlare_Improved', context.Source)):ApplyStatus(OBSERVER_TARGET,IMPROVED_WARDINGFLARE,100,-1);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;WardingFlare:1;" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -719,5 +719,46 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="640bb31f-6d4c-4ba4-a425-2acff764e992" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessingOfTheTrickster" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="83189a9a-710a-46b6-9140-00344e7281ae" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;Invisible" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12a6522b-4546-42da-8980-7013611971e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="InvokeDuplicity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="14b0950d-24c8-41c9-89b7-741f99c54473" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ChannelDivinity:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotTargetItems;CannotTargetCharacter" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41000613-90c7-4036-bfde-5775e5abc4a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="TrickstersTransposition" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="TAREGT:SwapPlaces();" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Tagged('ACT1_HAG_ILLUSION');" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_BenignTransposition" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha73b8276g56b2g1bdegc73bgf16610d268ab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h82f58797g491fg0f3ag42b4g05c22ee9679d" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Monk_ShadowStep_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Monk_ShadowStep_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="b94b9184-9bd0-4840-be7d-003700173b37,,;,,;5df11e35-f081-44f7-bd6f-7049d0e533cd,,;8dccb0f6-24e3-44b7-a60b-1f217b7db523,,;066f8e0e-b3e1-4b76-a473-d1e23a3b7230,,;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Invisible;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="LineOfSightFlags" type="EnumerationListTableFieldDefinition" value="AddSourceHeight" enumeration_type_name="LineOfSightFlags" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="a0458d31-f8ef-419a-8708-5715c81e91d3" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="52af7a1d-d5d9-4506-85ce-d124f1ef9ea5" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

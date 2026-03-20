@@ -1174,5 +1174,101 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(5675d0b3-8a2c-4658-bfe3-42abbc0bdcfd,ClericLightDomainSpells,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_516" />
+        <field name="UUID" type="IdTableFieldDefinition" value="97ba481e-13d2-4a8c-8503-e1b146c21b7b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="044e4e07-6980-479f-80e5-3c4a84e691d1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TrickeryDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_122" />
+        <field name="UUID" type="IdTableFieldDefinition" value="87609f34-d8c7-4ca6-88b3-6f2692286e44" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="044e4e07-6980-479f-80e5-3c4a84e691d1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TrickeryDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_123" />
+        <field name="UUID" type="IdTableFieldDefinition" value="90dafea8-c773-4dfa-b0c8-da4789122a0f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="044e4e07-6980-479f-80e5-3c4a84e691d1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TrickeryDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(9f603ac8-2e51-4ce9-b924-c8093148bdf5,ClericTrickeryDomainSpells,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Trickery_3_InvokeDuplicity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_187" />
+        <field name="UUID" type="IdTableFieldDefinition" value="33627eb3-f6a0-4ddb-8f7c-0681d0d8cb71" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="044e4e07-6980-479f-80e5-3c4a84e691d1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TrickeryDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_260" />
+        <field name="UUID" type="IdTableFieldDefinition" value="76b362f3-11f2-47a0-949e-6147d0fde794" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="044e4e07-6980-479f-80e5-3c4a84e691d1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TrickeryDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(8a9faf7a-aacf-43f4-a0dd-5ea7e72449f3,ClericTrickeryDomainSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_247" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7424ee22-a365-427e-be2f-40cd8b316ac1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="044e4e07-6980-479f-80e5-3c4a84e691d1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TrickeryDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Trickery_6_TrickstersTransposition" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_248" />
+        <field name="UUID" type="IdTableFieldDefinition" value="63a5476b-4e9e-45bd-97fd-9a88d46b9588" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="044e4e07-6980-479f-80e5-3c4a84e691d1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TrickeryDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(18e97e4a-d97b-4595-af80-8eb43766386e,ClericTrickeryDomainSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_249" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f39b339b-e367-403b-b33e-8191eb8363e0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="044e4e07-6980-479f-80e5-3c4a84e691d1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TrickeryDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_250" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5eff9cd1-2376-452a-bb09-93a6aa8ee8d0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="044e4e07-6980-479f-80e5-3c4a84e691d1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TrickeryDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(154b461e-23c2-4147-97fd-b7892f031a50,ClericTrickeryDomainSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
