@@ -177,4 +177,6 @@
   <content contentuid="h0c6d3ec2g7683g7e9fg7d62g08a6874b3c5f" version="1">You can expend a use of your Channel Divinity to cast Shield of Faith or Spiritual Weapon rather than expending a spell slot. When you cast either spell in this way, the spell doesn’t require Concentration. Instead the spell lasts for 1 minute, but it ends early if you cast that spell again, have the Incapacitated condition, or die.</content>
   <content contentuid="h3bb1c07ag3913g5b74g9454gdcebc7737556" version="1">Shield of Faith: War God’s Blessing</content>
   <content contentuid="hcaeae1ebgf2c5gb598g6716gb1b7c699916c" version="1">Spiritual Weapon: War God’s Blessing</content>
+  <content contentuid="h002f5e57g1181g2dbbg226fgf29f606b801c" version="1">Steel Wind Strike</content>
+  <content contentuid="h0da58492g230cg424fg00cdg006fb672dd4d" version="1">You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes [1].</content>
 </contentList>
