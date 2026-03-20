@@ -352,5 +352,21 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="353cfeae-ddd9-407f-8811-3324e14ffa3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CLERIC__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fbd22ff1-f84f-45a5-ba4b-1f741f7fbfc2" />
+        <field name="Name" type="NameTableFieldDefinition" value="RadianceOfTheDawn" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6412ed8c-e460-4723-854a-b560141f837a" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10+ClassLevel(Cleric),Radiant,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((2d10+ClassLevel(Cleric))/2,Radiant,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d10+ClassLevel(Cleric),Radiant)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
