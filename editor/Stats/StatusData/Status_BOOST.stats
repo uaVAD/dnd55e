@@ -19,6 +19,17 @@
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot'),ModifyUseCosts(Add,OneSpellWithASpellSlotPerTurn,1,0));" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f3e7e74-0c4a-4d77-a79e-117fa720c114" />
+        <field name="Name" type="NameTableFieldDefinition" value="EXTRA_ATTACK_WARMAGIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e2ad149-8527-440a-9172-45d89725b9f4" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="19" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(IsCantrip() or ExtraAttackCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription());" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsCantrip() or ExtraAttackSpellCheck()) and HasUseCosts('ActionPoint',false,context.Target) and not IsOffHandAttack()" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -327,6 +338,36 @@
         <field name="Name" type="NameTableFieldDefinition" value="FLUMPH_EXPLODE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7f02da2c-8bda-41d1-a581-7f2e0744c356" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(2d6,Force)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="54d8d41e-a60b-47b4-ae10-fee4fb6e10ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6793001-edab-469f-987a-d4fd3892fa6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="BEGUILING_MAGIC" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BEGUILING_MAGIC" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BeguilingMagic_Charmed);UnlockSpell(Target_BeguilingMagic_Frightend);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SpellId('Target_BeguilingMagic_Charmed') or SpellId('Target_BeguilingMagic_Frightend')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6c7e817-e269-4897-8b1b-395b401e35c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MANTLEOFINSPIRATION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d5f0b387-c985-4e43-ba70-a36a0c69446a" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h530230d7ge34cg06b9g06a3ge16228b8a608" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MANTLEOFINSPIRATION" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(BardicInspiration)+Cause.LevelMapValue(BardicInspiration));" />
+        <field name="Passives" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1)" />
       </fields>
     </stat_object>
   </stat_objects>

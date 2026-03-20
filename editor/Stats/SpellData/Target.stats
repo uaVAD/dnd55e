@@ -229,5 +229,184 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f080580c-75ed-4b5a-8590-cc396d7f0235" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="40bfeee0-0286-4482-bf7c-b9a34dc30934" />
+        <field name="Name" type="NameTableFieldDefinition" value="BeguilingMagic_Charmed" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CHARMED,100,10);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL_DOMINATED,100,0)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Charmed" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he30a14f7gb323g888eg2ff5g04b0a7374497" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CHARMED,100,10);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_HideousLaughter_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_HideousLaughter_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_TellAJoke" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BardicInspiration:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;b881609f-6177-4dab-be41-7dd48c8bc30d,,;d5a38fb5-92f0-4d06-a5b0-b8a4b94e6a49,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="2fa6b127-6f8a-4150-8be6-6f62b7a85911" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d2ef6b50-243f-478d-85c6-892086a1477e" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="f1de27ab-8104-462b-8acd-12df0124db28" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4267d1d2-ca04-4cfe-8439-3c916eaacb34" />
+        <field name="Name" type="NameTableFieldDefinition" value="BeguilingMagic_Frightend" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40bfeee0-0286-4482-bf7c-b9a34dc30934" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Frightened" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haac5a803g73dfg5282g175eg12c90e9a77cd" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e577ef4e-9cdf-41cc-bb19-ef0ff6980f19" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfInspiration" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c0b50f94-089c-4366-94d6-c37c9256734e" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_MantleOfInspiration_1;Target_MantleOfInspiration_2;Target_MantleOfInspiration_3;Target_MantleOfInspiration_4;Target_MantleOfInspiration_5;Target_MantleOfInspiration_6;" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h719facf1g5f1cg71c4gbf18g0bc0200d571d" version="2" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnorePreviouslyPickedEntities;HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d625c204-8bf0-4ad5-9211-c80061d22140" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfInspiration_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d056932e-7ce4-428e-beb4-daedeb5b309d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_MantleOfInspiration" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MANTLEOFINSPIRATION,100,-1)" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h52a153aag53d8g2658g72aegc55c7baffc11" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28ed7ebf-2e38-4c5f-bdd6-262bc6295d5f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfInspiration_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d056932e-7ce4-428e-beb4-daedeb5b309d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_MantleOfInspiration" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MANTLEOFINSPIRATION,100,-1)" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="AbilityGreaterThan('Charisma',13,context.Source);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd927a3dfg462bg2162g0ddegc1f29c11bb86" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb33956f-b8b9-4dae-b93b-847c1b4ff5c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfInspiration_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce903298-6584-45a3-8fa7-7f13296535de" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_MantleOfInspiration" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MANTLEOFINSPIRATION,100,-1)" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="AbilityGreaterThan('Charisma',15,context.Source);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf3f5c8f9g2b3bg1058g7715gee2645709a64" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ddf6d51-c0b1-410d-a532-bc140d14dfa2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfInspiration_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb33956f-b8b9-4dae-b93b-847c1b4ff5c0" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="AbilityGreaterThan('Charisma',17,context.Source);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2510497c-ac0b-4971-81da-f6481d09d766" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfInspiration_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb33956f-b8b9-4dae-b93b-847c1b4ff5c0" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="AbilityGreaterThan('Charisma',19,context.Source);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e247488-406b-41b8-b5d3-46bc62101953" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfInspiration_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb33956f-b8b9-4dae-b93b-847c1b4ff5c0" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="AbilityGreaterThan('Charisma',21,context.Source);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc32d798-1440-456f-b6e3-da5debc71c28" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfMajesty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a1802448-1ed7-4340-956e-e0c1e5bea3bf" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6802458-9c9f-47e3-86ee-50025b3b1075" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfMajesty_Halt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d46a13eb-90b5-4e63-860c-0f39ed947a26" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19edf320-e2e2-49c9-9aa1-0ee38ea6e7da" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfMajesty_Approach" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4762d258-5d0d-4b3e-907c-0b02953033a5" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MANTLEOFMAJESTY,100,10);ApplyStatus(COMMAND_APPROACH, 100, 1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9bdbcb53-7e13-4a42-a9ec-2b4db9135403" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfMajesty_Drop" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="854010f0-fb63-42cd-b455-34bd853ad70b" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73be2bdd-fd12-4716-893a-a59e45423bcf" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfMajesty_Flee" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4ca235fd-93db-4fc0-b126-3be2ac455f48" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f76b750-1dbb-4d6b-aba3-78793eb70ff5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfMajesty_Grovel" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a86ef13c-8b2e-48e4-b38a-c3ed4905e9ef" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

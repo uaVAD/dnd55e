@@ -219,5 +219,97 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WILD_MAGIC_BARBARIAN_WEAPON_INFUSION,100,100)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="932d1ae0-3293-467e-993a-8dacbc0222a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b50f564-278a-4c10-82ee-873fd4cbe4d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_FontOfInspiration_1;" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Bard_RestoreBardicInspiration" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c4853cag177dg4ea8g0c15gde7e940ee735" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7c14769cg0f8ag7968g4156g1272fd5b7850" version="3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Bard_SongOfRest_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Bard_SongOfRest_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="InstrumentComponentPrepareSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Prepare" />
+        <field name="InstrumentComponentLoopingSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Loop" />
+        <field name="InstrumentComponentCastSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Cast" />
+        <field name="InstrumentComponentImpactSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Impact" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="850cd2f3-dde2-475d-b3a3-f35c47333523,,;,,;8bfc0edf-5baa-4344-a486-14032de5ab69,,;3935e00c-7d43-4243-a4ef-4c680530d593,,;ad775f69-0d9f-4215-bfc2-8e0ec7e32189,,;,,;6bfce8a0-80f1-47a8-97f4-34f4b8b6fe9e,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d2c9dc70-d8d8-40fc-87a8-3c14a3ea842a" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="79caa1cd-1a4d-4c9f-8401-76ce465dc7c6" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Big" enumeration_type_name="SpellSoundMagnitude" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Instrument" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c898def-ec08-4da8-b5d7-0dff521a2070" />
+        <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1b50f564-278a-4c10-82ee-873fd4cbe4d9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_FontOfInspiration" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(BardicInspiration,1,0);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6578689-d230-47d6-bae7-5ad2c4b72e78" />
+        <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c898def-ec08-4da8-b5d7-0dff521a2070" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:2;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_FontOfInspiration" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2ffa750-35af-4fc3-9bb5-daaeed90a6c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6578689-d230-47d6-bae7-5ad2c4b72e78" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="825686b7-af71-46ed-920a-95891444b642" />
+        <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6578689-d230-47d6-bae7-5ad2c4b72e78" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ca1975a-9fd8-4e44-be5f-53f8af86d3e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6578689-d230-47d6-bae7-5ad2c4b72e78" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3811905a-f78f-41dc-b511-6c0e8ab4eb81" />
+        <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6578689-d230-47d6-bae7-5ad2c4b72e78" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

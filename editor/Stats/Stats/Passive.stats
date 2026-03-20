@@ -10,7 +10,7 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnEquip" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="not HasStatus('FIRST_ATTACK_TURN',context.Source);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SELF,ActionPoint,1,0)" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9999" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99999" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
       </fields>
@@ -42,9 +42,30 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot');" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsSpell() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot'));" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN,100,1)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd9dd169-8155-4cf4-996a-38a3da1a37bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_AC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d6652b46-7134-4986-a0a9-8eeb61148be8" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_WARMAGIC, 100, 1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfac955c9g640eg8dc8gfdefgfa559fa195f8" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6112d47g8846ge668gbd97g45ddd36eeb46" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WarMagic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e3a4ac8-ce16-4be9-9912-24f8e254b22e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_CA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cd9dd169-8155-4cf4-996a-38a3da1a37bf" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(context.HasContextFlag(StatsFunctorContext.OnCast) and (IsCantrip() or ExtraAttackSpellCheck()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased()) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_Q'));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK, 100, 1)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -404,6 +425,80 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="399560ab-900b-42de-8deb-de7091b1d019" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6, Force)" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,2d6, Force,Magical);ApplyStatus(SELF,PASSIVE_WILDMAGIC_MAGICRETRIBUTION_DEFENDER,100,0);ApplyStatus(PASSIVE_WILDMAGIC_MAGICRETRIBUTION_ATTACKER,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="152e5b9f-4ddf-4005-8e45-65c53081eb4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac8adaa4-bba5-48f1-9ab4-aafb87b02ef2" />
+        <field name="Name" type="NameTableFieldDefinition" value="JackOfAllTrades" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0d94da9b-85c3-4950-98a5-87532f10c851" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd75d1783g8062gae55g78a6g651f55455f7f" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2002" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="620e787c-9a8c-44d7-842b-c39f787e6559" />
+        <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="923ed6cf-cfd6-4a0e-9799-bf29a5b2b7d6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6002075bg4feegb25ag03b5g8e88a4351c0f" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5d1b01ffgd776g8ca4gd2edgb4e5e0068ad7" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2005" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02d4f7d3-38c5-4c18-91dd-3b21d18fecb8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard_7_Countercharm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he36b3403gbab9gf77fg17fbg32e95953478c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1dedae79g3922gbd27g0925g98aec4318fa7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Bard_Countercharm" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2007" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Bard_7_Countercharm);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70b7917a-a1ae-4596-b40c-ee8dce15ae2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Glamour_3_BeguilingMagic" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3169b2acg5134gbc8dge8fagb01eabf3a278" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h035b29c1g51d0ge9f8gb63fgc75cd5045b0c" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsSpell() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot')) and (IsSpellSchool(SpellSchool.Enchantment) or IsSpellSchool(SpellSchool.Illusion));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,BEGUILING_MAGIC,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6d4f2b2f-321c-4ab7-b2f7-b3d325381003" />
+        <field name="Name" type="NameTableFieldDefinition" value="MantleOfInspiration_Unlock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53509aed-35c2-48d9-9766-e0dc23232f99" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e9e444agc6b5g3056g6b60g447875f0ec07" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd68a192ag408cg0b94ge1bcgb6efd87c7b6a" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe870750-d644-42f7-b22b-0e842bce0b45" />
+        <field name="Name" type="NameTableFieldDefinition" value="CuttingWords" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e5ca5b3e-b222-402d-97ec-20429940c924" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc01542ag2ea8ge230g53b5g6bae54a352d2" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2203" />
       </fields>
     </stat_object>
   </stat_objects>

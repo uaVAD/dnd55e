@@ -95,5 +95,19 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6, Radiant)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3023ff1b-8e7b-48d5-b0a1-cfa06dfb3fa6" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cfb9db6b-bccf-4204-baf8-2400abfd632b" />
+        <field name="Name" type="NameTableFieldDefinition" value="BladeFlourish_Slashing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f497eea5-aa27-43ea-99b0-2d6cf826b656" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

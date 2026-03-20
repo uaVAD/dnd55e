@@ -9,6 +9,16 @@
                     <attribute id="Spells" type="LSString" value="Shout_SpeakWithAnimals_Barbarian;Shout_Rage_Totem_Bear;Shout_Rage_Totem_Eagle;Shout_Rage_Totem_Elk;Shout_Rage_Totem_Tiger;Shout_Rage_Totem_Wolf"/>
                     <attribute id="UUID" type="guid" value="4acd9ef6-719d-4248-90ae-0cb66da87c6a"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bard Font of Inspiration"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FontOfInspiration"/>
+                    <attribute id="UUID" type="guid" value="d84fc8ab-293e-437f-9825-e3e313f78060"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Glamour Bard Level 6 Mantle of Majesty"/>
+                    <attribute id="Spells" type="LSString" value="Target_Command_Container;Target_MantleOfMajesty"/>
+                    <attribute id="UUID" type="guid" value="3b45a71a-971b-41b2-806e-8560d4410b52"/>
+                </node>
             </children>
         </node>
     </region>
