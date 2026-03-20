@@ -10,7 +10,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
         <field name="UUID" type="IdTableFieldDefinition" value="6c281aa0-c218-4137-86d3-adc4baa29248" />
@@ -38,6 +38,18 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6c1ab5a0g8a40g1755g2eacg01f53db2903f" version="1" />
         <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="30cca4c5-a808-4c96-bd1c-f57bbb92dc1d" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="WarPriestActionPoint" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ea2f219gec23g1a96ga5efgce5d1bc88951" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha96c97feg6fd1gc562g799fgde13a4800459" version="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>

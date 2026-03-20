@@ -307,9 +307,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Bard" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(BardicInspiration,3,0);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Longswords);Proficiency(Rapiers);Proficiency(Shortswords);Proficiency(MusicalInstrument);Attribute(UseMusicalInstrumentForCasting)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Longswords);Proficiency(Rapiers);Proficiency(Shortswords);Proficiency(MusicalInstrument);Attribute(UseMusicalInstrumentForCasting)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(ed664663-93b9-4070-a54b-3c7b19c0e7b4,3);SelectSpells(61f79a30-2cac-4a7a-b5fe-50c89d307dd6,2,0,BardCantrip,,,AlwaysPrepared);SelectSpells(dcb45167-86bd-4297-9b9d-c295be51af5b,4,0,BardSpells);SelectEquipment(aab8c5b5-eacf-4867-8e5f-bd4de3a9132e,1,BardInstrument);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BardicInspiration;BardSpellcasting;UnlockedSpellSlotLevel1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BardicInspiration;BardSpellcasting;UnlockedSpellSlotLevel1;BardicInspirationCharge" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -320,8 +320,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Bard" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BardicInspiration;BardSpellcasting;UnlockedSpellSlotLevel1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(BardicInspiration,3,0);Proficiency(LightArmor);Proficiency(MusicalInstrument);Attribute(UseMusicalInstrumentForCasting)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BardicInspiration;BardSpellcasting;UnlockedSpellSlotLevel1;BardicInspirationCharge" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightArmor);Proficiency(MusicalInstrument);Attribute(UseMusicalInstrumentForCasting)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(ed664663-93b9-4070-a54b-3c7b19c0e7b4,1);SelectSpells(61f79a30-2cac-4a7a-b5fe-50c89d307dd6,2,0,BardCantrip,,,AlwaysPrepared);SelectSpells(dcb45167-86bd-4297-9b9d-c295be51af5b,4,0,BardSpells);SelectEquipment(aab8c5b5-eacf-4867-8e5f-bd4de3a9132e,1,BardInstrument)" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
       </fields>
@@ -374,7 +374,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Bard" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(BardicInspiration,1,0);ActionResource(SpellSlot,2,3)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,3)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(c213ca01-3767-457b-a5c8-fd4c1dd656e2,1,1,BardSpells);AddSpells(d84fc8ab-293e-437f-9825-e3e313f78060);" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="FontOfInspiration;BardicInspiration_d8;UnlockedSpellSlotLevel3" />
       </fields>
@@ -411,7 +411,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="8" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,4);ActionResource(BardicInspiration,1,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,4)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -870,7 +870,7 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac)" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="b927a22a-d64b-48d6-bc7c-38c5f7f6a061;ebe18794-b5e1-41c4-befa-4b9d6922b0ec;4b5da2f5-b999-4623-8bff-a63df5560fb3;c54d7591-b305-4f22-b2a7-1bf5c4a3470a;6dec76d0-df22-411c-8a78-3d6fb843ae50;89bacf1b-8f15-4972-ada7-bf59c7c78441;f013d01b-3310-43f7-81bf-a51130442b5e;b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="4b5da2f5-b999-4623-8bff-a63df5560fb3;c54d7591-b305-4f22-b2a7-1bf5c4a3470a;f013d01b-3310-43f7-81bf-a51130442b5e;b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1279,8 +1279,6 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(e785b163-bff3-4134-978c-20b654dc7203,ClericWarDomainSpells,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WarPriest" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarPriestActionPoint,3,0);Proficiency(HeavyArmor);Proficiency(MartialWeapons)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1303,6 +1301,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(921a657e-e210-4657-9e65-1e9748626354,ClericWarDomainSpells,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WarPriest;WarGodsBlessing" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1314,7 +1313,6 @@
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(9846b998-4672-4427-821f-c3647aff5e22,ClericWarDomainSpells,,,AlwaysPrepared)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarPriestActionPoint,1,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1325,7 +1323,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WarGodsBlessing" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="War_6_WarGodsBlessing" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1348,8 +1346,6 @@
         <field name="Level" type="ByteTableFieldDefinition" value="8" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(4935a640-e3ec-48f7-933b-512b72268e68,,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Divine_Strike_War_Toggle" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarPriestActionPoint,1,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1381,7 +1377,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarPriestActionPoint,1,0)" />
       </fields>
     </stat_object>
   </stat_objects>

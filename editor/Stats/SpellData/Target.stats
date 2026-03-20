@@ -760,5 +760,36 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="52af7a1d-d5d9-4506-85ce-d124f1ef9ea5" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8db47a81-251e-4eee-9fb7-d9a37aef1224" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShieldOfFaith_War" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7717d881-5c50-47b7-ae34-44f499f9303b" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHIELD_OF_FAITH_WAR,100,10);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_GortashMachine_ShieldCapacitor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3bb1c07ag3913g5b74g9454gdcebc7737556" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SHIELD_OF_FAITH_WAR,100,10);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ChannelDivinity:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a5abdf3-ca77-4e24-92a1-a5a844b9329f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_War" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c75e8b5-cfbb-4dd1-a1b5-48e37c60162e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcaeae1ebgf2c5gb598g6716gb1b7c699916c" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ChannelDivinity:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

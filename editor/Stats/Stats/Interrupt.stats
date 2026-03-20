@@ -44,7 +44,7 @@
         <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="37bb8c04-d752-4ade-bda2-7a0df3415754" />
         <field name="Name" type="NameTableFieldDefinition" value="__CLERIC__" />
@@ -68,6 +68,15 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03dc1992g1d8agc3e0ga6bbg22607e81d966" version="1" />
         <field name="Properties" type="StringTableFieldDefinition" value="SetDisadvantage();ApplyStatus(OBSERVER_TARGET,PASSIVE_WARDING_FLARE,100,0);IF(not Self(context.Target,context.Observer)):UseSpell(OBSERVER_TARGET,Target_ImprovedFlare_Interrupt,true,true,true);IF(HasPassive('WardingFlare_Improved', context.Source)):ApplyStatus(OBSERVER_TARGET,IMPROVED_WARDINGFLARE,100,-1);" />
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;WardingFlare:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd3e3624-53da-4f5d-93ae-a0f61b704715" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_WarGodsBlessing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="29bb686d-ccc1-4cd0-b751-b14f79221425" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81ab1ec4g5097gf34cg7f12g4d040607771b" version="1" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;ChannelDivinity:1;" />
       </fields>
     </stat_object>
   </stat_objects>

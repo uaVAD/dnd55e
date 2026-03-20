@@ -281,6 +281,15 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_OpeningAttack" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5626b21a-f80a-4f55-bb46-19cca7ba91b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Illusion_Disappear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d409d52c-cf4c-4890-bd3c-0917c63a066f" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ACT1_HAG_ILLUSION);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0be7940c-ca66-4b1e-9547-52b4f0ecef61" />
@@ -431,6 +440,19 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="152e5b9f-4ddf-4005-8e45-65c53081eb4f" />
         <field name="Name" type="NameTableFieldDefinition" value="__BARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="363d0195-be69-4147-9c2e-a3d48e32f8e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BardicInspirationCharge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h63129871gfb37gc314g1fdfg9b10303bcc26" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2810e8cag53f2gddb2gb1bbg7d5f6848ec0b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Bard_RestoreBardicInspiration" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2001" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(BardicInspiration,1,0);IF(AbilityGreaterThan('Charisma',13,context.Source)):ActionResource(BardicInspiration,1,0);IF(AbilityGreaterThan('Charisma',15,context.Source)):ActionResource(BardicInspiration,1,0);IF(AbilityGreaterThan('Charisma',17,context.Source)):ActionResource(BardicInspiration,1,0);IF(AbilityGreaterThan('Charisma',19,context.Source)):ActionResource(BardicInspiration,1,0);IF(AbilityGreaterThan('Charisma',21,context.Source)):ActionResource(BardicInspiration,1,0);IF(AbilityGreaterThan('Charisma',23,context.Source)):ActionResource(BardicInspiration,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -759,11 +781,39 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5626b21a-f80a-4f55-bb46-19cca7ba91b4" />
-        <field name="Name" type="NameTableFieldDefinition" value="Illusion_Disappear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="d409d52c-cf4c-4890-bd3c-0917c63a066f" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ACT1_HAG_ILLUSION);" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d55c6a72-7010-47c8-b4d6-bda2e9ba7bb6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WarPriest" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e25c63eg08ebg12a0gfefega65d73c0d540" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h04fd168age75cg9dadgeb9bgce0ceddefc4c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WarPriest" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarPriestActionPoint,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(WarPriestActionPoint,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(WarPriestActionPoint,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(WarPriestActionPoint,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(WarPriestActionPoint,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(WarPriestActionPoint,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(WarPriestActionPoint,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7858fae1-2867-4bb9-abfc-17338adeb6b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="WarGodsBlessing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4dc018cagbaa3ga624g7da2g0a6dab9353ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha052e514g0261g1570g0745g00d44f89cc3d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WarGodsBlessing" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_WarGodsBlessing)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1844a63c-d3ed-424d-8a32-32c1edb1c792" />
+        <field name="Name" type="NameTableFieldDefinition" value="War_6_WarGodsBlessing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h900f0f0bgcd61g0708g6d02gf89738f718de" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0c6d3ec2g7683g7e9fg7d62g08a6874b3c5f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WarGodsBlessing" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ShieldOfFaith_War);UnlockSpell(Target_SpiritualWeapon_War);" />
       </fields>
     </stat_object>
   </stat_objects>

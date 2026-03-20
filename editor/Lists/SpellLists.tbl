@@ -307,37 +307,76 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90acd47f-3475-4c85-99ea-7fd503591be4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric, Trickery Domain Cloak of Shadows 6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9f603ac8-2e51-4ce9-b924-c8093148bdf5" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 TrickeryLevel 3 List" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Trickery Level 3 List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Invisibility;Shout_PassWithoutTrace;Target_CharmPerson;Shout_DisguiseSelf;Target_BlessingOfTheTrickster;Target_InvokeDuplicity" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8a9faf7a-aacf-43f4-a0dd-5ea7e72449f3" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 TrickeryLevel 5 List" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Trickery Level 5 List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Zone_Fear;Target_HypnoticPattern" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="90acd47f-3475-4c85-99ea-7fd503591be4" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cleric, Trickery Domain Cloak of Shadows 6" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_CloakOfShadows" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="18e97e4a-d97b-4595-af80-8eb43766386e" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 TrickeryLevel 7 List" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Trickery Level 7 List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Confusion;Teleportation_DimensionDoor" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="154b461e-23c2-4147-97fd-b7892f031a50" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 TrickeryLevel 9 List" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Trickery Level 9 List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson;Target_Seeming" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e785b163-bff3-4134-978c-20b654dc7203" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 War Level 1 List" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="921a657e-e210-4657-9e65-1e9748626354" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 War Level 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_MagicWeapon;Target_SpiritualWeapon;Projectile_GuidingBolt;Target_ShieldOfFaith;Shout_WarPriest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9846b998-4672-4427-821f-c3647aff5e22" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 War Level 5 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_CrusadersMantle;Shout_SpiritGuardians" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c779ace-7ff1-461c-abc4-13182424b89a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 War Level 7 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_FireShield;Target_FreedomOfMovement" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e4db6a6-fbfd-42eb-9e76-de00c0e4517a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 War Level 9 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_HoldMonster;Target_SteelWindStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4935a640-e3ec-48f7-933b-512b72268e68" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric War Domain Divine Strike 8" />
       </fields>
     </stat_object>
   </stat_objects>
