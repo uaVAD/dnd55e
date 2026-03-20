@@ -87,6 +87,20 @@
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7b17d83-7fd3-40b2-b375-2460b506eb8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLOODED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haed19d90g7118gfa81g42d5gba4d717eba4c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h28bdf1edg1a62gc8a2gc601gdedb4f01f3b6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Blood" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Red" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLOODED" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="69ede3eb-5730-413d-b072-32395b13a5fc" />

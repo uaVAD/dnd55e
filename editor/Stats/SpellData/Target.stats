@@ -561,6 +561,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="96a51ac8-2e7e-4718-bb62-dcfd18964a02" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7a73fa11-81e8-44bc-8653-a0d0ebbecf4b" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="70319a43-6342-4996-811d-dd50df8b3fa1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -627,6 +628,95 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="2862e2ca-f448-4366-b814-3f92686b4709" />
         <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="aa9ec639-90aa-4461-9b4e-9e11c732082a" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="462347b8-b894-4668-b9e4-f8453f780d57" />
+        <field name="Name" type="NameTableFieldDefinition" value="PreserveLife" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_PreserveLife_1;Target_PreserveLife_2;Target_PreserveLife_3;Target_PreserveLife_4;Target_PreserveLife_5;Target_PreserveLife_6;" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_PreserveLife" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae1dce65g444ag6a6egf7d3g354c47c64531" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf73a03f1g9a62g7708g6ac9ge3ea9b45c4a8" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and Blooded();" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5*ClassLevel(Cleric))" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_PreserveLife" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_PreserveLife" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;ChannelDivinity:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;8b0e8cb1-4eeb-4a99-b17a-39a97ea86964,,;1cc14005-07f1-4557-9205-188520a03671,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="1406899b-9de3-426b-9251-9e7d3bfacedf" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="df9ffd5a-deb8-4a27-8e37-e7f688579fd4" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="89952943-fe61-452d-81af-d0a936544231" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="581e1f2f-1b30-44be-8471-2b06718fb63a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PreserveLife_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="462347b8-b894-4668-b9e4-f8453f780d57" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_PreserveLife" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5*ClassLevel(Cleric));" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ace9716c-8151-438b-a0e7-ff4baa6f7960" />
+        <field name="Name" type="NameTableFieldDefinition" value="PreserveLife_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="581e1f2f-1b30-44be-8471-2b06718fb63a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2.5*ClassLevel(Cleric));" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bec095a5-70b7-4d53-8544-236fe4000acd" />
+        <field name="Name" type="NameTableFieldDefinition" value="PreserveLife_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="581e1f2f-1b30-44be-8471-2b06718fb63a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1.6667*ClassLevel(Cleric));" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="3" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e3bf384-5305-4689-a78c-919a485757af" />
+        <field name="Name" type="NameTableFieldDefinition" value="PreserveLife_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="581e1f2f-1b30-44be-8471-2b06718fb63a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1.25*ClassLevel(Cleric));" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f4f8ed3-dc43-4813-98a4-dcf9f934d1f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="PreserveLife_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="581e1f2f-1b30-44be-8471-2b06718fb63a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(ClassLevel(Cleric));" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b33a195-a974-4231-9c84-49327260a7a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="PreserveLife_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="581e1f2f-1b30-44be-8471-2b06718fb63a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(0.8333*ClassLevel(Cleric));" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
   </stat_objects>

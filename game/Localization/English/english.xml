@@ -137,4 +137,12 @@
   <content contentuid="hb742b3aagabfcg536cg10e0g99bbe354e49a" version="1">Heal a creature within range that has 0 Hit Points and isn’t dead.</content>
   <content contentuid="hd085b0deg3cc9g0858gdf14geef98a4164c3" version="1">Word of Radiance</content>
   <content contentuid="hbb7ccd06g2737gdcf2gc167g21f32c9615fb" version="1">Burning radiance erupts from you in a [1] Emanation. Each creature of your choice that you can see in it must succeed on a Constitution saving throw or take Radiant damage.</content>
+  <content contentuid="hf652a768gef39g78fdg661dg8ddbb887d3f3" version="1">Level 3: Disciple of Life</content>
+  <content contentuid="h748a060egc16cg7d82gf97eg22830dd0c9f1" version="1">When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot’s level.</content>
+  <content contentuid="h45db170cgfec9gad8eg1591gd99ec7aa2b2c" version="1">Level 6: Blessed Healer</content>
+  <content contentuid="h6f58f448gfe00g1b2agab56g46c8bf14ca5f" version="1">The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot’s level.</content>
+  <content contentuid="hae1dce65g444ag6a6egf7d3g354c47c64531" version="1">Preserve Life</content>
+  <content contentuid="hf73a03f1g9a62g7708g6ac9ge3ea9b45c4a8" version="1">As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose Bloodied creatures within [1] of yourself (which can include you), and divide those Hit Points among them.</content>
+  <content contentuid="haed19d90g7118gfa81g42d5gba4d717eba4c" version="1">Blooded</content>
+  <content contentuid="h28bdf1edg1a62gc8a2gc601gdedb4f01f3b6" version="1">This creature’s Hit Points have dropped below 50%.</content>
 </contentList>

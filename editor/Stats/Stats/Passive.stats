@@ -680,5 +680,26 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f7abcd8-240f-4123-8778-d9060486056e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DiscipleOfLife" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fae0e4a0-e933-4e94-855e-b67467f10618" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf652a768gef39g78fdg661dg8ddbb887d3f3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h748a060egc16cg7d82gf97eg22830dd0c9f1" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3103" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0) and (IsSpell() or IsCantrip()) or SpellId('Target_AuraOfVitality_Activate');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="230a6a0d-f48e-49d9-b746-d142326d1ee3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessedHealer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0793a0c9-7af3-40f7-8078-df9f0c2a37f8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45db170cgfec9gad8eg1591gd99ec7aa2b2c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6f58f448gfe00g1b2agab56g46c8bf14ca5f" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3106" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

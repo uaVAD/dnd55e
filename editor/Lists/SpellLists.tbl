@@ -231,5 +231,39 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Shout_HeroesFeast;Target_PlanarAlly_Container;Zone_Sunbeam" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36795b9e-f712-44a4-9c0f-eda1e78df9ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Life Domain channel divinity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbaf0bab-b0b3-44c9-a567-304e35c063c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Life Level 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Aid;Target_LesserRestoration;Target_Bless;Target_CureWounds;Target_PreserveLife" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9ff6ed3-050e-4963-b37b-c083285d6214" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Life Level 5 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_HealingWord_Mass;Teleportation_Revivify" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28d41365-bc69-437a-a968-cac8f3b4b2c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Life Level 7 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_DeathWard;Target_GuardianOfFaith" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b8b6282-c1f2-4095-89ab-aaefdf234317" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Life Level 9 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_GreaterRestoration;Target_CureWounds_Mass" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

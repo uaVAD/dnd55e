@@ -1,0 +1,4 @@
+function Blooded(entity)
+    entity = entity or context.Target
+    return ConditionResult(entity.HPPercentageWithoutTemporaryHP < 50)
+end
