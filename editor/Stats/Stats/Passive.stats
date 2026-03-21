@@ -637,7 +637,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0f7da49g83b0g2364gd22fg0e72e6d0f671" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hbdf4d91ege560gf373gb78fgc694716131ec" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WordofRadiance" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WordOfRadiance" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Shout_WordOfRadiance);" />
       </fields>
     </stat_object>

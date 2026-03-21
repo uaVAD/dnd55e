@@ -191,4 +191,10 @@
   <content contentuid="h2035dcdeg7b97g47a9gcfb1gb7bc1f9c6cb9" version="2">As a Magic action, you can expend one use of your Channel Divinity to manifest your magical knowledge. Choose one spell from the Knowledge Domain or the Divination school. As part of the same action, you cast the chosen spell without expending a spell slot.</content>
   <content contentuid="h75bd2293g6a4eg35b3g4781gf184d224ea59" version="1">Level 6: Unfettered Mind</content>
   <content contentuid="hdd98d6aage020gf00bgcd6fg4be2ad2fd956" version="1">You gain proficiency in Intelligence saving throws.&lt;br&gt;&lt;br&gt;Add half of your Wisdom Modifier to &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; that you are not &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in.</content>
+  <content contentuid="hf5d6de51g8683g514bgcfd2gd52016de99fe" version="1">Starry Wisp</content>
+  <content contentuid="h9cbc738dgd21bg77f4g2687gd1ac412ca2b4" version="1">You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes Radiant damage, and until the end of your next turn, it emits Dim Light in a [1] radius and can’t benefit from the Invisible condition.</content>
+  <content contentuid="h6d4e8665g6567g3bc4gd9f1g206db8efad20" version="1">Starry Wisp</content>
+  <content contentuid="he44a89e4gd251g9a1dg6abagca1e9807a226" version="1">The creature emits Dim Light in a [1] radius and can’t benefit from the Invisible condition.</content>
+  <content contentuid="h8d4a4bb1g65b7g5025g4514gdfa80f1282ba" version="1">Thunderclap</content>
+  <content contentuid="h853f3b07gf693g964eg9f97g97a2cfda50ef" version="1">Each creature in a [1] Emanation originating from you must succeed on a Constitution saving throw or take Thunder damage.</content>
 </contentList>

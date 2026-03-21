@@ -55,20 +55,23 @@
 
 - [ ] Class
 - [ ] Subclasses
-- [ ] Spell Lists
+- [x] Spell Lists
 
 ### Spell
 
 #### Cantrip
 
-- [x] Spare the Dying (~~Cleric~~, Druid, Artificer)
-- [x] Word of Radiance (~~Cleric~~)
+- [x] Spare the Dying (Cleric, Druid, ~~Artificer~~)
+- [x] Word of Radiance (Cleric)
+- [x] Poison Spray (Druid, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
+- [x] Starry Wisp (Bard, Druid)
+- [x] Thunderclap (Bard, Druid, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
 
 #### Level 2
 
-- [x] Mind Spike (Sorcerer, Warlock, Wizard, ~~Knowledge~~)
+- [x] Mind Spike (~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, Knowledge)
 
 #### Level 5
 
-- [x] Steel Wind Strike (Ranger, Wizard, ~~War~~)
-- [x] Synaptic Static (~~Bard~~, Sorcerer, Warlock, Wizard, ~~Knowledge~~)
+- [x] Steel Wind Strike (~~Ranger~~, ~~Wizard~~, War)
+- [x] Synaptic Static (Bard, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, Knowledge)
