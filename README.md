@@ -70,7 +70,7 @@
   - [ ] Arcane Archer
   - [ ] Battle Master
   - [x] Champion
-  - [ ] Eldritch Knight
+  - [x] Eldritch Knight
   - [ ] Psi Warrior
 
 ### Monk

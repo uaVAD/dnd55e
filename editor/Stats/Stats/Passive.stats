@@ -53,7 +53,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_AC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d6652b46-7134-4986-a0a9-8eeb61148be8" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_WARMAGIC, 100, 1)" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfac955c9g640eg8dc8gfdefgfa559fa195f8" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfac955c9g640eg8dc8gfdefgfa559fa195f8" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6112d47g8846ge668gbd97g45ddd36eeb46" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WarMagic" />
       </fields>
@@ -66,6 +66,35 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="(context.HasContextFlag(StatsFunctorContext.OnCast) and (IsCantrip() or ExtraAttackSpellCheck()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased()) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_Q'));" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK, 100, 1)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="587ebac7-4127-406e-9a7e-8a32c1f0fa49" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_AAC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01832daf-a490-4334-9354-05b5afb16868" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea3538f1g6d4fgd692gdf5cg16c0c6d70258" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd383ab64gcd01g6437g4439gcce1bcafb30c" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(EXTRA_ATTACK_2_WARMAGIC,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="919248ee-0eaa-4a2a-b993-21fae395d01b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_CAA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01832daf-a490-4334-9354-05b5afb16868" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(context.HasContextFlag(StatsFunctorContext.OnCast) and (IsCantrip() or ExtraAttackSpellCheck()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased()) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_2_Q'));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(EXTRA_ATTACK_2,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0caf02b6-90f5-44cb-be5a-3fc2ba8f04b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_Block_ACC" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsCantrip();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(EXTRA_ATTACK,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1239,6 +1268,7 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and not IsMiss();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(TargetSizeEqualOrSmaller(Size.Large)):Force(3);" />
         <field name="ToggleGroup" type="StringTableFieldDefinition" value="Fighter_9_TacticalMaster" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5008" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1283,6 +1313,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1378b9e1g8e8cgbb1eg3cb7g5aad15a2e9d3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a4c8a20gcc89g49e5g2025g934de8342619" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_RemarkableAthlete_Proficiency" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(5);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -1297,15 +1328,19 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc98f803g35c5gf1e3g8979g2a5e77165301" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8f342f0g6dafg2cb0g07ffg5de2b08f710e" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Heroism" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5110" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HeroicWarrior,1,0);UnlockInterrupt(Interrupt_HeroicWarrior_RollAdditionalDie);UnlockInterrupt(Interrupt_HeroicWarrior_ReplaceAttackersDie);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="180ccae1-2269-443f-af28-da14245ab723" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5a77950a-c572-44e4-b72f-0684d94d6546" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a48ffacb-239b-4211-ad2a-3f6aac38bcdd" />
+        <field name="Name" type="NameTableFieldDefinition" value="EldritchStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dbae1f25-e9be-45ee-a756-fe9eb17bea6a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h82e9547dg2a57g3068g6744g22536b77a26f" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5207" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

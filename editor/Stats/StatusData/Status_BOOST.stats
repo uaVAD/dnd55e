@@ -34,6 +34,24 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a2f65df-e82a-49aa-a2ca-b6355556f44d" />
+        <field name="Name" type="NameTableFieldDefinition" value="EXTRA_ATTACK_2_WARMAGIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="41bb49b0-31ec-4aa0-aee9-34f6ece18964" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="41" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(IsCantrip() or ExtraAttackCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription());" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttackWarmagic_Block_ACC;" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsCantrip() or ExtraAttackSpellCheck()) and HasUseCosts('ActionPoint',false,context.Target) and not IsOffHandAttack()" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(EXTRA_ATTACK_WARMAGIC, 100, 1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0405962-0cf5-459b-903c-6276d0d2dd34" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WEAPON_MASTERY_" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9203e648-3fab-4948-9ae4-aa66cd6dd2fc" />
         <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_CLEAVE_TARGET" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
