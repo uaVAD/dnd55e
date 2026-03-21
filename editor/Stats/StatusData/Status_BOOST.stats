@@ -101,6 +101,66 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1fac10e1-f974-4943-ab3b-0a15f2d0d1a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DIVINATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4754097b-dcd2-4d50-8535-e0fde0fd44a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MIND_SPIKE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc29da1ffgb5d5g29c2g97c3g2050946f5a23" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3aac9e83g2f2ag85ddgcf84ge7224ea85b8b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_MindSpike" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_FaerieFire_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_FaerieFire_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INVISIBILITY" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(3,false,0.1);StatusImmunity(SG_Invisible);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="887e86db-a1a5-4ea2-8b96-e3195e66b24c" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="423ef553-a009-40d0-b110-1f5398b1b774" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0946a64-518c-4ad5-94a3-58bbb8f08e56" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ENCHANTMENT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60a09934-feba-4335-b387-f1581fc07702" />
+        <field name="Name" type="NameTableFieldDefinition" value="FRIGHTENED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ccdea1c2-ad45-42da-b5e5-8e34053b1ea1" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC())" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="RemoveStatus(FRIGHTENED)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebf2968b-a315-40aa-a354-8038bf9f939a" />
+        <field name="Name" type="NameTableFieldDefinition" value="SYNAPTIC_STATIC" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0eb6a1ccg061cg7757g2ce7gb1ae17ae8a0f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9e56e88cg0481g2c87g52e7g140df577385c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_SynapticStatic" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="WEAK" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SYNAPTIC_STATIC" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(Attack,-1d6);RollBonus(SavingThrow,-1d6);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence, SourceSpellDC())" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="RemoveStatus(SYNAPTIC_STATIC)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a15aaf6c-5fcd-4602-a7b5-343c98d49591" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="bc4f779b-7424-4770-90bb-bdea0f4e9ead" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="69ede3eb-5730-413d-b072-32395b13a5fc" />

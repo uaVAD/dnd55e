@@ -42,9 +42,9 @@
 - [x] Class
 - [ ] Subclasses
   - [ ] Death
-  - [ ] Knowledge
   - [ ] Nature
   - [ ] Tempest
+  - [x] Knowledge
   - [x] Life
   - [x] Light
   - [x] Trickery
@@ -53,16 +53,22 @@
 
 #### Druid
 
-- [x] Class
-- [x] Subclasses
-- [x] Spell Lists
+- [ ] Class
+- [ ] Subclasses
+- [ ] Spell Lists
 
 ### Spell
 
 #### Cantrip
 
-- [x] Spare the Dying
-- [x] Word of Radiance
+- [x] Spare the Dying (~~Cleric~~, Druid, Artificer)
+- [x] Word of Radiance (~~Cleric~~)
+
+#### Level 2
+
+- [x] Mind Spike (Sorcerer, Warlock, Wizard, ~~Knowledge~~)
 
 #### Level 5
-- [x] Steel Wind Strike
+
+- [x] Steel Wind Strike (Ranger, Wizard, ~~War~~)
+- [x] Synaptic Static (~~Bard~~, Sorcerer, Warlock, Wizard, ~~Knowledge~~)

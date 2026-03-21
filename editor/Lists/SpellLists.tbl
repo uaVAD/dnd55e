@@ -47,14 +47,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 5 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming;Target_SynapticStatic" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d9cafe75-11c8-45c9-8b02-8581ef370c63" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 5 to 6" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming;Target_SynapticStatic" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="586a8796-34f4-41f5-a3ef-95738561d55d" />
       </fields>
     </stat_object>
@@ -377,6 +377,52 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4935a640-e3ec-48f7-933b-512b72268e68" />
         <field name="Name" type="NameTableFieldDefinition" value="Cleric War Domain Divine Strike 8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c7083cd-e957-449d-a652-33dfbd9785e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Knowledge Level 1 List" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2fbc1acc-ea80-4b61-9bed-e5e7dd50ad16" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Knowledge Level 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_CalmEmotions;Shout_DetectThoughts;Target_MindSpike;Target_Command_Container;Target_Sleep" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ff2f87b-4570-4553-a5fa-f7b1cab557fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Knowledge Level 5 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Counterspell;Shout_Blink;Target_SpeakWithDead;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46b54ac1-7add-4ef3-8610-558aee8c4dda" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Knowledge Level 7 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Banishment;Target_Confusion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db3bbbe0-01cc-4e35-8186-0c6757182ec4" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Knowledge Level 9 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson;Target_SynapticStatic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ba90f2b-5e5f-410f-a61d-1ffdf3876790" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Knowledge Domain Channel Divinity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="480101e7-1fcf-4f02-b6b5-71af428daaa4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric, Knowledge Domain 6" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -816,5 +816,33 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ShieldOfFaith_War);UnlockSpell(Target_SpiritualWeapon_War);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a7d35c0-ebd4-4133-9ce0-f554b81b60bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Knowledge_3_MindMagic" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32658116g9dc9g1364g0f58g311a9cad82b8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2035dcdeg7b97g47a9gcfb1gb7bc1f9c6cb9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThoughtShield_PsychicResistance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('ChannelDivinity', 1, 0, false, false, context.Source);" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved;OnLongRest;OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;MetaMagic;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(MindMagic(),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,ChannelDivinity,1,0));" />
+        <field name="ToggleOnEffect" type="StringTableFieldDefinition" value="VFX_Spells_Cast_Sorcerer_Metamagic_Quickened_HeadFX_01:Dummy_HeadFX" />
+        <field name="ToggleOffContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c4c0121-67b7-492f-a743-15b67882d775" />
+        <field name="Name" type="NameTableFieldDefinition" value="Knowledge_6_UnfetteredMind" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75bd2293g6a4eg35b3g4781gf184d224ea59" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd98d6aage020gf00bgcd6fg4be2ad2fd956" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThoughtShield_PsychicResistance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Intelligence);IF(not HasProficiencyBonus(context.CheckedAbility,context.CheckedSkill,context.Source)):RollBonus(SkillCheck,WisdomModifier/2);IF(not HasProficiencyBonus(context.CheckedAbility,context.CheckedSkill,context.Source)):RollBonus(RawAbility,WisdomModifier/2);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
