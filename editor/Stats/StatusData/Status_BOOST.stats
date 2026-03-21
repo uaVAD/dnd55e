@@ -599,5 +599,16 @@
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef84ad6c-fe47-4a71-8933-86a43b654cdc" />
+        <field name="Name" type="NameTableFieldDefinition" value="REMARKABLE_ATHLETE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4160a95c-e003-41d3-8616-0cd721883b6f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h070ecbffg0669ge021gd9f2gf9d31bf77f88" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h20fe10e3g6a5cg1394g9602g64f7640b6f6d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_RemarkableAthlete_Jump" />
+        <field name="StackId" type="StringTableFieldDefinition" value="REMARKABLE_ATHLETE" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

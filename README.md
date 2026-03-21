@@ -69,7 +69,7 @@
 - [ ] Subclasses
   - [ ] Arcane Archer
   - [ ] Battle Master
-  - [ ] Champion
+  - [x] Champion
   - [ ] Eldritch Knight
   - [ ] Psi Warrior
 

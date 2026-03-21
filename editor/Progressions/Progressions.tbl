@@ -2532,5 +2532,37 @@
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_130" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cbd87913-03ee-484b-bc62-57d6867e8aca" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="9b2ff703-7924-4a66-b119-ae4d716a4522" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Champion" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ImprovedCritical;Champion_3_RemarkableAthlete" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_576" />
+        <field name="UUID" type="IdTableFieldDefinition" value="07180f5f-54ab-4fe6-9972-df150a5fb85a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="9b2ff703-7924-4a66-b119-ae4d716a4522" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Champion" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_273" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a4b1948f-7367-43bb-bff2-e5e18cc2c5a7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="9b2ff703-7924-4a66-b119-ae4d716a4522" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Champion" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

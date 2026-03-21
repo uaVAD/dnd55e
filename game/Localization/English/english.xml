@@ -319,7 +319,19 @@
   <content contentuid="h1bcf613agff33gdd61g8288g83128f467505" version="1">Tactical Master: Slow</content>
   <content contentuid="hfd56201dg7690g59deg5771g7c00df6810c1" version="1">You can additionally apply the Slow mastery property to that attack.</content>
   <content contentuid="h1261d64eg6ff9gfcfcg691agbb4378c7bc02" version="2">Rule: Strength Requirement (Chain Mail)</content>
+  <content contentuid="he349bc27ga203ge868g3f0ag5fdf65b7e83b" version="1">If a creature wearing this Heavy Armor has a Strength score lower than [1], its Speed is reduced by [2].</content>
   <content contentuid="h412ee86dgfedcga2beg54adgbd1f6bc466f9" version="1">Rule: Strength Requirement (Splint Armor)</content>
   <content contentuid="h1855925eg36d7g774cg4917gc8135001356f" version="1">Rule: Strength Requirement (Plate Armor)</content>
   <content contentuid="h36e05e75gb0acgebbeg511ag25cc56fcde31" version="1">If a creature wearing this Heavy Armor has a Strength score lower than [1], its Speed is reduced by [2].</content>
+  <content contentuid="h1378b9e1g8e8cgbb1eg3cb7g5aad15a2e9d3" version="1">Level 3: Remarkable Athlete</content>
+  <content contentuid="h8a4c8a20gcc89g49e5g2025g934de8342619" version="1">Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.&lt;br&gt;&lt;br&gt;In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.</content>
+  <content contentuid="h070ecbffg0669ge021gd9f2gf9d31bf77f88" version="1">Remarkable Athlete</content>
+  <content contentuid="h20fe10e3g6a5cg1394g9602g64f7640b6f6d" version="1">Immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.</content>
+  <content contentuid="hdc98f803g35c5gf1e3g8979g2a5e77165301" version="1">Level 10: Heroic Warrior</content>
+  <content contentuid="ha8f342f0g6dafg2cb0g07ffg5de2b08f710e" version="1">The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.</content>
+  <content contentuid="h6ae0967eg345cg0ef5g653cg5c51675a3b5a" version="1">Heroic Warrior: Reroll Attacker's Die</content>
+  <content contentuid="h7e67754bg739bg3c96gcd25g72c30f60a4d8" version="1">Force a creature to reroll its &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;. </content>
+  <content contentuid="h81c64052g4f2bg8257g3f1ag716712683b25" version="1">Heroic Warrior: Reroll with Advantage</content>
+  <content contentuid="h4dfef820g9b72g3d0egde23ga602945eec3c" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+  <content contentuid="h40d89fa7ga96bgd2a5g9917g93f8ac20286b" version="1">Heroic Inspiration</content>
 </contentList>
