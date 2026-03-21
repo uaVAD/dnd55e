@@ -607,5 +607,20 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h019511d5gb330g2cd9gd860g84e25789d117" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="009c46a4-53fe-41c6-9942-641b6b9438eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FIGHTER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="65274600-7f47-4725-96fc-c3fa71605737" />
+        <field name="Name" type="NameTableFieldDefinition" value="SecondWind" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6d1a74a5-e5cb-42a7-a532-5f4ab916aa82" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SecondWind:1;" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

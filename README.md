@@ -62,6 +62,16 @@
   - [x] Stars
 - [x] Spell Lists
 
+### Fighter
+
+- [x] Class
+- [ ] Subclasses
+  - [ ] Arcane Archer
+  - [ ] Battle Master
+  - [ ] Champion
+  - [ ] Eldritch Knight
+  - [ ] Psi Warrior
+
 ## Spell
 
 ### Cantrip

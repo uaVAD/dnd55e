@@ -80,5 +80,20 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Source,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(10, context.Source);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="468d8269-7090-46eb-aaed-ab7aec258538" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FIGHTER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73660c65-8a0e-476a-8eb1-78a232eef4e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Indomitable" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d8bc7f5c-5d29-44d1-858b-6d31fd7c6f50" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h852a89d3g128fga1e5g2fedg98ddac129936" version="1" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(99);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

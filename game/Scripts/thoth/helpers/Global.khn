@@ -2,3 +2,15 @@ function Blooded(entity)
     entity = entity or context.Target
     return ConditionResult(entity.HPPercentageWithoutTemporaryHP < 50)
 end
+
+function IntAttackSaveDC()
+    return 8 + context.Source.ProficiencyBonus + GetModifier(context.Source.Intelligence)
+end
+
+function WisAttackSaveDC()
+    return 8 + context.Source.ProficiencyBonus + GetModifier(context.Source.Wisdom)
+end
+
+function ChaAttackSaveDC()
+    return 8 + context.Source.ProficiencyBonus + GetModifier(context.Source.Charisma)
+end

@@ -138,7 +138,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Ranged" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Push', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and not IsMiss();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(TargetSizeEqualOrSmaller(Size.Large)):Force(3);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:Force(3);" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Push', context.Source);" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
@@ -179,7 +179,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha395ebeag3995g70fage1d7g718229b74f9b" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5af643b9gd1b7g259cg51cegf17292ec2f43" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Topple" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(not SavingThrow(Ability.Constution, ManeuverSaveDC())):ApplyStatus(PRONE,100,1)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WeaponAttackRollAbility(Ability.Strength)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()));IF(WeaponAttackRollAbility(Ability.Dexterity)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()));IF(WeaponAttackRollAbility(Ability.Intelligence)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, IntAttackSaveDC()));IF(WeaponAttackRollAbility(Ability.Wisdom)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, WisAttackSaveDC()));IF(WeaponAttackRollAbility(Ability.Charisma)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ChaAttackSaveDC()));" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Topple', context.Source);" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Topple', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and not IsMiss();" />
@@ -1122,6 +1122,103 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(MoonlightStep,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b84ecbb2-39b9-48d5-8b36-840a87d33d6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FIGHTER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b4d4d9a0-00c5-43b7-a99f-b27ec7b9a435" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter_2_TacticalMind" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h539b326cga713g3705gbe13g1aa9f8c71bde" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61388cf8g2c44ge32ege2c8gd43ed94d46c8" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="SecondWind:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Banite_TacticalDiscipline" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5002" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('SecondWind', 1, 0, false, false, context.Source);" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnAbilityCheck;OnInterruptUsed;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SkillCheck,1d10);RollBonus(RawAbility,1d10);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAbilityCheck" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(SELF,SecondWind,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b205337b-922f-4242-847b-3e635706e797" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter_5_TacticalShift" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33994fb3gfae3gde33g720fg2e4b5fa64c9d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34197e5dgf2d4g066fgdb45gb041adb38595" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="SecondWind:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Fighter_EvasiveFootwork" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5005" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Shout_SecondWind');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,TACTICAL_SHIFT,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34c9c5c7-12be-47b8-88ef-2c9efccf7c12" />
+        <field name="Name" type="NameTableFieldDefinition" value="Indomitable" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h62511cd9g27d2g5cbcga820gbb50c459d998" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb015b8bcg9783ge81ag0118gaa1388097f11" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Indomitable" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5009" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Indomitable);ActionResource(Interrupt_Indomitable,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="852016aa-a441-45a8-8f2d-b35f9dcddb8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter_9_TacticalMaster" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6c90bdcbg9d73g2f85g8df7g47fbedfb078f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c920020g431dge64eg8e26g01537cb63450" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Multiattack_WhirlwindAttack" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5008" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1eee326-88e7-444d-854d-b4eb8dd411ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter_9_TacticalMaster_Push" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h858b33e5g3b62g9b7fg692fg50cb883ac903" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h69435982g810ege56dgacebg3bb3b371ccd9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Ranged" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(TargetSizeEqualOrSmaller(Size.Large)):Force(3);" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Fighter_9_TacticalMaster" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="736283cd-e73f-484f-bb57-8c04fa20ba20" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter_9_TacticalMaster_Sap" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1eee326-88e7-444d-854d-b4eb8dd411ef" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h53c4a6c9g7930g55a2ga6d9g74f864e922d2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0558e9e5gd74bg0f9fg2820gc589e678173e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ConcussiveSmash" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_SAP,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b598f4be-c0e6-4e81-a803-f4b27869f09a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter_9_TacticalMaster_Slow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1eee326-88e7-444d-854d-b4eb8dd411ef" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1bcf613agff33gdd61g8288g83128f467505" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd56201dg7690g59deg5771g7c00df6810c1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_SLOW,100,1)" />
       </fields>
     </stat_object>
   </stat_objects>

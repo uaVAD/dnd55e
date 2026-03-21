@@ -2378,5 +2378,159 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="TwinklingConstellations" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_510" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dfb2fd83-9849-4c2d-be84-adedb81a867a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(SecondWind,2,0)" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(6a4f8598-3a17-42d1-beac-d7ced582bafa,2);AddSpells(9e32fc2b-ce4f-47aa-b113-25cbdc025123);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,3,WeaponMasteryList)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_102" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b29977d4-b81a-4794-9f4f-badd7cc23f6b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(SecondWind,2,0)" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(9e32fc2b-ce4f-47aa-b113-25cbdc025123);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,3,WeaponMasteryList)" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_128" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aafbbc41-16e8-4296-a283-a2c5fdd0625b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(964e765d-5881-463e-b1b0-4fc6b8035aa8)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Fighter_2_TacticalMind" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_127" />
+        <field name="UUID" type="IdTableFieldDefinition" value="23eacff0-9efe-4ea6-b031-19075cc96b63" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="1be5aa5a-e221-4f0e-a1bf-be25f5d23224;e668c6f1-5149-4b10-ab7e-3637ed444066;0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf;b722614a-303f-411a-bb19-a1882ad1f4cc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_129" />
+        <field name="UUID" type="IdTableFieldDefinition" value="05f6a6ef-a574-4317-b9e4-e710975e07b4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SecondWind,1,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,1,WeaponMasteryList)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_226" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3b20daaa-91e3-45ec-ad66-69763bc5ab2d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;Fighter_5_TacticalShift" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_103" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3265e108-9c70-4714-b13b-4603e40d2f07" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_105" />
+        <field name="UUID" type="IdTableFieldDefinition" value="063562cd-a30d-40f9-a992-5a15c186a483" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_117" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f6fbe4d4-ec8b-4b88-9851-d9aa398efb7f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_118" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5f69e04b-1d97-481c-995f-a069dfb9f555" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Indomitable;Fighter_9_TacticalMaster;Fighter_9_TacticalMaster_Push;Fighter_9_TacticalMaster_Sap;Fighter_9_TacticalMaster_Slow" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_124" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7535f41a-d360-4adc-8166-9d2e29660b1d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SecondWind,1,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,1,WeaponMasteryList)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_125" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fbf8b5f0-eb19-4da9-b89a-f8c743f684d1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack_2" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_126" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ddf55c97-9032-4aa1-af76-4ae669a6b53b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -84,5 +84,24 @@
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ac956088-3d34-40bb-a9ab-af07e762175a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__FIGHTER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="54ae28f0-10f2-44dd-9a59-904dc7b0a495" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SecondWind" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25de2a50g4c8dg2b55gea44gd2074336ba6a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1ef6a3c5gfadagaff9gd6e8gf62d1e802c10" version="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

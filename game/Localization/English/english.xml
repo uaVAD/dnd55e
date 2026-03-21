@@ -299,4 +299,23 @@
   <content contentuid="hcf67e29ag6032g30cfgf7dbg0fb20210f91d" version="1">Moonlight Step Charge</content>
   <content contentuid="hcd5cf1b2gd583gccb7gb15cg0cd8f525eccb" version="1">The number of times you can use your Moonlight Step.</content>
   <content contentuid="h019511d5gb330g2cd9gd860g84e25789d117" version="1">A constellation of a wise dragon appears on you. When you make a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on a spell, a roll result of 9 or lower is considered a 10.</content>
+  <content contentuid="h539b326cga713g3705gbe13g1aa9f8c71bde" version="1">Level 2: Tactical Mind</content>
+  <content contentuid="h61388cf8g2c44ge32ege2c8gd43ed94d46c8" version="1">You have a mind for tactics on and off the battlefield. You can expend a use of your Second Wind to push yourself toward success. You roll 1d10 and add the number rolled to the ability check, potentially turning it into a success.</content>
+  <content contentuid="h25de2a50g4c8dg2b55gea44gd2074336ba6a" version="1">Second Wind Charge</content>
+  <content contentuid="h1ef6a3c5gfadagaff9gd6e8gf62d1e802c10" version="1">The number of times you can use your Second Wind or Tactical Mind.</content>
+  <content contentuid="h33994fb3gfae3gde33g720fg2e4b5fa64c9d" version="1">Level 5: Tactical Shift</content>
+  <content contentuid="h34197e5dgf2d4g066fgdb45gb041adb38595" version="1">Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.</content>
+  <content contentuid="h32fafe3dg30eeg2c3agc543g698e6d46c741" version="1">Tactical Shift</content>
+  <content contentuid="hfd6115a2g072eg747bg10e1gc93f7616eafe" version="1">Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.</content>
+  <content contentuid="h62511cd9g27d2g5cbcga820gbb50c459d998" version="1">Level 9: Indomitable</content>
+  <content contentuid="hb015b8bcg9783ge81ag0118gaa1388097f11" version="2">If you fail a saving throw, you can instead treat it as a success. Once you use this feature, you can’t use it again until you finish a Long Rest.</content>
+  <content contentuid="h852a89d3g128fga1e5g2fedg98ddac129936" version="1">If you fail a saving throw, you can instead treat it as a success. </content>
+  <content contentuid="h858b33e5g3b62g9b7fg692fg50cb883ac903" version="1">Tactical Master: Push</content>
+  <content contentuid="h69435982g810ege56dgacebg3bb3b371ccd9" version="1">You can additionally apply the Push mastery property to that attack.</content>
+  <content contentuid="h6c90bdcbg9d73g2f85g8df7g47fbedfb078f" version="1">Level 9: Tactical Master</content>
+  <content contentuid="h2c920020g431dge64eg8e26g01537cb63450" version="1">When you make a weapon attack, you can additionally apply one of the Push, Sap, or Slow mastery properties to that attack.</content>
+  <content contentuid="h53c4a6c9g7930g55a2ga6d9g74f864e922d2" version="1">Tactical Master: Sap</content>
+  <content contentuid="h0558e9e5gd74bg0f9fg2820gc589e678173e" version="1">You can additionally apply the Sap mastery property to that attack.</content>
+  <content contentuid="h1bcf613agff33gdd61g8288g83128f467505" version="1">Tactical Master: Slow</content>
+  <content contentuid="hfd56201dg7690g59deg5771g7c00df6810c1" version="1">You can additionally apply the Slow mastery property to that attack.</content>
 </contentList>

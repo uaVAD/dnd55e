@@ -1026,5 +1026,11 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="589fa89e-faf4-4619-a3fa-c5e43bb5f9f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FIGHTER__" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
