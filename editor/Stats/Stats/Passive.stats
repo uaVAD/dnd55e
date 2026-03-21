@@ -290,6 +290,23 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90a48a8f-a669-4592-be85-fa862f22c44f" />
+        <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86cbc76e-fd6b-4704-8d83-de0e6752841a" />
+        <field name="Name" type="NameTableFieldDefinition" value="FountOfMoonlight_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9501eaeg3c65g8261gbbbegc5a79478ce47" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6, Radiant);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0be7940c-ca66-4b1e-9547-52b4f0ecef61" />
@@ -637,7 +654,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0f7da49g83b0g2364gd22fg0e72e6d0f671" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hbdf4d91ege560gf373gb78fgc694716131ec" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WordofRadiance" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WordOfRadiance" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Shout_WordOfRadiance);" />
       </fields>
     </stat_object>
@@ -671,13 +688,14 @@
         <field name="UUID" type="IdTableFieldDefinition" value="be1a9a3f-8aac-4984-9d7e-ec043dfda8cb" />
         <field name="Name" type="NameTableFieldDefinition" value="Cleric_7_BlessedStrikes_Radiant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1119630g31c7g738eg4a76g56eb77fe86bc" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb14ca27eg593ag392fgab27g2186f2a37316" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb14ca27eg593ag392fgab27g2186f2a37316" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Radiant_Melee" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and not IsMiss();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Radiant)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -686,10 +704,10 @@
         <field name="Name" type="NameTableFieldDefinition" value="Cleric_7_BlessedStrikes_Necrotic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="be1a9a3f-8aac-4984-9d7e-ec043dfda8cb" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha5f17982g16bdg018bg655eg1db1622f5096" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd61761e0gbebfg6542gac8bgd70ab3faa548" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Necrotic_Melee" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3007" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Necrotic)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -972,6 +990,138 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf81ea6f0gb2bcg2e34g72c5gfeb99fd56826" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Thunderclap" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Nature,WisdomModifier);UnlockSpell(Shout_Thunderclap);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4081d829-6525-4dc8-8807-2f50414b0a15" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid_2_WildShape" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f1b692bg604cgb34cg9e64g7c5d22aebe85" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc6dea6aag9290gf3cegeb8ag0351bd8d0fc5" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h1505dff7gb11cg17eageb5dg29f041ed571a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4002" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(WildShape,1,0)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f4321ee-f505-419d-a83b-04fc65b3167a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid_2_WildShapeTempHP" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="210117a7-0a4c-412e-89a8-3c6cb5ca709d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid_5_WildResurgence" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86990efage02cg7a58gc14dgac02e5274f97" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb6ef2813g5893gbc58ga19aga900b5ff9a74" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WildShapeImprovement" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4005" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8297c479-28d8-4b9c-8f99-ad8704e14b95" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid_7_ElementalFury_PotentSpellcasting" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2823747-0e56-4c88-8b9e-f8a52a96dcf6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50a84c2agc47eg3409gfbf3g8b9efe860b49" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdbacd095g40f6g7468g5750g2f164c7506d4" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4007" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsDruidCantrip()):DamageBonus(max(0, WisdomModifier));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b114c8b8-4ac0-437e-82b3-8bd1ff80a449" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid_7_ElementalFury_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="be1a9a3f-8aac-4984-9d7e-ec043dfda8cb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h623803a7gceadgfb71gf1d2g9f3e3921f3f2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1cfad235g00bdg10bfgf085g60ac289d2534" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Cold)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Cold_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4007" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack() and not IsSpellAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c14c4088-7ddb-4f65-94ee-b65a3d724b8d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid_7_ElementalFury_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b114c8b8-4ac0-437e-82b3-8bd1ff80a449" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he3035afbgf846g4686gf4e6gc39575739bed" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Fire_Melee" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83caa7ad-f17b-4fb0-92cb-35abb0ec53a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid_7_ElementalFury_Lightning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b114c8b8-4ac0-437e-82b3-8bd1ff80a449" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd0a6f226g6b60g6204gb543g086832d392ff" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Lightning)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Lightning_Melee" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bfcf4710-4af8-4c0c-8160-9a6061bee25f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid_7_ElementalFury_Thunder" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b114c8b8-4ac0-437e-82b3-8bd1ff80a449" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h193b9818gd62dg67b7gf4e0g1d6b13d33a89" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Thunder)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Thunder_Melee" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Thunder)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99ace013-6985-4758-8d7a-8af16e215e94" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildShape_Combat" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h978ef6fag7931g203cg08ccge7b0c344b3e8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h69bf3828g083cg1e10g408egf0f2ee4c7fe8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f13f3b2-bbf9-41ca-ac91-9b4509592101" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moon_6_ImprovedCircleForms" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d3aa54bg7cf4g12d5g0d79g21d13c55e1c1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h25a52b4bg965bga6bdgaee9gb81edcb888e9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4206" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="995de5af-12c4-4bff-bcf4-131d1e2611af" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moon_10_MoonlightStep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7f91f61fg551cg9fe6g9a0cg340e7bc48a41" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b611e19g3e33g0533g1f8cg44ab465667b3" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Druid_Moonlight_Step" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4210" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(MoonlightStep,1,0);" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -84,7 +84,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Radiant,Magical);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy() and Character()" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WordofRadiance" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WordOfRadiance" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd085b0deg3cc9g0858gdf14geef98a4164c3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbb7ccd06g2737gdcf2gc167g21f32c9615fb" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(2)" />
@@ -102,6 +102,51 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Radiant,Magical);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10ba27a0-0f55-4f06-8145-15fa3e46d88f" />
+        <field name="Name" type="NameTableFieldDefinition" value="FountOfMoonlight" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FOUNT_OF_MOONLIGHT,100,100);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FountOfMoonlight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81a318d3g7d25ge9f7g6cb8g0d641f9d7d75" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7133dd62g2ff3g5631g286cgfb7c7edec60f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Radiant)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FOUNT_OF_MOONLIGHT,100,100);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_Nightsong_LunarBlessing" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="CrSpell_Impact_Nightsong_LunarBlessing" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;70ddfd63-fc3f-45f4-b067-75389b85d540,,;90face3a-6607-4b3d-87e6-c6090b069160,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3044bca0-7b0e-4d65-9b15-f586f5d58388" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2b656a6d-9180-484f-8a75-c37afb857d97" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e65b22b0-c78f-45fe-9e8e-88a9c0789966" />
+        <field name="Name" type="NameTableFieldDefinition" value="FountOfMoonlight_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10ba27a0-0f55-4f06-8145-15fa3e46d88f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_FountOfMoonlight" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a90bc01-cca5-49cf-9aa7-3e06d492e2cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="FountOfMoonlight_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e65b22b0-c78f-45fe-9e8e-88a9c0789966" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
@@ -325,6 +370,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="79caa1cd-1a4d-4c9f-8401-76ce465dc7c6" />
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Big" enumeration_type_name="SpellSoundMagnitude" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Instrument" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -421,6 +467,144 @@
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('EXTRA_ATTACK_WARPRIEST') and not HasStatus('EXTRA_ATTACK') and not HasStatus('EXTRA_ATTACK_2') and not HasStatus('EXTRA_ATTACK_WARMAGIC')" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c218f05b-1e12-4298-beff-e4d33a5fa5a5" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8265c6d6-662a-40fe-888b-024af0e2b1b9" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bae7b948-aeb3-41dd-8360-b568a2fe4127" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DRUID__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acf44129-4bdf-45dc-8fcc-ac04ac7267f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildResurgence" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_WildResurgence_1;" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WildShapeImprovement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4fc2af8fg81c5g79b5g40c7gfd252be60f4c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h70ae88b1gd34eg0e8ag5b7bga526ea0cf7a6" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_NaturalRecovery" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_NaturalRecovery" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6e19d885-4656-4eae-8b5d-e8cf73fef5d3,,;,,;27b389b2-17b4-4141-a6d2-288f5207bfab,,;9f59e57e-3c7b-453e-a8fc-f413c171089a,,;cbd4bd42-8a34-45e0-a1ae-64bb384950c9,,;,,;cfcc0394-662c-45e1-ae54-3cd25b46d8aa,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="b92a344d-6ade-46ca-aef4-fdfa4db694f9" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a948977d-8057-4e81-a3cb-1a3ea3cc3812" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3e796e60-d9e0-4a62-95fe-831eb98e9c4d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildResurgence_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="acf44129-4bdf-45dc-8fcc-ac04ac7267f5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_WildResurgence" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(WildShape,1,0);" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_WildResurgence" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fa9643df-89ab-433d-9f1a-5e1ace35c72a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildResurgence_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3e796e60-d9e0-4a62-95fe-831eb98e9c4d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:2;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e60ebc47-6e65-4322-9918-6f3e651355c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildResurgence_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fa9643df-89ab-433d-9f1a-5e1ace35c72a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67777a12-5424-4178-98db-6e22f352c576" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildResurgence_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3e796e60-d9e0-4a62-95fe-831eb98e9c4d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc8d525e-dbfa-403b-8257-505af4cb223b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildResurgence_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3e796e60-d9e0-4a62-95fe-831eb98e9c4d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20005926-aef3-4d13-a8bd-be9ec82d6c8b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildResurgence_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3e796e60-d9e0-4a62-95fe-831eb98e9c4d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3be68fb-18a3-49c3-a321-d85370178db4" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildShape_Combat_Heal" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_StarryWisp;Target_CureWounds;Target_Moonbeam;Target_PlantGrowth;Shout_FountOfMoonlight;Target_CureWounds_Mass;Target_MoonlightStep;" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Heal" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d0f6247g32e9g935cg8e24g277269d5eee0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97d1904cg83d1gdb83ge2b8gfb2e45881c92" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;d8b7f668-db2b-43b0-9707-5da2ed2cf27e,,;7521e279-1bb3-4105-b32d-8206234836a3,,;d172e037-7041-4352-9a20-5f4b185f9ef1,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer;Wildshape" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_FalseLife_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_FalseLife_L1to3" />
+        <field name="RechargeValues" type="StringTableFieldDefinition" value="5-6" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="07664d70-a01c-4979-a58f-6b960e238cd0" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="c17c3316-ab71-4f2e-adf4-2908510512ae" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="ef4fc937-9b23-4fcc-a67f-7706f86cfa44" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(1d8)" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d0eb9df-6745-489b-9885-3134e283b745" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wildshape_Star_Archer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f60eccc-1829-4df5-8098-092b85215974" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="008750f6-5743-4375-8bb0-1afd3cc1e689" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wildshape_Star_Chalice" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f38230c7-cdd9-4bef-b110-7345a3d36867" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4622c280-8dad-4ae8-b1bf-57df4ea0b50f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wildshape_Star_Dragon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4ee17c4b-3d9f-4eb4-ae74-15a067569395" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h019511d5gb330g2cd9gd860g84e25789d117" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

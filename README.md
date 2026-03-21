@@ -1,20 +1,20 @@
 # DnD 5.5e Beyond
 
-## Current Progress
+## Rule System
 
-### Rule System
-
-- [x] Blooded
+- [ ] Hit Point Dice
+- [ ] Spell Scroll Usage Limitation
+- [x] Bloodied
 - [x] Equipping Weapons
-- [x] Extra Attack (War Magic integration)
+- [x] Extra Attack (War Magic Integration)
 - [x] Hiding
-- [x] One Spell with a Spell Slot per Turn
+- [x] One Spell Slot Spell per Turn
 - [x] Prone
 - [x] Weapon Mastery
 
-### Classes
+## Classes
 
-#### Barbarian
+### Barbarian
 
 - [x] Class
 - [ ] Subclasses
@@ -25,7 +25,7 @@
   - [x] Wild Magic
   - [x] Wildheart
 
-#### Bard
+### Bard
 
 - [x] Class
 - [ ] Subclasses
@@ -37,29 +37,34 @@
 - [x] Spell Lists
 - [ ] Magical Secrets spell list
 
-#### Cleric
+### Cleric
 
 - [x] Class
-- [ ] Subclasses
-  - [ ] Death
-  - [ ] Nature
-  - [ ] Tempest
+- [x] Subclasses
+  - [x] Death
   - [x] Knowledge
   - [x] Life
   - [x] Light
+  - [x] Nature
+  - [x] Tempest
   - [x] Trickery
   - [x] War
 - [x] Spell Lists
 
-#### Druid
+### Druid
 
-- [ ] Class
+- [x] Class
 - [ ] Subclasses
+  - [ ] Sea
+  - [x] Land
+  - [x] Moon
+  - [x] Spore
+  - [x] Stars
 - [x] Spell Lists
 
-### Spell
+## Spell
 
-#### Cantrip
+### Cantrip
 
 - [x] Spare the Dying (Cleric, Druid, ~~Artificer~~)
 - [x] Word of Radiance (Cleric)
@@ -67,11 +72,15 @@
 - [x] Starry Wisp (Bard, Druid)
 - [x] Thunderclap (Bard, Druid, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
 
-#### Level 2
+### Level 2
 
 - [x] Mind Spike (~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, Knowledge)
 
-#### Level 5
+### Level 4
+
+- [x] Fount of Moonlight (Bard, Druid)
+
+### Level 5
 
 - [x] Steel Wind Strike (~~Ranger~~, ~~Wizard~~, War)
 - [x] Synaptic Static (Bard, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, Knowledge)

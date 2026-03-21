@@ -185,6 +185,20 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c15c513d-b7df-43c9-b35d-b3e73b5c51b7" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b96199e3-de70-4525-8e23-8bcfa5ce8f92" />
+        <field name="Name" type="NameTableFieldDefinition" value="FOUNT_OF_MOONLIGHT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a281f4cgfc20gce12g5a55ge741d085a992" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0a594f4gbcafg3438g8e4cg19d60ca756cd" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Radiant)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FountOfMoonlight" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FOUNT_OF_MOONLIGHT" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(6,false,0.1);StatusImmunity(SG_Invisible);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FountOfMoonlight_Passive;" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c15c513d-b7df-43c9-b35d-b3e73b5c51b7" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="69ede3eb-5730-413d-b072-32395b13a5fc" />
@@ -524,6 +538,44 @@
         <field name="Name" type="NameTableFieldDefinition" value="SHIELD_OF_FAITH_WAR" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4375bf51-d285-40bf-93b4-2e661832f3c5" />
         <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9bf598df-0e5c-45e6-b178-41684541d2f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DRUID__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b211a00-eb33-42a0-9499-66f75b344b3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_TEMPHP_DRUIDLEVEL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e8ebc40g6f5cg5d29gc885g2f7fb0f2899b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e1bf345gb5fcg3bbag17c4g7ac514e8455e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE_TEMPHP_DRUIDLEVEL" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Druid));" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f884536-39f7-4874-9eeb-9adf72fa6e8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_TEMPHP_DRUIDLEVEL_3X" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7b211a00-eb33-42a0-9499-66f75b344b3b" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Druid)*3);ACOverrideFormula(13,true,Wisdom);IF(HasPassive('Moon_6_ImprovedCircleForms'),context.Source):RollBonus(SavingThrow, WisdomModifier, Constitution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="84bc75ba-289b-46a4-b268-bd1608d8bbd4" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_TECHNICAL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20fc0baa-c32b-4c36-87a0-7bf412492682" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL);RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X)" />
       </fields>
     </stat_object>
   </stat_objects>

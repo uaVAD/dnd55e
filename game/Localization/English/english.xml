@@ -125,7 +125,7 @@
   <content contentuid="hb95127abg79cag5782ge868geb1002d62c1c" version="1">You deal damage to a creature.</content>
   <content contentuid="h9db3b3abg7a4dg3f7fg42a9g43591b76887d" version="1">Divine Spark: Necrotic Damage</content>
   <content contentuid="hb1119630g31c7g738eg4a76g56eb77fe86bc" version="1">Level 7: Blessed Strikes: Divine Strike (Radiant)</content>
-  <content contentuid="hb14ca27eg593ag392fgab27g2186f2a37316" version="1">Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Radiant.</content>
+  <content contentuid="hb14ca27eg593ag392fgab27g2186f2a37316" version="2">Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra [1]</content>
   <content contentuid="ha5f17982g16bdg018bg655eg1db1622f5096" version="1">Level 7: Blessed Strikes: Divine Strike (Necrotic)</content>
   <content contentuid="hd61761e0gbebfg6542gac8bgd70ab3faa548" version="1">Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic.</content>
   <content contentuid="hdbdc1e3fg886agebc7gf898gdd7b5aea06a3" version="1">Level 7: Blessed Strikes: Potent Spellcasting</content>
@@ -222,4 +222,81 @@
   <content contentuid="hf81ea6f0gb2bcg2e34g72c5gfeb99fd56826" version="1">Thunderclap</content>
   <content contentuid="ha16fbd5eg7072g66aeg7f0eg739d38d2a607" version="1">Primal Order</content>
   <content contentuid="h22f70fd0g4354g1c46g6712gdc288b7803e5" version="1">You have dedicated yourself to one of the following sacred roles of your choice.</content>
+  <content contentuid="hb670c3bdg0b18g5834g24e2gce9406adf925" version="1">Wild Shape Charge</content>
+  <content contentuid="h0e2c2a49gb8a7g78d8gf687gb0cdc6987be7" version="1">The number of times you can use your Wild Shape.</content>
+  <content contentuid="h8f1b692bg604cgb34cg9e64g7c5d22aebe85" version="1">Level 2: Wild Shape</content>
+  <content contentuid="hc6dea6aag9290gf3cegeb8ag0351bd8d0fc5" version="2">You can use a Bonus Action to transform into a known Beast form using Wild Shape. You can end the transformation early as a Bonus Action. You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level. You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast.</content>
+  <content contentuid="h1505dff7gb11cg17eageb5dg29f041ed571a" version="1">Level 2: Wild Shape</content>
+  <content contentuid="h8e8ebc40g6f5cg5d29gc885g2f7fb0f2899b" version="1">Wild Shape</content>
+  <content contentuid="h2e1bf345gb5fcg3bbag17c4g7ac514e8455e" version="1">When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.</content>
+  <content contentuid="h8a519044g61f3g7166g3e0cg6c97799602e4" version="1">Wild Shape: Badger</content>
+  <content contentuid="h9c56ac47g3984g90a8g0115g3a3000abd94a" version="1">Wild Shape: Polar Bear</content>
+  <content contentuid="h55c8bb9fgab04g0e14gce66g6d7734c64973" version="1">Wild Shape: Cat</content>
+  <content contentuid="h4bd8abf4gf0adgc66cgc5bag97c641b5e998" version="1">Wild Shape: Deep Rothé</content>
+  <content contentuid="hb0d5b816gde08g18fag0b3dg87d87c0c5144" version="1">Wild Shape: Dire Raven</content>
+  <content contentuid="h5290eb7agca74g04fdg1c90gf56091132a96" version="1">Wild Shape: Giant Spider</content>
+  <content contentuid="h78df260fgc265gf45fg5e7eg3a5e3f320112" version="1">Wild Shape: Dire Wolf</content>
+  <content contentuid="h3d5751c2gc7e1ge1c7g2187gc1dfba8f54e2" version="1">%%% EMPTY</content>
+  <content contentuid="hfad853e7g6d71gc847gc4e1g6c0f425eab30" version="1">Wild Shape: Badger</content>
+  <content contentuid="h94425109g11ccg2387g6f3ag6e092535cfc7" version="1">Wild Shape: Bear</content>
+  <content contentuid="h125b5a75g4894g085age46age0c6df5c916e" version="1">Wild Shape: Black Bear</content>
+  <content contentuid="hc5ea7296g02acg34fdgfa7ag6fdba9447454" version="1">Wild Shape: Grey Bear</content>
+  <content contentuid="h57fcc347g64cfgce00g9684gdc1711bf0132" version="1">Wild Shape: Polar Bear</content>
+  <content contentuid="hb16c19a4gbaaege05bg81b8g91dc2a6ce3ba" version="1">Wild Shape: Boar</content>
+  <content contentuid="h5ea20feag7ba3g2debga31dg2a7068efca9a" version="1">Wild Shape: Deep Rothé</content>
+  <content contentuid="h2a2047d4g2ebbg73b4gae60g085e395a05a1" version="1">Wild Shape: Spider</content>
+  <content contentuid="h43604180gb8bag2721g1fb6g15bf4761d06f" version="1">Wild Shape: Rat</content>
+  <content contentuid="h2478c66ag72fbg9200g36ecga9a3f81bd052" version="1">Wild Shape: Dire Raven</content>
+  <content contentuid="head73bd1g04bfg7aedgaa38g5e91178238da" version="1">Wild Shape: Wolf</content>
+  <content contentuid="h356d9ca7gde59g20cdg3b43g5d69b5e91166" version="1">Wild Shape: Dire Wolf</content>
+  <content contentuid="hc9efa391g3349g9633gd775ge547b21394a6" version="1">Wild Shape: Sabre-Toothed Tiger</content>
+  <content contentuid="hf4e0bdf5g2bedgdb25gd9c5ge125ee988248" version="1">Wild Shape: Panther</content>
+  <content contentuid="h4a06421fg399bge851g94a3gc50cf5ac4685" version="1">Wild Shape: Dilophosaurus</content>
+  <content contentuid="h98a60dc7g4df3g01fbg8fd5g832b47cc24aa" version="1">Wild Shape: Owlbear</content>
+  <content contentuid="h4171bc8fg8509g75b1g344ag4875cb305165" version="1">Wild Shape: Air Myrmidon</content>
+  <content contentuid="hd2efd2eag8f2ag8c20g6458g2d2ee404e737" version="1">Wild Shape: Earth Myrmidon</content>
+  <content contentuid="ha20f8cafgc437g2e56ga015ge90f46a9fa2e" version="1">Wild Shape: Fire Myrmidon</content>
+  <content contentuid="hd1247016g50d4g5313gc5d9g817268c918e1" version="1">Wild Shape: Water Myrmidon</content>
+  <content contentuid="hdcc80e1bg50d8g4d7egf3c5gd88613415b9a" version="1">Wild Shape: Dire Wolf</content>
+  <content contentuid="h0fbca55age4a4g5797ga82fge26fc359b66c" version="1">Wild Shape: Wolf</content>
+  <content contentuid="h4838ee09g3746g4dc0g2baeg7a9ddd9bf1d4" version="1">Wild Shape: Dire Raven</content>
+  <content contentuid="h2a5396efg111ag7d25gf58fgce2d27775b14" version="1">Wild Shape: Rat</content>
+  <content contentuid="h82d61545g3d50gbd71gb81cg49ba5440aca5" version="1">Wild Shape: Spider</content>
+  <content contentuid="he834ae45gcae8gf3bag6df2ga3f6b92b7407" version="1">Wild Shape: Deep Rothé</content>
+  <content contentuid="h434d69begc8f3gbd6cg78e1gc7b1896221ee" version="1">Wild Shape: Boar</content>
+  <content contentuid="h5cdd815bge132g3d37gdabfg758fee1fd2ff" version="1">Wild Shape: Polar Bear</content>
+  <content contentuid="h267295feg37f1gf983g6cedg02a6401df1fd" version="1">Wild Shape: Grey Bear</content>
+  <content contentuid="hd15c9166gcb1dg4177g3646gbdb76e9200cc" version="1">Wild Shape: Black Bear</content>
+  <content contentuid="h8d42344bg665dge300g935bg0d9887bee468" version="1">Wild Shape: Bear</content>
+  <content contentuid="h59a5a380g59f1gfdb0g9a4fgef72e80eb679" version="1">Wild Shape: Badger</content>
+  <content contentuid="h556b4fb3g5a97gb81cg3f21gd57ac1f02a0d" version="1">%%% EMPTY</content>
+  <content contentuid="h978ef6fag7931g203cg08ccge7b0c344b3e8" version="1">Level 3: Circle Forms</content>
+  <content contentuid="h69bf3828g083cg1e10g408egf0f2ee4c7fe8" version="1">You can channel lunar magic when you assume a Wild Shape form, granting you the benefits below.&lt;br&gt;&lt;br&gt;Armor Class: Until you leave the form, your AC equals 13 plus your Wisdom modifier if that total is higher than the Beast’s AC.&lt;br&gt;&lt;br&gt;Temporary Hit Points: You gain a number of Temporary Hit Points equal to three times your Druid level.</content>
+  <content contentuid="h50a84c2agc47eg3409gfbf3g8b9efe860b49" version="1">Level 7: Elemental Fury: Potent Spellcasting</content>
+  <content contentuid="hdbacd095g40f6g7468g5750g2f164c7506d4" version="1">Potent Spellcasting. Add your Wisdom modifier to the damage you deal with any Druid cantrip.</content>
+  <content contentuid="h623803a7gceadgfb71gf1d2g9f3e3921f3f2" version="1">Level 7: Elemental Fury: Primal Strike (Cold)</content>
+  <content contentuid="h1cfad235g00bdg10bfgf085g60ac289d2534" version="1">Primal Strike. Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form’s attack in Wild Shape, you can cause the target to take an extra [1].</content>
+  <content contentuid="he3035afbgf846g4686gf4e6gc39575739bed" version="1">Level 7: Elemental Fury: Primal Strike (Fire)</content>
+  <content contentuid="hd0a6f226g6b60g6204gb543g086832d392ff" version="1">Level 7: Elemental Fury: Primal Strike (Lightning)</content>
+  <content contentuid="h193b9818gd62dg67b7gf4e0g1d6b13d33a89" version="1">Level 7: Elemental Fury: Primal Strike (Thunder)</content>
+  <content contentuid="h86990efage02cg7a58gc14dgac02e5274f97" version="1">Level 5: Wild Resurgence</content>
+  <content contentuid="hb6ef2813g5893gbc58ga19aga900b5ff9a74" version="1">You can restore one use of Wild Shape by expending a spell slot (no action required).</content>
+  <content contentuid="h4fc2af8fg81c5g79b5g40c7gfd252be60f4c" version="1">Wild Resurgence</content>
+  <content contentuid="h70ae88b1gd34eg0e8ag5b7bga526ea0cf7a6" version="1">You can restore one use of Wild Shape by expending a spell slot (no action required).</content>
+  <content contentuid="h8d0f6247g32e9g935cg8e24g277269d5eee0" version="1">Circle of the Moon Spells</content>
+  <content contentuid="h97d1904cg83d1gdb83ge2b8gfb2e45881c92" version="1">You can cast Circle of the Moon Spells while you’re in Wild Shape.</content>
+  <content contentuid="h81a318d3g7d25ge9f7g6cb8g0d641f9d7d75" version="1">Fount of Moonlight</content>
+  <content contentuid="h7133dd62g2ff3g5631g286cgfb7c7edec60f" version="1">Until the spell ends, you have Resistance to Radiant damage, and your melee attacks deal an extra [1] on a hit.</content>
+  <content contentuid="h7a281f4cgfc20gce12g5a55ge741d085a992" version="1">Fount of Moonlight</content>
+  <content contentuid="hf0a594f4gbcafg3438g8e4cg19d60ca756cd" version="1">Until the spell ends, you have Resistance to Radiant damage, and your melee attacks deal an extra [1] on a hit.</content>
+  <content contentuid="hc9501eaeg3c65g8261gbbbegc5a79478ce47" version="1">Fount of Moonlight</content>
+  <content contentuid="h4d3aa54bg7cf4g12d5g0d79g21d13c55e1c1" version="1">Level 6: Improved Circle Forms</content>
+  <content contentuid="h25a52b4bg965bga6bdgaee9gb81edcb888e9" version="1">While in a Wild Shape form, you can add your Wisdom modifier to your Constitution saving throws.</content>
+  <content contentuid="h7f91f61fg551cg9fe6g9a0cg340e7bc48a41" version="1">Level 10: Moonlight Step</content>
+  <content contentuid="h4b611e19g3e33g0533g1f8cg44ab465667b3" version="1">You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to [1] to an unoccupied space you can see. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</content>
+  <content contentuid="h9203385fgb0d0gc75egca31g0264dad5cc14" version="1">Moonlight Step</content>
+  <content contentuid="hde80ec9cg7cdbg9ea0g9225gb25148c847a9" version="1">You magically transport yourself, reappearing amid a burst of moonlight.</content>
+  <content contentuid="hcf67e29ag6032g30cfgf7dbg0fb20210f91d" version="1">Moonlight Step Charge</content>
+  <content contentuid="hcd5cf1b2gd583gccb7gb15cg0cd8f525eccb" version="1">The number of times you can use your Moonlight Step.</content>
+  <content contentuid="h019511d5gb330g2cd9gd860g84e25789d117" version="1">A constellation of a wise dragon appears on you. When you make a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on a spell, a roll result of 9 or lower is considered a 10.</content>
 </contentList>
