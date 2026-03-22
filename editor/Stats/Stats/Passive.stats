@@ -392,6 +392,22 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bdde706b-febe-4658-bff4-05ed2f30bf96" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="636f8107-3687-46f4-8e91-5d7d46babc2e" />
+        <field name="Name" type="NameTableFieldDefinition" value="FindSteedProne_Passive" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="TotalDamageDoneGreaterThan(3);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,8));" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="90a48a8f-a669-4592-be85-fa862f22c44f" />
         <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__" />
       </fields>
@@ -1628,6 +1644,88 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6311" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Shout_StepOfTheWind'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint));" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8fe4a910-8e68-47eb-9068-dc3f6273b033" />
+        <field name="Name" type="NameTableFieldDefinition" value="__PALADIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7097b00f-39c7-4af5-ae77-e3555986f7e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin_2_PaladinsSmite" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h77c3bd23ge0bdg1ed9gc503g1a06cc920d08" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hab240831g4170g3e19gaf78ge733be05a5f1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_DivineSmite" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7002" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnLongRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PALADINS_SMITE,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="662c042f-5660-4b58-ab15-67faeaf15fa2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin_3_ChannelOath" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc453b2f8ga64fg8d50g0cb0g4a53f20b32d9" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha840fbb3g435eg87ebgd676g3fc781ce7b67" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_InquisitorsMight" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7003" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(ChannelOath,1,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DivineSense);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4be44af3-feae-4a3a-93f4-aec3222a1d5f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin_5_FaithfulSteed" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd777f361gcaa7g7dbegeb0agb9179de1ba4b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d9bb995gd364g7b4fgd6f8gb78ed0bdda9b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7005" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FindSteed,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnLongRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FAITHFUL_STEED,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aac3a825-bb25-4175-8fa4-17a1183401fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin_9_AbjureFoes" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d4848abgc60eg631cgc713g605af144c9ee" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h060adb3eg6617g9283g226fg6d070eb47c88" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AbjureEnemy" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7009" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AbjureFoes);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="829cbc95-059a-4c02-91ed-ab15d4e6fee3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedDivineSmite" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0089043b-9386-44e6-a597-b91334d85ee2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd546b3bg87ddg0b0eg91d9g7dd5bb69d0d5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he923c53cgfecbgb456g1ee5gbc97fd5f5a9a" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7011" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):CharacterWeaponDamage(1d8,Radiant);IF(IsMeleeAttack()):CharacterUnarmedDamage(1d8,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3d7be02-5af7-4c57-a40a-8e128bdd3a93" />
+        <field name="Name" type="NameTableFieldDefinition" value="RelentlessAvenger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="93712739-02e0-4ddd-9365-649a34ca8f04" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h36197b70g60e1g9d30g020ag5ebf5202eade" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c05bd1dg9548g9d0ag66dbgd31ce3af6dab" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7107" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,RELENTLESS_AVENGER,100,1);ApplyStatus(RELENTLESS_AVENGER_SENTINEL,100,1)" />
       </fields>
     </stat_object>
   </stat_objects>

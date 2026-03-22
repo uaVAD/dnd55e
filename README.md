@@ -68,9 +68,15 @@
   - [x] Elements
   - [x] Open Hand
 ### Paladin
-- [ ] Class
+- [x] Class
 - [ ] Subclass
-- [ ] Spell List
+  - [ ] Crown
+  - [ ] Glory
+  - [ ] Oathbreaker
+  - [x] Ancients
+  - [x] Devotion
+  - [x] Vengeance
+- [x] Spell List
 ### Ranger
 - [ ] Class
 - [ ] Subclass

@@ -3087,5 +3087,327 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="OpenHand_11_FleetStep" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_509" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b60618d1-c262-42b5-9fdd-2c0f7aa5e5af" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(627af380-2bbb-4a9f-9571-5ec781a6daf4,2);AddSpells(fb407d81-3a05-46f1-9153-0fb27dce95b6,,,,AlwaysPrepared);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(LayOnHandsCharge,3,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_501" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1f5396ad-65e3-4ed5-a339-d76b11af96ea" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(fb407d81-3a05-46f1-9153-0fb27dce95b6,,,,AlwaysPrepared);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(LayOnHandsCharge,3,0)" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_154" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d6c11773-888b-47a3-9dfa-e247bcbd461a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(58aef51d-a46c-44c8-8bed-df90870eb55f,,,,AlwaysPrepared);AddSpells(c6288ac5-c68b-40ed-bbdd-2ff388575831);SelectPassives(f8ebba38-932a-4c64-ae55-3df23e2f60fa,1,FightingStyle)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Smite_Divine;UnlockedSpellSlotLevel1;Paladin_2_PaladinsSmite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_156" />
+        <field name="UUID" type="IdTableFieldDefinition" value="31c12f48-d62f-4e83-b475-10ed9068c9dd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(ChannelOath,2,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Paladin_3_ChannelOath" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="b36d247e-d39f-4ae9-9476-3ec315c55789;1c761ad0-6f5f-409e-ac1d-ddf6f85c1fc4;3cc3d397-c47d-4966-87ae-88827f73f645;eaad98ec-026b-429e-aa24-8274dfd1ecb7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_157" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4f2c7b4e-2f91-4105-a136-9387a8cfed4f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(LayOnHandsCharge,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_158" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2f27f50e-4c5b-476b-b034-820301937172" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;UnlockedSpellSlotLevel2;Paladin_5_FaithfulSteed" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c14c9564-1503-47a1-be19-98e77f22ff59)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_159" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a3fcceed-a1e9-4300-8032-83c573640b19" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(94db914d-95d0-484e-8a02-c0faa9d575a7,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_160" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4b6c4bc2-641e-456a-a7a3-9b343fb5d52a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_161" />
+        <field name="UUID" type="IdTableFieldDefinition" value="396096c9-768c-4df8-a0b9-35c06478b752" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_162" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fada82ce-7f21-4b4d-9f08-5440848a7c1d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,3)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d18dec04-478f-41c3-b816-239d5cfcf2a2)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel3;Paladin_9_AbjureFoes" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_163" />
+        <field name="UUID" type="IdTableFieldDefinition" value="270310b6-e20c-4072-97ba-a1133ecaf6d5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(da27c6ae-15cf-4441-9115-82dcc282f8cc,,,,AlwaysPrepared)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(LayOnHandsCharge,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_164" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cc90f34d-28ba-4254-b7dc-473af8c3d633" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ImprovedDivineSmite" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,3);ActionResource(ChannelOath,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_165" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0a2410b4-ff13-429f-84ca-73ce2fd9654d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_166" />
+        <field name="UUID" type="IdTableFieldDefinition" value="394623a5-f829-4295-9efc-3ea14197536a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="941ca27d-02f7-4f59-bd33-63fa3366134d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Devotion" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_167" />
+        <field name="UUID" type="IdTableFieldDefinition" value="419d61a5-2e61-4aaa-992a-f113817f607c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="941ca27d-02f7-4f59-bd33-63fa3366134d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Devotion" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(660eb07b-ea07-4ff1-91e7-7ca44694dbe7,OathSpells,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Oath_Devotion_Tenents" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_170" />
+        <field name="UUID" type="IdTableFieldDefinition" value="df3ddb35-5479-45ee-be32-63d75ca6fd90" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="941ca27d-02f7-4f59-bd33-63fa3366134d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Devotion" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(a54421d2-c07c-451a-b060-a125696e0ce7,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_183" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d70e545b-851e-4e3f-9a61-165123c5fee0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="941ca27d-02f7-4f59-bd33-63fa3366134d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Devotion" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(7112a6f2-8100-40e8-a411-75cde8847b36,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_171" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5e9cbd8a-af0f-4ce8-a9ac-cc31d4873c61" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="941ca27d-02f7-4f59-bd33-63fa3366134d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Devotion" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(99a16aaf-233b-4eb0-82cd-c4abfd2e389f,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_173" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c5896730-ac3f-4f00-b719-41a1ed82616b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b82864a7-b093-4553-a802-e176831029c1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Ancients" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_175" />
+        <field name="UUID" type="IdTableFieldDefinition" value="11c1bab3-90d0-4558-895b-200bca7ec2e3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b82864a7-b093-4553-a802-e176831029c1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Ancients" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(de27ac05-a6d2-4c77-8bc9-1611344f6370,OathSpells,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Oath_Ancients_Tenents" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_176" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ccbbcbad-d2b1-4064-a731-81480cf78d9f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b82864a7-b093-4553-a802-e176831029c1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Ancients" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(0557efcb-f072-45e3-aee0-4f84359e777d,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_182" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2a57202d-4f50-47de-bdca-f5aa7addf1ff" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b82864a7-b093-4553-a802-e176831029c1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Ancients" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(f6e69adb-d2d3-4d38-aca1-639fb38cf0fd,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_172" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ed44db42-a704-4717-aed3-7d3672775b36" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b82864a7-b093-4553-a802-e176831029c1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Ancients" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(02c495eb-c79a-445d-804c-628be82b586b,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_520" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ebe9b2bf-97fb-460b-860b-22ae602b7e97" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f769aa02-1f74-4fb6-b94c-8850143daa20" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Vengeance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_521" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bd1e9c6b-84e8-4b9f-9439-398cb9fd452b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f769aa02-1f74-4fb6-b94c-8850143daa20" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Vengeance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(5f73341d-36d7-4960-a5b2-4f916ec5e4b9,OathSpells,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Oath_Vengeance_Tenents" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_522" />
+        <field name="UUID" type="IdTableFieldDefinition" value="333ea8d0-326f-42a1-a150-95ef5a9e7541" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f769aa02-1f74-4fb6-b94c-8850143daa20" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Vengeance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d04f6f81-6cb3-4dc7-9c78-21701bb1e385,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_184" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cc34a763-407a-4ea8-8861-826ff842bcdc" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f769aa02-1f74-4fb6-b94c-8850143daa20" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Vengeance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RelentlessAvenger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_177" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b3d4b30b-8a84-419a-98b2-68639ae3649d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f769aa02-1f74-4fb6-b94c-8850143daa20" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Vengeance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(49a63d5c-04a3-4f20-8da5-fa75136b0255,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

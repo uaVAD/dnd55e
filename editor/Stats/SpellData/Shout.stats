@@ -13,10 +13,127 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DODGE,100,1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f827fe69-c350-4ab6-8f0e-34f9fc7101eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dash_Steed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0fd05f4-0b0d-4663-beec-21d2b5de7928" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SteedActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;Stealth;Invisible;NoCameraMove;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5dd869c-82cb-47de-b653-aa44e7d5436d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Disengage_Steed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="98f7d181-873d-42a7-9534-e0c3d62c0423" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SteedActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="NoCameraMove;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b57c4df5-2e43-4eba-9827-3d46b3446add" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dodge_Steed" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DODGE,100,1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dodge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he8006ed5gf2f6gd6ceg798dg91c566666c82" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c0401b6g3fc4gaadagf4bbg097715066c52" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DODGE,100,1)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Disengage" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Disengage" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SteedActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellActionType" type="EnumerationTableFieldDefinition" value="Disengage" enumeration_type_name="SpellActionType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Immobilized()" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f56fb8e0-815b-41e0-9071-3c2305c93660" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="08ecdc25-31ea-4f32-8787-19b97971a9f1" />
+        <field name="CinematicArenaFlags" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="CinematicArenaFlags" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ddffddcf-e01a-400b-83d4-b69369964c9e" />
         <field name="Name" type="NameTableFieldDefinition" value="__ABJURATION__" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1dac58cb-f995-4f92-a513-3646d4b452c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="375c6ac3-bac5-46ee-bdd4-ee5b2e09e391" />
+        <field name="Name" type="NameTableFieldDefinition" value="FindSteed" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FIND_STEED,100,100);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75d1a2deg8c23gb291g4a07g0b23ca7da55c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hca271062g4f0eg4316gc46ag52e3d54b2851" version="3" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FIND_STEED,100,100);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_ClericSummon_Gen" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_ClericSummon_Gen" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_PlanarAlly_L6to8" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_PlanarAlly_Celestial_L6to8" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7e42016a-29f9-4922-908b-dbf010dff168" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ebd046f7-066f-4acf-b671-dd451201c58b" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="37218caf-c844-479e-830e-d4c3fc2b9591" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9006e049-f3c0-4616-86f2-e8dfe114f6e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="FindSteed_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="375c6ac3-bac5-46ee-bdd4-ee5b2e09e391" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_FindSteed" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bf945a3e-1de1-4f58-b659-f0835a2ae83a" />
+        <field name="Name" type="NameTableFieldDefinition" value="FindSteed_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9006e049-f3c0-4616-86f2-e8dfe114f6e3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d04dff59-6159-44c7-afd1-026dd7b5b6fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="FindSteed_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9006e049-f3c0-4616-86f2-e8dfe114f6e3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="227abbc1-d179-469e-a118-3f15c7b29eb6" />
+        <field name="Name" type="NameTableFieldDefinition" value="FindSteed_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9006e049-f3c0-4616-86f2-e8dfe114f6e3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -786,6 +903,41 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+WisdomModifier);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WholenessOfBody:1;" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db1ab0d0-21c9-4aa6-a587-f7341fc6731f" />
+        <field name="Name" type="NameTableFieldDefinition" value="__PALADIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1007b770-d460-46d2-895d-58495e01f3f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DivineSense" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ad3cc122-fe98-4079-83b9-ca0ba2bdf1ed" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_SENSE,100, 100);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_SENSE,100, 100);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ChannelOath:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bf7445b9-4baf-4ba1-ac71-ed5f868c4d9c" />
+        <field name="Name" type="NameTableFieldDefinition" value="SacredWeapon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8762f201-9578-45c5-8f21-e682f117548d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, SACRED_WEAPON,100, 100);AI_ONLY:ApplyStatus(AI_HELPER_BUFF_LARGE,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SACRED_WEAPON,100, 100)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ChannelOath:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f315e29-7ad6-47f1-bd17-40078c15a113" />
+        <field name="Name" type="NameTableFieldDefinition" value="AuraOf_Warding" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19609ea2-c30b-4352-bee8-add1f73f899c" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae6c4966g7a68ga1edg4bc6gae39ac7aeb6b" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

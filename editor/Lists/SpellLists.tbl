@@ -561,5 +561,102 @@
         <field name="Name" type="NameTableFieldDefinition" value="Four Elements Monk Level 11" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="560f7d69-8090-430c-9e9a-308441afa746" />
+        <field name="Name" type="NameTableFieldDefinition" value="__PALADIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb407d81-3a05-46f1-9153-0fb27dce95b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin always prepared spells level 1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_LayOnHands" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c6288ac5-c68b-40ed-bbdd-2ff388575831" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin SLevel 1 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Bless;Target_Command_Container;Target_CompelledDuel;Target_CureWounds;Shout_DivineFavor;Target_Heroism;Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith;Target_Smite_Searing;Target_Smite_Thunderous;Target_Smite_Wrathful;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c14c9564-1503-47a1-be19-98e77f22ff59" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin SLevel 2 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Aid;Target_LesserRestoration;Target_MagicWeapon;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Smite_Branding_Container;Target_WardingBond" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d18dec04-478f-41c3-b816-239d5cfcf2a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin SLevel 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfVitality;Target_Smite_Blinding;Shout_CrusadersMantle;Target_Daylight_Container;Target_ElementalWeapon;Target_RemoveCurse;Teleportation_Revivify" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="660eb07b-ea07-4ff1-91e7-7ca44694dbe7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Devotion Spells level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_SacredWeapon;Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a54421d2-c07c-451a-b060-a125696e0ce7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Devotion Spells level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_LesserRestoration" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99a16aaf-233b-4eb0-82cd-c4abfd2e389f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Devotion Spells level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_BeaconOfHope;Target_RemoveCurse" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="de27ac05-a6d2-4c77-8bc9-1611344f6370" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Ancients Spells level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_NaturesWrath;Shout_SpeakWithAnimals;Projectile_EnsnaringStrike_Container" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0557efcb-f072-45e3-aee0-4f84359e777d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Ancients Spells level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_MistyStep;Target_Moonbeam" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02c495eb-c79a-445d-804c-628be82b586b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Ancients Spells level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ProtectionFromEnergy;Target_PlantGrowth" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f73341d-36d7-4960-a5b2-4f916ec5e4b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Vengance Spells level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_VowOfEnmity;Target_Bane;Target_HuntersMark" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d04f6f81-6cb3-4dc7-9c78-21701bb1e385" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Vengance Spells level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_HoldPerson;Target_MistyStep" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49a63d5c-04a3-4f20-8da5-fa75136b0255" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Vengance Spells level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Haste;Target_ProtectionFromEnergy" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
