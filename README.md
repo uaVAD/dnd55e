@@ -60,8 +60,12 @@
   - [x] Eldritch Knight
   - [ ] Psi Warrior
 ### Monk
-- [ ] Class
+- [x] Class
 - [ ] Subclass
+  - [ ] Mercy
+  - [ ] Shadow
+  - [ ] Elements
+  - [ ] Open Hand
 ### Paladin
 - [ ] Class
 - [ ] Subclass

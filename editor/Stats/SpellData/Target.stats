@@ -1047,5 +1047,49 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;DisableBlood" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9d67d3d6-f4b6-4f49-9608-a289041ea931" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlurryOfBlows" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning)" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(FlurryOfBlows)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Bludgeoning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a5cd73a-7130-449b-a5b6-387a14976693" />
+        <field name="Name" type="NameTableFieldDefinition" value="OpenHandTechnique_Knock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9817cf58-aef9-459d-aef1-b664c4024261" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);IF(not SavingThrow(Ability.Dexterity, ManeuverSaveDC())):ApplyStatus(PRONE,100,1);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(FlurryOfBlows)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Bludgeoning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8474fb7a-a0ec-4e91-8ba9-775b8b9d82bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="OpenHandTechnique_NoReactions" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9303d50a-ea95-4e24-96a3-31b9e5d0ed1b" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);ApplyStatus(OPEN_HAND_NO_REACTIONS,100,1);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(FlurryOfBlows)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Bludgeoning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7a1ff945-c8a0-4950-a618-e4a176f60f60" />
+        <field name="Name" type="NameTableFieldDefinition" value="OpenHandTechnique_Push" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b1463d66-1cf3-4a2e-9a4c-aed04a6361df" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):Force(5);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(FlurryOfBlows)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Bludgeoning)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

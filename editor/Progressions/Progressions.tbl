@@ -2832,7 +2832,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="7" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Evasion;StillnessOfMind" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Evasion" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2868,7 +2868,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredMovement_3;PurityOfBody" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Monk_10_HeightenedFocus;UnarmoredMovement_3;StillnessOfMind;PurityOfBody" />
         <field name="PassivesRemoved" type="StringTableFieldDefinition" value="UnarmoredMovement_2" />
       </fields>
     </stat_object>

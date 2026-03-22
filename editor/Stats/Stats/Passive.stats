@@ -99,6 +99,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fa11ce4d-2d1d-4fa0-b3cc-4a9a23b611ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="Evasion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ebbd6a90-d7e3-437f-ba6c-bf4f8966563e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb9a361cg3dadgecb2gdae1g23fc5f5c3919" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5626b21a-f80a-4f55-bb46-19cca7ba91b4" />
         <field name="Name" type="NameTableFieldDefinition" value="Illusion_Disappear" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d409d52c-cf4c-4890-bd3c-0917c63a066f" />
@@ -1446,6 +1454,79 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_UncannyMetabolism);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ca199c09-9413-4a7d-bbf9-7b6b3c363b42" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeflectMissiles" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f008240-6a52-42b2-9abd-370c9fa69acd" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h399b9569g4416g07fbg0cd6ga4f008d8e40c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h363f8861g503bg174cgc576g28e60841fa32" version="3" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6003" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e1d0adf-72d3-4060-aa91-4a959b7571f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="SlowFall" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1697beb7-5ef1-43ee-af85-b204fb265666" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha8c51db9g127cg0f8dgf557g402626436b8c" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6004" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34170e63-b9cc-4c0f-9709-e2d51e798a37" />
+        <field name="Name" type="NameTableFieldDefinition" value="KiEmpoweredStrikes" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f7685f04-38a6-4d01-8885-345791920694" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h726e4c54g614fg70ccg5ebag4c572b51fbe4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3eabcb35gf264g4f8ag9c30g123cbc8fd2b8" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6006" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source) and not HasShieldEquipped(context.Source) and MeleeUnarmed();" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreResistance(Bludgeoning, Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1499f897-57a4-4af7-a2d8-a61654655694" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmoredMovement_DifficultTerrain" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b9c4419e-682c-4bbc-a70e-c19ca0ff49ad" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6a55712gd62cgd5e7g68d8g0007496a3e1e" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6009" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d47bbf1-697e-4770-a65f-236e31a78f49" />
+        <field name="Name" type="NameTableFieldDefinition" value="Monk_10_HeightenedFocus" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33c22a3cg9bbaga9c8g65e2g0701352832a0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3bb523e2gc26eg22c2g87e9g4e1e0da5e1af" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_KiEmpoweredStrikes" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6010" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a03bb0e-8d67-4ed7-8e6a-6f5557173df1" />
+        <field name="Name" type="NameTableFieldDefinition" value="StillnessOfMind" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7e82b33-401e-497a-8e9a-caacc207f0f8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0d0ae76g515agec5dg8b3fgfef5c6b386f3" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6010" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e868159f-46d2-4fa5-8f11-2d618be11fb0" />
+        <field name="Name" type="NameTableFieldDefinition" value="PurityOfBody" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8555e429-6a1e-459d-9e5c-db8109bb8c12" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb6524b85g7c46g835fg5ec8g505bf3a2d396" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6010" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -117,5 +117,31 @@
         <field name="Cost" type="StringTableFieldDefinition" value="HeroicWarrior:1;" />
       </fields>
     </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="17659215-06c7-4af0-9a12-0bf061a24b79" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONK__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cdaf80e2-7032-43b8-a61d-30b1f48be57d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DeflectMissiles" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77491e14-ef33-4e82-a07c-ff77b4daa530" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45c562c6gf2cag3a18gb7a8g96ddfe88db60" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96997b05g813bg4cedge308g8b97a39ea6cc" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and IsAttack() and not IsSpellAttack() and not HasStatus('SG_Polymorph_BeastShape') and not AnyEntityIsItem();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0a550e45-ba6a-4992-a8ed-fdce3b347af0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DeflectMissiles_Return" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="457fc6cd-2d2b-4907-9e16-d34b816da514" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2abe271ag6c58g52b7g96c5ge33fc7fc4c92" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0f7f1f15gc38bgcaeeg96aegf18e8377c301" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and (IsAttackType(AttackType.MeleeWeaponAttack) or IsAttackType(AttackType.RangedWeaponAttack) or IsAttackType(AttackType.MeleeUnarmedAttack) or IsAttackType(AttackType.RangedUnarmedAttack)) and not (IsCriticalMiss() or IsMiss()) and HasActionResource('DeflectMissiles_Charge', 1, 0, false, false, context.Observer) and not AnyEntityIsItem();" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

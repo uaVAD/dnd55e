@@ -14,3 +14,9 @@ end
 function ChaAttackSaveDC()
     return 8 + context.Source.ProficiencyBonus + GetModifier(context.Source.Charisma)
 end
+
+function MeleeUnarmed(entity)
+	-- Default to Target, like cpp functions
+	entity = entity or context.Target
+    return ~WieldingWeapon('Melee', false, true, entity)
+end
