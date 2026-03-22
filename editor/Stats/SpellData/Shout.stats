@@ -661,7 +661,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0b821902-a45d-4c4c-b7c8-995bd3ffa357" />
         <field name="Name" type="NameTableFieldDefinition" value="UncannyMetabolism" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f0787c90-b274-49a2-ba30-72ee16911a11" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+ClassLevel(Monk));RestoreResource(SELF,KiPoint,100%,0);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d5fdddcg3d1bg2ed8g0bebgcfcf2293742c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48a9451fg4097gddefg1177g77b625d48f82" version="1" />
@@ -669,6 +668,20 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Vocal_Component_Monk_Utility" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Monk_StepoftheWind" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_SoulCatching_Heal" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Monk_WholenessOfBody_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Monk_WholenessOfBody_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Stop" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="355a5479-07c9-4a34-9ab6-3b2669fdd248,,;,,;032e057c-c5af-47a8-b65a-bf297ba03601,,;c6ba268f-f7a2-4710-aed2-dcd241b078e9,,;1c5627cb-6352-454b-9b84-c5b10ef2d201,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="66e75793-b0e1-42cd-812a-ee1f403a58da" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="fa88f7ad-1ef6-4913-8166-573d1248d907" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -759,6 +772,20 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_THUNDER,100,100)" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="e24845e1-b6cf-49fe-bd74-f4d6a3067be3" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7be34b37-43b8-4b47-bd2d-a20c7ea1c8fd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0fc460e6-e667-404c-8b2d-ff4fc71674a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WholenessOfBody" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0787c90-b274-49a2-ba30-72ee16911a11" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+WisdomModifier);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25c230c0g01dbg6406g2c50gfc3e4aa92e7f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h202adf83g5a60g677dg2f14g1cbdfc06aeab" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+WisdomModifier);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WholenessOfBody:1;" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -411,4 +411,11 @@
   <content contentuid="ha9461978g325bg8b56g0b7fga747967bcf5b" version="1">Elemental Burst: Thunder</content>
   <content contentuid="hd0321dfag2f41g5984g2a27g4ba878286102" version="1">Level 11: Stride of the Elements</content>
   <content contentuid="h90c565bfgdc8eg1fc2gde60ga457cc60135b" version="1">While your Elemental Attunement is active, you also have a Fly Speed and a Swim Speed equal to your Speed.</content>
+  <content contentuid="hbe92a07bg1800gd2e8g079fg1e0f39ce73ce" version="1">Wholeness of Body</content>
+  <content contentuid="h4feabb8egaa22g3d36gc857g512930772995" version="1">Level 6: Wholeness of Body</content>
+  <content contentuid="hd5f70284g45c5g71b8g7505g337ea5751295" version="1">You gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).&lt;br&gt;&lt;br&gt;You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</content>
+  <content contentuid="h25c230c0g01dbg6406g2c50gfc3e4aa92e7f" version="1">Wholeness of Body</content>
+  <content contentuid="h202adf83g5a60g677dg2f14g1cbdfc06aeab" version="1">As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).</content>
+  <content contentuid="hbbdecd13gacf6ga6bcge4dfga9e9fdd39678" version="1">Level 11: Fleet Step</content>
+  <content contentuid="h9f4fd43dgb96cg804dg3440g15b0a150a3ec" version="1">You can use Step of the Wind without expending a Bonus Action.</content>
 </contentList>

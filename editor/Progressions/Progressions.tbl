@@ -2939,7 +2939,7 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(6c0c93e7-d43a-43ca-8f36-43eff7a5ccdb)" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF008B8B" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_148" />
         <field name="UUID" type="IdTableFieldDefinition" value="cae2ce43-a1b8-473a-b163-c961d0048bd6" />
@@ -3040,6 +3040,51 @@
         <field name="FSName" type="StringTableFieldDefinition" value="FourElements" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e126f91a-faae-4b12-8dfd-5e385e68c659" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="5a9bf488-fda7-4e49-a3fa-e0aad24fbf43" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OpenHand" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(6566d841-ef96-4e13-ac40-c40f44c5e08b)" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="FlurryOfBlowsUnlock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_277" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fd86d0cd-791d-49a1-8d99-402c15f5f77d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="5a9bf488-fda7-4e49-a3fa-e0aad24fbf43" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OpenHand" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(9487f3bd-1763-4c7f-913d-8cb7eb9052c5)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="OpenHand_6_WholenessOfBody" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_152" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2c9045a3-0d3b-4daf-b3b3-7e0518ba4ee5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="5a9bf488-fda7-4e49-a3fa-e0aad24fbf43" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OpenHand" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_278" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7bbc316f-d60a-4e80-a371-247dcca83685" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="5a9bf488-fda7-4e49-a3fa-e0aad24fbf43" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OpenHand" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="OpenHand_11_FleetStep" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -1339,6 +1339,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5110" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HeroicWarrior,1,0);UnlockInterrupt(Interrupt_HeroicWarrior_RollAdditionalDie);UnlockInterrupt(Interrupt_HeroicWarrior_ReplaceAttackersDie);" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1582,6 +1583,31 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Fly" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6211" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0eb8da9-4b66-42c8-a6a3-d788e6d71c08" />
+        <field name="Name" type="NameTableFieldDefinition" value="OpenHand_6_WholenessOfBody" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4feabb8egaa22g3d36gc857g512930772995" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5f70284g45c5g71b8g7505g337ea5751295" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_WholenessOfBody" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6306" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WholenessOfBody,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(WholenessOfBody,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(WholenessOfBody,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(WholenessOfBody,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(WholenessOfBody,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(WholenessOfBody,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(WholenessOfBody,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5588d818-b783-4dfb-8bd9-aea3987b4da5" />
+        <field name="Name" type="NameTableFieldDefinition" value="OpenHand_11_FleetStep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbbdecd13gacf6ga6bcge4dfga9e9fdd39678" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f4fd43dgb96cg804dg3440g15b0a150a3ec" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_StepOfTheWind_Dash" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6311" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Shout_StepOfTheWind'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint));" />
       </fields>
     </stat_object>
   </stat_objects>
