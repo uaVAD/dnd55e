@@ -78,9 +78,9 @@
   - [x] Vengeance
 - [x] Spell List
 ### Ranger
-- [ ] Class
+- [x] Class
 - [ ] Subclass
-- [ ] Spell List
+- [x] Spell List
 ### Rogue
 - [ ] Class
 - [ ] Subclass

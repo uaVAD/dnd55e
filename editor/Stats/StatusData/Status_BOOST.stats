@@ -854,5 +854,27 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4580d441g9dc0gbc53g7a59g25cce7bd8ba2" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF006400" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7ca82b5-bfe1-41a2-a6d5-03ed78930ecb" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RANGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c6d6cb32-b383-4980-80c4-e0b2205d80c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="TIRELESS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f7f0018g2af3g31ccg0cdbgcc4bb940f132" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3c5b5f7eg291agf227g9011gc0565f5cdd4d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_LandsStride_PlantSurfaces" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TIRELESS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(1d8+WisdomModifier);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="10"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Ranger"/>
+                    <attribute id="ClassHotbarColumns" type="int32" value="5"/>
+                    <attribute id="CommonHotbarColumns" type="int32" value="9"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbd354410g485cg7eb3gce6cg2beae2ab9c6b" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hcff76038gf183g3e0cg380cgd7a4d9b485d4" version="1"/>
+                    <attribute id="HpPerLevel" type="int32" value="6"/>
+                    <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MulticlassSpellcasterModifier" type="double" value="0.5"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Ranger"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="SpellList" type="guid" value="ffd3b636-d424-4120-87ae-4499a34828dc"/>
+                    <attribute id="UUID" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="37a733c1-a862-4157-b92a-9cff46232c6a"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -141,5 +141,36 @@
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object color="#FF006400" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4c3ed561-7036-4a6b-aa01-1e1c2174f186" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__RANGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
+        <field name="UUID" type="IdTableFieldDefinition" value="305c3234-7504-45cf-9072-703ad6e318ec" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="FavoredEnemy" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a2bbcc7gff7eg7312gb3f5g2e15ba81d07c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcd8000b2gdb8aga27dg0c5agb3cd6b125346" version="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8cbbc134-b358-4e45-96b2-77df1e340be8" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Tireless" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3229a845gf19dg1318g1141gf2138b76791c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h304ba6eegcc14g44c6g7640g0b3b0cf81a62" version="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

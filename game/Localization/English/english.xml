@@ -454,4 +454,20 @@
   <content contentuid="h2c05bd1dg9548g9d0ag66dbgd31ce3af6dab" version="1">If you hit an enemy with an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;, you can reduce the creature’s Speed to 0 until the end of the current turn. And your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [1] on your next turn.</content>
   <content contentuid="hd54cf49fg52f9gc82fg23ddg240455666d75" version="1">Relentless Avenger Foe</content>
   <content contentuid="h4580d441g9dc0gbc53g7a59g25cce7bd8ba2" version="1">Can't move. Restrained by an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; from a Relentless Avenger.</content>
+  <content contentuid="h8a2bbcc7gff7eg7312gb3f5g2e15ba81d07c" version="1">Favored Enemy</content>
+  <content contentuid="hcd8000b2gdb8aga27dg0c5agb3cd6b125346" version="1">You always have the Hunter’s Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.&lt;br&gt;&lt;br&gt;The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</content>
+  <content contentuid="hdfdce3a3g8fd1g0e71gf799gc4b6e93e4494" version="1">Level 1: Favored Enemy</content>
+  <content contentuid="h306c6ef1gb334gc9d9g3199g2f6fed258ca6" version="1">You always have the Hunter’s Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.&lt;br&gt;&lt;br&gt;The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</content>
+  <content contentuid="h24da6064ga265g8748g66eeg77bdfbf8fe00" version="1">Level 6: Roving</content>
+  <content contentuid="h7dcb940dged6eg6a11g5274gec876e4452ec" version="1">Your Speed increases by [1] while you aren’t wearing Heavy armor.</content>
+  <content contentuid="hbe5c5e5fgade6g8f34g4b09g1cee59ffe473" version="1">Level 10: Tireless</content>
+  <content contentuid="h60d6e7c1gc8cag3d1dgdaedg0d81cb025d8b" version="1">Primal forces now help fuel you on your journeys. As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</content>
+  <content contentuid="h3229a845gf19dg1318g1141gf2138b76791c" version="1">Tireless</content>
+  <content contentuid="h304ba6eegcc14g44c6g7640g0b3b0cf81a62" version="1">As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</content>
+  <content contentuid="h18c4df3eg4eabg12a1gbab7g044c7be445a5" version="1">Tireless</content>
+  <content contentuid="hc95f4dcfg8caeg69e9gc8b5ge035fe1dc1a3" version="1">As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1).</content>
+  <content contentuid="h2f7f0018g2af3g31ccg0cdbgcc4bb940f132" version="1">Tireless</content>
+  <content contentuid="h3c5b5f7eg291agf227g9011gc0565f5cdd4d" version="1">As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1).</content>
+  <content contentuid="hcff76038gf183g3e0cg380cgd7a4d9b485d4" version="1">Ranger</content>
+  <content contentuid="hbd354410g485cg7eb3gce6cg2beae2ab9c6b" version="1">Rangers are unrivalled scouts and trackers, honing a deep connection with nature in order to hunt their favoured prey.</content>
 </contentList>

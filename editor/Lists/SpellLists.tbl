@@ -420,6 +420,19 @@
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a650b325-6d8d-46ae-a2a8-28009a511806" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DRUID__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89bfa36a-3ef8-4fa5-872d-1ba208883309" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid Level 1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_SpeakWithAnimals" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b8faf12f-ca42-45c0-84f8-6951b526182a" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid Cantrip List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Guidance;Projectile_PoisonSpray;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Targert_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap" />
@@ -576,6 +589,27 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9698ca24-afb7-44aa-938a-3a377bc68e82" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_DivineSense" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a033ca37-b5fe-414b-98d7-69d5db8ced8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_FindSteed" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c09add1a-955e-42a6-bcdb-dc6ae8cd7966" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AbjureFoes" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c6288ac5-c68b-40ed-bbdd-2ff388575831" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin SLevel 1 List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Bless;Target_Command_Container;Target_CompelledDuel;Target_CureWounds;Shout_DivineFavor;Target_Heroism;Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith;Target_Smite_Searing;Target_Smite_Thunderous;Target_Smite_Wrathful;" />
@@ -656,6 +690,47 @@
         <field name="UUID" type="IdTableFieldDefinition" value="49a63d5c-04a3-4f20-8da5-fa75136b0255" />
         <field name="Name" type="NameTableFieldDefinition" value="Paladin Vengance Spells level 9" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Haste;Target_ProtectionFromEnergy" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF006400" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="40b9f92a-90a7-45dd-a189-1b249b2c49a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RANGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36f318d0-a713-4ee1-b3ef-a88bbf816f75" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Ranger Level 1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_HuntersMark" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee73fb2d-f232-438d-b221-321973694335" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Ranger Level 10" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Tireless" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="458be063-60d4-4548-ae7d-50117fa0226f" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Ranger SLevel 1 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimalFriendship;Target_CureWounds;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7cfb80a-f5c2-4304-8446-9b00ea6a9814" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Ranger SLevel 2 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Zone_GustOfWind;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a60f649-7f82-4152-90b1-0499c5c9f3e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Ranger SLevel 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_ConjureBarrage;Target_Daylight_Container;Target_ElementalWeapon;Projectile_LightningArrow;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify" />
       </fields>
     </stat_object>
   </stat_objects>
