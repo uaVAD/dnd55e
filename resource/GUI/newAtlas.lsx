@@ -40,6 +40,13 @@
                     <attribute id="V2" type="float" value="0.031005859"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Action_Throw_BonusAction"/>
+                    <attribute id="U1" type="float" value="0.68774414"/>
+                    <attribute id="U2" type="float" value="0.71850586"/>
+                    <attribute id="V1" type="float" value="0.00024414062"/>
+                    <attribute id="V2" type="float" value="0.031005859"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Cleric_DivineSpark_Heal"/>
                     <attribute id="U1" type="float" value="0.062744141"/>
                     <attribute id="U2" type="float" value="0.093505859"/>

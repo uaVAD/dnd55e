@@ -253,5 +253,29 @@
         <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="5187426d-4d37-4e6f-832b-460c049d0d6a" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12d794c8-78c9-47d5-807d-87e0e9f4bfca" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ROGUE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67cb9002-a680-4fb9-a349-654de1259a34" />
+        <field name="Name" type="NameTableFieldDefinition" value="SneakAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a3ee454-7f4e-4a48-ac31-756e8d28a024" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7d2107e-e029-4216-a6d0-d63b2f47d5fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="SneakAttack_Rakish" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e950a0a4-276f-404a-a5d2-ffd55ebdba6b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

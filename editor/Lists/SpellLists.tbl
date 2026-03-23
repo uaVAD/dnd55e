@@ -754,5 +754,18 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Zone_Fear" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e828d11-d946-450c-9152-b893b5f05511" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ROGUE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a9f03ae-49e7-4dee-a3a5-8e7bb395d5ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Assassin Level 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_DisguiseSelf;Shout_PoisonersKit" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

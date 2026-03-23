@@ -487,4 +487,43 @@
   <content contentuid="hfd10997cg1b63g1960g4918ga9e47736c018" version="1">Level 11: Superior Hunter’s Prey</content>
   <content contentuid="h156a3a97g9e6bg053egabdeg9a8bfdfcdee2" version="1">Once per turn when you deal damage to a creature marked by your Hunter’s Mark, you can also deal that spell’s extra damage to a different creature that you can see within [1] of the first creature.</content>
   <content contentuid="h2484eb83g2df9g26e8gd9a4g528b38f355d5" version="1">Superior Hunter’s Prey</content>
+  <content contentuid="h6d51897ag955egeb37g57b9g59eddbb044d1" version="1">Steady Aim</content>
+  <content contentuid="h8b43db08gaf12gc02agb86cge29d6c39df7f" version="1">As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven’t moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.</content>
+  <content contentuid="h8cfd42a3ge9ddg2a7bg7928g2b06b4cc30ec" version="1">Steady Aim</content>
+  <content contentuid="haf3b75e3g8f42g8af5ge959ga8ee656088f7" version="1">As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven’t moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.</content>
+  <content contentuid="h4c5295e0g7006g010bg62b8gfa3c901f3027" version="1">Level 3: Steady Aim</content>
+  <content contentuid="h49585eb0g7c75g3df5g4aacg38e6e664edb2" version="1">As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven’t moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.</content>
+  <content contentuid="hdd434d50g0d94g6819ge916g55203c553e86" version="1">Level 7: Reliable Talent</content>
+  <content contentuid="h21f511b2g92a9g1aafg61d4g9e8e4ad1e872" version="1">Level 5: Uncanny Dodge</content>
+  <content contentuid="he94ba142g4f1bg9badge483g5c206c0854b1" version="1">Level 7: Evasion</content>
+  <content contentuid="h97dd1bbcg1ca7g6953g67d7g155182b6526b" version="1">You can nimbly dodge out of the way of certain dangers. When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can’t use this feature if you have the Incapacitated condition.</content>
+  <content contentuid="h95ef44fegf44dg26b7g490bg4d2254baeba6" version="1">When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.&lt;br&gt;&lt;br&gt;You don’t benefit from this feature if you have the Incapacitated condition.</content>
+  <content contentuid="h0523c40bg9f42g36bcg9e1cg6081c59ba79a" version="1">Level 11: Improved Sneak Attack</content>
+  <content contentuid="hd984038eg2324g666bg83degd9c1722e9df2" version="1">Your Sneak Attack’s damage dice increase by an additional 2d6.</content>
+  <content contentuid="h29957e67gbc02g6407ga341g2f35096e19da" version="1">Level 9: Magical Ambush</content>
+  <content contentuid="hfa85e2b2g9e54g0b5ag0128gfecef70e4d09" version="1">Level 3: Mage Hand Legerdemain</content>
+  <content contentuid="hd3262b0cgdce0gf4d4g8fc6g529f4ebed5df" version="1">Level 3: Assassinate: Initiative</content>
+  <content contentuid="hf4183fbcg8e1dg3584gff57g9ebed1bead51" version="2">You have Advantage on Initiative rolls.</content>
+  <content contentuid="he1d36468gaf5dg2d18ge59agffc2c79d636d" version="1">Level 3: Assassinate: Surprising Strikes</content>
+  <content contentuid="hf357f8d7g161dg5711g5d18gf26bc2d2273f" version="1">During the first round of each combat, you have Advantage on attack rolls against any creature that hasn’t taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon’s type equal to your Rogue level.</content>
+  <content contentuid="hc2fcccc7g38b5gff46g5362gc9de3dd4f7ea" version="1">Level 3: Assassin’s Tools</content>
+  <content contentuid="h1164cde2g07a2g7ecag87dag7b7ebcb49bf2" version="1">You gain a Disguise Kit and a Poisoner’s Kit, and you have proficiency with them.</content>
+  <content contentuid="hbd7ad3e9g7a42gc5e6gc2fdga2aedc0b75ce" version="2">Use Poisoner’s Kit: Poison</content>
+  <content contentuid="h5a82f53dg51e2g741cg6a2dg0b0bcdccd4fd" version="1">Use Poisoner’s Kit: Toxin</content>
+  <content contentuid="h39c54639gfc00g9983g819dg040b092116ce" version="1">Apply Toxin to your currently equipped weapon set.</content>
+  <content contentuid="h8c7b0986g2c44g4065gc905g112f0d2b3ba7" version="1">Apply Poison to your currently equipped weapon set.</content>
+  <content contentuid="h23ed695dg9dc7gde96ge8bdgdd8f39573f79" version="1">The Poison you apply becomes more potent each time you reach Rogue levels 5 and 9.</content>
+  <content contentuid="h38a88f4cg35f3g31d8g00d6g8d7544ea0cd0" version="1">Use Poisoner’s Kit</content>
+  <content contentuid="h910e9fadg34c1gb42dg1da1g53563f066381" version="1">Apply Poison or Toxin to your currently equipped weapon set.</content>
+  <content contentuid="h653acf2cg148dg50a8g434ag58a00ffde028" version="1">The Poison you apply becomes more potent each time you reach Rogue levels 5 and 9.</content>
+  <content contentuid="heebd36b4ga479g75bcg0438gf61e56996e7a" version="1">Roving Aim</content>
+  <content contentuid="hbdd3e730g8e9bgceceg9259g246346c857b2" version="1">As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn.</content>
+  <content contentuid="h6eedf8b2gca4cg0d52g60e6g6356346c4feb" version="1">Roving Aim</content>
+  <content contentuid="hae41811bg62eeg0a5bge75bgde45ea1213a3" version="1">As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn.</content>
+  <content contentuid="h6e517fa0g6790g8599ga038gec0254c7fae0" version="1">Level 9: Roving Aim</content>
+  <content contentuid="h4ad37d2fg7e63g64e1g0db3g45844045ca7d" version="1">Your Speed isn’t reduced to 0 by using Steady Aim.</content>
+  <content contentuid="he1072514g2359gf4c9g9ab0gf2fd8d2183ce" version="1">Level 3: Fast Hands</content>
+  <content contentuid="h127592e2g23a4gc43cg2c3fgbbf222b3b2d1" version="1">You can use Throw as a Bonus Action.</content>
+  <content contentuid="h3cad8c7eg48eeg5692g23c0g79706df73d92" version="1">Level 3: Second-Story Work</content>
+  <content contentuid="h2fc3807bg34e4gbdbeg88f4gb50fa0facd7e" version="1">Throw: Fast Hand</content>
 </contentList>

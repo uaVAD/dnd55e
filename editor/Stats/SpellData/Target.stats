@@ -1429,5 +1429,31 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f65c712-da74-4661-93e4-eaf8c8806b89" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ROGUE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2dd359f1-c98e-4a66-87bf-efe6b92a4726" />
+        <field name="Name" type="NameTableFieldDefinition" value="SneakAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f124fec-1605-4952-a13f-f61f92cb53f8" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c258cd6e-0530-4987-a69e-fd0eadcc3e0a" />
+        <field name="Name" type="NameTableFieldDefinition" value="SneakAttack_Rakish" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="38618677-f8b1-4853-a1d7-77f987edaf15" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1;" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

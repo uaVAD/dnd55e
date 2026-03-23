@@ -99,14 +99,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="fa11ce4d-2d1d-4fa0-b3cc-4a9a23b611ba" />
-        <field name="Name" type="NameTableFieldDefinition" value="Evasion" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="ebbd6a90-d7e3-437f-ba6c-bf4f8966563e" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb9a361cg3dadgecb2gdae1g23fc5f5c3919" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5626b21a-f80a-4f55-bb46-19cca7ba91b4" />
         <field name="Name" type="NameTableFieldDefinition" value="Illusion_Disappear" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d409d52c-cf4c-4890-bd3c-0917c63a066f" />
@@ -1531,6 +1523,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fa11ce4d-2d1d-4fa0-b3cc-4a9a23b611ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="Monk_7_Evasion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ebbd6a90-d7e3-437f-ba6c-bf4f8966563e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb9a361cg3dadgecb2gdae1g23fc5f5c3919" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95ef44fegf44dg26b7g490bg4d2254baeba6" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1499f897-57a4-4af7-a2d8-a61654655694" />
         <field name="Name" type="NameTableFieldDefinition" value="UnarmoredMovement_DifficultTerrain" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b9c4419e-682c-4bbc-a70e-c19ca0ff49ad" />
@@ -1837,6 +1838,152 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and TotalAttackDamageDoneGreaterThan(0)" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasPassive('Hunter_11_SuperiorHuntersPrey',context.Source)):SpawnExtraProjectiles(Projectile_SuperiorHuntersPrey)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b0a0ebb-4421-4f97-8a0e-a46bdf2729c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ROGUE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb191df6-cd9c-46ff-b89e-b86fd4765594" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rogue_3_SteadyAim" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4c5295e0g7006g010bg62b8gfa3c901f3027" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49585eb0g7c75g3df5g4aacg38e6e664edb2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Sharpshooter_AllIn" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9003" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SteadyAim);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5fcac028-e182-4a70-a8b4-2a663ac054df" />
+        <field name="Name" type="NameTableFieldDefinition" value="UncannyDodge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21f511b2g92a9g1aafg61d4g9e8e4ad1e872" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9005" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbce769f-f6c2-443a-a4b2-8abcf247b7b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ReliableTalent" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e15ffa49-4fa8-4a41-a7aa-aed8c77df506" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd434d50g0d94g6819ge916g55203c553e86" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9007" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c155d842-60eb-4a11-8c30-e84cc9eff703" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rogue_7_Evasion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ebbd6a90-d7e3-437f-ba6c-bf4f8966563e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he94ba142g4f1bg9badge483g5c206c0854b1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97dd1bbcg1ca7g6953g67d7g155182b6526b" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9007" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c24eb39d-4c2d-4265-afe3-48d0584ab261" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rogue_11_ImprovedSneakAttack" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0523c40bg9f42g36bcg9e1cg6081c59ba79a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd984038eg2324g666bg83degd9c1722e9df2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_SneakAttack_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9011" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="636095c0-d228-400d-8e63-30848bcbda19" />
+        <field name="Name" type="NameTableFieldDefinition" value="MageHandLegerdemain" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c3fe07b3-e3d0-425d-b3bd-4b52fb9f77ad" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa85e2b2g9e54g0b5ag0128gfecef70e4d09" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9103" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b6e2ca5d-e1c3-474b-a389-f942b9b1fb4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicalAmbush" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="991c8490-288d-493e-a06f-1b25960bf511" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h29957e67gbc02g6407ga341g2f35096e19da" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9109" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('SNEAKING_CLEAR') or StatusId('SNEAKING_LIGHTLY_OBSCURED') or StatusId('SNEAKING_HEAVILY_OBSCURED') or StatusId('INVISIBILITY');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90d54470-8ec8-4873-a216-1f5e0e82c517" />
+        <field name="Name" type="NameTableFieldDefinition" value="Assassinate_Initiative" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e914fd30-c528-4cba-9876-a24ecf285dd7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3262b0cgdce0gf4d4g8fc6g529f4ebed5df" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4183fbcg8e1dg3584gff57g9ebed1bead51" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9203" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85d3e13f-73bc-4739-9289-eb52b8cd2770" />
+        <field name="Name" type="NameTableFieldDefinition" value="Assassinate_Ambush" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="52f3daf0-87ad-488c-9566-879648a27f54" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1d36468gaf5dg2d18ge59agffc2c79d636d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf357f8d7g161dg5711g5d18gf26bc2d2273f" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerCombat" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(Combat(context.Source) and Combat() and not HadTurnInCombat()):Advantage(AttackRoll)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and not IsMiss() TurnBased();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(ClassLevel(Rogue), MainMeleeWeaponDamageType,,,0,,true,true);IF(IsRangedAttack()):DealDamage(ClassLevel(Rogue), MainRangedWeaponDamageType,,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5588a79-1c47-4c56-884c-3bdfd0c77c87" />
+        <field name="Name" type="NameTableFieldDefinition" value="Assassin_3_AssassinsTool" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc2fcccc7g38b5gff46g5362gc9de3dd4f7ea" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1164cde2g07a2g7ecag87dag7b7ebcb49bf2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DippedPoison_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerCombat" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DisguiseSelf);UnlockSpell(Shout_PoisonersKit);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="993f4aa9-d21a-45fb-9207-77ab73c1602a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Assassin_9_RovingAim" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6e517fa0g6790g8599ga038gec0254c7fae0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ad37d2fg7e63g64e1g0db3g45844045ca7d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Sharpshooter_Bonuses" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9209" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RovingAim);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7bfc8875-df63-496a-ac51-d61e0248731f" />
+        <field name="Name" type="NameTableFieldDefinition" value="FastHands" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e9e92b95-52aa-43b7-8bdd-9227da38fbaf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1072514g2359gf4c9g9ab0gf2fd8d2183ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h127592e2g23a4gc43cg2c3fgbbf222b3b2d1" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Throw_Throw_BonusAction);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b9ccf1b-b19a-4edb-a5b8-18cb89e30d98" />
+        <field name="Name" type="NameTableFieldDefinition" value="SecondStoryWork" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7d8b1526-a786-41eb-8ab4-ce9928660f06" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3cad8c7eg48eeg5692g23c0g79706df73d92" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9303" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -887,5 +887,44 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39e698f0-48ae-4ed4-9252-450f0affe63c" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ROGUE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94ddf858-04ab-4e61-9717-c605ec620d29" />
+        <field name="Name" type="NameTableFieldDefinition" value="STEADY_AIM" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d51897ag955egeb37g57b9g59eddbb044d1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8b43db08gaf12gc02agb86cge29d6c39df7f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Sharpshooter_AllIn" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STEADY_AIM" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackRoll);ActionResourceBlock(Movement);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="d22b072c-466c-4e83-a692-6db08d9e1a54" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b58054bf-0ea1-4ba6-a761-35f38e88e354" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICAL_AMBUSH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4eae214a-aac7-430a-a256-2216a6ec7265" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('SNEAKING_CLEAR') and not HasStatus('SNEAKING_LIGHTLY_OBSCURED') and not HasStatus('SNEAKING_HEAVILY_OBSCURED') and not HasStatus('INVISIBILITY')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3145e363-5648-42ee-b157-4c88c283bd33" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROVING_AIM" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="94ddf858-04ab-4e61-9717-c605ec620d29" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heebd36b4ga479g75bcg0438gf61e56996e7a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbdd3e730g8e9bgceceg9259g246346c857b2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Sharpshooter_Bonuses" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackRoll);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

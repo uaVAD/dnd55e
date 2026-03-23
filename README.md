@@ -87,8 +87,12 @@
   - [ ] Swarm Keeper
 - [x] Spell List
 ### Rogue
-- [ ] Class
+- [x] Class
 - [ ] Subclass
+  - [x] Arcane Trickster
+  - [x] Assassin
+  - [ ] Soulknife
+  - [x] Thief
 ### Sorcerer
 - [ ] Class
 - [ ] Subclass

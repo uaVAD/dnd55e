@@ -17,5 +17,15 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(IsLightThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(2d4,Bludgeoning);TARGET:IF(IsMediumThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(3d4,Bludgeoning);TARGET:IF(IsHeavyThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(3d4,Bludgeoning);TARGET:IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject)):DealDamage(ThrownWeapon, ThrownWeaponDamageType);TARGET:IF(HasWeightGreaterThan(context.Target.Weight/2, context.HitDescription.ThrownObject)):Force(2);TARGET:IF(HasWeightGreaterThan(context.Target.Weight, context.HitDescription.ThrownObject)):ApplyStatus(PRONE,100,1);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c0af544-09b8-43f6-9aaf-e21915785497" />
+        <field name="Name" type="NameTableFieldDefinition" value="Throw_BonusAction" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="75f02344-5f9b-49af-a1dc-d2840baeef01" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Throw_BonusAction" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2fc3807bg34e4gbdbeg88f4gb50fa0facd7e" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
