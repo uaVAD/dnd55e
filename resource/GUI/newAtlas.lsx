@@ -117,6 +117,13 @@
                     <attribute id="V2" type="float" value="0.031005859"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Abjuration_ArcaneVigor"/>
+                    <attribute id="U1" type="float" value="0.81274414"/>
+                    <attribute id="U2" type="float" value="0.84350586"/>
+                    <attribute id="V1" type="float" value="0.00024414062"/>
+                    <attribute id="V2" type="float" value="0.031005859"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_Conjuration_FindSteed"/>
                     <attribute id="U1" type="float" value="0.65649414"/>
                     <attribute id="U2" type="float" value="0.68725586"/>
