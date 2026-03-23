@@ -3449,7 +3449,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Ranger" />
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(89384c46-b6e2-4d3c-b61e-e48b932beafb);SelectSpells(9a60f649-7f82-4152-90b1-0499c5c9f3e2,0,1);AddSpells(ee73fb2d-f232-438d-b221-321973694335,,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(ee73fb2d-f232-438d-b221-321973694335,,,,AlwaysPrepared)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Ranger_10_Tireless" />
       </fields>
     </stat_object>
@@ -3462,7 +3462,6 @@
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,3)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(9a60f649-7f82-4152-90b1-0499c5c9f3e2,1,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3475,7 +3474,218 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,3)" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(9a60f649-7f82-4152-90b1-0499c5c9f3e2,0,1)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF006400" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_69" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ae1976c3-e7c1-4538-9b8f-f92690c58f40" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ba04e99-e329-471d-a656-bbd5a363d7c8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BeastMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_70" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5a7972b1-043d-4471-8609-7de9f4f95fd8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ba04e99-e329-471d-a656-bbd5a363d7c8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BeastMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_71" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8272e6af-c9e4-433a-ac1c-9fab6e1db55c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ba04e99-e329-471d-a656-bbd5a363d7c8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BeastMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(93ba8d5f-e25a-40d6-ab25-a19af93130c7,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_72" />
+        <field name="UUID" type="IdTableFieldDefinition" value="df52c6f2-ae53-42e0-b4ab-1ec5b941afc1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ba04e99-e329-471d-a656-bbd5a363d7c8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BeastMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_73" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7d97a63d-248e-481a-ac37-32f1f61af888" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ba04e99-e329-471d-a656-bbd5a363d7c8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BeastMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="CompanionsBond" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_409" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6e314b81-1f3d-4a6b-867a-5d47eabd7653" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ba04e99-e329-471d-a656-bbd5a363d7c8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BeastMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_419" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7eb63ebb-0a7d-4836-a9da-54fade479ff8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ba04e99-e329-471d-a656-bbd5a363d7c8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BeastMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BestialFury" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF006400" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_432" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eec15b08-4d6a-447d-aa3f-225008c6ac68" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="caa60bb8-8ca3-4871-b034-e10a6bc8ca29" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GloomStalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_435" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eb626cba-656a-4bd1-9a19-2fc9b986c86b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="caa60bb8-8ca3-4871-b034-e10a6bc8ca29" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GloomStalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_436" />
+        <field name="UUID" type="IdTableFieldDefinition" value="38240899-8a43-43e4-927c-9dd0d2fa0a50" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="caa60bb8-8ca3-4871-b034-e10a6bc8ca29" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GloomStalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DreadAmbusher;SuperiorDarkvision" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(5ea6abd7-3e02-4e8d-9220-8a400e0019a4,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_441" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0593eba5-10a2-42a7-a5be-260cae52b0e0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="caa60bb8-8ca3-4871-b034-e10a6bc8ca29" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GloomStalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(5bb07252-9a62-465a-936f-0ee475b586d1,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_437" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c785c564-4676-4ad0-adf9-ea3d80caceb2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="caa60bb8-8ca3-4871-b034-e10a6bc8ca29" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GloomStalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="IronMind" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_440" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ccba51a3-43e9-4c4c-83cf-f33ccbf8fb93" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="caa60bb8-8ca3-4871-b034-e10a6bc8ca29" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GloomStalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(4a23c3c3-e6f7-48a4-a883-8ac2f6a2c97a,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_438" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9ef95460-d304-459a-8617-d1044fdf8695" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="caa60bb8-8ca3-4871-b034-e10a6bc8ca29" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GloomStalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="StalkersFlurry" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_74" />
+        <field name="UUID" type="IdTableFieldDefinition" value="98279793-d1d6-4ab4-af0f-e99faacbde89" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Hunter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_198" />
+        <field name="UUID" type="IdTableFieldDefinition" value="37300347-8d5e-4c7a-998d-fa369d3b219c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Hunter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_229" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c38e8775-d886-49d8-ba53-0b70a9fbe306" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Hunter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(26b53d40-13eb-4db6-80f4-bde7bd09c52d,1,HuntersPrey)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_252" />
+        <field name="UUID" type="IdTableFieldDefinition" value="343acf32-39ca-494e-9b33-2b4d7d74093b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Hunter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_279" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b998b7f5-335a-47d8-b026-438f0ea10b4c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Hunter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(657f1f36-cd2e-4acb-817c-60ec3cac3671,1,DefensiveTactics)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_281" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6b85e5f7-73d9-4a4b-97a6-7fd4d7df0d66" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Hunter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
   </stat_objects>

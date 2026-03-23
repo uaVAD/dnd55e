@@ -80,6 +80,11 @@
 ### Ranger
 - [x] Class
 - [ ] Subclass
+  - [ ] Beast Master
+  - [ ] Fey Wanderer
+  - [x] Gloom Stalker
+  - [x] Hunter
+  - [ ] Swarm Keeper
 - [x] Spell List
 ### Rogue
 - [ ] Class

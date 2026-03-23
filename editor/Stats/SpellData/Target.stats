@@ -1409,5 +1409,25 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
       </fields>
     </stat_object>
+    <stat_object color="#FF006400" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f46d6c3-537e-48de-b08f-3a0a2d5fe53a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RANGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00619bcf-f11f-4a2a-9808-0ad3787635a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DreadAmbusher" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aedbecc3-88fd-41d7-b842-2338c6ea1bb1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);DealDamage(LevelMapValue(DreadfulStrike),Psychic);ExecuteWeaponFunctors(MainHand);IF(HasPassive(StalkersFlurry,context.Source)):ApplyStatus(FRIGHTENED,100,2,,,,not SavingThrow(Ability.Wisdom,SourceSpellDC()));" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5f7c0abdg7063gcfe9g177egb32caeb5c2c3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(DreadfulStrike),Psychic);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;DreadfulStrike:1;DreadfulStrikeTurn:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;CanDualWield" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -470,4 +470,21 @@
   <content contentuid="h3c5b5f7eg291agf227g9011gc0565f5cdd4d" version="1">As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1).</content>
   <content contentuid="hcff76038gf183g3e0cg380cgd7a4d9b485d4" version="1">Ranger</content>
   <content contentuid="hbd354410g485cg7eb3gce6cg2beae2ab9c6b" version="1">Rangers are unrivalled scouts and trackers, honing a deep connection with nature in order to hunt their favoured prey.</content>
+  <content contentuid="h051d1aa3gfcbeg10d5g5326g1eec2d4e3962" version="1">Level 7: Exceptional Training</content>
+  <content contentuid="he1cd6837ge579g13b4g4394g33ea8c725e00" version="1">Level 11: Bestial Fury</content>
+  <content contentuid="h1fe98af2g42d0g348cga592g953cb60ce5e7" version="1">Level 5: Companion's Bond</content>
+  <content contentuid="hb6c39153g0c9dg0ddeg1910g4688906cf811" version="1">Level 3: Dread Ambusher</content>
+  <content contentuid="h761a2d1bgfaa4g6c2fgbda3g198675b6a886" version="1">You have mastered the art of creating fearsome ambushes, granting you the following benefits.&lt;br&gt;&lt;br&gt;Ambusher’s Leap. At the start of your first turn of each combat, your Speed increases by [1] until the end of that turn.&lt;br&gt;&lt;br&gt;Dreadful Strike. When you attack a creature and hit it with a weapon, you can deal an extra [2]. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.&lt;br&gt;&lt;br&gt;Initiative Bonus. When you roll Initiative, you can add your Wisdom modifier to the roll.</content>
+  <content contentuid="h3b984b2eg48d2ga0a4g5cf8g78f1337ffab6" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
+  <content contentuid="hbfb12c80g2d3cg0fc7ga570g61985f1e0903" version="1">Dreadful Strike</content>
+  <content contentuid="hf0903b4fgdab0g610fgf651g1cf01ed26e14" version="1">When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</content>
+  <content contentuid="h5f7c0abdg7063gcfe9g177egb32caeb5c2c3" version="1">Dreadful Strike (Melee)</content>
+  <content contentuid="hf3f8bd9cg3004g6dbbg08e2g587dc0432a14" version="1">Dreadful Strike (Ranged)</content>
+  <content contentuid="h44cf5afdg1bddgc6d5g9577gcc6cc00bfd12" version="1">Level 7: Iron Mind</content>
+  <content contentuid="h834d7e4cg19fdgd3acg2b88g50ab0030af80" version="1">You have honed your ability to resist mind-altering powers. You gain proficiency in Wisdom saving throws.</content>
+  <content contentuid="hd3f07304gfb55ge28ega3f7g0cf1292516a3" version="1">Level 11: Stalker’s Flurry</content>
+  <content contentuid="h374216bbgf985gc96cg64b3g959b101fd376" version="1">The Psychic damage of your Dreadful Strike becomes 2d8. The target must make a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn.&lt;br&gt;&lt;br&gt;You are swift enough to turn a miss into a new strike. When you miss with a weapon attack, you can make another weapon attack for free.</content>
+  <content contentuid="hfd10997cg1b63g1960g4918ga9e47736c018" version="1">Level 11: Superior Hunter’s Prey</content>
+  <content contentuid="h156a3a97g9e6bg053egabdeg9a8bfdfcdee2" version="1">Once per turn when you deal damage to a creature marked by your Hunter’s Mark, you can also deal that spell’s extra damage to a different creature that you can see within [1] of the first creature.</content>
+  <content contentuid="h2484eb83g2df9g26e8gd9a4g528b38f355d5" version="1">Superior Hunter’s Prey</content>
 </contentList>

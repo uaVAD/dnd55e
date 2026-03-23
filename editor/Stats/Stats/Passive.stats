@@ -408,6 +408,21 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38aab3fd-9a52-4b1b-bb15-add338d8d6c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DIVINATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba80bfc3-baf5-4d90-b899-025253148a73" />
+        <field name="Name" type="NameTableFieldDefinition" value="HuntersMark" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="57c81a71-acd5-4238-b1d5-632a7497de77" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit)):CharacterWeaponDamage(1d6,Force);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="90a48a8f-a669-4592-be85-fa862f22c44f" />
         <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__" />
       </fields>
@@ -1747,6 +1762,81 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(Tireless,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dca0a137-87c9-4d30-a301-bd79efa9d819" />
+        <field name="Name" type="NameTableFieldDefinition" value="CompanionsBond" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c6628fcc-928d-48b6-93b8-6d0001e5bba6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1fe98af2g42d0g348cga592g953cb60ce5e7" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8105" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce881b42-265e-4f3c-82e1-0e3d918dd9a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExceptionalTraining" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1835a063-8cd7-4a6c-83e9-bcea2edfde84" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h051d1aa3gfcbeg10d5g5326g1eec2d4e3962" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8107" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b8490dd-d632-4d54-ac41-d508f05ca41e" />
+        <field name="Name" type="NameTableFieldDefinition" value="BestialFury" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="83ebe90d-d9b6-4f45-a54c-71df272a8aab" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1cd6837ge579g13b4g4394g33ea8c725e00" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8111" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="58f3fcbf-861b-44ff-a868-bb2f135c43b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DreadAmbusher" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7192d1f0-9cee-4a20-95cb-327c58d3b4ee" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb6c39153g0c9dg0ddeg1910g4688906cf811" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h761a2d1bgfaa4g6c2fgbda3g198675b6a886" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(LevelMapValue(DreadfulStrike),Psychic)" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8203" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(1);ActionResource(DreadfulStrike,1,0);ActionResource(DreadfulStrikeTurn,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(DreadfulStrike,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(DreadfulStrike,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(DreadfulStrike,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(DreadfulStrike,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(DreadfulStrike,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(DreadfulStrike,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):Initiative(1);IF(AbilityGreaterThan('Wisdom',15,context.Source)):Initiative(1);IF(AbilityGreaterThan('Wisdom',17,context.Source)):Initiative(1);IF(AbilityGreaterThan('Wisdom',19,context.Source)):Initiative(1);IF(AbilityGreaterThan('Wisdom',21,context.Source)):Initiative(1);IF(AbilityGreaterThan('Wisdom',23,context.Source)):Initiative(1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="95daaba2-46eb-47f9-8766-53a02ae5b506" />
+        <field name="Name" type="NameTableFieldDefinition" value="IronMind" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cfe68a47-c33d-48ef-8956-ed310e3eaf24" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h44cf5afdg1bddgc6d5g9577gcc6cc00bfd12" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h834d7e4cg19fdgd3acg2b88g50ab0030af80" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8207" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Wisdom);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="18358520-7cbc-4cbd-9884-4b80dc5e54d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="StalkersFlurry" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="889d6042-0c25-41ea-8b55-5004a05692db" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3f07304gfb55ge28ega3f7g0cf1292516a3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h374216bbgf985gc96cg64b3g959b101fd376" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8211" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9fcb2303-b1df-4ae8-87c8-60a60914b206" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hunter_11_SuperiorHuntersPrey" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfd10997cg1b63g1960g4918ga9e47736c018" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h156a3a97g9e6bg053egabdeg9a8bfdfcdee2" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HuntersMark" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8311" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and TotalAttackDamageDoneGreaterThan(0)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasPassive('Hunter_11_SuperiorHuntersPrey',context.Source)):SpawnExtraProjectiles(Projectile_SuperiorHuntersPrey)" />
       </fields>
     </stat_object>
   </stat_objects>

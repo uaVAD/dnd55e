@@ -876,5 +876,16 @@
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97483965-d55f-4c5e-a20b-b80a77f1c376" />
+        <field name="Name" type="NameTableFieldDefinition" value="DREAD_AMBUSHER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="506a5f1e-aa12-4c63-8f0f-6ea7b35f3846" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3b984b2eg48d2ga0a4g5cf8g78f1337ffab6" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,3,0);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

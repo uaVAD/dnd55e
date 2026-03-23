@@ -733,5 +733,26 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Zone_ConjureBarrage;Target_Daylight_Container;Target_ElementalWeapon;Projectile_LightningArrow;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ea6abd7-3e02-4e8d-9220-8a400e0019a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Gloom Stalker Level 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_DisguiseSelf;Target_DreadAmbusher;Projectile_DreadAmbusher" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5bb07252-9a62-465a-936f-0ee475b586d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Gloom Stalker Level 5 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_MistyStep" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a23c3c3-e6f7-48a4-a883-8ac2f6a2c97a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Gloom Stalker Level 9 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_Fear" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
