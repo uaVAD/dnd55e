@@ -1,13 +1,5 @@
-function TrueStrikeMelee()
-    return SpellId('Target_TrueStrike_Weapon') | SpellId('Target_TrueStrike_Radiant') | SpellId('Target_TrueStrike_Radiant_Sneak') | SpellId('Target_MAG_TrueStrike_Radiant')
-end
-
-function TrueStrikeRanged()
-    return SpellId('Projectile_TrueStrike_Weapon') | SpellId('Projectile_TrueStrike_Radiant') | SpellId('Projectile_TrueStrike_Radiant_Sneak')
-end
-
-function TrueStrikeCheck()
-    return TrueStrikeMelee() | TrueStrikeRanged()
+function TrueStrike()
+    return SpellId('Target_TrueStrike_Melee') | SpellId('Target_TrueStrike_Radiant')
 end
 
 function BreathWeaponCheck()
@@ -15,7 +7,7 @@ function BreathWeaponCheck()
 end
 
 function ExtraAttackSpellCheck()
-    return ~TrueStrikeCheck() & ~SpellId('Target_VengefulBlade') & ~SpellId('Target_BoomingBlade_ClassSpell') & ~SpellId('Target_GreenFlameBlade') & HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Shove') | SpellId('Target_Trip') | BreathWeaponCheck() | SpellId('Target_BootOfTheGiants') | SpellId('Teleportation_PactOfTheChain')
+    return ~TrueStrike() & ~SpellId('Target_VengefulBlade') & ~SpellId('Target_BoomingBlade_ClassSpell') & ~SpellId('Target_GreenFlameBlade') & HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Shove') | SpellId('Target_Trip') | BreathWeaponCheck() | SpellId('Target_BootOfTheGiants') | SpellId('Teleportation_PactOfTheChain')
 end
 
 function ExtraAttackCheck()

@@ -121,5 +121,19 @@
         <field name="Level10" type="StringTableFieldDefinition" value="3d8" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="TrueStrike" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fbca8e98-2511-42e8-8d16-e1724e604a39" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level6" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level7" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level8" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level9" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level10" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level11" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level12" type="StringTableFieldDefinition" value="2d6" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

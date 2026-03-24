@@ -217,7 +217,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Ranged" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Push', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and not IsMiss();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:Force(3);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(TargetSizeEqualOrSmaller(Size.Large)):Force(3);" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Push', context.Source);" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
@@ -2217,6 +2217,22 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e07a3f3a-fb0f-488b-9ef1-a3c8ca82cf87" />
+        <field name="Name" type="NameTableFieldDefinition" value="ThirstingBlade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2501172gdfd6gb7ebg0621ga38a34e3f573" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha794dab4gf433ga08bg7d82gda68964c691c" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h8d4f86adg3e6fg113dg666fg926e6f0083ba" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheBlade" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('PactOfTheBlade_Hex',context.Source) and ClassLevelHigherOrEqualThan(5,'Warlock',context.Source) and ((context.HasContextFlag(StatsFunctorContext.OnCast) and ExtraAttackSpellCheck() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source) and (HasPactWeapon(context.Source) or HasHexbladeWeapon(context.Source))) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased() and (HasPactWeapon(context.Target) or  HasHexbladeWeapon(context.Target))) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_THIRSTING_BLADE_Q'))) and (HasPassive('PactOfTheBlade',context.Source) or HasPassive('PactOfTheBlade_Hex',context.Source));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_THIRSTING_BLADE_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE, 100, 1)" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="71624f19-f85d-4e65-b7e8-87faf7a2c01d" />
         <field name="Name" type="NameTableFieldDefinition" value="ThirstingBlade_Check" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c1dba3ag239egef50g0d52g47241e4e6016" version="1" />
@@ -2224,6 +2240,8 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Warlock_PactOfTheChain_Imp" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h17b4c239g8209gd0fbg57b8gadfb6d1e2826" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2237,21 +2255,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheTome" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="HasPassive('PactOfTheTome',context.Source) and ClassLevelHigherOrEqualThan(5,'Warlock',context.Source);" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AnimateDead,Singular,,UntilRest,Charisma);UnlockSpell(Target_CallLightning,Singular,,UntilRest,Charisma);UnlockSpell(Target_Haste,Singular,,UntilRest,Charisma)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e07a3f3a-fb0f-488b-9ef1-a3c8ca82cf87" />
-        <field name="Name" type="NameTableFieldDefinition" value="ThirstingBlade" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2501172gdfd6gb7ebg0621ga38a34e3f573" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha794dab4gf433ga08bg7d82gda68964c691c" version="1" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h8d4f86adg3e6fg113dg666fg926e6f0083ba" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheBlade" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="((context.HasContextFlag(StatsFunctorContext.OnCast) and ExtraAttackSpellCheck() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source) and (HasPactWeapon(context.Source) or HasHexbladeWeapon(context.Source))) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased() and (HasPactWeapon(context.Target) or  HasHexbladeWeapon(context.Target))) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_THIRSTING_BLADE_Q'))) and (HasPassive('PactOfTheBlade',context.Source) or HasPassive('PactOfTheBlade_Hex',context.Source));" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_THIRSTING_BLADE_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE, 100, 1)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h170d4635g2a45gd51dg6f7cg0cc6d58ae805" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2264,6 +2269,9 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="HasPassive('PactOfTheBlade_Hex',context.Source) and ClassLevelHigherOrEqualThan(5,'Warlock',context.Source);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Smite_Eldritch,MostPowerful);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2361,9 +2369,12 @@
         <field name="Name" type="NameTableFieldDefinition" value="Lifedrinker" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="860972fa-757f-4db6-991f-d7dc7c4d8593" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8aec518g6d45g1454g58cbgbac23fec6617" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35551526g84e1g78f3g1277g241f3a6077bb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35551526g84e1g78f3g1277g241f3a6077bb" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb7444fe8g6554g6a31ged37g03cc050ef8d3" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1109" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('PactOfTheBlade_Hex',context.Source) and ClassLevelHigherOrEqualThan(9,'Warlock',context.Source) and not IsMiss() and IsMeleeWeaponAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d6,Necrotic,Magical);RegainHitPoints(SELF,1d6+ConstitutionModifier)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2404,6 +2415,9 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1112" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheBlade" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('PactOfTheBlade_Hex',context.Source) and HasPassive('ThirstingBlade',context.Source) and ClassLevelHigherOrEqualThan(12,'Warlock',context.Source) and ((context.HasContextFlag(StatsFunctorContext.OnCast) and ExtraAttackSpellCheck() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source) and (HasPactWeapon(context.Source) or HasHexbladeWeapon(context.Source))) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased() and (HasPactWeapon(context.Target) or  HasHexbladeWeapon(context.Target))) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_THIRSTING_BLADE_Q'))) and (HasPassive('PactOfTheBlade',context.Source) or HasPassive('PactOfTheBlade_Hex',context.Source));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_THIRSTING_BLADE_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_2, 100, 1)" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -104,7 +104,7 @@
   - [ ] Wild Magic
 - [x] Spell List
 ### Warlock
-- [ ] Class
+- [x] Class
 - [ ] Subclass
   - [ ] Archfey
   - [ ] Celestial
@@ -113,9 +113,12 @@
   - [ ] Hexblade
 - [x] Spell List
 - [ ] Invocations
-  - [ ] PactOfTheBlade_Hex
-  - [ ] PactOfTheChain
-  - [ ] PactOfTheTome
+  - [x] PactOfTheBlade_Hex
+    - [ ] Necrotic
+    - [ ] Psychic
+    - [ ] Radiant
+  - [x] PactOfTheChain
+  - [x] PactOfTheTome
   - [x] ArmorOfShadows
   - [x] BeastSpeech
   - [x] BeguilingInfluence
@@ -125,24 +128,28 @@
   - [x] EldritchSpear
   - [x] MaskOfManyFaces
   - [x] OtherworldlyLeap
-  - [ ] RepellingBlast
-  - [ ] ThiefOfFiveFates
-  - [ ] ThirstingBlade_Check
-  - [ ] GiftOfTheDepths
-  - [ ] ThirstingBlade
-  - [ ] EldritchSmite
-  - [ ] BookOfAncientSecrets
-  - [ ] MireTheMind
-  - [ ] OneWithShadows
-  - [ ] SignOfIllOmen
-  - [ ] DreadfulWord
-  - [ ] SculptorOfFlesh
-  - [ ] WhispersOfTheGrave
-  - [ ] Lifedrinker
-  - [ ] GiftOfTheProtectors
-  - [ ] MinionsOfChaos
-  - [ ] DevouringBlade
-
+  - [x] RepellingBlast
+  - [x] ThiefOfFiveFates
+  - [x] ThirstingBlade
+  - [x] InvestmentOfTheChainMaster
+  - [x] GiftOfTheDepths
+  - [x] EldritchSmite
+    - [ ] Reaction
+  - [x] BookOfAncientSecrets
+  - [x] MireTheMind
+  - [x] OneWithShadows
+  - [x] SignOfIllOmen
+  - [x] DreadfulWord
+  - [x] SculptorOfFlesh
+  - [x] WhispersOfTheGrave
+  - [x] Lifedrinker
+    - [x] Necrotic
+    - [ ] Psychic
+    - [ ] Radiant
+    - [ ] Hit Point Dice
+  - [x] GiftOfTheProtectors
+  - [x] MinionsOfChaos
+  - [x] DevouringBlade
 ### Wizard
 - [ ] Class
 - [ ] Subclass
@@ -153,6 +160,7 @@
 ### Psion
 ## Spell
 ### Cantrip
+- [x] Chill Touch
 - [x] Eldritch Blast
 - [x] Mind Sliver (Sorcerer, Warlock, Wizard, ~~Aberrant~~)
 - [x] Poison Spray (Druid, Sorcerer, Warlock, Wizard, ~~Artificer~~)
@@ -160,6 +168,7 @@
 - [x] Spare the Dying (Cleric, Druid, ~~Artificer~~)
 - [x] Starry Wisp (Bard, Druid)
 - [x] Thunderclap (Bard, Druid, Sorcerer, Warlock, Wizard, ~~Artificer~~)
+- [x] True Strike (Bard, Sorcerer, Warlock, Wizard)
 - [x] Word of Radiance (Cleric)
 ### Level 2
 - [x] Arcane Vigor (Sorcerer, Wizard, ~~Artificer~~, Hexblade)
