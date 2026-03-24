@@ -16,7 +16,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Rage,2,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(Shields);Proficiency(LightArmor);Proficiency(MediumArmor);ActionResource(Rage,2,0);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_1_RageRestore;RageUnlock;UnarmouredDefence_Barbarian;Rage_Armour_Message;Rage_NoHeavyArmour_VFX" />
       </fields>
@@ -30,7 +30,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_1_RageRestore;RageUnlock;UnarmouredDefence_Barbarian;Rage_Armour_Message;Rage_NoHeavyArmour_VFX" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Rage,2,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MartialWeapons);Proficiency(Shields);ActionResource(Rage,2,0);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution)" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
       </fields>
@@ -57,6 +57,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rage,1,0)" />
         <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;07234f31-c239-4a57-aeb4-868f3e1a318e;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_3_PrimalKnowledge" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -307,7 +308,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Bard" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Longswords);Proficiency(Rapiers);Proficiency(Shortswords);Proficiency(MusicalInstrument);Attribute(UseMusicalInstrumentForCasting)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);Proficiency(MusicalInstrument);Attribute(UseMusicalInstrumentForCasting)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(ed664663-93b9-4070-a54b-3c7b19c0e7b4,3);SelectSpells(61f79a30-2cac-4a7a-b5fe-50c89d307dd6,2,0,BardCantrip,,,AlwaysPrepared);SelectSpells(dcb45167-86bd-4297-9b9d-c295be51af5b,4,0,BardSpells);SelectEquipment(aab8c5b5-eacf-4867-8e5f-bd4de3a9132e,1,BardInstrument);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="BardicInspiration;BardSpellcasting;UnlockedSpellSlotLevel1;BardicInspirationCharge" />
       </fields>
@@ -336,7 +337,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(dcb45167-86bd-4297-9b9d-c295be51af5b,1,1,BardSpells);AddSpells(80225e21-5acd-4122-b779-488dae33a31c);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="JackOfAllTrades" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Bard_2_Expertise;JackOfAllTrades" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -569,7 +570,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="LoreCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(175ceed7-5a53-4f48-823c-41c4f72d18ae,2,0,BardMagicalSecrets)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,2,0,BardMagicalSecrets)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -737,7 +738,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="SwordsCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MediumArmor);Proficiency(Scimitars)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MediumArmor);Proficiency(Daggers);Proficiency(Sickles);Proficiency(Shortswords);Proficiency(Rapiers);Proficiency(Scimitars);Proficiency(Longswords);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(11f3b209-eb13-42d2-9fec-46dfc68fe619,1,FightingStyle);AddSpells(246ad664-1a53-4d42-8a5e-0ed5cda6af62)" />
       </fields>
     </stat_object>
@@ -1408,7 +1409,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2fbc1acc-ea80-4b61-9bed-e5e7dd50ad16,ClericKnowledgeDomainSpells,,,AlwaysPrepared);SelectSkillsExpertise(b0b9bc80-8468-4a53-b9ca-6d9146f23801,2,false)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Knowledge_3_MindMagic" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Knowledge_3_BlessingsOfKnowledge;Knowledge_3_MindMagic" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1731,7 +1732,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Druid" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears);Tag(PETPAL);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightArmor);Proficiency(Shields);Tag(PETPAL);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(a3e28a89-3c36-4516-a1ed-c8061ba7f166,2);SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,,,,AlwaysPrepared);AddSpells(2cd54137-2fe5-4100-aad3-df64735a8145);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(eb5672b5-ee56-4aed-a7aa-208f3092c432,1,PrimalOrderList);AddSpells(89bfa36a-3ef8-4fa5-872d-1ba208883309,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
@@ -2647,7 +2648,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(Shortswords);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value=";Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Scimitars);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(5f1c7177-6e28-4a42-a7a5-cfaf4c31519c,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch" />
       </fields>
@@ -2660,7 +2661,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(SimpleWeapons);Proficiency(Shortswords);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value=";Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Scimitars)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
       </fields>
@@ -5193,7 +5194,8 @@
         <field name="Level" type="ByteTableFieldDefinition" value="2" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,2,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,2,0);SelectSkillsExpertise(28366079-082c-4237-b931-05ec91542ab6,1)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Wizard_2_Scholar" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

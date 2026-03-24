@@ -10,9 +10,23 @@
     </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9da44fe7-61a4-407c-9e5d-7d9dc9ebf149" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="61f79a30-2cac-4a7a-b5fe-50c89d307dd6" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard Cantrip List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Shout_BladeWard;Target_DancingLights;Target_Friends;Target_Light;Target_MageHand;Target_MinorIllusion;Projectile_StarryWisp;Target_TrueStrike;Shout_Thunderclap;Target_ViciousMockery" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c66bd03-4a2b-4ac1-9709-23058b769662" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard Cantrip List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_BladeWard;Target_DancingLights;Target_Friends;Target_Light;Target_MageHand;Target_MinorIllusion;Projectile_StarryWisp;Target_TrueStrike;Shout_Thunderclap;Target_ViciousMockery" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -24,9 +38,25 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ae5ffc37-052d-4ced-8307-af255adfa02f" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 6 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Eyebite;Shout_HeroesFeast;Target_IrresistibleDance;Shout_WindWalk" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 5 List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming;Target_SynapticStatic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a99299ec-4db1-4f17-b78b-20bb4e468e16" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 5 to to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming;Target_SynapticStatic" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -42,6 +72,14 @@
         <field name="UUID" type="IdTableFieldDefinition" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 4 List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Confusion;Teleportation_DimensionDoor;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0a96afe8-979c-47f8-8b3c-057fb51e90cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 4 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Confusion;Teleportation_DimensionDoor;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -69,6 +107,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc490c83-b9f4-4084-9870-4d2f3d6d7081" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 3 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab46c501-4caa-447f-9e12-60ef03dace9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 3 to 6" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="586a8796-34f4-41f5-a3ef-95738561d55d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d6a979d-dfd2-41e7-b8fa-e46b0b7a7579" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 3 to 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0c09ebff-1e07-4d8b-9f6d-9b3aad925a75" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 3 to 4" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud" />
@@ -80,6 +142,14 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7ea8f476-97a1-4256-8f10-afa76a845cce" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 2 List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Blindness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_Enthrall;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Shout_MirrorImage;Target_PhantasmalForce;Shout_SeeInvisibility;Target_Shatter;Target_Silence;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70612b99-2c57-4369-a5af-1a7284591a72" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 2 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Blindness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_Enthrall;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Shout_MirrorImage;Target_PhantasmalForce;Shout_SeeInvisibility;Target_Shatter;Target_Silence;" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -119,6 +189,14 @@
         <field name="UUID" type="IdTableFieldDefinition" value="dcb45167-86bd-4297-9b9d-c295be51af5b" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 1 List" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimalFriendship;Target_Bane;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CureWounds;Target_DissonantWhispers;Shout_DisguiseSelf;Target_FaerieFire;Shout_FeatherFall;Target_HealingWord;Target_Heroism;Target_HideousLaughter;Target_Longstrider;Target_Sleep;Shout_SpeakWithAnimals;Zone_Thunderwave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dfe7d241-207c-45e0-b056-a006340d8a35" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 1 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimalFriendship;Target_Bane;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CureWounds;Target_DissonantWhispers;Shout_DisguiseSelf;Target_FaerieFire;Shout_FeatherFall;Target_HealingWord;Target_Heroism;Target_HideousLaughter;Target_Longstrider;Target_Sleep;Shout_SpeakWithAnimals;Zone_Thunderwave" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -175,7 +253,19 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Command_Container;Target_MantleOfMajesty" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard Magical Secrets" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0d6becd-5773-4fbf-a96c-e57c9da9138d" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CLERIC__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2f43a103-5bf1-4534-b14f-663decc0c525" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric Cantrip List" />
@@ -184,30 +274,25 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="269d1a3b-eed8-4131-8901-a562238f5289" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 1 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Bane;Target_Bless;Target_Command_Container;Target_CreateDestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2995e1b6-f2d9-470c-b920-48d19b7f6488" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric Cantrip List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_BurstingSinew;Target_Guidance;Target_Light;Target_Resistance;Target_SacredFlame;Target_SpareTheDying;Shout_Thaumaturgy;Target_TollTheDead;Shout_WordOfRadiance" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 2 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f8ba7b05-1237-4eaa-97fa-1d3623d5862b" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 6 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Shout_HeroesFeast;Target_PlanarAlly_Container;Zone_Sunbeam" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="21be0992-499f-4c7a-a77a-4430085e947a" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 3 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 4 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Banishment;Target_DeathWard;Target_FreedomOfMovement;Target_GuardianOfFaith" />
+        <field name="UUID" type="IdTableFieldDefinition" value="59a07ee8-bb16-445d-be39-252bb2740d81" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 6 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Shout_HeroesFeast;Target_PlanarAlly_Container;Zone_Sunbeam" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -219,9 +304,70 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f8ba7b05-1237-4eaa-97fa-1d3623d5862b" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 6 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Shout_HeroesFeast;Target_PlanarAlly_Container;Zone_Sunbeam" />
+        <field name="UUID" type="IdTableFieldDefinition" value="72106c32-784a-43c5-ba2d-10c2369eb5c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 5 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 4 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Banishment;Target_DeathWard;Target_FreedomOfMovement;Target_GuardianOfFaith" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4402f141-a550-487c-b350-172f6e294ea1" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 4 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Banishment;Target_DeathWard;Target_FreedomOfMovement;Target_GuardianOfFaith" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21be0992-499f-4c7a-a77a-4430085e947a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92126467-9055-4b99-b3c4-e582063284a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 3 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 2 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eed8f010-b97e-4c37-a709-b749499e3305" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 2 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="269d1a3b-eed8-4131-8901-a562238f5289" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 1 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Bane;Target_Bless;Target_Command_Container;Target_CreateDestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1eba588-a5a0-4985-b5f1-6d9eb2bf510c" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 1 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Bane;Target_Bless;Target_Command_Container;Target_CreateDestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -440,30 +586,25 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2cd54137-2fe5-4100-aad3-df64735a8145" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 1 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Zone_Thunderwave" />
+        <field name="UUID" type="IdTableFieldDefinition" value="09a2762d-be42-431f-8278-58525deb1135" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid Cantrip List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Guidance;Projectile_PoisonSpray;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Targert_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="92126d17-7f1a-41d2-ae6c-a8d254d2b135" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 2 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce ;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6a4e2167-55f3-4ba8-900f-14666b293e93" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 6 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_FleshToStone;Target_Heal;Shout_HeroesFeast;Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="3156daf5-9266-41d0-b52c-5bc559a98654" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 3 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon ;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify ;Target_SleetStorm" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="09c326c9-672c-4198-a4c0-6f07323bde27" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 4 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Shout_FireShield;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b25ee693-0a78-4043-9a4b-372e32dcee50" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 6 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_FleshToStone;Target_Heal;Shout_HeroesFeast;Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -475,9 +616,70 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6a4e2167-55f3-4ba8-900f-14666b293e93" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 6 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_FleshToStone;Target_Heal;Shout_HeroesFeast;Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bcfec4fb-691e-4c4e-b251-63eac403d4a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 5 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Wall_WallOfStone" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09c326c9-672c-4198-a4c0-6f07323bde27" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 4 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Shout_FireShield;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b416de03-62b6-4763-a0ac-dcc136b0a467" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 4 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Shout_FireShield;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3156daf5-9266-41d0-b52c-5bc559a98654" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon ;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify ;Target_SleetStorm" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7dc7cd4c-d5ca-4b5b-81a8-c7528f76866d" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 3 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon ;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify ;Target_SleetStorm" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92126d17-7f1a-41d2-ae6c-a8d254d2b135" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 2 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce ;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c874c33c-1241-4181-918c-0466abbcade5" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 2 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce ;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cd54137-2fe5-4100-aad3-df64735a8145" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 1 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Zone_Thunderwave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5fd1eba-5e79-4b13-90a8-8879a5b22023" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 1 List to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Zone_Thunderwave" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1230,6 +1432,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08464608-5cde-4260-bd47-0682b06ffeee" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard Cantrip to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 6" />
         <field name="Spells" type="StringTableFieldDefinition" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Target_CreateUndead;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;Target_FreezingSphere;Target_IrresistibleDance;Zone_Sunbeam;Wall_WallOfIce" />
@@ -1237,9 +1447,25 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="959c3c49-eec8-4869-8321-7a3e53e69505" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 6 to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Target_CreateUndead;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;Target_FreezingSphere;Target_IrresistibleDance;Zone_Sunbeam;Wall_WallOfIce" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f781a25e-d288-43b4-bf5d-3d8d98846687" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 5" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45afb374-c3e4-4d85-97a1-4dd6be40496e" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 5 to Bard" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1259,10 +1485,10 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dac64a58-a4f9-4d36-a48b-3cf605d04d8a" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 4 to 5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="820db7f4-19c6-4b4d-b90f-70ee030ad8aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 4 to Bard" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Banishment;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Shout_FireShield;Target_Invisibility_Greater;Target_IceStorm;Target_ResilientSphere;Target_PhantasmalKiller;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire" />
-        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f781a25e-d288-43b4-bf5d-3d8d98846687" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1275,6 +1501,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dac64a58-a4f9-4d36-a48b-3cf605d04d8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 4 to 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Banishment;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Shout_FireShield;Target_Invisibility_Greater;Target_IceStorm;Target_ResilientSphere;Target_PhantasmalKiller;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f781a25e-d288-43b4-bf5d-3d8d98846687" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="22755771-ca11-49f4-b772-13d8b8fecd93" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 3" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_VampiricTouch" />
@@ -1282,18 +1516,10 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="394b7a10-19de-491a-a334-6429bbe87b42" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 3 to 4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e8c03337-0d0b-4746-afb8-8a5f07afe3b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 3 to Bard" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_VampiricTouch" />
-        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="820b1220-0385-426d-ae15-458dc8a6f5c0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="fe4c0b8c-317d-4c04-b3b8-b600b51cb160" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 3 to 5" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_VampiricTouch" />
-        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f781a25e-d288-43b4-bf5d-3d8d98846687" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1306,6 +1532,22 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe4c0b8c-317d-4c04-b3b8-b600b51cb160" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 3 to 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_VampiricTouch" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f781a25e-d288-43b4-bf5d-3d8d98846687" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="394b7a10-19de-491a-a334-6429bbe87b42" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 3 to 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_VampiricTouch" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="820b1220-0385-426d-ae15-458dc8a6f5c0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="80c6b070-c3a6-4864-84ca-e78626784eb4" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 2" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web" />
@@ -1313,26 +1555,10 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="49a4bc9d-a5e3-456c-9cc3-3b539aa39c7a" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 2 to 3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="25a83c0f-1acc-4c15-8809-3940e9105222" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 2 to Bard" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web" />
-        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="22755771-ca11-49f4-b772-13d8b8fecd93" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1ccf0cf3-ffdf-4049-a1ff-5db60ddca211" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 2 to 4" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web" />
-        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="820b1220-0385-426d-ae15-458dc8a6f5c0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="62a2a287-9863-4d24-b4ff-7249261edef4" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 2 to 5" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web" />
-        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f781a25e-d288-43b4-bf5d-3d8d98846687" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1345,6 +1571,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62a2a287-9863-4d24-b4ff-7249261edef4" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 2 to 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f781a25e-d288-43b4-bf5d-3d8d98846687" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ccf0cf3-ffdf-4049-a1ff-5db60ddca211" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 2 to 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="820b1220-0385-426d-ae15-458dc8a6f5c0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49a4bc9d-a5e3-456c-9cc3-3b539aa39c7a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 2 to 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="22755771-ca11-49f4-b772-13d8b8fecd93" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 1" />
         <field name="Spells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt" />
@@ -1352,26 +1602,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="096e299c-d9ad-459c-8798-42c51456fc08" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 1 to 2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e54b96b1-f34a-453c-a527-da0e46f0508c" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 1 to Bard" />
         <field name="Spells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt" />
-        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="80c6b070-c3a6-4864-84ca-e78626784eb4" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="af334d64-7184-4c33-a349-f7f1768911d0" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 1 to 3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="62b1f49c-92b1-458d-ba75-2d493887cd97" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 1 to 6" />
         <field name="Spells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt" />
-        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="22755771-ca11-49f4-b772-13d8b8fecd93" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="d5fd337c-5725-41d6-b8d1-42adc3d24ac7" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 1 to 4" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt" />
-        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="820b1220-0385-426d-ae15-458dc8a6f5c0" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1384,10 +1626,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="62b1f49c-92b1-458d-ba75-2d493887cd97" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 1 to 6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d5fd337c-5725-41d6-b8d1-42adc3d24ac7" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 1 to 4" />
         <field name="Spells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt" />
-        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="820b1220-0385-426d-ae15-458dc8a6f5c0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af334d64-7184-4c33-a349-f7f1768911d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 1 to 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="22755771-ca11-49f4-b772-13d8b8fecd93" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="096e299c-d9ad-459c-8798-42c51456fc08" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 1 to 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="80c6b070-c3a6-4864-84ca-e78626784eb4" />
       </fields>
     </stat_object>
   </stat_objects>

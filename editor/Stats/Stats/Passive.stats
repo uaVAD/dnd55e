@@ -443,6 +443,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="9e35012e-8b65-4c59-bd8d-d2cefdcf11e7" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc1b8fd5g336eg3648g3224g9cae0aaac491" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1002" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -450,7 +451,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="04308ff7-2718-4ec6-b71f-187419a57ceb" />
         <field name="Name" type="NameTableFieldDefinition" value="Barbarian_3_PrimalKnowledge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb6dea583g9359gddf3g2360g74669f67b1a6" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h860b399bg558cg749fgb64bg707d53758400" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h860b399bg558cg749fgb64bg707d53758400" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1003" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -575,6 +576,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7dd88cf4-9598-4ab8-afd7-1bfc069198de" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard_2_Expertise" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f5671feg10a3g6221g9db1gcd1af3a88f5b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9e315a90g0705gb2c6g1a8eg13de362924de" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2002" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ac8adaa4-bba5-48f1-9ab4-aafb87b02ef2" />
         <field name="Name" type="NameTableFieldDefinition" value="JackOfAllTrades" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0d94da9b-85c3-4950-98a5-87532f10c851" />
@@ -603,6 +614,16 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Bard_7_Countercharm);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="edda6e9e-13a7-4f2c-b2b6-0b37b72e237c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard_10_MagicalSecrets" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1d573d0cg0ef8gc58cg5d87gf7b0ce7fc23d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5715a4dge184g890agee7ag4f904fb90c6b" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2010" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -639,6 +660,16 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e5ca5b3e-b222-402d-97ec-20429940c924" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc01542ag2ea8ge230g53b5g6bae54a352d2" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebc1d2c7-4774-407f-a30e-26dd76a303c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CombatInspiration" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd4f3b039g6204g1bbagd21fgb72f806b54d8" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
@@ -933,6 +964,16 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3406" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ShieldOfFaith_War);UnlockSpell(Target_SpiritualWeapon_War);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74907b24-53c2-4fa3-89aa-61f7c8ce263b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Knowledge_3_BlessingsOfKnowledge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd0e61f8bg955fgda33g3e08gc99c259c8a16" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc9341211ge6c1g1fd9gddbeg13315817fedb" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1513,7 +1554,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1499f897-57a4-4af7-a2d8-a61654655694" />
         <field name="Name" type="NameTableFieldDefinition" value="UnarmoredMovement_DifficultTerrain" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b9c4419e-682c-4bbc-a70e-c19ca0ff49ad" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6a55712gd62cgd5e7g68d8g0007496a3e1e" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6a55712gd62cgd5e7g68d8g0007496a3e1e" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6009" />
       </fields>
     </stat_object>
@@ -2418,6 +2459,21 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('PactOfTheBlade_Hex',context.Source) and HasPassive('ThirstingBlade',context.Source) and ClassLevelHigherOrEqualThan(12,'Warlock',context.Source) and ((context.HasContextFlag(StatsFunctorContext.OnCast) and ExtraAttackSpellCheck() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source) and (HasPactWeapon(context.Source) or HasHexbladeWeapon(context.Source))) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased() and (HasPactWeapon(context.Target) or  HasHexbladeWeapon(context.Target))) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_THIRSTING_BLADE_Q'))) and (HasPassive('PactOfTheBlade',context.Source) or HasPassive('PactOfTheBlade_Hex',context.Source));" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_THIRSTING_BLADE_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_2, 100, 1)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb1cbe42-0730-470a-8946-510854f7a4e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WIZARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b7cfe39-5ed9-49c3-a792-479c30fe68c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard_2_Scholar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h24650f10g65f0gdad5g30cdg3e4777297c7c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h32ed567egee36g91e1g2accgb992c0f4d730" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>
