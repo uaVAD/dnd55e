@@ -362,6 +362,194 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3e40bea1-75a4-452a-ac25-5ec25816709a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BACKGROUND SKILL PROFICIENCY__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Acrobatics" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Acrobatics)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haccfb564g42d5gbcf1g17e3g6bd3bb113a44" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5ec953edgae89gbe4fgbc37g46d66f973083" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Acrobatics" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38fd141c-4603-4690-aa4b-96e8aa356254" />
+        <field name="Name" type="NameTableFieldDefinition" value="AnimalHandling" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,AnimalHandling)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc355df2ag0123g443bg998cg11187bf11a5a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="AnimalHandling" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="be69a373-42d2-4854-a478-89e952ca9684" />
+        <field name="Name" type="NameTableFieldDefinition" value="Arcana" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Arcana)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h722b6a69g3477g36dbg1e4fg04643c68b1f7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Arcana" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="154cc4f7-5bfd-4f38-a48d-97e1f63a898f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Athletics" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Athletics)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5329602dgbdb7gdf54g164cg7babc0547f88" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Athletics" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64409224-641e-4149-af5a-d48070e8ec8e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Deception" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Deception)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4a18bdbcg2f07g8fc3ga383g3bf38d934d97" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Deception" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f155f8c-7caa-4c5f-ae98-fde2910fb652" />
+        <field name="Name" type="NameTableFieldDefinition" value="History" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,History)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h15608410g73bagc53bg53f2ga41d7d3b2f96" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="History" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20e710b4-dff6-4b4f-913e-cca3739adbbf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Nature" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Nature)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h41367f77g2252gf46bg7c6bge19d48c4f278" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Nature" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01030db3-daa8-4a08-8382-a0494a782eb5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Perception" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Perception)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h459ce53fg7791g1cd0g378eg2c1353e49c4f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Perception" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46cd3a2d-5660-4929-b858-1c5f5d08786b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Performance" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Performance)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5b423612ge7e5g8736gd607g7c134dc79c3a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Performance" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b64f97b-688a-43d3-ad59-c1db99db2f2e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Persuasion" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Persuasion)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc9b288fg9711g7a53gfe81g9448c4523a2c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Persuasion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="135639d7-4d5b-4bc0-81cf-7bd435a089f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Religion" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Religion)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h57eaf745g2783g5cc4gc9f6gd12380a0934f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Religion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e31aa2c-6567-493b-ba69-ffdfca0cb5ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="SleightOfHand" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,SleightOfHand)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87e650ddg0175gc7f8g135eg826bd05429d2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="SleightOfHand" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f9786a3-89ba-4af7-bec5-66425774b2b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Stealth" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Stealth)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h237ebf10g65d4g5de2ga9f8g4aeae8f52710" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Stealth" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="052046fb-1e8d-44c4-9389-cc02b361eaa8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Survival" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Survival)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcaedae0bg8d89g5535gef15ge3bead7cac7b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Survival" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12a09af9-11e5-4ab9-917b-e379bd849381" />
+        <field name="Name" type="NameTableFieldDefinition" value="Insight" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Insight)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h96a2be22g2936g6b20g8c6fga91b0ccaa06d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Insight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a5f64d5-596e-42a7-9943-93a8b8562dcc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Intimidation" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Intimidation)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4107cf58gb2cdgcf41g08c5gcb3b1ab720a4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Intimidation" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee77be1c-47fe-4b23-9e64-b9859df87e34" />
+        <field name="Name" type="NameTableFieldDefinition" value="Investigation" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Investigation)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4ba0cf67g55f2ge128g4fefg499a17387298" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Investigation" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12e531d3-9fef-4a4d-b3b9-9bb09e56ebb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Medicine" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Medicine)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f46b3d5-6fcf-41cd-bdbb-fbb5536dc4cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h58264943ge8a3g47cdg09c2gd71af9051c26" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Medicine" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bdde706b-febe-4658-bff4-05ed2f30bf96" />
         <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__" />
       </fields>
@@ -2590,6 +2778,19 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="fa591415-e2a3-490d-9385-91672548c3be" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateWizard" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,MAGICINITIATE_WIZARD_CANTRIP_START,100,-1);ApplyStatus(SELF,MAGICINITIATE_WIZARD_SPELL_START,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6363e17-8174-447d-aeae-2fe929ff2a93" />
+        <field name="Name" type="NameTableFieldDefinition" value="OriginFeat_Skilled" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h15a25456g93c5g2128g2199gd75ca7acd724" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c4f90acg7e1cg80f9g49b9g223423a07c77" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Skilled" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="100" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,SKILLED_START,100,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

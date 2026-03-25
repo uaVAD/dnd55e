@@ -12,7 +12,8 @@
 - [x] Prone
 - [x] Weapon Mastery
 ## Character Background
-- [ ] Acolyte
+- [x] Acolyte
+- [ ] 
 ## Class
 ### Barbarian
 - [x] Class
@@ -411,14 +412,9 @@
 ## Feat
 ### Origin
 - [x] Magic Initiate (Cleric)
-  - [x] Cantrip
-  - [x] Spell
 - [x] Magic Initiate (Druid)
-  - [x] Cantrip
-  - [x] Spell
 - [x] Magic Initiate (Wizard)
-  - [x] Cantrip
-  - [x] Spell
+- [x] Skilled
 ### General
 ### Fighting Style
 ## Spell

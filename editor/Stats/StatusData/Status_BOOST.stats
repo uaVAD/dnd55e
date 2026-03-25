@@ -1767,5 +1767,217 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_WitchBolt);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="776d3400-95b7-46fc-902a-aaaa4211b5e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_START" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_START" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1a3cbc8-f4e9-4d79-b40c-2b522a9c72c3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SKILLED_END',context.Source)):UnlockSpell(Shout_Skilled);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5534d729-6932-479f-8034-779f2c2c9412" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f7b8236-98d4-4734-b5af-a7bfe40a51c0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2feb80d-918d-4e8e-aabf-3aa1c36ef7d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_END" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_END" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c72b2d16-b379-46a4-9014-2d7217d9ba52" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SKILLED)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0524aec-d052-432e-bcfd-539a20c55707" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_ACROBATICS" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_ACROBATICS" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Acrobatics" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cff5984-2d38-487b-94c7-81df1cb89f14" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_ANIMALHANDLING" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_ANIMALHANDLING" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AnimalHandling" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f10cda9-2853-4ba0-b3a4-921147389179" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_ARCANA" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_ARCANA" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Arcana" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8837c292-2d70-472f-be2f-9f1966b6b3d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_ATHLETICS" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_ATHLETICS" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Athletics" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c699d85c-dbb9-4293-897f-ac75d08d6e1f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_DECEPTION" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_DECEPTION" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Deception" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7535efc-5180-472a-ba15-4744663dd045" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_HISTORY" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_HISTORY" />
+        <field name="Passives" type="StringTableFieldDefinition" value="History" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27964047-348b-4700-8fc2-eaa2dd236b89" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_INSIGHT" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_INSIGHT" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Insight" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="59dd9273-1f75-42a0-bc34-6d901f53b1ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_INTIMIDATION" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_INTIMIDATION" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Intimidation" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f81f9cce-9453-4fac-ade8-2f572e9e7247" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_INVESTIGATION" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_INVESTIGATION" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Investigation" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a05fc3b4-e955-418e-9113-b429c9c1a231" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_MEDICINE" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_MEDICINE" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Medicine" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83b1acda-8a4c-464c-97ef-7935271bb178" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_NATURE" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_NATURE" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Nature" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6254b9ec-59bb-4135-92b4-72b7f14850a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_PERCEPTION" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_PERCEPTION" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Perception" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c67aaa87-3e14-49e4-b543-83501b7aea95" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_PERFORMANCE" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_PERFORMANCE" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Performance" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8ca82fb-88ec-4852-bd86-03b2f99e369b" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_PERSUASION" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_PERSUASION" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Persuasion" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f1748ee-f7ae-44ae-ad41-09fce2314d54" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_RELIGION" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_RELIGION" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Religion" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aba4f21a-7894-4591-b7f9-10d089a05100" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_SLEIGHTOFHAND" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_SLEIGHTOFHAND" />
+        <field name="Passives" type="StringTableFieldDefinition" value="SleightOfHand" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc6c0490-18d9-437f-8468-c199859003c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_STEALTH" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_STEALTH" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Stealth" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57d421c5-1499-4932-a7c6-43fa758a0ff1" />
+        <field name="Name" type="NameTableFieldDefinition" value="SKILLED_SURVIVAL" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SKILLED_SURVIVAL" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Survival" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

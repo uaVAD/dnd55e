@@ -1257,7 +1257,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="c90dca7b-0926-4158-8015-9acc390fea0f" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d9003a82-f63d-4c4e-99ed-6fa48c42a7e4" />
         <field name="Name" type="NameTableFieldDefinition" value="__ORIGIN FEAT__" />
@@ -1324,6 +1324,229 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb_Acid;Projectile_ChromaticOrb_Cold;Projectile_ChromaticOrb_Fire;Projectile_ChromaticOrb_Lightning;Projectile_ChromaticOrb_Poison;Projectile_ChromaticOrb_Thunder;Zone_ColorSpray;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar_Cat;Target_FindFamiliar_Crab;Target_FindFamiliar_Frog;Target_FindFamiliar_Rat;Target_FindFamiliar_Raven;Target_FindFamiliar_Spider;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt;" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6335af1g4129g0308g8518g3cb980ec4a55" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hffa4fb6cg516eg4f17g0656geecaebcd5045" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a402cd81-dedd-4188-b774-d09ae71d9ea0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Skilled" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_Acrobatics;Shout_AnimalHandling;Shout_Arcana;Shout_Athletics;Shout_Deception;Shout_History;Shout_Insight;Shout_Intimidation;Shout_Investigation;Shout_Medicine;Shout_Nature;Shout_Perception;Shout_Performance;Shout_Persuasion;Shout_Religion;Shout_SleightOfHand;Shout_Stealth;Shout_Survival;" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f8e4f76g9279geaf4g3be8g75fcc8975180" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha89bce32gf8a8g61a1gda37gae4076b0817a" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_ArcaneRecovery" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_ArcaneRecovery" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03114753-8d91-4c52-8207-728a67cdd59b,,;,,;51c06d74-c048-452a-a248-41a751728e3e,,;e9731a5c-e4ba-4872-8950-36d625061ec3,,;8fcb1f19-a84b-486d-81fa-098aaf7cc9be,,;,,;c5bd6ce6-281c-4314-9f74-9f7bb2f4cf03,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="271665f4-5c3c-4bb4-933d-8a7daf8268b5" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b88e4a1e-4eef-470c-8d12-6db53c48a1e8" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Skilled" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Acrobatics" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a402cd81-dedd-4188-b774-d09ae71d9ea0" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_Skilled" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_ACROBATICS,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Acrobatics" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0b1ce19fg660ag4802g476bg8c05a68222d8" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Acrobatics,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="be72add6-5896-425d-8e44-40406e14e980" />
+        <field name="Name" type="NameTableFieldDefinition" value="AnimalHandling" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_ANIMALHANDLING,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="AnimalHandling" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c81c67cgb4c6g4561g00beg5a12ada00691" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Animalhandling,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c189c758-95b3-4f61-9043-cee5a46e2cd4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Arcana" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_ARCANA,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Arcana" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h29993998g99bdg851dg0dccgdbf3b1370e56" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Arcana,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99f0e9e9-9365-4c89-87b4-11819f1e8ded" />
+        <field name="Name" type="NameTableFieldDefinition" value="Athletics" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_ATHLETICS,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Athletics" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0fa6c280g9e87g0644g135bg21f0cdf93433" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Athletics,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="063b9f93-cf08-40df-939b-4d49c93d6ef7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Deception" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_DECEPTION,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Deception" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfbd6a1b1g89fag83a8g0e7ege0255b94efda" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Deception,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff661e43-00ea-486b-9d52-a2c8b64ba39a" />
+        <field name="Name" type="NameTableFieldDefinition" value="History" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_HISTORY,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="History" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90eb1d04g6929gc5d6gea2ag4c14b8d10050" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.History,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c47a851f-9346-4026-907f-a28c3c5983ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="Insight" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_INSIGHT,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Insight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2493bc3cgd699g2700g7ba2g908cbedeae7a" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Insight,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c004ef1e-08a7-40d9-b78e-e165e449e252" />
+        <field name="Name" type="NameTableFieldDefinition" value="Intimidation" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_INTIMIDATION,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Intimidation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4466962dg5878ge4ddg2288gbc90cd13da1b" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Intimidation,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e86c1349-22ef-461b-a04f-2cf6612c2c29" />
+        <field name="Name" type="NameTableFieldDefinition" value="Investigation" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_INVESTIGATION,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Investigation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h97ae1233gb416g9366g5de6g48653fa24df6" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Investigation,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dc2a84ae-2c26-46cb-ac4d-20e9f12e3ce7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Medicine" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_MEDICINE,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Medicine" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h34cec7c2g780cg0070g2be3gfc093346a1ef" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Medicine,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a6a45ee-99d7-426b-ab44-64887c5433fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Nature" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_NATURE,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Nature" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hada03c6fg8b80g6cfbg761eg6ec6542cc0a5" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Nature,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad6ab24f-0838-4d54-a7c8-f20f426ea0ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="Perception" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_PERCEPTION,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Perception" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8521f637ga957g4fdeg40bbg3e8514ee2243" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Perception,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6a11452-9d4f-49fc-8ea9-599fd3e17b1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Performance" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_PERFORMANCE,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Performance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3644d11cg3f56gfa05g9d01g8c44cbf8f993" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Performance,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3a5b5d6-4033-4426-90ec-457a9482bf18" />
+        <field name="Name" type="NameTableFieldDefinition" value="Persuasion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_PERSUASION,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Persuasion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e284e1cg7a31g63cag5ccegeaa125cdbdf0" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Persuasion,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d8b5aa04-ec16-47d6-97bb-07f8002e9256" />
+        <field name="Name" type="NameTableFieldDefinition" value="Religion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_RELIGION,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Religion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hceae7ad3gf0dbgdd24gcc1bg7bd21312fc0a" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Religion,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c225c0a5-c719-42a1-b2f3-e9b54e5f1258" />
+        <field name="Name" type="NameTableFieldDefinition" value="SleightOfHand" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_SLEIGHTOFHAND,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="SleightOfHand" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc931f53agbc8egb132g41cdg19cd166d6f7b" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.SleightOfHand,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efb540ad-66d7-4812-acc1-c6efa64a2877" />
+        <field name="Name" type="NameTableFieldDefinition" value="Stealth" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_STEALTH,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Stealth" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9eb6dc6dg1471g2dbcg9f1bgee4b610efd55" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Stealth,context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31c6f967-525c-44fe-97c6-c1d8feb99493" />
+        <field name="Name" type="NameTableFieldDefinition" value="Survival" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bf378c3-a02c-4d4e-8c1c-c702fecef76d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SKILLED_SURVIVAL,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Survival" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb990e3c4g5425g1524gfedcg5f20ce20597d" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Survival,context.Source)" />
       </fields>
     </stat_object>
   </stat_objects>

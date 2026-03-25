@@ -688,4 +688,65 @@
   <content contentuid="he3771dbcg23f0g570dg2d5egf79cec30d589" version="2">Spell learning mode is active. All Druid spells are added to your spell list.&lt;br&gt;&lt;br&gt;When you cast a spell, you permanently learn that spell.&lt;br&gt;&lt;br&gt;After selecting a spell, this mode ends.</content>
   <content contentuid="hc6335af1g4129g0308g8518g3cb980ec4a55" version="1">Magic Initiate (Wizard): Spell</content>
   <content contentuid="hffa4fb6cg516eg4f17g0656geecaebcd5045" version="2">Spell learning mode is active. All Wizard spells are added to your spell list.&lt;br&gt;&lt;br&gt;When you cast a spell, you permanently learn that spell.&lt;br&gt;&lt;br&gt;After selecting a spell, this mode ends.</content>
+  <content contentuid="hb75003cbgf00cga299gd802g14c70c5d2869" version="1">Charlatan</content>
+  <content contentuid="hcc3c36c6gd341g9ef3g75a6gd57375a199cd" version="1">You're an expert in manipulation, prone to exaggeration and more than happy to profit from it. Bending the truth and turning allies against each other will lead to greater success down the road.</content>
+  <content contentuid="h4b835e70g04c6g5a06g0c6dg1a3127667686" version="1">Criminal</content>
+  <content contentuid="hbcaf83c9gb788g62e0g6965g3fa62228f254" version="1">You have a history of breaking the law and survive by leveraging less-than-legal connections. Profiting from criminal enterprise will lead to greater opportunities in the future.</content>
+  <content contentuid="h71130c00gf7fegc295g7a78g226b23bab525" version="1">Entertainer</content>
+  <content contentuid="h2716640cg5333g5237g4376g52bc2bce3db6" version="1">You live to sway and subvert your audience, engaging common crowds and high society alike. Preserving art and bringing joy to the hapless and downtrodden heightens your charismatic aura.</content>
+  <content contentuid="h08144bfegc7fbg3b4cg2a08gf4711304db2f" version="1">Folk Hero</content>
+  <content contentuid="h16aa023egdc3cg5bc2g7476g71950aebff42" version="1">You're a champion of the common people, challenging tyrants and monsters to protect the helpless. Saving innocents in imminent danger will make your legend grow.</content>
+  <content contentuid="h8872efb5g9022g184cg8400gc8622021c434" version="1">Guild Artisan</content>
+  <content contentuid="hecaca218g03ebge2e3g1541g30dab1f4df21" version="1">Your skill in a particular craft has earned you membership in a mercantile guild, offering privileges and protection while engaging in your art. Repairing and discovering rare crafts will bring new inspiration.</content>
+  <content contentuid="h68877c75g37c1gbf22gf33fg60fb10459cda" version="1">Noble</content>
+  <content contentuid="h11a3cb02g94efge2aagfd7eg2559e2181833" version="1">You were raised in a family among the social elite, accustomed to power and privilege. Accumulating renown, power, and loyalty will raise your status.</content>
+  <content contentuid="hdffa4c4fgb9e6g20ebg7a88g407a2ca29c32" version="1">Outlander</content>
+  <content contentuid="h5039598cg6db2g2d04g6e52gb5d4956c7773" version="1">You grew up in the wilds, learning to survive far from the comforts of civilisation. Surviving unusual hazards of the wild will enhance your prowess and understanding.</content>
+  <content contentuid="h95a25eaegdeafgb7b8g4801g7a8367fc65a7" version="1">Sage</content>
+  <content contentuid="hca28ebc2ga938g8c68g1dbag7edf639c41fc" version="1">You are curious and well-read, with an unending thirst for knowledge. Learning about rare lore of the world will inspire you to put this knowledge to greater purpose.</content>
+  <content contentuid="h8109bc16gabcag925cgdd47gb46dba14be0c" version="1">Soldier</content>
+  <content contentuid="hc868035bgcc3dg4f6ag8137g0a3e325b8ba7" version="1">You are trained in battlefield tactics and combat, having served in a militia, mercenary company, or officer corps. Show smart tactics and bravery on the battlefield to enhance your prowess.</content>
+  <content contentuid="hc87a3f0fgaf2eg6057g69fbg9ba7b0e2f7bb" version="1">Urchin</content>
+  <content contentuid="h9f4e80c6g4dd1gb652gbb63g04b844b503ae" version="1">After surviving a poor and bleak childhood, you know how to make the most out of very little. Using your street smarts bolsters your spirit for the journey ahead.</content>
+  <content contentuid="h15a25456g93c5g2128g2199gd75ca7acd724" version="1">Origin Feat: Skilled</content>
+  <content contentuid="h9c4f90acg7e1cg80f9g49b9g223423a07c77" version="1">You gain proficiency in any combination of three skills or tools of your choice.</content>
+  <content contentuid="h0b1ce19fg660ag4802g476bg8c05a68222d8" version="1">Skilled: Acrobatics</content>
+  <content contentuid="h0c81c67cgb4c6g4561g00beg5a12ada00691" version="1">Skilled: Animal Handling</content>
+  <content contentuid="h29993998g99bdg851dg0dccgdbf3b1370e56" version="1">Skilled: Arcana</content>
+  <content contentuid="h0fa6c280g9e87g0644g135bg21f0cdf93433" version="1">Skilled: Athletics</content>
+  <content contentuid="hfbd6a1b1g89fag83a8g0e7ege0255b94efda" version="1">Skilled: Deception</content>
+  <content contentuid="h90eb1d04g6929gc5d6gea2ag4c14b8d10050" version="1">Skilled: History</content>
+  <content contentuid="h2493bc3cgd699g2700g7ba2g908cbedeae7a" version="1">Skilled: Insight</content>
+  <content contentuid="h4466962dg5878ge4ddg2288gbc90cd13da1b" version="1">Skilled: Intimidation</content>
+  <content contentuid="h97ae1233gb416g9366g5de6g48653fa24df6" version="1">Skilled: Investigation</content>
+  <content contentuid="h34cec7c2g780cg0070g2be3gfc093346a1ef" version="1">Skilled: Medicine</content>
+  <content contentuid="hada03c6fg8b80g6cfbg761eg6ec6542cc0a5" version="1">Skilled: Nature</content>
+  <content contentuid="h8521f637ga957g4fdeg40bbg3e8514ee2243" version="1">Skilled: Perception</content>
+  <content contentuid="h3644d11cg3f56gfa05g9d01g8c44cbf8f993" version="1">Skilled: Performance</content>
+  <content contentuid="h4e284e1cg7a31g63cag5ccegeaa125cdbdf0" version="1">Skilled: Persuasion</content>
+  <content contentuid="hceae7ad3gf0dbgdd24gcc1bg7bd21312fc0a" version="1">Skilled: Religion</content>
+  <content contentuid="hc931f53agbc8egb132g41cdg19cd166d6f7b" version="1">Skilled: Sleight of Hand</content>
+  <content contentuid="h9eb6dc6dg1471g2dbcg9f1bgee4b610efd55" version="1">Skilled: Stealth</content>
+  <content contentuid="hb990e3c4g5425g1524gfedcg5f20ce20597d" version="1">Skilled: Survival</content>
+  <content contentuid="h8f8e4f76g9279geaf4g3be8g75fcc8975180" version="1">Skilled</content>
+  <content contentuid="ha89bce32gf8a8g61a1gda37gae4076b0817a" version="1">You gain proficiency in any combination of three skills of your choice.</content>
+  <content contentuid="haccfb564g42d5gbcf1g17e3g6bd3bb113a44" version="1">Acrobatics</content>
+  <content contentuid="hc355df2ag0123g443bg998cg11187bf11a5a" version="1">AnimalHandling</content>
+  <content contentuid="h722b6a69g3477g36dbg1e4fg04643c68b1f7" version="1">Arcana</content>
+  <content contentuid="h5329602dgbdb7gdf54g164cg7babc0547f88" version="1">Athletics</content>
+  <content contentuid="h4a18bdbcg2f07g8fc3ga383g3bf38d934d97" version="1">Deception</content>
+  <content contentuid="h15608410g73bagc53bg53f2ga41d7d3b2f96" version="1">History</content>
+  <content contentuid="h41367f77g2252gf46bg7c6bge19d48c4f278" version="1">Nature</content>
+  <content contentuid="h459ce53fg7791g1cd0g378eg2c1353e49c4f" version="1">Perception</content>
+  <content contentuid="h5b423612ge7e5g8736gd607g7c134dc79c3a" version="1">Performance</content>
+  <content contentuid="hdc9b288fg9711g7a53gfe81g9448c4523a2c" version="1">Persuasion</content>
+  <content contentuid="h57eaf745g2783g5cc4gc9f6gd12380a0934f" version="1">Religion</content>
+  <content contentuid="h87e650ddg0175gc7f8g135eg826bd05429d2" version="1">SleightOfHand</content>
+  <content contentuid="h237ebf10g65d4g5de2ga9f8g4aeae8f52710" version="1">Stealth</content>
+  <content contentuid="hcaedae0bg8d89g5535gef15ge3bead7cac7b" version="1">Survival</content>
+  <content contentuid="h96a2be22g2936g6b20g8c6fga91b0ccaa06d" version="1">Insight</content>
+  <content contentuid="h4107cf58gb2cdgcf41g08c5gcb3b1ab720a4" version="1">Intimidation</content>
+  <content contentuid="h4ba0cf67g55f2ge128g4fefg499a17387298" version="1">Investigation</content>
+  <content contentuid="h58264943ge8a3g47cdg09c2gd71af9051c26" version="1">Medicine</content>
+  <content contentuid="h5ec953edgae89gbe4fgbc37g46d66f973083" version="1">You have gained proficiency in the skill.</content>
 </contentList>
