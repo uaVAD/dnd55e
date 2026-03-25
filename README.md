@@ -1,5 +1,5 @@
 # [DnD 5.5e Beyond](https://github.com/Yoonmoonsik/dnd55e)
-## Rule System
+## Basic Rule
 - [ ] Hit Point Dice
 - [ ] Spell Scroll Usage Limitation
 - [x] Bloodied
@@ -11,14 +11,9 @@
 - [x] One Spell Slot Spell per Turn
 - [x] Prone
 - [x] Weapon Mastery
-## Action
-- [x] Distract
-- [x] Dodge
-- [x] Hide
-- [x] Jump
-- [x] Shove
-- [x] Topple
-## Classe
+## Character Background
+- [ ] Acolyte
+## Class
 ### Barbarian
 - [x] Class
   - [x] Core Traits
@@ -406,6 +401,26 @@
 ### Gunslinger
 ### Illrigger
 ### Psion
+## Common Action
+- [x] Distract
+- [x] Dodge
+- [x] Hide
+- [x] Jump
+- [x] Shove
+- [x] Topple
+## Feat
+### Origin
+- [x] Magic Initiate (Cleric)
+  - [x] Cantrip
+  - [x] Spell
+- [x] Magic Initiate (Druid)
+  - [x] Cantrip
+  - [x] Spell
+- [x] Magic Initiate (Wizard)
+  - [x] Cantrip
+  - [x] Spell
+### General
+### Fighting Style
 ## Spell
 ### Cantrip
 - [x] Chill Touch
@@ -427,7 +442,3 @@
 ### Level 5
 - [x] Steel Wind Strike (~~Ranger~~, Wizard, War, Hexblade)
 - [x] Synaptic Static (Bard, Sorcerer, Warlock, Wizard, Knowledge)
-## Feat
-### Origin
-### General
-### Fighting Styles

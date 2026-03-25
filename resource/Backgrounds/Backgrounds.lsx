@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Backgrounds">
+        <node id="root">
+            <children>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="h18021532g7cf1g263eg148bg852a52db6cf5" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hda66831fg300fg893ega428gd807bb12f766" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Acolyte;OriginFeat_MagicInitiate_Cleric"/>
+                    <attribute id="UUID" type="guid" value="633aa4be-365f-4358-ba56-e2b85f9a88ec"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="906d1961-e9c6-4170-b775-62797a0efe1c"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

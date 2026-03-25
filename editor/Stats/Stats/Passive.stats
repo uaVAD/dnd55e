@@ -2553,5 +2553,50 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6aa89a2-4069-4e8a-bf9a-8c9e9902801b" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ORIGIN FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fa591415-e2a3-490d-9385-91672548c3be" />
+        <field name="Name" type="NameTableFieldDefinition" value="OriginFeat_MagicInitiate_Cleric" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd660fd06g45aeg25f4g7e9dg6fd338c66f83" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,MAGICINITIATE_CLERIC_CANTRIP_START,100,-1);ApplyStatus(SELF,MAGICINITIATE_CLERIC_SPELL_START,100,-1)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7fd3e98dg8cddgd47cg0aeag9f03355feaaa" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="100" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05ad5b2e-b647-4752-a384-1907ddb342e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="OriginFeat_MagicInitiate_Druid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fa591415-e2a3-490d-9385-91672548c3be" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3522b895gaf8eg23c8ge2a5g19305a3832ce" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateDruid" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,MAGICINITIATE_DRUID_CANTRIP_START,100,-1);ApplyStatus(SELF,MAGICINITIATE_DRUID_SPELL_START,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6efaa754-5e4b-4534-b1a2-222ffab3103b" />
+        <field name="Name" type="NameTableFieldDefinition" value="OriginFeat_MagicInitiate_Wizard" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fa591415-e2a3-490d-9385-91672548c3be" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateWizard" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,MAGICINITIATE_WIZARD_CANTRIP_START,100,-1);ApplyStatus(SELF,MAGICINITIATE_WIZARD_SPELL_START,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="858ff000-5c54-4531-9cc2-020fc145ea61" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

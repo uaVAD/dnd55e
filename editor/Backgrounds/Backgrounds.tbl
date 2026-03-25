@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="64d07522-f5ae-494e-b92d-77ae9c71feb1">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="633aa4be-365f-4358-ba56-e2b85f9a88ec" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda66831fg300fg893ega428gd807bb12f766" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h18021532g7cf1g263eg148bg852a52db6cf5" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Background_Acolyte;OriginFeat_MagicInitiate_Cleric" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="906d1961-e9c6-4170-b775-62797a0efe1c" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

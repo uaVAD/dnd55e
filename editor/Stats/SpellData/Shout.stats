@@ -240,7 +240,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;09ae2f11-f5b4-42f5-ae16-687a5b57d500,,;10caea0e-c949-4d91-8ab7-3b50019dd054,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;HasSomaticComponent;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;IsHarmful;HasSomaticComponent;HasVerbalComponent" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Psychic" enumeration_type_name="HitAnimationType" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="2af907e1-127c-4c83-a117-af18f211c59d" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ee3c85ae-0078-4223-9345-c2594535d1f2" />
@@ -276,6 +276,7 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Radiant,Magical);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;IsHarmful;HasSomaticComponent;HasVerbalComponent" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1254,6 +1255,75 @@
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f4d1d3da-0193-4f35-bd70-44f3a889810c" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="c90dca7b-0926-4158-8015-9acc390fea0f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9003a82-f63d-4c4e-99ed-6fa48c42a7e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ORIGIN FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d3388f0-3d3d-4bdf-8bf5-fd9a6b22e86b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_Cantrip" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_BurstingSinew;Target_Guidance;Target_Light;Target_Resistance;Target_SacredFlame;Target_SpareTheDying;Shout_Thaumaturgy;Target_TollTheDead;Shout_WordOfRadiance;" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha980b3fbg98dcgc88eg9edbg89be32a4b191" version="2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;37aada69-e710-4cb6-9f10-28dfc2d130fa,,;07a55072-2de5-465e-b0e2-1da94b35c1b8,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d1ae2c1g95b6g5a3dgc067g1baf8491753f" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="497ba02f-a777-4240-9fd2-9f8194a31062" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_Cantrip" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d3388f0-3d3d-4bdf-8bf5-fd9a6b22e86b" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_Guidance;Projectile_PoisonSpray;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap;" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3be2808fgdf36g2f49g651dgd7072fe1c369" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb18213feg1443g46dfg66c8g43152a53cf75" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5fa7a877-3096-40a2-9d25-3f37c0fa4db6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Cantrip" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d3388f0-3d3d-4bdf-8bf5-fd9a6b22e86b" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike;" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf7beb3cg8662gd7d0ga3aag9f047d9b8897" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd31cacc2g7f81g20c3gc487gec7d06e97e53" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9079b4e-65e8-4b23-a7f7-c7907ef0ace6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_Spell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d3388f0-3d3d-4bdf-8bf5-fd9a6b22e86b" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_Bane;Target_Bless;Target_Command_Halt;Target_Command_Approach;Target_Command_Drop;Target_Command_Flee;Target_Command_Grovel;Target_CreateWater;Target_DestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith;" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h948ef541g3485gbf64g5f3ag0b03af06a06a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0452adf6gbffcga716g8490gdad124c18bb6" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8420244e-5360-4017-8b57-3dab91d3e07f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_Spell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="497ba02f-a777-4240-9fd2-9f8194a31062" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateWater;Target_DestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Zone_Thunderwave;" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc1a2947cg6d72g0cb9g22eagc5ff105e4237" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he3771dbcg23f0g570dg2d5egf79cec30d589" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a31d6179-c93f-4153-9ac5-dcdba4879811" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Spell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5fa7a877-3096-40a2-9d25-3f37c0fa4db6" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb_Acid;Projectile_ChromaticOrb_Cold;Projectile_ChromaticOrb_Fire;Projectile_ChromaticOrb_Lightning;Projectile_ChromaticOrb_Poison;Projectile_ChromaticOrb_Thunder;Zone_ColorSpray;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar_Cat;Target_FindFamiliar_Crab;Target_FindFamiliar_Frog;Target_FindFamiliar_Rat;Target_FindFamiliar_Raven;Target_FindFamiliar_Spider;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt;" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6335af1g4129g0308g8518g3cb980ec4a55" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hffa4fb6cg516eg4f17g0656geecaebcd5045" version="2" />
       </fields>
     </stat_object>
   </stat_objects>
