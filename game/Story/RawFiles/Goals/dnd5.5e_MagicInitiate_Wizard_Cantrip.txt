@@ -18,6 +18,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Projectile_AcidSplash",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -27,6 +29,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Shout_BladeWard",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -36,6 +40,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_BoomingBlade_ClassSpell",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -45,6 +51,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_BurstingSinew",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -54,6 +62,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_ChillTouch",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -63,6 +73,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_DancingLights",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -72,6 +84,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Projectile_FireBolt",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -81,6 +95,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_Friends",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -90,6 +106,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_Light",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -99,6 +117,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_MageHand",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -108,6 +128,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_MindSliver",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -117,6 +139,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_MinorIllusion",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -126,6 +150,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Projectile_PoisonSpray",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -135,6 +161,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Projectile_RayOfFrost",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -144,6 +172,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_ShockingGrasp",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -153,6 +183,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Shout_Thunderclap",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -162,6 +194,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_TollTheDead",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
@@ -171,6 +205,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_TrueStrike",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");

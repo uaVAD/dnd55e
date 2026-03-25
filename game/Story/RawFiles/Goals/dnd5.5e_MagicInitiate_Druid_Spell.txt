@@ -7,6 +7,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_AnimalFriendship",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -16,6 +18,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_CharmPerson",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -25,6 +29,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_CreateWater",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -34,6 +40,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_DestroyWater",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -43,6 +51,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_CureWounds",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -52,6 +62,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_Entangle",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -61,6 +73,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_FaerieFire",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -70,6 +84,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_FogCloud",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -79,6 +95,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_Goodberry",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -88,6 +106,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_HealingWord",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -97,6 +117,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Projectile_IceKnife",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -106,6 +128,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_Jump",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -115,6 +139,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_Longstrider",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -124,6 +150,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Target_ProtectionFromEvilAndGood",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -133,6 +161,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Shout_SpeakWithAnimals",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
@@ -142,6 +172,8 @@ IF
 CastedSpell((CHARACTER)_Player,"Zone_Thunderwave",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
