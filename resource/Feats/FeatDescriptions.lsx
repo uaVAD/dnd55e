@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="FeatDescriptions">
+        <node id="root">
+            <children>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="he017d973g0291gbe65g86dbgfc62954d6af5" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2d1c35beg6336gdd1eg258dg69afd0b6b19f" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="Athlete"/>
+                    <attribute id="FeatId" type="guid" value="d674aa33-8633-4b67-8623-b6788f0d5fc4"/>
+                    <attribute id="UUID" type="guid" value="e5a796ab-3b90-4cd3-8b5a-c3aa5d993833"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h9ed109c6ga680g6d73gce1ag6e136e676cb2" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf57c9070gd267g0022g18deg38ad134018ab" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="Charger"/>
+                    <attribute id="FeatId" type="guid" value="eab25714-15d6-4e26-b809-3fad832d0484"/>
+                    <attribute id="UUID" type="guid" value="cfe571e4-5d45-4715-82e6-d63dd4a8335b"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

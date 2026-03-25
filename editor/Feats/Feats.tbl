@@ -50,5 +50,25 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(22254a0a-d047-48af-802d-a99af005b2a0,1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_19" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d674aa33-8633-4b67-8623-b6788f0d5fc4" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Athlete" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Athlete_StandUp" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Strength',13) or FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eab25714-15d6-4e26-b809-3fad832d0484" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Charger" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Charger" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Strength',13) or FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

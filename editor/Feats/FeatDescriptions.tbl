@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="0bc6c1c1-edc3-45ae-badf-12732a57c361">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e5a796ab-3b90-4cd3-8b5a-c3aa5d993833" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="d674aa33-8633-4b67-8623-b6788f0d5fc4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d1c35beg6336gdd1eg258dg69afd0b6b19f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he017d973g0291gbe65g86dbgfc62954d6af5" version="2" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Athlete" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cfe571e4-5d45-4715-82e6-d63dd4a8335b" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="eab25714-15d6-4e26-b809-3fad832d0484" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf57c9070gd267g0022g18deg38ad134018ab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ed109c6ga680g6d73gce1ag6e136e676cb2" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Charger" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

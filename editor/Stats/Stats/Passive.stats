@@ -2875,5 +2875,30 @@
         <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="279a60f7-e8b3-4682-afd5-d62b123dbda2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Athlete_StandUp" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19c32712-ac61-4049-98b1-b66808f1860a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4fa37f8dgea0ag8e9eg9222g12cdf8ef50af" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac8cf59bgb29dg6896g2a11g689bf333570e" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Athlete_Jump);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf4e1e8e-2506-49dd-b70d-0f8a3f280e53" />
+        <field name="Name" type="NameTableFieldDefinition" value="Charger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="89c11c83-9cd9-40aa-8cc6-89aa7e5d5a3d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc6e4744g6835g4d25g3453g224b9eed2a70" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e972de5g72bbgc7d9gfda3g1c89f2af41d0" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ChargerTurn,1,0);UnlockSpell(Rush_Charger_Attack);UnlockSpell(Rush_Charger_Push);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SpellCategoryIs(SpellCategory.Dash) and Combat()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(MAG_MOMENTUM,100,2);ApplyStatus(MAG_MOMENTUM_DURATION_TECHNICAL, 100, 1)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

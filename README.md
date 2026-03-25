@@ -432,6 +432,8 @@
 - [x] Tavern Brawler
 - [x] Tough
 ### General
+- [x] Athlete
+- [x] Charger
 ### Fighting Style
 ## Spell
 ### Cantrip

@@ -35,6 +35,20 @@
                     <attribute id="Selectors" type="LSString" value="SelectPassives(22254a0a-d047-48af-802d-a99af005b2a0,1)"/>
                     <attribute id="UUID" type="guid" value="be0889d2-f9aa-472d-b942-592bff0f1ef3"/>
                 </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Athlete"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Athlete_StandUp"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Strength&apos;,13) or FeatRequirementAbilityGreaterEqual(&apos;Dexterity&apos;,13)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
+                    <attribute id="UUID" type="guid" value="d674aa33-8633-4b67-8623-b6788f0d5fc4"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Charger"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Charger"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Strength&apos;,13) or FeatRequirementAbilityGreaterEqual(&apos;Dexterity&apos;,13)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
+                    <attribute id="UUID" type="guid" value="eab25714-15d6-4e26-b809-3fad832d0484"/>
+                </node>
             </children>
         </node>
     </region>

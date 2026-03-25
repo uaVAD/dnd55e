@@ -223,5 +223,20 @@
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_22" />
+        <field name="UUID" type="IdTableFieldDefinition" value="85f3d4fe-f195-4243-835a-f991df857637" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__GENERAL FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_23" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f731c3bf-88c4-4fab-bf44-fae650ea2ec3" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ChargerTurn" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
