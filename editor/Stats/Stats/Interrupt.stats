@@ -323,7 +323,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fc9131eb-e555-4081-b52f-9f96c4c58caf" />
         <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
@@ -339,9 +339,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="23677e64-a1ae-4b9e-bb11-f0c3f440cf4a" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8d53d12a-97bf-46a0-b8cc-fb1f0c1a3f4e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9405f12f-7ebe-4e7f-848c-c587daca3b2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_MageSlayer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="73660c65-8a0e-476a-8eb1-78a232eef4e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h64d74f86g3068g8d76g0cd1g2ed854b87962" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd944c877g9f95g1749ge647gfe18b6b31562" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and HasInterruptedSavingThrow() and Self(context.Observer,context.Target) and not AnyEntityIsItem() and IsRerollInterruptInteresting() and (HasSavingThrowWithAbility(Ability.Intelligence) or HasSavingThrowWithAbility(Ability.Wisdom) or HasSavingThrowWithAbility(Ability.Charisma));" />
+        <field name="Cost" type="StringTableFieldDefinition" value="MageSlayer:1;" />
       </fields>
     </stat_object>
   </stat_objects>

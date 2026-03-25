@@ -614,13 +614,14 @@
         <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
         <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
         <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Versatile" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Versatile;Reach" enumeration_type_name="WeaponFlags" version="1" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Tridents;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d3807461-7c32-44ae-9aba-49ef4d3bf35e" />
         <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d10" />
         <field name="Weight" type="FloatTableFieldDefinition" value="1.8" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;" />
+        <field name="WeaponRange" type="IntegerTableFieldDefinition" value="200" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1072,7 +1073,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2fab5801-76b1-4669-95d9-7df76bed12dd" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="4cd41c74-9c86-4233-922e-4db5bc750df5" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Versatile;Magical" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Versatile;Magical;Reach" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1429,7 +1430,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6cf827d6-5bae-480a-a1b4-d7fdb0e68801" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="71191c11-966f-4c19-b4ee-eb36d31c4944" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Versatile;Magical" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Versatile;Magical;Reach" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2016,7 +2017,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fd1b4c45-e2df-4add-bc56-697d0339c4bd" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Tridents)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;Magical" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;Magical;Reach" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

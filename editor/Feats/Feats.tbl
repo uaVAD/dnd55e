@@ -135,5 +135,92 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(c8c86d75-2abc-40a2-8d40-2b1a341afa00,1,1,STR)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_23" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7bc235ac-7eeb-49d3-8249-c3313d87af75" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="HeavilyArmored" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementProficiency('MediumArmor')" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HeavilyArmored" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(111c055b-ddcf-430e-a5b0-1a0a598e203a,1,1,STR_CON)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0de08fff-ab18-442f-a0b1-f53e7be04c03" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="HeavyArmorMaster" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HeavyArmorMaster" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementProficiency('HeavyArmor')" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(111c055b-ddcf-430e-a5b0-1a0a598e203a,1,1,STR_CON)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_24" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b441c722-e4d4-4702-861a-039bfd77c124" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="LightlyArmored" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="LightlyArmored" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a533fde7-ee0a-46ce-92e2-9763201a54d2" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="MageSlayer" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="MageSlayer_Advantage;MageSlayer_AttackCaster;MageSlayer_BreakConcentration" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_31" />
+        <field name="UUID" type="IdTableFieldDefinition" value="455fc2d5-1c77-40e7-a010-0b51044ae74b" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="MartialAdept" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="MartialAdept" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e51a2ef5-3663-43f9-8e74-5e28520323f1,2,MAManeuvers);SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_17" />
+        <field name="UUID" type="IdTableFieldDefinition" value="17ac3605-9a8a-41f3-9504-ffc17fffa03e" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="MediumArmorMaster" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="MediumArmorMaster" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementProficiency('MediumArmor')" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_32" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0a3b07bf-a806-4c77-9c8f-6e7c0965f9dd" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Mobile" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Mobile_PassiveBonuses;Mobile_DashAcrossDifficultTerrain" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Dexterity',13) or FeatRequirementAbilityGreaterEqual('Constitution',13)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(5336dfdd-cc35-4909-a5d7-65f4e0e2f4f9,1,1,DEX_CON)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_33" />
+        <field name="UUID" type="IdTableFieldDefinition" value="681d5307-f0ed-4c94-8cf0-db0c51116f56" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ModeratelyArmored" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementProficiency('LightArmor')" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ModeratelyArmored" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_39" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fdf0be80-cc1e-4501-bd2e-7a1ea737362c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="PolearmMaster" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="PolearmMaster" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Strength',13) or FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

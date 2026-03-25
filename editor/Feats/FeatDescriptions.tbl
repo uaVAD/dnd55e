@@ -3,6 +3,46 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
+        <field name="UUID" type="IdTableFieldDefinition" value="27bbfed5-ec5b-484f-8ae6-dab3299a28dd" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="d84c7f36-8c5b-4b17-b95a-e1da725f9004" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae25381bgef2fgb3e0ga319g98ed9f6981b8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8708a627g8357g1f81g5bfdgc87a5b00b9fe" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Lucky" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_19" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4dcb182b-3d98-406c-845a-fed95f3f8711" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="60dfd716-3ba8-4611-90ee-018b59775b1d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03f42ae5g766bg7991gbcd3gacac23773d6c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbc4803a8gd847gc698gdcb8g8e6853f62ff5" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Performer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5551971b-22e1-4107-afe0-28d568fb3446" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="e061a323-3430-4cff-88d3-5eae7a1779a4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd0637db0gbaaag6a4eg8e04g319e2086edb5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he25db363g9a78g7f74gf0acgfff6880e8210" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="SavageAttacker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_16" />
+        <field name="UUID" type="IdTableFieldDefinition" value="31cba9b2-bf42-4f7b-919d-a0bccc2dff5e" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="be0889d2-f9aa-472d-b942-592bff0f1ef3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb4c3b9b7g429bg1543gc57cg6b3b5b25dd7e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h77c6e22dg906bge2b2g1f89ged91e34c41a3" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="TavernBrawler" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
         <field name="UUID" type="IdTableFieldDefinition" value="e5a796ab-3b90-4cd3-8b5a-c3aa5d993833" />
         <field name="FeatId" type="GuidTableFieldDefinition" value="d674aa33-8633-4b67-8623-b6788f0d5fc4" />
@@ -79,6 +119,76 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f1eb96eg51f4gaf8cg5396g435ffda2161a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h00f044d5gf4edgc900g397bgca53d410bdad" version="2" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="GreatWeaponMaster" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8ee6c346-ccdf-4335-a342-a15261051035" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="7bc235ac-7eeb-49d3-8249-c3313d87af75" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d48061fg5f17gd0d7gcc47g4d36f5a2b812" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h514d8491g4149gd42dgac44g49eb428cfab7" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="HeavilyArmored" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="91ab8967-1a89-490b-882c-36b9db4d7ed4" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="0de08fff-ab18-442f-a0b1-f53e7be04c03" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h839231bbgeb1bg509bgdb9cge3286fb2cd64" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0266d9b6g2d5egdfa6g1bfag6db68cf5e3ff" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="HeavyArmorMaster" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b12ac1e4-aad8-4cdf-aa22-d92b5757bd50" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="b441c722-e4d4-4702-861a-039bfd77c124" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h494aa429g631cgf105g1994g4c64836d3f3d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1bf3ecc0g938dg39f4g8e16gfe946978878f" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="LightlyArmored" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d2e48d4d-4b19-458f-a880-34aa51c04519" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="a533fde7-ee0a-46ce-92e2-9763201a54d2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb622813gde8ag8560g8db8ga20dd3f55a1c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97c2a4b1gf596g1516g285eg988549b0ed6f" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="MageSlayer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="00a17a40-2f3a-429f-a8fc-e3dc264f6670" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="0a3b07bf-a806-4c77-9c8f-6e7c0965f9dd" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9f345cf4g20e3g3adbg0568g4c6d7a467ed6" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9aba9e0ag4af1g9f8fg922ag7e65e5b8a86b" version="2" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Mobile" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3ff13547-e5dd-4c26-955f-ec02535defa2" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="681d5307-f0ed-4c94-8cf0-db0c51116f56" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8eacabe1gf4e0g46a9g32adg16f61a4b3530" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9683622cg2b30ga13egcae5g1c9525ef5014" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="ModeratelyArmored" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9f9e19ea-117e-4717-acd8-9370e9956d07" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="fdf0be80-cc1e-4501-bd2e-7a1ea737362c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3cebc5b8g1e08g6174g4093gbb24e545e462" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h215cfcadg8e38gf1d3g5cbfgf68a823d6955" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="PolearmMaster" />
       </fields>
     </stat_object>
   </stat_objects>

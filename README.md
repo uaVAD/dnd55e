@@ -423,10 +423,10 @@
 ### Origin
 - [x] Alert
 - [x] Lucky
-- [x] Magic Initiate (Cleric)
-- [x] Magic Initiate (Druid)
-- [x] Magic Initiate (Wizard)
-- [x] Musician
+- [x] Magic Initiate: Cleric
+- [x] Magic Initiate: Druid
+- [x] Magic Initiate: Wizard
+- [x] Musician (Performer)
 - [x] Savage Attacker
 - [x] Skilled
 - [x] Tavern Brawler
@@ -441,6 +441,18 @@
 - [ ] Durable (보행으로 전체 생명력 절반 회복 짧휴당)
 - [x] Elemental Adept
 - [x] Great Weapon Master
+- [x] Heavily Armored
+- [x] Heavy Armor Master
+- [x] Lightly Armored
+- [x] Mage Slayer
+- [x] Martial Adept
+- [x] Medium Armor Master
+- [x] Speedy (Mobile)
+- [x] Polearm Master
+- [x] Resilient
+- [ ] Ritual Caster (활보 등 리추얼 태그 빠지면 그 주문들 추가)
+- [ ] Sentinel
+- [ ] 
 ### Fighting Style
 ## Spell
 ### Cantrip

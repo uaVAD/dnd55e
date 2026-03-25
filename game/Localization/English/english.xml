@@ -809,4 +809,66 @@ Hew. Immediately after you score a Critical Hit with a Melee weapon or reduce a 
   <content contentuid="hf5c74f9cg9d34g5f2dgb774g506b6adf6782" version="1">Heavy Weapon Mastery. When you hit a creature with a weapon that has the Heavy property as part of the Attack action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your Proficiency Bonus.
 
 Hew. Immediately after you score a Critical Hit with a Melee weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action.</content>
+  <content contentuid="h3b239dc5gf9c8g1abcgc84eg956c665ab218" version="1">Feat: Heavily Armoured</content>
+  <content contentuid="h8f67f4a8ga475g09e8gd009gab416f216b09" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Heavy Armour.</content>
+  <content contentuid="h9d48061fg5f17gd0d7gcc47g4d36f5a2b812" version="1">Heavily Armoured</content>
+  <content contentuid="h514d8491g4149gd42dgac44g49eb428cfab7" version="1">You gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Heavy Armour.</content>
+  <content contentuid="h839231bbgeb1bg509bgdb9cge3286fb2cd64" version="1">Heavy Armour Master</content>
+  <content contentuid="h0266d9b6g2d5egdfa6g1bfag6db68cf5e3ff" version="1">Damage Reduction. When you’re hit by an attack while you’re wearing Heavy armor, any Bludgeoning, Piercing, and Slashing damage dealt to you by that attack is reduced by an amount equal to your Proficiency Bonus.</content>
+  <content contentuid="h05dbc595g938dgf8c5geb8ag232d7f8f255a" version="1">Feat: Heavy Armour Master</content>
+  <content contentuid="h321dea39gd6d7g8505g1460ga4f1c96684b4" version="1">Damage Reduction. When you’re hit by an attack while you’re wearing Heavy armor, any Bludgeoning, Piercing, and Slashing damage dealt to you by that attack is reduced by an amount equal to your Proficiency Bonus.</content>
+  <content contentuid="h494aa429g631cgf105g1994g4c64836d3f3d" version="1">Lightly Armoured</content>
+  <content contentuid="h1bf3ecc0g938dg39f4g8e16gfe946978878f" version="1">Armor Training. You gain training with Light armor and Shields.</content>
+  <content contentuid="h97c3576bg651bg7e79g4da8g9dde54eb141f" version="1">Feat: Lightly Armoured</content>
+  <content contentuid="hd9e3a2b4g854eg51fcg7859gb22843f1ee76" version="1">Armor Training. You gain training with Light armor and Shields.</content>
+  <content contentuid="heb622813gde8ag8560g8db8ga20dd3f55a1c" version="1">Mage Slayer</content>
+  <content contentuid="h97c2a4b1gf596g1516g285eg988549b0ed6f" version="1">Concentration Breaker. When you damage a creature that is concentrating, it has Disadvantage on the saving throw it makes to maintain Concentration.
+
+Guarded Mind. If you fail an Intelligence, a Wisdom, or a Charisma saving throw, you can cause yourself to succeed instead. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</content>
+  <content contentuid="h686b506cg3f99g1c96gdcfcgfd54e5d46f19" version="1">Feat: Mage Slayer</content>
+  <content contentuid="hfc9071adg34ddg859egdda4g444a72c4713f" version="1">Concentration Breaker. When you damage a creature that is concentrating, it has Disadvantage on the saving throw it makes to maintain Concentration.
+
+Guarded Mind. If you fail an Intelligence, a Wisdom, or a Charisma saving throw, you can cause yourself to succeed instead. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</content>
+  <content contentuid="h64d74f86g3068g8d76g0cd1g2ed854b87962" version="1">Guarded Mind</content>
+  <content contentuid="hd944c877g9f95g1749ge647gfe18b6b31562" version="1">If you fail an Intelligence, a Wisdom, or a Charisma saving throw, you can cause yourself to succeed instead. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</content>
+  <content contentuid="hf3cb4188g698ag0e09ge5b7g7087f12e55e8" version="1">Feat: Martial Adept</content>
+  <content contentuid="h8c96ebffgfa30ge6e9g2670ge4e2af8fb180" version="1">Feat: Medium Armour Master</content>
+  <content contentuid="h9f345cf4g20e3g3adbg0568g4c6d7a467ed6" version="2">Speedy</content>
+  <content contentuid="h9aba9e0ag4af1g9f8fg922ag7e65e5b8a86b" version="2">Speed Increase. Your Speed increases by 10 feet.
+
+Dash over Difficult Terrain. When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn.
+
+Agile Movement. Opportunity Attacks have Disadvantage against you.</content>
+  <content contentuid="h8eacabe1gf4e0g46a9g32adg16f61a4b3530" version="1">Moderately Armoured</content>
+  <content contentuid="h9683622cg2b30ga13egcae5g1c9525ef5014" version="1">You gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour and shields, and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+  <content contentuid="h064d8f79g7d9eg262fg76e0g2d04ce1515a6" version="2">Feat: Speedy</content>
+  <content contentuid="h1ea9a52fg1499gbdd8g9ab4g8e8ff63c7f3f" version="1">Speed Increase. Your Speed increases by 10 feet.
+
+Dash over Difficult Terrain. When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn.
+
+Agile Movement. Opportunity Attacks have Disadvantage against you.</content>
+  <content contentuid="hcece8c3cgbda0g0cf1g3872g9d5fba9e3f61" version="1">Feat: Moderately Armoured</content>
+  <content contentuid="hae25381bgef2fgb3e0ga319g98ed9f6981b8" version="1">Lucky</content>
+  <content contentuid="h8708a627g8357g1f81g5bfdgc87a5b00b9fe" version="1">You gain a number of &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt; equal to your proficiency bonus. You can use these points to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, or to make an enemy reroll an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h03f42ae5g766bg7991gbcd3gacac23773d6c" version="1">Musician</content>
+  <content contentuid="hbc4803a8gd847gc698gdcb8g8e6853f62ff5" version="1">Instrument Training. You gain proficiency with three Musical Instruments.&lt;br&gt;&lt;br&gt;Encouraging Song. As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Bardic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.</content>
+  <content contentuid="hd0637db0gbaaag6a4eg8e04g319e2086edb5" version="1">Savage Attacker</content>
+  <content contentuid="he25db363g9a78g7f74gf0acgfff6880e8210" version="1">When making weapon attacks, you roll your damage dice twice and use the highest result.</content>
+  <content contentuid="hb4c3b9b7g429bg1543gc57cg6b3b5b25dd7e" version="1">Tavern Brawler</content>
+  <content contentuid="h77c6e22dg906bge2b2g1f89ged91e34c41a3" version="1">When making unarmed attacks, you roll your damage dice twice and use the highest result.</content>
+  <content contentuid="h3cebc5b8g1e08g6174g4093gbb24e545e462" version="1">Polearm Master</content>
+  <content contentuid="h215cfcadg8e38gf1d3g5cbfgf68a823d6955" version="1">Pole Strike. Immediately after you take the Attack action and attack with a Quarterstaff, a Spear, or a weapon that has the Heavy and Reach properties, you can use a Bonus Action to make a melee attack with the opposite end of the weapon. The weapon deals Bludgeoning damage, and the weapon’s damage die for this attack is a d4.
+
+Reactive Strike. While you’re holding a Quarterstaff, a Spear, or a weapon that has the Heavy and Reach properties, you can take a Reaction to make one melee attack against a creature that enters the reach you have with that weapon.</content>
+  <content contentuid="h0e159707gedcdgecceg7084geda7d6596f4b" version="1">Feat: Polearm Master</content>
+  <content contentuid="h3dd5e7b4g4865gbd7bged74gd82f6e53d20d" version="1">Pole Strike. Immediately after you take the Attack action and attack with a Quarterstaff, a Spear, or a weapon that has the Heavy and Reach properties, you can use a Bonus Action to make a melee attack with the opposite end of the weapon. The weapon deals Bludgeoning damage, and the weapon’s damage die for this attack is a d4.
+
+Reactive Strike. While you’re holding a Quarterstaff, a Spear, or a weapon that has the Heavy and Reach properties, you can take a Reaction to make one melee attack against a creature that enters the reach you have with that weapon.</content>
+  <content contentuid="h8279b78cg9f64gf40egab20gf3b5ab80bc72" version="2">Feat: Resilient (Charisma)</content>
+  <content contentuid="h5e27ad01ga610ga42cgc65dg1ce99d93cdf8" version="1">Origin Feat: Magic Initiate (Wizard)</content>
+  <content contentuid="h264cac24g55adg2b42g5689g9ac57b287ff0" version="1">Feat: Resilient (Constitution)</content>
+  <content contentuid="h4d896d4bg38ffgb852ge9c4g321634de4a1d" version="1">Feat: Resilient (Dexterity)</content>
+  <content contentuid="h28f453f2gecbagbf36g9580ga18155f4ed7c" version="1">Feat: Resilient (Intelligence)</content>
+  <content contentuid="ha5d92735g8afdga8f3ge1c5g5b06d62a50e6" version="1">Feat: Resilient (Strength)</content>
+  <content contentuid="he4365c80ga72cgc5ebg1ae0g6a84db454a82" version="1">Feat: Resilient (Wisdom)</content>
 </contentList>

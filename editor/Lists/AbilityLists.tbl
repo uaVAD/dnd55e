@@ -22,5 +22,19 @@
         <field name="Abilities" type="StringTableFieldDefinition" value="Intelligence, Wisdom, Charisma" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8c86d75-2abc-40a2-8d40-2b1a341afa00" />
+        <field name="Name" type="NameTableFieldDefinition" value="STR" />
+        <field name="Abilities" type="StringTableFieldDefinition" value="Strength" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b261df4-1d57-4b9e-b89a-72b4cd295302" />
+        <field name="Name" type="NameTableFieldDefinition" value="STR CON" />
+        <field name="Abilities" type="StringTableFieldDefinition" value="Strength, Constitution" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
