@@ -648,4 +648,23 @@
   <content contentuid="hd4f3b039g6204g1bbagd21fgb72f806b54d8" version="1">Level 3: Combat Inspiration</content>
   <content contentuid="hd0e61f8bg955fgda33g3e08gc99c259c8a16" version="1">Level 3: Blessings of Knowledge</content>
   <content contentuid="hc9341211ge6c1g1fd9gddbeg13315817fedb" version="1">You gain proficiency in two of the following skills of your choice: Arcana, History, Nature, or Religion. You have Expertise in those two skills.</content>
+  <content contentuid="ha8b64524g7467g0f1eg9214gbd3da8ce6302" version="1">Level 1: Expertise</content>
+  <content contentuid="h75d54fe5g6285g141fgd2b8gca722e196ecc" version="1">You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.&lt;br&gt;&lt;br&gt;At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.</content>
+  <content contentuid="hac07bd19g5886gc2efgf8dfgb838d23ca0bd" version="1">Level 5: Cunning Strike</content>
+  <content contentuid="h4c3e9164gb5c2g35d0g405dgb887921e3e3a" version="1">You’ve developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects.&lt;br&gt;&lt;br&gt;If a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.</content>
+  <content contentuid="h2d4d8d0bgd8f1g3ea1g0101ga6595c40a70f" version="1">Cunning Strike: Poison</content>
+  <content contentuid="h88c13810gba24gc873gb1c9ge3c3fe8cb917" version="2">You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success.</content>
+  <content contentuid="h14896c14gd1f3gead8g4a00g37ead89aa9ae" version="1">Cunning Strike: Trip</content>
+  <content contentuid="h4642fa9fg99f2g37fcg659cg1f43f42e73ee" version="1">If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.</content>
+  <content contentuid="hceff31b1g6ebfg0d4cg2043g91b11847623c" version="1">Cunning Strike: Withdraw</content>
+  <content contentuid="h490512eagca8bg6208g723cg27ee0882906d" version="1">Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.</content>
+  <content contentuid="he11ccf69g4145g3cbfg6094gf14d8136626c" version="1">Withdraw</content>
+  <content contentuid="h1ef2156age1a2ge866g5ac5g338e62d3da81" version="1">Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.</content>
+  <content contentuid="h3952e016gc549gd27fgc618ga417ad5120c1" version="1">Prerequisite: Level 1+ Warlock</content>
+  <content contentuid="he0d8fa8bgadb5g8c7fga076gbec7aa4441cb" version="1">Prerequisite: Level 1+ Warlock</content>
+  <content contentuid="h30fd69d5ge1a6gda26g435dgb055ede6ab30" version="1">Prerequisite: Level 1+ Warlock</content>
+  <content contentuid="h9216324dgcc3bg6778ga40aga3796b155c0c" version="1">Prerequisite: Level 1+ Warlock</content>
+  <content contentuid="h29e638a5g9fe4gca09gb884g608413f8e11f" version="1">Prerequisite: Level 1+ Warlock</content>
+  <content contentuid="h74e5b82bg3e1eg42d0g108ag8296ce9e9f59" version="1">Prerequisite: Level 1+ Warlock</content>
+  <content contentuid="h89cc571cg9734g0e75g9d8fg69ec4116823f" version="1">Prerequisite: Level 1+ Warlock</content>
 </contentList>

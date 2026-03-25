@@ -1867,6 +1867,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="515c0b4a-c71f-45b1-8c78-442c21e10fa9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rogue_1_Expertise" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha8b64524g7467g0f1eg9214gbd3da8ce6302" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h75d54fe5g6285g141fgd2b8gca722e196ecc" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Skilled" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9001" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bb191df6-cd9c-46ff-b89e-b86fd4765594" />
         <field name="Name" type="NameTableFieldDefinition" value="Rogue_3_SteadyAim" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4c5295e0g7006g010bg62b8gfa3c901f3027" version="1" />
@@ -1883,6 +1894,51 @@
         <field name="Name" type="NameTableFieldDefinition" value="UncannyDodge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21f511b2g92a9g1aafg61d4g9e8e4ad1e872" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9005" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d3123fb-d492-43f2-8460-508c1e6e82fe" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f59c7185-d362-4ca0-97ff-093a836fdca4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rogue_5_CunningStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac07bd19g5886gc2efgf8dfgb838d23ca0bd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4c3e9164gb5c2g35d0g405dgb887921e3e3a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_SneakAttack_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9005" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="720130f6-53da-4770-86e7-2e30c9415e4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CunningStrike_Poison" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d4d8d0bgd8f1g3ea1g0101ga6595c40a70f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h88c13810gba24gc873gb1c9ge3c3fe8cb917" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Poison_Ranged" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Rogue_5_CunningStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e65349de-dbd2-4795-8b26-9bcfee0b6530" />
+        <field name="Name" type="NameTableFieldDefinition" value="CunningStrike_Trip" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="720130f6-53da-4770-86e7-2e30c9415e4b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14896c14gd1f3gead8g4a00g37ead89aa9ae" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4642fa9fg99f2g37fcg659cg1f43f42e73ee" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_TripAttack_Ranged" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e15a3e8c-72f7-4561-90bf-8b4d2e51b368" />
+        <field name="Name" type="NameTableFieldDefinition" value="CunningStrike_Withdraw" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="720130f6-53da-4770-86e7-2e30c9415e4b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hceff31b1g6ebfg0d4cg2043g91b11847623c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h490512eagca8bg6208g723cg27ee0882906d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Fighter_EvasiveFootwork" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2095,6 +2151,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ecde94b6-438c-4bae-b871-e1d47af3c98d" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha12d8231ga51ag15b0gaa53g6e00282dc4a2" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h3952e016gc549gd27fgc618ga417ad5120c1" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2104,6 +2163,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c4d6c4c6-78f2-4188-b1ce-03c01a528cfd" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1bd3e3eg338fg58d5g3de3g9be05e9302e7" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he0d8fa8bgadb5g8c7fga076gbec7aa4441cb" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2113,6 +2175,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a86efcde-4bd1-4000-86f5-282dad36734e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e2924dag8101gd3b2g68a2g6add03aed4dd" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h30fd69d5ge1a6gda26g435dgb055ede6ab30" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2123,6 +2188,9 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25396b5dgdf7bg8d51g09d5g87f669d3be25" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h9216324dgcc3bg6778ga40aga3796b155c0c" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2133,6 +2201,9 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h007cf464gd375gf74bg38ccgdc14ddbc38cf" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h29e638a5g9fe4gca09gb884g608413f8e11f" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2142,6 +2213,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="f2bcce1b-0be1-43b9-9cf5-3d26e4bc0962" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f9d1ae5g4592g2f49gb8c7g87c552837f15" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h74e5b82bg3e1eg42d0g108ag8296ce9e9f59" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2154,6 +2228,9 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Concentration)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h89cc571cg9734g0e75g9d8fg69ec4116823f" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -969,6 +969,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackRoll);ActionResourceBlock(Movement);" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="d22b072c-466c-4e83-a692-6db08d9e1a54" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -989,6 +990,30 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbdd3e730g8e9bgceceg9259g246346c857b2" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Sharpshooter_Bonuses" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackRoll);" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f83b0b9-ed30-42be-9006-6ec5e1ac7e05" />
+        <field name="Name" type="NameTableFieldDefinition" value="CUNNINGSTRIKE_POISON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c55d0a13-1ef8-48a2-9c94-fba4f93072d3" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CUNNINGSTRIKE_POISON" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'CUNNINGSTRIKE_POISON',9) and SavingThrow(Ability.Constitution, ManeuverSaveDC())" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0fa80e8d-0caf-4c81-bd7c-51af3af649f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CUNNINGSTRIKE_WITHDRAW" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4160a95c-e003-41d3-8616-0cd721883b6f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he11ccf69g4145g3cbfg6094gf14d8136626c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1ef2156age1a2ge866g5ac5g338e62d3da81" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STEADY_AIM" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">

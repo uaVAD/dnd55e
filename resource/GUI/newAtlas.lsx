@@ -145,6 +145,13 @@
                     <attribute id="V2" type="float" value="0.031005859"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Enchantment_MindSliver"/>
+                    <attribute id="U1" type="float" value="0.84399414"/>
+                    <attribute id="U2" type="float" value="0.87475586"/>
+                    <attribute id="V1" type="float" value="0.00024414062"/>
+                    <attribute id="V2" type="float" value="0.031005859"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_Enchantment_SynapticStatic"/>
                     <attribute id="U1" type="float" value="0.25024414"/>
                     <attribute id="U2" type="float" value="0.28100586"/>
@@ -190,6 +197,27 @@
                     <attribute id="MapKey" type="FixedString" value="Spell_Necromancy_SpareTheDying"/>
                     <attribute id="U1" type="float" value="0.40649414"/>
                     <attribute id="U2" type="float" value="0.43725586"/>
+                    <attribute id="V1" type="float" value="0.00024414062"/>
+                    <attribute id="V2" type="float" value="0.031005859"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Warlock_EldritchMind"/>
+                    <attribute id="U1" type="float" value="0.87524414"/>
+                    <attribute id="U2" type="float" value="0.90600586"/>
+                    <attribute id="V1" type="float" value="0.00024414062"/>
+                    <attribute id="V2" type="float" value="0.031005859"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Warlock_EldritchSmite"/>
+                    <attribute id="U1" type="float" value="0.90649414"/>
+                    <attribute id="U2" type="float" value="0.93725586"/>
+                    <attribute id="V1" type="float" value="0.00024414062"/>
+                    <attribute id="V2" type="float" value="0.031005859"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Warlock_EldritchSmite_Critical"/>
+                    <attribute id="U1" type="float" value="0.93774414"/>
+                    <attribute id="U2" type="float" value="0.96850586"/>
                     <attribute id="V1" type="float" value="0.00024414062"/>
                     <attribute id="V2" type="float" value="0.031005859"/>
                 </node>

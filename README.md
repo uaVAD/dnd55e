@@ -11,6 +11,13 @@
 - [x] One Spell Slot Spell per Turn
 - [x] Prone
 - [x] Weapon Mastery
+## Action
+- [x] Distract
+- [x] Dodge
+- [x] Hide
+- [x] Jump
+- [x] Shove
+- [x] Topple
 ## Classe
 ### Barbarian
 - [x] Class
@@ -159,6 +166,7 @@
     - [x] Level 7: Additional Fighting Style
     - [x] Level 10: Heroic Warrior
   - [x] Eldritch Knight
+    - [x] Level 3: Spellcasting
     - [x] Level 3: War Bond
     - [x] Level 7: War Magic
     - [x] Level 10: Eldritch Strike
@@ -254,21 +262,55 @@
     - [x] Level 3: Gloom Stalker Spells
     - [x] Level 3: Umbral Sight
     - [x] Level 7: Iron Mind
-    - [x] Level 11: Stalker’s Flurry
+    - [x] Level 11: Stalker's Flurry
   - [ ] Hunter
-    - [ ] Level 3: Hunter’s Prey
+    - [ ] Level 3: Hunter's Prey
     - [ ] Level 7: Defensive Tactics
     - [x] Level 11: Superior Hunter's Prey
 - [x] Spell List
 ### Rogue
 - [x] Class
+  - [x] Core Traits
+    - [x] Skill Proficiencies
+    - [x] Weapon Proficiencies
+    - [x] Armor Training
+  - [x] Level 1: Expertise
+  - [x] Level 1: Sneak Attack
+  - [x] Level 1: Weapon Mastery
+  - [x] Level 2: Cunning Action
+  - [x] Level 3: Steady Aim
+  - [x] Level 5: Cunning Strike
+  - [x] Level 5: Uncanny Dodge
+  - [x] Level 7: Evasion
+  - [x] Level 7: Reliable Talent
+  - [x] Level 11: Improved Cunning Strike
 - [ ] Subclass
-  - [x] Arcane Trickster
-  - [x] Assassin
   - [ ] Soulknife
+  - [ ] Arcane Trickster
+    - [ ] Level 3: Mage Hand Legerdemain
+    - [x] Level 3: Spellcasting
+    - [x] Level 9: Magical Ambush
+  - [x] Assassin
+    - [x] Level 3: Assassinate
+    - [x] Level 3: Assassin's Tools
+    - [x] Level 9: Infiltration Expertise
   - [x] Thief
+    - [x] Level 3: Fast Hands
+    - [x] Level 3: Second-Story Work
+    - [x] Level 9: Supreme Sneak
+  - [ ] Swashbuckler
 ### Sorcerer
 - [x] Class
+  - [x] Core Traits
+    - [x] Skill Proficiencies
+    - [x] Weapon Proficiencies
+    - [x] Armor Training
+  - [x] Level 1: Spellcasting
+  - [x] Level 1: Innate Sorcery
+  - [x] Level 2: Font of Magic
+  - [x] Level 2: Metamagic
+  - [x] Level 5: Sorcerous Restoration
+  - [x] Level 7: Sorcery Incarnate
 - [ ] Subclass
   - [ ] Aberrant
   - [ ] Clockwork
@@ -279,15 +321,16 @@
 - [x] Spell List
 ### Warlock
 - [x] Class
-- [ ] Subclass
-  - [ ] Archfey
-  - [ ] Celestial
-  - [ ] Fiend
-  - [ ] Great Old One
-  - [ ] Hexblade
-- [x] Spell List
+  - [x] Core Traits
+    - [x] Skill Proficiencies
+    - [x] Weapon Proficiencies
+    - [x] Armor Training
+  - [x] Level 1: Eldritch Invocations
+  - [x] Level 1: Pact Magic
+  - [x] Level 2: Magical Cunning
+  - [x] Level 11: Mystic Arcanum
 - [ ] Invocations
-  - [x] PactOfTheBlade_Hex
+  - [x] PactOfTheBlade
     - [ ] Necrotic
     - [ ] Psychic
     - [ ] Radiant
@@ -308,7 +351,6 @@
   - [x] InvestmentOfTheChainMaster
   - [x] GiftOfTheDepths
   - [x] EldritchSmite
-    - [ ] Reaction
   - [x] BookOfAncientSecrets
   - [x] MireTheMind
   - [x] OneWithShadows
@@ -324,10 +366,41 @@
   - [x] GiftOfTheProtectors
   - [x] MinionsOfChaos
   - [x] DevouringBlade
+- [ ] Subclass
+  - [ ] Archfey
+    - [x] Level 3: Archfey Spells
+    - [ ] Level 3: Steps of the Fey
+    - [ ] Level 6: Misty Escape
+    - [ ] Level 10: Beguiling Defenses
+  - [ ] Celestial
+  - [ ] Fiend
+    - [ ] Level 3: Dark One’s Blessing
+    - [x] Level 3: Fiend Spells
+    - [ ] Level 6: Dark One’s Own Luck
+    - [ ] Level 10: Fiendish Resilience
+  - [ ] Great Old One
+    - [ ] Level 3: Awakened Mind
+    - [x] Level 3: Great Old One Spells
+    - [ ] Level 3: Psychic Spells
+    - [ ] Level 6: Clairvoyant Combatant
+    - [ ] Level 10: Eldritch Hex
+    - [ ] Level 10: Thought Shield
+  - [ ] Hexblade
+    - [x] Level 3: Hexblade Spells
+- [x] Spell List
 ### Wizard
 - [ ] Class
+  - [x] Level 1: Spellcasting
+  - [ ] Level 1: Ritual Adept
+  - [x] Level 1: Arcane Recovery
   - [x] Level 2: Scholar
+  - [ ] Level 5: Memorize Spell
 - [ ] Subclass
+  - [ ] Abjurer
+  - [ ] Bladesinger
+  - [ ] Diviner
+  - [ ] Evoker
+  - [ ] Illusionist
 - [x] Spell List
 ### Artificer
 ### Gunslinger

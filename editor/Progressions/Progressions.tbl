@@ -2648,7 +2648,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value=";Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Scimitars);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Scimitars);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(5f1c7177-6e28-4a42-a7a5-cfaf4c31519c,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch" />
       </fields>
@@ -2661,7 +2661,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value=";Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Scimitars)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Scimitars)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
       </fields>
@@ -3752,8 +3752,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Rogue" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SneakAttack_Unlock" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Longswords);Proficiency(Rapiers);Proficiency(Shortswords);ActionResource(SneakAttack_Charge,1,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Rogue_1_Expertise;SneakAttack_Unlock" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightArmor);ActionResource(SneakAttack_Charge,1,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Scimitars);Proficiency(Shortswords)" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
       </fields>
@@ -3766,7 +3766,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Rogue" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SneakAttack_Unlock" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Rogue_1_Expertise;SneakAttack_Unlock" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightArmor);ActionResource(SneakAttack_Charge,1,0)" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,1);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
@@ -3816,7 +3816,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Rogue" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UncannyDodge" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UncannyDodge;Rogue_5_CunningStrike;CunningStrike_Poison;CunningStrike_Trip;CunningStrike_Withdraw" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4117,7 +4117,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma);ActionResource(InnateSorcery,2,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(InnateSorcery,2,0);Proficiency(SimpleWeapons);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(485a68b4-c678-4888-be63-4a702efbe391,4,0,SorcererCantrip,,,AlwaysPrepared);SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,2,0,SorcererSpell);AddSpells(cfc5d79f-7e33-40f1-962d-ec3c4c79b88b);SelectSkills(8743f14b-64de-4858-b056-50902a00df1a,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
       </fields>
     </stat_object>

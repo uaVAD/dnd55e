@@ -1591,6 +1591,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1;" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1601,6 +1602,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1;" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);" />
       </fields>
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
