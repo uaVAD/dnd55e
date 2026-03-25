@@ -2287,6 +2287,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="571896ab-79b8-4225-a584-28882d42b857" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Empowered" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4b1bec57-9505-4015-a519-3ccde0cc970a" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(Damage,20,false);UnlockSpellVariant(EmpoweredSpellCheck(),ModifyUseCosts(Add,SorceryPoint,1,0));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2791,6 +2792,81 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,SKILLED_START,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="11be2a89-e75d-4fa6-a22d-82873a5e7fa7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Alert" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="73c13486-a576-4b09-a12f-fc71be054fe1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h641b1b35g1b60g780egb004g145a37f818b3" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dfebbd34-7982-4a75-a9d0-60633a967dc0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Performer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c16ff18-f4a3-4666-8391-5ff3570e7a08" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45825d61g1009g094fgd261g57f7112238f9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h658ed514ge9dcg9a0fg207fg2dacf4e5e1ad" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Bard_RestoreBardicInspiration" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="100" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MusicalInstrument);UnlockSpell(Target_EncouragingSong);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf9603f2-566c-45d4-83ff-da9ec6cc0d53" />
+        <field name="Name" type="NameTableFieldDefinition" value="Tough" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed66cafd-7d67-412e-8214-e84e259edc9f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he19df11dgdf2cg862cgbb31g4b99b16b69d4" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15a006f7-9a2f-4fa1-89db-956b904dd2c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="SavageAttacker" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c2e1908b-68d1-4b58-921f-726d73f30ccc" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7cf9e06ag9d1dga32egceb0gbe819d69f976" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdea0235fg740bg417fgb072ga3c6f349d4c3" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="100" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(MeleeWeaponDamage,20,false);Reroll(RangedWeaponDamage,20,false);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f84b161f-4379-43ff-94e2-d8ac93c8f93a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Lucky" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3bfb387d-a796-4d89-a295-203ee187494c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h474bba76g8c7bgfd74gc3c7g3360b0f62570" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e09d6a3-2568-4229-8171-6c91a243c458" />
+        <field name="Name" type="NameTableFieldDefinition" value="Lucky_Unlock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a77950a-c572-44e4-b72f-0684d94d6546" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9adf9274g7e39g2ca0g6e19gf06b6f52aea1" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="100" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Lucky_RollAdditionalDie);UnlockInterrupt(Interrupt_Lucky_ReplaceAttackersDie);ActionResource(LuckPoint,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(LuckPoint,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(LuckPoint,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69113e1e-1901-4b50-b517-71b97d701017" />
+        <field name="Name" type="NameTableFieldDefinition" value="TavernBrawler" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8b82198c-112d-4db0-a161-c5aa82e683da" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6406ffe0g3bf9g37c9g6ad7g2ba1f01b1075" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1f7fcfe8g6d82ga644g381cg16c2d77b873e" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="100" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(MeleeUnarmedDamage,20,false);Reroll(RangedUnarmedDamage,20,false);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

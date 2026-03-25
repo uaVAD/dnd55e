@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="7358629f-4319-48b7-a377-58cb7027df69">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f57bd72c-be64-4855-9e3a-bb7d7665e656" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Alert" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e5a5b6fe-571c-4831-b752-0f7eea1a5659,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d84c7f36-8c5b-4b17-b95a-e1da725f9004" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Lucky" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Lucky" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(95d5a8a2-a010-4af7-a618-f1efe3a13f55,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_34" />
+        <field name="UUID" type="IdTableFieldDefinition" value="60dfd716-3ba8-4611-90ee-018b59775b1d" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Performer" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(4d5463ed-a78f-49ba-bb92-6e6be5319bf7,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e061a323-3430-4cff-88d3-5eae7a1779a4" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SavageAttacker" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(5d87ff80-3037-4018-9aa9-3abb18d248d4,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_37" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e8d1e7f6-d841-48ff-a83c-f1aaa16597ff" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Tough" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(9623a438-58c9-4857-a681-6e9691a459e3,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="be0889d2-f9aa-472d-b942-592bff0f1ef3" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="TavernBrawler" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(22254a0a-d047-48af-802d-a99af005b2a0,1)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

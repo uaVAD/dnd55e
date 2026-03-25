@@ -13,7 +13,17 @@
 - [x] Weapon Mastery
 ## Character Background
 - [x] Acolyte
-- [ ] 
+- [x] Charlatan
+- [x] Criminal
+- [x] Entertainer
+- [x] Folk Hero
+- [x] Guild Artisan
+- [x] Haunted One
+- [x] Noble
+- [x] Outlander
+- [x] Sage
+- [x] Soldier
+- [x] Urchin
 ## Class
 ### Barbarian
 - [x] Class
@@ -411,10 +421,16 @@
 - [x] Topple
 ## Feat
 ### Origin
+- [x] Alert
+- [x] Lucky
 - [x] Magic Initiate (Cleric)
 - [x] Magic Initiate (Druid)
 - [x] Magic Initiate (Wizard)
+- [x] Musician
+- [x] Savage Attacker
 - [x] Skilled
+- [x] Tavern Brawler
+- [x] Tough
 ### General
 ### Fighting Style
 ## Spell

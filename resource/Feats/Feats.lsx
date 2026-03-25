@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Feats">
+        <node id="root">
+            <children>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Alert"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e5a5b6fe-571c-4831-b752-0f7eea1a5659,1)"/>
+                    <attribute id="UUID" type="guid" value="f57bd72c-be64-4855-9e3a-bb7d7665e656"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Lucky"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Lucky"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(95d5a8a2-a010-4af7-a618-f1efe3a13f55,1)"/>
+                    <attribute id="UUID" type="guid" value="d84c7f36-8c5b-4b17-b95a-e1da725f9004"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Performer"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(4d5463ed-a78f-49ba-bb92-6e6be5319bf7,1)"/>
+                    <attribute id="UUID" type="guid" value="60dfd716-3ba8-4611-90ee-018b59775b1d"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="SavageAttacker"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(5d87ff80-3037-4018-9aa9-3abb18d248d4,1)"/>
+                    <attribute id="UUID" type="guid" value="e061a323-3430-4cff-88d3-5eae7a1779a4"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Tough"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(9623a438-58c9-4857-a681-6e9691a459e3,1)"/>
+                    <attribute id="UUID" type="guid" value="e8d1e7f6-d841-48ff-a83c-f1aaa16597ff"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="TavernBrawler"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(22254a0a-d047-48af-802d-a99af005b2a0,1)"/>
+                    <attribute id="UUID" type="guid" value="be0889d2-f9aa-472d-b942-592bff0f1ef3"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -668,7 +668,7 @@
   <content contentuid="h74e5b82bg3e1eg42d0g108ag8296ce9e9f59" version="1">Prerequisite: Level 1+ Warlock</content>
   <content contentuid="h89cc571cg9734g0e75g9d8fg69ec4116823f" version="1">Prerequisite: Level 1+ Warlock</content>
   <content contentuid="hda66831fg300fg893ega428gd807bb12f766" version="1">Acolyte</content>
-  <content contentuid="h18021532g7cf1g263eg148bg852a52db6cf5" version="1">You have spent your life in service to a temple, learning sacred rites and providing sacrifices to the god or gods you worship. Serving the gods and discovering their sacred works will guide you to greatness.</content>
+  <content contentuid="h18021532g7cf1g263eg148bg852a52db6cf5" version="2">Origin Feat: Magic Initiate (Cleric)&lt;br&gt;&lt;br&gt;You have spent your life in service to a temple, learning sacred rites and providing sacrifices to the god or gods you worship. Serving the gods and discovering their sacred works will guide you to greatness.</content>
   <content contentuid="hd660fd06g45aeg25f4g7e9dg6fd338c66f83" version="1">Origin Feat: Magic Initiate (Cleric)</content>
   <content contentuid="ha980b3fbg98dcgc88eg9edbg89be32a4b191" version="2">Magic Initiate (Cleric): Cantrip</content>
   <content contentuid="hd57d4d53gfb82gc5e5ge39eg18ccf99d11ac" version="1">Magic Initiate (Cleric): Cantrip 2</content>
@@ -689,25 +689,25 @@
   <content contentuid="hc6335af1g4129g0308g8518g3cb980ec4a55" version="1">Magic Initiate (Wizard): Spell</content>
   <content contentuid="hffa4fb6cg516eg4f17g0656geecaebcd5045" version="2">Spell learning mode is active. All Wizard spells are added to your spell list.&lt;br&gt;&lt;br&gt;When you cast a spell, you permanently learn that spell.&lt;br&gt;&lt;br&gt;After selecting a spell, this mode ends.</content>
   <content contentuid="hb75003cbgf00cga299gd802g14c70c5d2869" version="1">Charlatan</content>
-  <content contentuid="hcc3c36c6gd341g9ef3g75a6gd57375a199cd" version="1">You're an expert in manipulation, prone to exaggeration and more than happy to profit from it. Bending the truth and turning allies against each other will lead to greater success down the road.</content>
+  <content contentuid="hcc3c36c6gd341g9ef3g75a6gd57375a199cd" version="2">Origin Feat: Skilled&lt;br&gt;&lt;br&gt;You're an expert in manipulation, prone to exaggeration and more than happy to profit from it. Bending the truth and turning allies against each other will lead to greater success down the road.</content>
   <content contentuid="h4b835e70g04c6g5a06g0c6dg1a3127667686" version="1">Criminal</content>
-  <content contentuid="hbcaf83c9gb788g62e0g6965g3fa62228f254" version="1">You have a history of breaking the law and survive by leveraging less-than-legal connections. Profiting from criminal enterprise will lead to greater opportunities in the future.</content>
+  <content contentuid="hbcaf83c9gb788g62e0g6965g3fa62228f254" version="2">Origin Feat: Alert&lt;br&gt;&lt;br&gt;You have a history of breaking the law and survive by leveraging less-than-legal connections. Profiting from criminal enterprise will lead to greater opportunities in the future.</content>
   <content contentuid="h71130c00gf7fegc295g7a78g226b23bab525" version="1">Entertainer</content>
-  <content contentuid="h2716640cg5333g5237g4376g52bc2bce3db6" version="1">You live to sway and subvert your audience, engaging common crowds and high society alike. Preserving art and bringing joy to the hapless and downtrodden heightens your charismatic aura.</content>
+  <content contentuid="h2716640cg5333g5237g4376g52bc2bce3db6" version="2">Origin Feat: Musician&lt;br&gt;&lt;br&gt;You live to sway and subvert your audience, engaging common crowds and high society alike. Preserving art and bringing joy to the hapless and downtrodden heightens your charismatic aura.</content>
   <content contentuid="h08144bfegc7fbg3b4cg2a08gf4711304db2f" version="1">Folk Hero</content>
-  <content contentuid="h16aa023egdc3cg5bc2g7476g71950aebff42" version="1">You're a champion of the common people, challenging tyrants and monsters to protect the helpless. Saving innocents in imminent danger will make your legend grow.</content>
+  <content contentuid="h16aa023egdc3cg5bc2g7476g71950aebff42" version="2">Origin Feat: Tough&lt;br&gt;&lt;br&gt;You're a champion of the common people, challenging tyrants and monsters to protect the helpless. Saving innocents in imminent danger will make your legend grow.</content>
   <content contentuid="h8872efb5g9022g184cg8400gc8622021c434" version="1">Guild Artisan</content>
-  <content contentuid="hecaca218g03ebge2e3g1541g30dab1f4df21" version="1">Your skill in a particular craft has earned you membership in a mercantile guild, offering privileges and protection while engaging in your art. Repairing and discovering rare crafts will bring new inspiration.</content>
+  <content contentuid="hecaca218g03ebge2e3g1541g30dab1f4df21" version="2">Origin Feat: Skilled&lt;br&gt;&lt;br&gt;Your skill in a particular craft has earned you membership in a mercantile guild, offering privileges and protection while engaging in your art. Repairing and discovering rare crafts will bring new inspiration.</content>
   <content contentuid="h68877c75g37c1gbf22gf33fg60fb10459cda" version="1">Noble</content>
-  <content contentuid="h11a3cb02g94efge2aagfd7eg2559e2181833" version="1">You were raised in a family among the social elite, accustomed to power and privilege. Accumulating renown, power, and loyalty will raise your status.</content>
+  <content contentuid="h11a3cb02g94efge2aagfd7eg2559e2181833" version="2">Origin Feat: Skilled&lt;br&gt;&lt;br&gt;You were raised in a family among the social elite, accustomed to power and privilege. Accumulating renown, power, and loyalty will raise your status.</content>
   <content contentuid="hdffa4c4fgb9e6g20ebg7a88g407a2ca29c32" version="1">Outlander</content>
-  <content contentuid="h5039598cg6db2g2d04g6e52gb5d4956c7773" version="1">You grew up in the wilds, learning to survive far from the comforts of civilisation. Surviving unusual hazards of the wild will enhance your prowess and understanding.</content>
+  <content contentuid="h5039598cg6db2g2d04g6e52gb5d4956c7773" version="2">Origin Feat: Tough&lt;br&gt;&lt;br&gt;You grew up in the wilds, learning to survive far from the comforts of civilisation. Surviving unusual hazards of the wild will enhance your prowess and understanding.</content>
   <content contentuid="h95a25eaegdeafgb7b8g4801g7a8367fc65a7" version="1">Sage</content>
-  <content contentuid="hca28ebc2ga938g8c68g1dbag7edf639c41fc" version="1">You are curious and well-read, with an unending thirst for knowledge. Learning about rare lore of the world will inspire you to put this knowledge to greater purpose.</content>
+  <content contentuid="hca28ebc2ga938g8c68g1dbag7edf639c41fc" version="2">Origin Feat: Magic Initiate (Wizard)&lt;br&gt;&lt;br&gt;You are curious and well-read, with an unending thirst for knowledge. Learning about rare lore of the world will inspire you to put this knowledge to greater purpose.</content>
   <content contentuid="h8109bc16gabcag925cgdd47gb46dba14be0c" version="1">Soldier</content>
-  <content contentuid="hc868035bgcc3dg4f6ag8137g0a3e325b8ba7" version="1">You are trained in battlefield tactics and combat, having served in a militia, mercenary company, or officer corps. Show smart tactics and bravery on the battlefield to enhance your prowess.</content>
+  <content contentuid="hc868035bgcc3dg4f6ag8137g0a3e325b8ba7" version="2">Origin Feat: Savage Attacker&lt;br&gt;&lt;br&gt;You are trained in battlefield tactics and combat, having served in a militia, mercenary company, or officer corps. Show smart tactics and bravery on the battlefield to enhance your prowess.</content>
   <content contentuid="hc87a3f0fgaf2eg6057g69fbg9ba7b0e2f7bb" version="1">Urchin</content>
-  <content contentuid="h9f4e80c6g4dd1gb652gbb63g04b844b503ae" version="1">After surviving a poor and bleak childhood, you know how to make the most out of very little. Using your street smarts bolsters your spirit for the journey ahead.</content>
+  <content contentuid="h9f4e80c6g4dd1gb652gbb63g04b844b503ae" version="2">Origin Feat: Savage Attacker&lt;br&gt;&lt;br&gt;After surviving a poor and bleak childhood, you know how to make the most out of very little. Using your street smarts bolsters your spirit for the journey ahead.</content>
   <content contentuid="h15a25456g93c5g2128g2199gd75ca7acd724" version="1">Origin Feat: Skilled</content>
   <content contentuid="h9c4f90acg7e1cg80f9g49b9g223423a07c77" version="1">You gain proficiency in any combination of three skills or tools of your choice.</content>
   <content contentuid="h0b1ce19fg660ag4802g476bg8c05a68222d8" version="1">Skilled: Acrobatics</content>
@@ -749,4 +749,17 @@
   <content contentuid="h4ba0cf67g55f2ge128g4fefg499a17387298" version="1">Investigation</content>
   <content contentuid="h58264943ge8a3g47cdg09c2gd71af9051c26" version="1">Medicine</content>
   <content contentuid="h5ec953edgae89gbe4fgbc37g46d66f973083" version="1">You have gained proficiency in the skill.</content>
+  <content contentuid="h641b1b35g1b60g780egb004g145a37f818b3" version="1">Origin Feat: Alert</content>
+  <content contentuid="h45825d61g1009g094fgd261g57f7112238f9" version="1">Origin Feat: Musician</content>
+  <content contentuid="h658ed514ge9dcg9a0fg207fg2dacf4e5e1ad" version="2">Instrument Training. You gain proficiency with three Musical Instruments.&lt;br&gt;&lt;br&gt;Encouraging Song. As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Bardic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.</content>
+  <content contentuid="h65160f8dg63e2g4feeg3550g6feca8c4a710" version="1">Encouraging Song</content>
+  <content contentuid="he19df11dgdf2cg862cgbb31g4b99b16b69d4" version="1">Origin Feat: Tough</content>
+  <content contentuid="h7cf9e06ag9d1dga32egceb0gbe819d69f976" version="1">Origin Feat: Savage Attacker</content>
+  <content contentuid="hdea0235fg740bg417fgb072ga3c6f349d4c3" version="1">When making weapon attacks, you roll your damage dice twice and use the highest result.</content>
+  <content contentuid="h4c3975fag2626gb08fg2d75g1948720b803b" version="1">Haunted One</content>
+  <content contentuid="h7177de01ge0f7g8a37g6b7cgdf616c3162ac" version="2">Origin Feat: Alert&lt;br&gt;&lt;br&gt;A wicked moment, person, or thing that cannot be slain by sword or spell haunts your mind and flickers in your peripheral vision. You carry it wherever your adventure takes you - or perhaps it carries you.</content>
+  <content contentuid="h474bba76g8c7bgfd74gc3c7g3360b0f62570" version="1">Origin Feat: Lucky</content>
+  <content contentuid="h9adf9274g7e39g2ca0g6e19gf06b6f52aea1" version="1">Origin Feat: Lucky</content>
+  <content contentuid="h6406ffe0g3bf9g37c9g6ad7g2ba1f01b1075" version="1">Origin Feat: Tavern Brawler</content>
+  <content contentuid="h1f7fcfe8g6d82ga644g381cg16c2d77b873e" version="1">When making unarmed attacks, you roll your damage dice twice and use the highest result.</content>
 </contentList>

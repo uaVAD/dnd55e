@@ -198,5 +198,47 @@
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5a5b6fe-571c-4831-b752-0f7eea1a5659" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Alert" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Alert" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="95d5a8a2-a010-4af7-a618-f1efe3a13f55" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Lucky" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Lucky_Unlock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d5463ed-a78f-49ba-bb92-6e6be5319bf7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Performer" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Performer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d87ff80-3037-4018-9aa9-3abb18d248d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat SavageAttacker" />
+        <field name="Passives" type="StringTableFieldDefinition" value="SavageAttacker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9623a438-58c9-4857-a681-6e9691a459e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Tough" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Tough" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22254a0a-d047-48af-802d-a99af005b2a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat TavernBrawler" />
+        <field name="Passives" type="StringTableFieldDefinition" value="TavernBrawler" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

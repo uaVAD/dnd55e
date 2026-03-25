@@ -1681,5 +1681,23 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38f8798f-1d23-4982-b4c7-dffc0ae00453" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ORIGIN FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df8dc1c1-49cc-4e06-8678-cbfee6eb528e" />
+        <field name="Name" type="NameTableFieldDefinition" value="EncouragingSong" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5d786ea9-65c3-44a8-b4bc-35579a6d29d2" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BARDIC_INSPIRATION,100, -1);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(StandardProficiencyBonusScale)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65160f8dg63e2g4feeg3550g6feca8c4a710" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

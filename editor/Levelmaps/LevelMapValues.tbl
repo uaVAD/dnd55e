@@ -135,5 +135,16 @@
         <field name="Level12" type="StringTableFieldDefinition" value="2d6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="BardicInspiration" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d627b1c2-d215-476d-a3b1-3ba652d1c0c3" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level10" type="StringTableFieldDefinition" value="1d10" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
