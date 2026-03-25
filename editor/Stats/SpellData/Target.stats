@@ -1063,6 +1063,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="14b0950d-24c8-41c9-89b7-741f99c54473" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ChannelDivinity:1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotTargetItems;CannotTargetCharacter" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
