@@ -43,19 +43,23 @@
   - [x] Level 7: Instinctive Pounce
   - [x] Level 9: Brutal Strike
   - [x] Level 11: Relentless Rage
-- [ ] Subclass
+- [x] Subclass
   - [x] Berserker
     - [x] Level 3: Frenzy
     - [x] Level 6: Mindless Rage
     - [x] Level 10: Retaliation
-  - [ ] Giant
-  - [ ] Wild Magic
-  - [ ] Wildheart
+  - [x] Giant
+  - [x] Wild Magic
+  - [x] Wildheart
   - [x] World Tree
     - [x] Level 3: Vitality of the Tree
     - [x] Level 6: Branches of the Tree
     - [x] Level 10: Battering Roots
-  - [ ] Zealot
+  - [x] Zealot
+    - [x] Level 3: Divine Fury
+    - [x] Level 3: Warrior of the Gods
+    - [x] Level 6: Fanatical Focus
+    - [x] Level 10: Zealous Presence
 ### Bard
 - [x] Class
   - [x] Core Traits
@@ -71,7 +75,10 @@
   - [x] Level 10: Magical Secrets
 - [ ] Subclass
   - [ ] Dance
-  - [ ] Swords
+    - [ ] Level 3: Dazzling Footwork
+    - [ ] Level 6: Inspiring Movement
+    - [ ] Level 6: Tandem Footwork
+  - [x] Swords
   - [x] Glamour
     - [x] Level 3: Beguiling Magic
     - [x] Level 3: Mantle of Inspiration

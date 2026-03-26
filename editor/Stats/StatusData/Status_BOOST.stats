@@ -627,6 +627,38 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="b5561d10-6cc4-4403-a567-b569c96a5d76" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac98b0dc-df4b-4983-999e-ff2e5add42dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="DIVINE_FURY_COOLDOWN" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86845312-4f73-4524-9125-a186b1ab4512" />
+        <field name="Name" type="NameTableFieldDefinition" value="FANATICAL_FOCUS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdefa5de2gb9bfgc136gf8e6gf90eb2739837" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he4612c48gfd84gd95cg77b9g94667cfad8a4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zealot_6_FanaticalFocus" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FANATICAL_FOCUS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('SG_Rage',context.Source)):RollBonus(SavingThrow,LevelMapValue(RageDamage));" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d880910-389f-4f0b-ab25-04dd8caddb14" />
+        <field name="Name" type="NameTableFieldDefinition" value="ZEALOUS_PRESENCE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h509f959fg0fe6gec34gedb0gc6a719773d5b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6e8236c2g9105gb794g70b2g706f0958f778" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ZEALOUS_PRESENCE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackRoll);Advantage(SavingThrow,Strength);Advantage(SavingThrow,Dexterity);Advantage(SavingThrow,Constitution);Advantage(SavingThrow, Intelligence);Advantage(SavingThrow, Wisdom);Advantage(SavingThrow, Charisma);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zealot_10_ZealousPresence" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="54d8d41e-a60b-47b4-ae10-fee4fb6e10ad" />

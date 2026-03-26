@@ -55,7 +55,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rage,1,0)" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;07234f31-c239-4a57-aeb4-868f3e1a318e;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d;d6db66be-cc60-4ebd-bf63-2a856bbfedaf" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;07234f31-c239-4a57-aeb4-868f3e1a318e;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d;d6db66be-cc60-4ebd-bf63-2a856bbfedaf;0e37e9bc-3909-49f4-8035-6d9736ad6867" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_3_PrimalKnowledge" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,1)" />
       </fields>
@@ -331,6 +331,52 @@
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="WorldTree_10_BatteringRoots;WorldTree_10_BatteringRoots_Push;WorldTree_10_BatteringRoots_Topple" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_558" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c5fb3d32-6c46-4c9e-a2c9-8849f52e16e4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c5fb3d32-6c46-4c9e-a2c9-8849f52e16e4" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ZealotPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Zealot_3_DivineFury;Zealot_3_DivineFury_Radiant;Zealot_3_DivineFury_Necrotic;Zealot_3_WarriorOfTheGods" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarriorOfTheGods,4,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_559" />
+        <field name="UUID" type="IdTableFieldDefinition" value="35d930e6-8fcd-4b0a-95b4-d6e963cc589d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c5fb3d32-6c46-4c9e-a2c9-8849f52e16e4" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ZealotPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Zealot_6_FanaticalFocus" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarriorOfTheGods,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_560" />
+        <field name="UUID" type="IdTableFieldDefinition" value="839dc1d3-d480-4a22-939c-f76fdccf48ea" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c5fb3d32-6c46-4c9e-a2c9-8849f52e16e4" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ZealotPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Zealot_10_ZealousPresence" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_561" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6356a4bd-461d-434b-a149-acac160f88a7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c5fb3d32-6c46-4c9e-a2c9-8849f52e16e4" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ZealotPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarriorOfTheGods,1,0);" />
       </fields>
     </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">

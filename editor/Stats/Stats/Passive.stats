@@ -804,6 +804,83 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()))" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0695c2ad-fdf6-4d9c-b86a-5f3796f86c98" />
+        <field name="Name" type="NameTableFieldDefinition" value="Zealot_3_DivineFury" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb477d444g2e4egabe4g8bd0g64d34fe959ee" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h15b91354gf2d6ga550g86cag97a1796054d7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zealot_3_DivineFury" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e70bb698-b477-4917-afd1-3937606bcfad" />
+        <field name="Name" type="NameTableFieldDefinition" value="Zealot_3_DivineFury_Radiant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3e0f83eag20c7gefccg3505g67e905536f9c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5d65420g6479g285bg4c8ag03e208bc40e5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zealot_3_DivineFury_Radiant" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack() and not IsMiss() and HasStatus('SG_Rage', context.Source) and not HasStatus('DIVINE_FURY_COOLDOWN',context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:DealDamage(1d6+ClassLevel(Barbarian)/2,Radiant);ApplyStatus(SELF,DIVINE_FURY_COOLDOWN,100,1)" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Zealot_3_DivineFury_Radiant" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e81f8cc2-bb4c-4bf6-a85f-e9abd0eeac80" />
+        <field name="Name" type="NameTableFieldDefinition" value="Zealot_3_DivineFury_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e70bb698-b477-4917-afd1-3937606bcfad" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0013b90g841eg2935g8b77g5e53735b98a6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h47b388afge0d2g2240g7d34g00c0f0fbd7f3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zealot_3_DivineFury_Necrotic" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:DealDamage(1d6+ClassLevel(Barbarian)/2,Necrotic);ApplyStatus(SELF,DIVINE_FURY_COOLDOWN,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5568bc77-2203-422d-9f3c-3e3e2bc348e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Zealot_3_WarriorOfTheGods" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8561dec8g58feg3afcgc909g7b495a11aeec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc4c144a0g2e9bg6166g297cg8829f3a2bd83" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zealot_3_WarriorOfTheGods" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WarriorOfTheGods);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d8321a5e-693a-44b3-9f08-56ec7ef01d9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Zealot_6_FanaticalFocus" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h37bdd6afg8377ga414g06b2gd12131f14c73" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9416ea15g9b17g07abg6c06gd6905fe706ed" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zealot_6_FanaticalFocus" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1306" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('Rage');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,FANATICAL_FOCUS,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6415b00c-accc-4c79-aab7-9d6042b927eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Zealot_10_ZealousPresence" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9ac99198g4fe0gd34bg57a0g52acb98ed35f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd421ade2g497bg2094g6654geebf64ed20f1" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zealot_10_ZealousPresence" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1310" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ZealousPresence);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="152e5b9f-4ddf-4005-8e45-65c53081eb4f" />

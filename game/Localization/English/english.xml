@@ -951,4 +951,36 @@ Life-Giving Force. At the start of each of your turns while your Rage is active,
   <content contentuid="h1d68851cgda5ag5482g75f2gc0f7b6817b16" version="2">While your Rage is active, you can use your Reaction to lash out with spectral branches of the World Tree and pull a creature you can see within 30 feet of you. The target must succeed on a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus) or be pulled up to 20 feet straight toward you. After the target is pulled, you can reduce its Speed to 0 until the end of the current turn.</content>
   <content contentuid="hbc51a963g20c5g876cgc0b3g1fda844b3830" version="1">Life-Giving Force</content>
   <content contentuid="h0742adb9g8528gcb3ag3596ge883d9faa6ab" version="1">Branches of the Tree</content>
+  <content contentuid="hb477d444g2e4egabe4g8bd0g64d34fe959ee" version="1">Level 3: Divine Fury</content>
+  <content contentuid="h8561dec8g58feg3afcgc909g7b495a11aeec" version="1">Level 3: Warrior of the Gods</content>
+  <content contentuid="h37bdd6afg8377ga414g06b2gd12131f14c73" version="1">Level 6: Fanatical Focus</content>
+  <content contentuid="h9ac99198g4fe0gd34bg57a0g52acb98ed35f" version="1">Level 10: Zealous Presence</content>
+  <content contentuid="hfa0367c5gd524g439egbb91gf1d01da462a1" version="1">Zealot</content>
+  <content contentuid="h0e363cf3g0162gc215g7872g2aa8512bdbd6" version="1">Barbarians who walk the Path of the Zealot receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon.</content>
+  <content contentuid="h15b91354gf2d6ga550g86cag97a1796054d7" version="1">You can channel divine power into your strikes. On each of your turns while your Rage is active, the first creature you hit with a weapon or an Unarmed Strike takes extra damage equal to 1d6 plus half your Barbarian level (round down). The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage.</content>
+  <content contentuid="hc4c144a0g2e9bg6166g297cg8829f3a2bd83" version="1">A divine entity helps ensure you can continue the fight. You have a pool of four d12s that you can spend to heal yourself. As a Bonus Action, you can expend dice from the pool, roll them, and regain a number of Hit Points equal to the roll’s total.
+
+Your pool regains all expended dice when you finish a Long Rest.
+
+The pool’s maximum number of dice increases by one when you reach Barbarian levels 6 (5 dice), 12 (6 dice), and 17 (7 dice).</content>
+  <content contentuid="h9416ea15g9b17g07abg6c06gd6905fe706ed" version="1">While your Rage is active, you add a bonus equal to your Rage Damage bonus to your saving throws.</content>
+  <content contentuid="hd421ade2g497bg2094g6654geebf64ed20f1" version="2">Once per Short Rest, as a Bonus Action, you unleash a battle cry infused with divine energy; creatures of your choice within 60 feet of you gain Advantage on attack rolls and saving throws until the start of your next turn.</content>
+  <content contentuid="h3e0f83eag20c7gefccg3505g67e905536f9c" version="1">Divine Fury: Radiant</content>
+  <content contentuid="hd5d65420g6479g285bg4c8ag03e208bc40e5" version="1">While your Rage is active, the first creature you hit on each of your turns with a weapon or an Unarmed Strike takes extra Radiant damage equal to 1d6 plus half your Barbarian level (rounded down).</content>
+  <content contentuid="hc0013b90g841eg2935g8b77g5e53735b98a6" version="1">Divine Fury: Necrotic</content>
+  <content contentuid="h47b388afge0d2g2240g7d34g00c0f0fbd7f3" version="1">While your Rage is active, the first creature you hit on each of your turns with a weapon or an Unarmed Strike takes extra Necrotic damage equal to 1d6 plus half your Barbarian level (rounded down).</content>
+  <content contentuid="hf168720fgd4dbgc575ge2c3g9a0841c3efc9" version="1">Warrior of the Gods</content>
+  <content contentuid="h46ea941fg771dgceb6g2492gb66d8a8c13e0" version="1">A divine entity helps ensure you can continue the fight. You have a pool of four d12s that you can spend to heal yourself. As a Bonus Action, you can expend dice from the pool, roll them, and regain a number of Hit Points equal to the roll’s total.
+
+Your pool regains all expended dice when you finish a Long Rest.
+
+The pool’s maximum number of dice increases by one when you reach Barbarian levels 6 (5 dice), 12 (6 dice), and 17 (7 dice).</content>
+  <content contentuid="h9ae5d499g6937g51d5g2d3eg9854133655cd" version="1">Warrior of the Gods</content>
+  <content contentuid="h5059c8f8g9435g5e50g19c7g899613e62b54" version="1">A divine entity helps ensure you can continue the fight. You have a pool of four d12s that you can spend to heal yourself</content>
+  <content contentuid="hdefa5de2gb9bfgc136gf8e6gf90eb2739837" version="1">Fanatical Focus</content>
+  <content contentuid="he4612c48gfd84gd95cg77b9g94667cfad8a4" version="1">While your Rage is active, you add a bonus equal to your Rage Damage bonus to your saving throws.</content>
+  <content contentuid="hf40dc054gd469gf99cg895bgc27babafe771" version="1">Zealous Presence</content>
+  <content contentuid="h2a819702g2758g04dcg200age5456cbe7459" version="1">Once per Short Rest, as a Bonus Action, you unleash a battle cry infused with divine energy; creatures of your choice within 60 feet of you gain Advantage on attack rolls and saving throws until the start of your next turn.</content>
+  <content contentuid="h509f959fg0fe6gec34gedb0gc6a719773d5b" version="1">Zealous Presence</content>
+  <content contentuid="h6e8236c2g9105gb794g70b2g706f0958f778" version="1">Gain Advantage on attack rolls and saving throws until the start of Barbarian's next turn.</content>
 </contentList>
