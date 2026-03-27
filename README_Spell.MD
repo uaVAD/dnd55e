@@ -17,6 +17,18 @@
 - Chromatic Orb
 - Color Spray
 - Cure Wounds
+- Divine Favor
+- Divine Smite
+- Entangle
+- Feather Fall
+- Guiding Bolt
+- Healing Word
+- Hex
+- Hunter's Mark
+- Inflict Wounds
+- Jump
+- Longstrider
+- Magic Missile
 ## Level 2
 - Aid
 - Arcane Vigor
@@ -25,19 +37,32 @@
 - Crown of Madness
 - Darkness
 - Find Steed
+- Gust of Wind
+- Lesser Restoration
+- Magic Weapon 작업중
 - Mind Spike
 ## Level 3
 - Aura of Vitality
+- Bestow Curse
 - Blink
 - Conjure Barrage
 - Crusader's Mantle
+- Fear
+- Lightning Arrow
 ## Level 4
-- Fount of Moonlight
 - Banishment
+- Confusion
+- Dominate Beast
+- Fount of Moonlight
+- Ice Storm
 ## Level 5
 - Cone of Cold
 - Contagion
+- Dominate Person
+- Hold Monster
+- Insect Plague
 - Steel Wind Strike
 - Synaptic Static
 ## Level 6
 - Circle of Death
+- Disintegrate

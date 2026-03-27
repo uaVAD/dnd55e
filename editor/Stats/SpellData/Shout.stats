@@ -371,6 +371,141 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="725b3161-6bf5-48be-9173-8ba985a26c8c" />
+        <field name="Name" type="NameTableFieldDefinition" value="__TRANSMUTATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44701ee0-3360-44d8-811e-cd8fc966423b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DivineFavor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="683be3d2-6023-421a-9f76-06de9baf9e56" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="be60781e-3fe1-448b-9b17-bac186b608cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DivineFavor_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07ae6ad9-8ed9-489e-a1ca-aa70e60ac91b" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6926fa79-50e7-4bf3-98c3-6b2bf31a3216" />
+        <field name="Name" type="NameTableFieldDefinition" value="DivineFavor_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b0f2d64-ef62-4ff3-93be-b58555c1da3e" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92db146c-bc65-4ab1-8234-c1a3fcee77b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DivineFavor_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="69e3556c-9279-4a1e-b034-13ee401af4fe" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="160ac781-a877-4962-b403-426551eb62b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DivineFavor_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbed118d-9132-44f5-b58b-d6cb450b7ac6" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="759f9aad-59e8-4f1b-b6ae-501966adc3fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DivineFavor_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="826f7851-6b45-4b52-816a-8b6757dcb826" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DIVINE_FAVOR, 100, 10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6693c822-f1c9-463a-9d9a-1c4d562b1e00" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeatherFall" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6b0dbf62-943b-4f1f-bb45-13a463376f15" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="091878d7-b919-4320-8fb7-858b11cb9dc3" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeatherFall_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9534a37-78db-4050-9f82-6506b0aa1bac" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3cd3350-c0db-4e5d-8369-7cda0844f7f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeatherFall_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b93184b3-7849-48ed-882e-8daa564c5bf5" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df3674b3-72e6-4eb3-a112-fd06f30adfaf" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeatherFall_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bdf1b815-e192-4c84-ac2d-0be8d770a6d9" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="afbbd635-48b8-4484-93e8-0ca44f1f9c31" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeatherFall_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20ac63f9-2037-4c18-8ff0-a20c73e18f02" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="59d2c890-22be-491a-b572-cf9ee4fe12e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeatherFall_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ed8fd4c-0192-4052-9ee2-b618a8bdfde6" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c78f803-eef2-4d95-a2f2-81315f8c9ce6" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_FeatherFall_Tower_Boots" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="59b41554-843a-457f-b7e2-ab7b031a652b" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8194530-6a7c-4b9b-9aa5-34eb5ee6ec87" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c58d5984-d9d7-4f8c-97a7-449158f95b36" />

@@ -149,6 +149,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b77e7f7-30b3-4b2b-95bc-48080be57dcd" />
+        <field name="Name" type="NameTableFieldDefinition" value="FireBolt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8a1e2663-731b-4b88-a2ce-d310746ff110" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2e4ba987-c778-4a8f-84aa-aec6b9f5bd27" />
         <field name="Name" type="NameTableFieldDefinition" value="StarryWisp" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
@@ -319,6 +327,129 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="db5705a1-824d-42a3-8d09-2352b9cd4af9" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2b284468-04a1-4730-a5c0-8ce54afbd937" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Thunder" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4584934f-9f58-456a-a5e6-d5b51f73fa6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="GuidingBolt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21ced5ea-35c7-44d2-af54-6219a50ca455" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e18b6f6-753d-4c94-9b73-869f12f7e895" />
+        <field name="Name" type="NameTableFieldDefinition" value="GuildingBolt_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21ced5ea-35c7-44d2-af54-6219a50ca455" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d6,Radiant,Magical); ApplyStatus(GUIDING_BOLT, 100, 2)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_GuidingBolt" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d6,Radiant)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b874014d-b1ce-40ad-8a2d-24c27ba8cf65" />
+        <field name="Name" type="NameTableFieldDefinition" value="GuildingBolt_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21ced5ea-35c7-44d2-af54-6219a50ca455" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d6,Radiant,Magical); ApplyStatus(GUIDING_BOLT, 100, 2)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Radiant)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Radiant)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_GuidingBolt" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f8ab760-93e2-41a6-91e6-b168ba1ff992" />
+        <field name="Name" type="NameTableFieldDefinition" value="GuildingBolt_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21ced5ea-35c7-44d2-af54-6219a50ca455" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d6,Radiant,Magical); ApplyStatus(GUIDING_BOLT, 100, 2)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d6,Radiant)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_GuidingBolt" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f345ef5f-8c2b-4d66-b6e8-941c16be16ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="GuidingBolt_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21ced5ea-35c7-44d2-af54-6219a50ca455" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d6,Radiant,Magical); ApplyStatus(GUIDING_BOLT, 100, 2)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d6,Radiant)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_GuidingBolt" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a78e46f-9df4-46d3-bff5-1964db002adc" />
+        <field name="Name" type="NameTableFieldDefinition" value="GuidingBolt_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21ced5ea-35c7-44d2-af54-6219a50ca455" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(9d6,Radiant,Magical); ApplyStatus(GUIDING_BOLT, 100, 2)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(9d6,Radiant)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_GuidingBolt" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97c43988-4aee-43be-a3c4-e3cbec5169f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicMissile" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="caf875f1-9d04-4853-90d6-4ccecc08312f" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af895f2d-bd8f-40f2-ae1f-899a127b8121" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicMissile_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="392e28a9-c596-4fef-86eb-bf106a65bd91" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ccaf60a3-4640-4345-8f54-78a56337ec0f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicMissile_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="99460986-8251-44ab-8649-6bdb696a5c8d" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d7f2b4d-7c93-4763-a81b-10e4eb91c2b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicMissile_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d5c7e584-70a5-4917-b9b8-7bc5c046be95" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10a08ac4-b906-470c-b4dc-df38cd51ec1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicMissile_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e3e3c01-f103-40a8-ad63-3361e2b27073" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a948679d-fffd-40ca-b39f-8672d802c51c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicMissile_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="761b5e79-eb74-43a3-a5c4-653bd2e9d7ec" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -981,6 +1112,66 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0bf9b155-e236-4e4d-ac34-f8408c4cda0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fireball" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="12a90676-df5a-41f8-ab79-0343df46fcc0" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f877a8e-fe46-4acf-8469-48c4fc7441b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fireball_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dfb5102b-e29d-447f-b73c-7aa21c40cfa5" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3d8cdaf-2340-412b-8ef8-14511993a742" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fireball_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="94031b50-54d7-4745-8b92-6d4feaedbe0d" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97898239-fda0-4f32-912e-5a1c71b8c613" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fireball_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="89a48883-bdd2-406c-a601-259b2028397d" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83bf26fe-12af-4b90-910b-83ccbf70738a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_FlamingFist_StaffOfFire_Fireball" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37ac264c-86a5-4115-9ffa-711202b53db7" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70840dc9-797d-4395-b6ba-b52a934dc852" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Legendary_Chromatic_Fireball" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d2a130f8-43a8-47ef-88d9-af2bf4fc315f" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ddc08ef3-f67d-4603-9773-158f2aecabbc" />
@@ -997,6 +1188,71 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D12Cantrip),Poison,Magical);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63f1d83b-69e0-41b3-bdfb-e9beb10df7dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="__TRANSMUTATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5e9022a-1c7c-47df-b11f-7fe5fc3d86bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="LongJump_Jump" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2cdb12e9-7b79-4340-b884-f074d7247ecd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a0a285d-97fb-4ae4-b4ad-f3c6383f4573" />
+        <field name="Name" type="NameTableFieldDefinition" value="LightningArrow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c953533-b73f-46f9-9683-01aba389ca92" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning,Magical);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d8/2,Lightning,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc421c06eg7266g8444g3e70g03d5b5fcf166" version="2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;SpellSlotsGroup:1:1:3;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f516658f-7909-4776-9612-5957bc4fd7c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="END_LightningArrow_Harper" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a52f844d-45be-416b-871c-3e50d0ded25b" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning,Magical);" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning,Magical)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d8/2,Lightning,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not Dead()" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbc4b3cdeg1f95g6b65gad88g180de678c0b5" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning);DealDamage(2d8,Lightning)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9362aab3-e13b-4a5d-b062-aa46dc833436" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LightningArrow_Shot" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="915fb136-65b2-480f-94bf-f59703671edb" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning,Magical);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning,Magical)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d8/2,Lightning,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h13cf2c9bg80e6g0163g3e81g9d59cc051df8" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning);DealDamage(2d8,Lightning)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4220552c-872e-4ea0-b980-349961d6637f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Disintegrate" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c09bfc21-7ee1-4a22-ba91-5b8a5505ab32" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(40,Force,Magical);" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">

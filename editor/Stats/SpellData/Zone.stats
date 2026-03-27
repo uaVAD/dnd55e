@@ -9,6 +9,71 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9b49a77-618b-4123-b7d7-37217c8f98bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="GustOfWind" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="84604ee1-67a5-4f68-9f04-e6fe3b9fb996" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);SELF:ApplyStatus(SELF,GUST_OF_WIND_RECAST,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GUST_OF_WIND_RECAST,100,10);ApplyStatus(OFF_BALANCED,100,1)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2aa0c55-56e4-4987-960c-de4f73a9b68f" />
+        <field name="Name" type="NameTableFieldDefinition" value="GustOfWind_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="941d4d56-b5ae-45fd-a39a-d0249f39dd8b" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);SELF:ApplyStatus(SELF,GUST_OF_WIND_RECAST,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GUST_OF_WIND_RECAST,100,10);ApplyStatus(OFF_BALANCED,100,1)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53a51dfe-45f3-460a-92bf-e84c777d5011" />
+        <field name="Name" type="NameTableFieldDefinition" value="GustOfWind_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="28b8d3fc-fc98-4f85-8009-c5505588efef" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);SELF:ApplyStatus(SELF,GUST_OF_WIND_RECAST,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GUST_OF_WIND_RECAST,100,10);ApplyStatus(OFF_BALANCED,100,1)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a20cd7e3-ab18-42d2-af5b-7a0bfcf5b9a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="GustOfWind_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6ec272c1-35a5-43b8-a534-137c9483efc9" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);SELF:ApplyStatus(SELF,GUST_OF_WIND_RECAST,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GUST_OF_WIND_RECAST,100,10);ApplyStatus(OFF_BALANCED,100,1)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8431ceff-3741-490d-8bef-9e2c71619300" />
+        <field name="Name" type="NameTableFieldDefinition" value="GustOfWind_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="898aea5b-8131-49a3-a919-05712b41feec" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);SELF:ApplyStatus(SELF,GUST_OF_WIND_RECAST,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GUST_OF_WIND_RECAST,100,10);ApplyStatus(OFF_BALANCED,100,1)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0123173-5d02-43f9-9096-f23b89c7a1cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="GustOfWind_Recast" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9b49a77-618b-4123-b7d7-37217c8f98bd" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(OFF_BALANCED,100,1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="StatusDurationLessThan(context.Target,'GUST_OF_WIND_RECAST',10) " />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9247eda3-6768-47b1-b625-1811691f4078" />
         <field name="Name" type="NameTableFieldDefinition" value="ConeOfCold" />
         <field name="Level" type="IntegerTableFieldDefinition" value="5" />
@@ -168,6 +233,42 @@
         <field name="MaximumTotalTargetHP" type="IntegerTableFieldDefinition" value="88" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Zone_ColorSpray" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="943a2367-e2cf-4422-a3ff-dbade06bc236" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2749e58-5287-42ff-bfb4-a49dce22f8a1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);IF(HasWeaponInMainHand()):ApplyStatus(DISARM,100,1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);ApplyStatus(DISARMED,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71530547-a8c1-46d7-abc2-637226743fde" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fear_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2af9e3b3-727b-4086-97a0-36f64ebf8f3e" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);IF(HasWeaponInMainHand()):ApplyStatus(DISARM,100,1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);ApplyStatus(DISARMED,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a67fa583-9e63-4563-8c82-1eb2e7eaefa2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fear_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e150ada9-7a5f-4041-9cc9-2cf0dab5c73b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);IF(HasWeaponInMainHand()):ApplyStatus(DISARM,100,1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);ApplyStatus(DISARMED,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5378aa93-37ce-4bbe-8178-715eb885c76a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fear_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="951bcb20-857d-4838-b491-d5259f403408" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);IF(HasWeaponInMainHand()):ApplyStatus(DISARM,100,1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);ApplyStatus(DISARMED,100,1)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
