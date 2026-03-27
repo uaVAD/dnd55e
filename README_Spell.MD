@@ -15,6 +15,7 @@
 ## Level 1
 - Armor of Agathys
 - Chromatic Orb
+- Color Spray
 ## Level 2
 - Aid
 - Arcane Vigor
@@ -25,10 +26,12 @@
 ## Level 3
 - Aura of Vitality
 - Blink
+- Conjure Barrage
 ## Level 4
 - Fount of Moonlight
 - Banishment
 ## Level 5
+- Cone of Cold
 - Steel Wind Strike
 - Synaptic Static
 ## Level 6

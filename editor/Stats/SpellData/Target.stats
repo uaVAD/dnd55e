@@ -2248,5 +2248,215 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0254175-3720-4d33-bdf7-f266d0ecf813" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Necromancy" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_Contagion_BlindingSickness;Target_Contagion_FilthFever;Target_Contagion_FleshRot;Target_Contagion_Mindfire;Target_Contagion_Seizure;Target_Contagion_SlimyDoom" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_SLIMY_DOOM,100,-1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8eb0c380gc532g2b56ge76ag79d1d658cdbf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb4966935g797fgd4eeg3b81gfdb9e22897c3" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Debuff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful;IsLinkedSpellContainer;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_SLIMY_DOOM_1,100,-1)" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="556fd141-698d-4c08-9322-ad155821260a" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="38776222-db33-4b53-9e23-ca3b47ab58cb" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="de333436-aa42-45cc-a3da-14277ca1df60" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Contagion_FilthFever" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Debuff_Contagion_L4to5" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Debuff_Contagion_L4to5" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Debuff_Contagion_L4to5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Debuff_Contagion_L4to5" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() " />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ccb6b3b-b487-48f4-8d95-1d0bf221eb48" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_BlindingSickness" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="effc86c9-24bc-4376-a28c-7710f7dc7708" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_BLINDING_SICKNESS_1,100,3)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc0383dag5a23gd42dg0b27g00f90507d3e4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf347385ag4b90g0bccg6810g6a4336d13205" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_BLINDING_SICKNESS,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Contagion_BlindingSickness" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h1f54b341g6e6eg9e51gbbb2g3ae56c83c6b0" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3694f5da-9836-4afb-949f-d7f4a3b41e2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_BlindingSickness_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ccb6b3b-b487-48f4-8d95-1d0bf221eb48" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_BlindingSickness" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="effc86c9-24bc-4376-a28c-7710f7dc7708" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_FilthFever" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0254175-3720-4d33-bdf7-f266d0ecf813" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_FILTH_FEVER_1,100,3)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h526796c0g7033g01b1g9d4eg2dad2e203b62" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdf0b87a9gd828gc1e6g2550gefd2e87d2187" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_FILTH_FEVER,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Contagion_FilthFever" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h90e25986gc508g3040g78f2g37b619d56eff" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="217f187f-3b98-4576-a240-8400b72cc1dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_FilthFever_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="effc86c9-24bc-4376-a28c-7710f7dc7708" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_FilthFever" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13eff187-4dda-4034-a568-2a02c9cdec91" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_FleshRot" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="effc86c9-24bc-4376-a28c-7710f7dc7708" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_FLESH_ROT_1,100,3)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc1438b7g6f56g436cg9eccga92207802562" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6f598134gfdd5g5fcag12e7gc1a187e6f4df" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_FLESH_ROT,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Contagion_FleshRot" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha7172be5g9a1dg6b7eg869eg3e1be7a02761" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fadb0570-c004-468e-9644-8ebd45900bfe" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_FleshRot_NPC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="13eff187-4dda-4034-a568-2a02c9cdec91" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8beb46d8-8d0b-4f75-b3c3-878c7afa4789" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_FleshRot_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="13eff187-4dda-4034-a568-2a02c9cdec91" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_FleshRot" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb8bea9f-baf0-410b-b624-7406731bf4c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_Mindfire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="effc86c9-24bc-4376-a28c-7710f7dc7708" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_MINDFIRE_1,100,3)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc7ef25e5g5059gb4b2gb313g2514a5bee4a9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h583c93b5gb72dg99a7g150fgbea09cdefdb0" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_MINDFIRE,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Contagion_MindFire" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7180ffffg94e0g62ecgc9d2geb17dda556b4" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3a67a81-d330-423c-a181-f7775f67fbd2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_Mindfire_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb8bea9f-baf0-410b-b624-7406731bf4c3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_Mindfire" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10a659ee-a2e0-495e-88d1-94b837a7a29b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_Seizure" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="effc86c9-24bc-4376-a28c-7710f7dc7708" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_SEIZURE_1,100,3)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ce6273dg8fb2g5e40gb370g2250273aca87" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8183d3a3gf76eg41c0g6a3dgc647116e8fb4" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_SEIZURE,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Contagion_Seizure" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h01c25572gbd5aga134gedfdg8370f246017a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57989258-0e14-4806-8d41-af4ef74fa821" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_Seizure_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10a659ee-a2e0-495e-88d1-94b837a7a29b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_Seizure" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b0c150a-8df9-48dd-b673-4b4f4cad034c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_SlimyDoom" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="effc86c9-24bc-4376-a28c-7710f7dc7708" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_SLIMY_DOOM_1,100,3)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h823faaa9gdffegae75g4029g9f85e40f34e7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7713650dge307gc350g9718gee92e99c79f7" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_SLIMY_DOOM,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Contagion_SlimyDoom" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h4fbb8bf1g63cfg6668ge8b1gd539b92f4cf7" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75966d31-5314-40ac-baf4-0abcd3a23127" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_SlimyDoom_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5b0c150a-8df9-48dd-b673-4b4f4cad034c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_SlimyDoom" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10dda937-2802-48c3-a239-b2a3da9732af" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_SlimyDoom_NPC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5b0c150a-8df9-48dd-b673-4b4f4cad034c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_SLIMY_DOOM,100,-1)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

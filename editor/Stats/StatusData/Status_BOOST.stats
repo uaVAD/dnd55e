@@ -471,6 +471,20 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c15c513d-b7df-43c9-b35d-b3e73b5c51b7" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dfb1cf75-94aa-4601-b1fa-059e5edaff47" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ILLUSION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d945035d-f263-424f-8cf8-ad28ee2948fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="COLOR_SPRAY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bab92850-6297-435e-9399-d672bf496412" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;Blind;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a999c096-e824-4644-bac9-5e98d05aa1a0" />

@@ -1070,4 +1070,34 @@ Bardic Damage. You can use Dexterity instead of Strength for the attack rolls of
   <content contentuid="ha97083f1g4db3gf664gd422g662591619c09" version="1">Take a Magic action to teleport the daggers up to 30 feet.</content>
   <content contentuid="haaf05dcegc1c7g957cg76bagbacf907adfb7" version="1">Move Cloud of Daggers</content>
   <content contentuid="h80951a8egaf3eg2e55g487ag32eaf1d2ca05" version="1">Take a Magic action to teleport the daggers up to 30 feet.</content>
+  <content contentuid="h37831829g4ea6g1feeg1915gea8f0fa699b7" version="1">Colour Spray</content>
+  <content contentuid="h3e1a2984ge2d3ge837gff22gc2ac69bcf687" version="1">&lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;Blind&lt;/LSTag&gt; creatures up to a combined [1].</content>
+  <content contentuid="h36775801gf2edg8e9egebabg494ae7137454" version="1">Colour Spray</content>
+  <content contentuid="h42379051g6231g2155g0496gf8997d265fb7" version="1">Colour Spray</content>
+  <content contentuid="h26b3432cgad7cgf53ag486dg94a645b313b6" version="1">Colour Spray</content>
+  <content contentuid="h8071e9a3ge1f2gc3ceg9e5cgfe38c1049dda" version="1">Colour Spray</content>
+  <content contentuid="hddcc10f2gfedfg2db7g09f0g30494e6b25b9" version="1">Colour Spray</content>
+  <content contentuid="hb0efd2ceg0833g9420g8355ge424da379f9e" version="2">You launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the Blinded condition until the end of your next turn.</content>
+  <content contentuid="h5b521bc0g991ag1509g1532g7a7432c14232" version="1">Cone of Cold</content>
+  <content contentuid="h59b9e3afg4467g5a79gf262g265bd2bcb18d" version="1">Make a flurry of frost, crisp air, and condensed snow crystals erupt from your hands.</content>
+  <content contentuid="hdc0383dag5a23gd42dg0b27g00f90507d3e4" version="1">Contagion: Blinding Sickness</content>
+  <content contentuid="hf347385ag4b90g0bccg6810g6a4336d13205" version="1">The target receives &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and is &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="h1f54b341g6e6eg9e51gbbb2g3ae56c83c6b0" version="1">Hot fingers of pain push through the creature's eyes, impairing its &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;.</content>
+  <content contentuid="h8eb0c380gc532g2b56ge76ag79d1d658cdbf" version="1">Contagion</content>
+  <content contentuid="hb4966935g797fgd4eeg3b81gfdb9e22897c3" version="1">&lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; a target and possibly afflict them with a disease of your choice. </content>
+  <content contentuid="h526796c0g7033g01b1g9d4eg2dad2e203b62" version="1">Contagion: Filth Fever</content>
+  <content contentuid="hdf0b87a9gd828gc1e6g2550gefd2e87d2187" version="1">The target receives &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; that use Strength.</content>
+  <content contentuid="h90e25986gc508g3040g78f2g37b619d56eff" version="1">Fever squeezes huge drops of thick oily sweat from the creature's pores, impairing its &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;.</content>
+  <content contentuid="hfc1438b7g6f56g436cg9eccga92207802562" version="1">Contagion: Flesh Rot</content>
+  <content contentuid="h6f598134gfdd5g5fcag12e7gc1a187e6f4df" version="1">The target receives &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and is afflicted with &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerability&lt;/LSTag&gt; to all damage.</content>
+  <content contentuid="ha7172be5g9a1dg6b7eg869eg3e1be7a02761" version="1">The creature begins to mortify, becoming a festering flesh sack propped up by bones, impairing its &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt;.</content>
+  <content contentuid="hc7ef25e5g5059gb4b2gb313g2514a5bee4a9" version="1">Contagion: Mindfire</content>
+  <content contentuid="h583c93b5gb72dg99a7g150fgbea09cdefdb0" version="1">The target receives &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and is &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Befuddled&lt;/LSTag&gt;.</content>
+  <content contentuid="h7180ffffg94e0g62ecgc9d2geb17dda556b4" version="1">The creature's brain begins to cook in a rancid stew of hot sour blood, impairing its &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
+  <content contentuid="h0ce6273dg8fb2g5e40gb370g2250273aca87" version="1">Contagion: Seizure</content>
+  <content contentuid="h8183d3a3gf76eg41c0g6a3dgc647116e8fb4" version="1">The target receives &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+  <content contentuid="h01c25572gbd5aga134gedfdg8370f246017a" version="1">Spasms rack the creature, impairing its &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
+  <content contentuid="h823faaa9gdffegae75g4029g9f85e40f34e7" version="1">Contagion: Slimy Doom</content>
+  <content contentuid="h7713650dge307gc350g9718gee92e99c79f7" version="1">The target receives &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Whenever they are hit, they get &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;.</content>
+  <content contentuid="h4fbb8bf1g63cfg6668ge8b1gd539b92f4cf7" version="1">Fever squeezes huge drops of thick oily sweat from the creature's pores, impairing its &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;.</content>
 </contentList>
