@@ -644,5 +644,32 @@
         <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98c7a193-3eca-4e95-be85-c21f47178a9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOO_KETHERIC_APOSTLEFORM" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MOO_KETHERIC_PHASE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(APOSTLE_AURA,100,-1);ApplyStatus(APOSTLE_VFX,100,-1);ApplyStatus(MOO_KETHERIC_APOSTLEFORM_NORMAL,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(APOSTLE_AURA_AURA);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="760f2d17-de55-4f38-83c1-279399b22096" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="74a9eb8a-aab9-4a40-810d-fb73ce2c166c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6ad2bdeag8e58g6b4fg3462g9aff44485001" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ImmutableForm" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Grounded);ActionResourceBlock(Movement);Tag(EXTRA_ATTACK_BLOCKED);Resistance(Cold, Resistant);Resistance(Necrotic, Resistant);Resistance(Poison, Resistant);StatusImmunity(SG_Charmed);StatusImmunity(SG_Poisoned);StatusImmunity(SG_Incapacitated);StatusImmunity(SG_Polymorph);StatusImmunity(SG_Frightened);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);StatusImmunity(SG_Sleeping);StatusImmunity(BLEEDING);StatusImmunity(GAPING_WOUND);StatusImmunity(CHEST_TRAUMA);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a571e954-d0d7-4e0b-8c99-98f48a23874a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WYR_DRAGONANIMATED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ccd7ec2g9ed6g29bdgcacfg269b2a087595" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Poison, Immune);Resistance(Necrotic, Resistant);StatusImmunity(SG_Paralyzed);StatusImmunity(SG_Poisoned);StatusImmunity(BLEEDING);StatusImmunity(SLEEPING);StatusImmunity(GAPING_WOUND);StatusImmunity(CHEST_TRAUMA);StatusImmunity(DAZED);StatusImmunity(SG_Charmed);Tag(UNDEAD);Tag(CHASM_IMMUNE);Tag(IGNORE_CHASMS);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="368935f0-4a15-4122-b101-9174dee70163" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="efda7381-8f19-4ed2-b0b6-be3dc6c7af33" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

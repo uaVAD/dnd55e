@@ -67,6 +67,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f304f6f2-3f55-42a9-bcc3-0f9ae984a8bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="BladeWard" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="677657b6-7aec-41d1-8dc7-64a05ed1e68a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BLADE_WARD,100,10);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2d02ec84g3e0bgc04dg1756g3cb36683f435" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BLADE_WARD,100,10);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9d2df13c-143c-4a15-8c64-62476423723a" />
         <field name="Name" type="NameTableFieldDefinition" value="ArcaneVigor" />
         <field name="Level" type="IntegerTableFieldDefinition" value="2" />
@@ -137,6 +148,42 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(6d8+SpellCastingAbilityModifier)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f8ffd01-76c7-4041-b5ef-742411069199" />
+        <field name="Name" type="NameTableFieldDefinition" value="AuraOfVitality" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ef0a1c6-929a-49e2-b91c-5f6fed48a49e" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06e857edg3356g18f5gad4dge59b7d353e05" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f4d95be-b6f0-4ab2-b366-2b9cd89d6ded" />
+        <field name="Name" type="NameTableFieldDefinition" value="AuraOfVitality_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e6abbaa8-af1f-4c57-aab4-ff9b3d3d7b13" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd295819g3730gdba8g00feg2eb175ed488a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04b9bb5a-649b-4e93-a2a4-2fab02535ff8" />
+        <field name="Name" type="NameTableFieldDefinition" value="AuraOfVitality_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="92477931-c054-4e17-8b0c-d647deb3e575" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h10f0c6e7g3eeeg6cabg6a7bg95d88196fabb" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1805db33-5c14-48ef-a60b-65d2d5403f92" />
+        <field name="Name" type="NameTableFieldDefinition" value="AuraOfVitality_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8713e778-7317-482c-b88c-8138e5b8593c" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc1029c6cgd7aeg2b99gd806g90045f611089" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

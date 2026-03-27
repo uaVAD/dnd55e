@@ -105,6 +105,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f834df2f-d8ea-4915-8627-7b839b00b501" />
+        <field name="Name" type="NameTableFieldDefinition" value="AcidSplash" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="169e0c64-52bc-435d-be9b-be25ecab9a1c" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ddcb7911-c2a6-4a6d-a3a6-e6456611feef" />
         <field name="Name" type="NameTableFieldDefinition" value="EldritchBlast" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />

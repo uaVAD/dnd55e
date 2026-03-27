@@ -1019,4 +1019,29 @@ Bardic Damage. You can use Dexterity instead of Strength for the attack rolls of
   <content contentuid="h93fb8ea9gaf06g47b8ga01agebf185b6ef4f" version="3">A shiver of magic flows from this bow into your hand - like a promise.</content>
   <content contentuid="h01dfd531g605ag4c72gb4edg3846ab351eae" version="2">Hunting Longbow</content>
   <content contentuid="h16a91f2cg659dg4a91gbb02g7dd759e681be" version="2">Supple and strong, this longbow has been imbued with a ranger's solemn magic - running your fingers along the smooth ash, you can feel that solemnity like a ghost in the shaped wood. </content>
+  <content contentuid="he018a0b1gcff3g09b2g3d95g49a55c223a0c" version="1">Aura of Vitality</content>
+  <content contentuid="h06e857edg3356g18f5gad4dge59b7d353e05" version="1">Aura of Vitality</content>
+  <content contentuid="hcd295819g3730gdba8g00feg2eb175ed488a" version="1">Aura of Vitality</content>
+  <content contentuid="h10f0c6e7g3eeeg6cabg6a7bg95d88196fabb" version="1">Aura of Vitality</content>
+  <content contentuid="hc1029c6cgd7aeg2b99gd806g90045f611089" version="1">Aura of Vitality</content>
+  <content contentuid="hc28180b6gd682g61eeg8306g1eedeb4d7eca" version="1">Protect a creature from attacks: increase its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; up to 17.</content>
+  <content contentuid="he98774ddgb351g4334ga0c4g94eb491799f9" version="1">Protect a creature from attacks: increase its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; up to 17.</content>
+  <content contentuid="hfdb4bc7egb29fg2b6dgb0fag989e7aa14a3c" version="1">Protect a creature from attacks: increase its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; up to 17.</content>
+  <content contentuid="h1ab050e1g1d3eg6b96g5e48gaeeb61a573c7" version="1">Protect a creature from attacks: increase its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; up to 17.</content>
+  <content contentuid="h5291b7b2g07c8gad18gb4a3gd07bb197df01" version="1">Protect a creature from attacks: increase its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; up to 17.</content>
+  <content contentuid="hf024cff0gabacg1d64gfeb1gc4379629eccf" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased to 17.</content>
+  <content contentuid="h509249cega27bg236fg130fgfcb1047d7f8d" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased to 17.</content>
+  <content contentuid="h0bacbb5ega507g964cged60ga66d774febc5" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased to 17.</content>
+  <content contentuid="h99babcaag0dbfg7f6age1b5g850c3fa91a4a" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased to 17.</content>
+  <content contentuid="h2d02ec84g3e0bgc04dg1756g3cb36683f435" version="1">Whenever a creature makes an attack roll against you before the spell ends, the attacker subtracts 1d4 from the attack roll.</content>
+  <content contentuid="hbb6b628eg2a57g6250g3b13g87d1d2155d94" version="1">Whenever a creature makes an attack roll against you before the spell ends, the attacker subtracts 1d4 from the attack roll.</content>
+  <content contentuid="h9272c5c1g1dc9g193fg385dg4ccea106a7ad" version="1">Whenever a creature makes an attack roll against you before the spell ends, the attacker subtracts 1d4 from the attack roll.</content>
+  <content contentuid="h4405cd9eg35f5g6fa4g01c6g020ed526c1e0" version="1">Whenever a creature makes an attack roll against you before the spell ends, the attacker subtracts 1d4 from the attack roll.</content>
+  <content contentuid="h6bbeea0cgfb9cg7197g9d87gc41ed5911b46" version="1">Blade Ward</content>
+  <content contentuid="h6ad2bdeag8e58g6b4fg3462g9aff44485001" version="1">Reaper Made Manifest</content>
+  <content contentuid="h8ccd7ec2g9ed6g29bdgcacfg269b2a087595" version="1">%%% EMPTY</content>
+  <content contentuid="h2bed4266gaf46g07f6g40a0gfb3ed759c291" version="1">Steadfast</content>
+  <content contentuid="h4cb8944dg8c41g9ac6g6980gc440a0c3f06a" version="1">You cannot be forcibly moved by a foe's spells or actions, and you ignore the effects of &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;. </content>
+  <content contentuid="h83b85c59gb22dg5169g66f4ge07c7b7871db" version="1">Blinked to the Ethereal Plane</content>
+  <content contentuid="h1508cdd1g54acg7e72gc647gec06dce25778" version="1">Affected entity is in the Ethereal Plane, where it can't be harmed, seen, or affected.&lt;br&gt;&lt;br&gt;While in the Ethereal Plane, the entity can't move or interact with anything in the world. It can only choose to teleport up to [1].&lt;br&gt;&lt;br&gt;At the end of each turn, there is a chance it reappears in the Material Plane.</content>
 </contentList>

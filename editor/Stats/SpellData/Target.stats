@@ -163,6 +163,48 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="849caa3a-43fc-4eb4-b203-025a88cb1fc4" />
+        <field name="Name" type="NameTableFieldDefinition" value="AuraOfVitality_Activate" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f6ed4fe8-dd9b-43df-b744-16e15998b15c" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0661d930-c34e-440d-b00b-dfef7aed086d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Banishment" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="29ec8943-020d-43db-83d5-b7a474ed8e35" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(BANISHED,100,10);ApplyStatus(SELF,BANISHMENT_OWNER,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BANISHED, 100, 10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0cc62e02-ea4c-4100-bc5d-c4aae5dabfb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Banishment_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c6a0e4f-58b6-4ca4-8e0f-818fc831ca9d" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(BANISHED,100,10);ApplyStatus(SELF,BANISHMENT_OWNER,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BANISHED, 100, 10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="662947e8-957a-4df9-8302-a7e522f7e7e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Banishment_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5c5e0a19-3fca-48e6-aaa2-b51271aa16df" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(BANISHED,100,10);ApplyStatus(SELF,BANISHMENT_OWNER,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BANISHED, 100, 10)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e3f7b69e-b25c-4f39-b19b-2974cc677bfe" />
@@ -530,7 +572,8 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="5e50c4cc-22cf-4748-997d-e0a914ba5805" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CHILL_TOUCH,100,1);DealDamage(LevelMapValue(D8Cantrip), Necrotic,Magical);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CHILL_TOUCH,100,1);DealDamage(LevelMapValue(D10Cantrip), Necrotic,Magical);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip), Necrotic)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -572,6 +615,109 @@
         <field name="Name" type="NameTableFieldDefinition" value="TollTheDead" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d139555e-88d3-4365-aff5-cbf20e380e44" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasHPPercentageEqualOrLessThan(99,context.Target)):DealDamage(LevelMapValue(D8Cantrip),Necrotic,Magical);IF(HasHPPercentageEqualOrLessThan(99,context.Target)):DealDamage(LevelMapValue(D12Cantrip),Necrotic,Magical);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f025ce2-ec61-4068-bb01-db3965ed207a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__TRANSMUTATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f08a8cc-0ad5-4988-9002-778b679d377a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Barkskin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7b97baac-dd0e-4654-91ba-05c2e1c09f41" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc28180b6gd682g61eeg8306g1eedeb4d7eca" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed93450e-0689-445c-95a2-e4c9b761fc98" />
+        <field name="Name" type="NameTableFieldDefinition" value="Barkskin_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d0ccd813-777d-4aa1-86db-f2d504ccbb8b" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he98774ddgb351g4334ga0c4g94eb491799f9" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e8dc44c-1648-48b2-934e-c62d9709ab3e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Barkskin_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8410a24a-a68e-4a92-86af-f2820b2a8079" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfdb4bc7egb29fg2b6dgb0fag989e7aa14a3c" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6c64f5f-1b15-4526-adac-c275a6272041" />
+        <field name="Name" type="NameTableFieldDefinition" value="Barkskin_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="75a569c9-6353-445c-9b09-dc93943c9ee8" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1ab050e1g1d3eg6b96g5e48gaeeb61a573c7" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8d8bed0-7240-4239-8b5b-fa17ede14697" />
+        <field name="Name" type="NameTableFieldDefinition" value="Barkskin_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dfafc8c9-590c-4228-9678-8ea963036d7f" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5291b7b2g07c8gad18gb4a3gd07bb197df01" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77b8bc56-169c-4040-87a1-aa7e4495f52f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Blindness" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5074431a-102f-4603-a414-2547d282459f" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe1ba6de-5482-43f5-9c43-440ea9868511" />
+        <field name="Name" type="NameTableFieldDefinition" value="Blindness_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d5c6a23e-d00a-4770-a78b-fb4fc2196ddf" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db735846-6b23-49d8-8fe9-806d05df59ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="Blindness_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0e4c0ac9-c53b-4929-b1be-ff43a6beeda3" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b1da89c-55e3-4dfc-a3b0-509c0cd4ad2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Blindness_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5091e369-737a-4568-977a-5fb6ab449480" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a52ae289-d1bd-4ddf-ac6b-f39ded90b439" />
+        <field name="Name" type="NameTableFieldDefinition" value="Blindness_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c083cd8-d89b-468e-b3a0-740012d05099" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7402e90-b784-41b1-9914-447b88d1aac5" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="72f0eb02-be09-43aa-9248-df1f5a6bf422" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">

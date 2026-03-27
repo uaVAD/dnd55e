@@ -9,7 +9,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd91b86adge685g5c21gf879g457242b186f2" version="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);DetectDisturbancesBlock(false);" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
-        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Prone;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -72,6 +72,14 @@
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(EXTRA_ATTACK_Q, 100, 1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="07113431-0704-4d72-b41b-86d8a3a0071b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_UNMOVABLE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6e88b225-23a2-42f0-8abc-4783cfc71ba3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Grounded);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e0405962-0cf5-459b-903c-6276d0d2dd34" />
@@ -161,6 +169,112 @@
         <field name="Name" type="NameTableFieldDefinition" value="PULL_3M" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisablePortraitIndicator;DisableOverhead;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="Force(-3)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f37dffb-0817-4fdd-b720-d4a2c5ccae1c" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ABJURATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa46af5a-8d4e-475f-9731-06c661c0de17" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLADE_WARD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f896acd-ca6f-4554-a39a-1a5a360a2bc3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9272c5c1g1dc9g193fg385dg4ccea106a7ad" version="1" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="30" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not Dead()):ApplyStatus(BLADE_WARD_AURA)" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="115761e7-e10f-451b-bd80-1f28f1c99c68" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BLADE_WARD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d57bafcc-50b8-40aa-b3bf-8cd6718233e1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbb6b628eg2a57g6250g3b13g87d1d2155d94" version="1" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="30" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not Dead()):ApplyStatus(BLADE_WARD_AURA)" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6d67cb22-211b-40a3-bc6f-6144bdc3917e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MONK_MOUNTAIN_BLADE_WARD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="281480ec-7797-4920-a5cf-f5d5efa3eeec" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4405cd9eg35f5g6fa4g01c6g020ed526c1e0" version="1" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="30" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not Dead()):ApplyStatus(BLADE_WARD_AURA)" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="595b4841-4b8e-4744-9b83-37ee8db0a510" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLADE_WARD_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6bbeea0cgfb9cg7197g9d87gc41ed5911b46" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLADE_WARD_AURA" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(BladeWard()):RollBonus(Attack, -1d4);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ac7d9f0-81e2-4e24-aa7d-9163240813f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15d2f192-eff4-4bcf-bc26-aca94bc7d295" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9057615-b0fc-401e-a24d-70681d0c6643" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="69c9b3b5-01e3-44f9-9f39-53935a450ada" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2c46f75-14ec-48df-b18b-717439d7c271" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42a3990f-13cd-4a23-9cdd-f6716d9001e9" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7a20e175-1621-4e66-8785-ee9d08cd3244" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a77fb10-e5b8-4271-8b21-781fbd0315c0" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4433ff08-cd98-4daa-92e0-e9291099d7fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9c39e870-3191-44b9-859e-ac83b7d1bc74" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f00f1e2-04ce-422a-9ba6-21ff000f37d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1335649-f0a9-4c99-b783-d23b28b9d6b2" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="175e35ad-0c0c-4970-a669-2f690beed48b" />
+        <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_VITALITY_AURA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="539331b7-b7f8-434b-8b8f-afdbe2d3d06e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he018a0b1gcff3g09b2g3d95g49a55c223a0c" version="1" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -319,6 +433,61 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a999c096-e824-4644-bac9-5e98d05aa1a0" />
         <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="004d83f8-8a7a-42ed-be19-8e0531a62aa6" />
+        <field name="Name" type="NameTableFieldDefinition" value="__TRANSMUTATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fa9cf828-a439-475e-88be-378de8b0605c" />
+        <field name="Name" type="NameTableFieldDefinition" value="BARKSKIN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4334070e-0ea5-4b7c-9b69-c550497183ef" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf024cff0gabacg1d64gfeb1gc4379629eccf" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(17,false);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67ecaa45-820e-42bf-8cbc-0ddb2036bb58" />
+        <field name="Name" type="NameTableFieldDefinition" value="ALCH_ELIXIR_BARKSKIN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="871f0027-be22-496d-b9e0-58043bc24cc2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h509249cega27bg236fg130fgfcb1047d7f8d" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(17,false);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f76ecf4-e1f2-45be-8757-dc2fd62e42f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BARKSKIN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="65cf4c32-6da1-4c19-a3e9-d8981679e146" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0bacbb5ega507g964cged60ga66d774febc5" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(17,false);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af897f53-cb70-4038-b8d7-4e2ab466a393" />
+        <field name="Name" type="NameTableFieldDefinition" value="WYR_DRIBBLES_BARKSKIN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3125f400-445a-4dbe-a763-1f90595c1fb1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99babcaag0dbfg7f6age1b5g850c3fa91a4a" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(17,false);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c6d7c03-9920-4c67-8fd4-0b70aa0452d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLINK_VANISH" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h83b85c59gb22dg5169g66f4ge07c7b7871db" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1508cdd1g54acg7e72gc647gec06dce25778" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Blink" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(GASEOUSFORM_BLINK,100,-1)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="41a4d8ca-f29d-486a-9f4e-afd9deb55b62" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
@@ -1396,6 +1565,12 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_BOOMINGBLADE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BoomingBlade_ClassSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="819a443c-ee68-4730-871e-c749989cd884" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
