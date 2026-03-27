@@ -1688,6 +1688,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="675da840-3631-46bd-9a63-c237abc0c01e" />
+        <field name="Name" type="NameTableFieldDefinition" value="NaturesWrath" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fc9c0a59-2c83-4aca-b452-843e0caef894" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Ally() and not Self();" />
+        <field name="AoEConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Ally() and not Self();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bfb4d827-2511-4325-bc04-8cfac7446a1d" />
         <field name="Name" type="NameTableFieldDefinition" value="VowOfEnmity" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c54b7ff3-f657-4f1a-beb8-eb40c689642a" />

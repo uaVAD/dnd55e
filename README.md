@@ -173,8 +173,8 @@
   - [x] Level 9: Tactical Master
   - [x] Level 11: Two Extra Attacks
 - [ ] Subclass
-  - [ ] Arcane Archer
-  - [ ] Battle Master
+  - [x] Arcane Archer
+  - [x] Battle Master
   - [ ] Psi Warrior
   - [x] Champion
     - [x] Level 3: Improved Critical
@@ -243,7 +243,7 @@
   - [ ] Glory
   - [x] Oathbreaker
   - [ ] Ancients
-    - [ ] Level 3: Nature's Wrath
+    - [x] Level 3: Nature's Wrath
     - [x] Level 3: Oath of the Ancients Spells
     - [x] Level 7: Aura of Warding
   - [x] Devotion
