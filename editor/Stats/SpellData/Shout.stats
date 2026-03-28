@@ -186,6 +186,56 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc1029c6cgd7aeg2b99gd806g90045f611089" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37d5a08c-319f-460b-bfb4-626680ddc849" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingWord_Mass" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1f1c4931-56e3-4e99-af4e-24131f6fc374" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2d4+SpellCastingAbilityModifier)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(2d4+SpellCastingAbilityModifier)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8152f68e-2855-4f80-b4d8-545b7a9591ec" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingWord_Mass_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40d9f9a8-d774-42f5-b180-17560dc49162" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(3d4+SpellCastingAbilityModifier)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(3d4+SpellCastingAbilityModifier)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc83e17f-0852-4c28-94cc-7a7e1071f6b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingWord_Mass_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7eaf9023-493c-4f1c-9496-392b70793cf5" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4d4+SpellCastingAbilityModifier)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4d4+SpellCastingAbilityModifier)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2d67ea7-c20a-4091-989b-5b8171c87899" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingWord_Mass_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c2fb3fd6-d13e-4351-b15b-dcb709a76fe1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5d4+SpellCastingAbilityModifier);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(5d4+SpellCastingAbilityModifier)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3c9c590-361f-4a29-b593-8601f1a1885f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_HealingWord_Mass" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="151650d2-cb43-45b7-aa12-b1b7c0970572" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2d4+SpellCastingAbilityModifier)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(2d4+SpellCastingAbilityModifier)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1dac58cb-f995-4f92-a513-3646d4b452c4" />

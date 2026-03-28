@@ -49,6 +49,7 @@
 - Crusader's Mantle
 - Fear
 - Lightning Arrow
+- Mass Healing Word
 ## Level 4
 - Banishment
 - Confusion
