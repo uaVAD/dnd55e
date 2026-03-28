@@ -1,471 +1,74 @@
 # [DnD 5.5e Beyond](https://github.com/Yoonmoonsik/dnd55e)
 ## Basic Rule
-- [ ] Hit Point Dice
-- [ ] Spell Scroll Usage Limitation
-- [x] Bloodied
-- [x] Equipping Weapons
-- [x] Extra Attack (War Magic Integration)
-- [x] Heavy Armor Strength Requirement
-- [x] Heavy Weapon Ability Requirement
-- [x] Hiding
-- [x] One Spell Slot Spell per Turn
-- [x] Prone
-- [x] Weapon Mastery
+- Hit Point Dice [ ]
+- Spell Scroll Usage Limitation [ ]
+- Bloodied
+- Equipping Weapons
+- Extra Attack (War Magic Integration)
+- Heavy Armor Strength Requirement
+- Heavy Weapon Ability Requirement
+- Hiding
+- One Spell Slot Spell per Turn
+- Prone
+- Weapon Mastery
 ## Character Background
-- [x] Acolyte
-- [x] Charlatan
-- [x] Criminal
-- [x] Entertainer
-- [x] Folk Hero
-- [x] Guild Artisan
-- [x] Haunted One
-- [x] Noble
-- [x] Outlander
-- [x] Sage
-- [x] Soldier
-- [x] Urchin
-## Class
-### Barbarian
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Multiclass Character
-  - [x] Level 1: Rage
-  - [x] Level 1: Unarmored Defense
-  - [x] Level 1: Weapon Mastery
-  - [x] Level 2: Danger Sense
-  - [x] Level 3: Primal Knowledge
-  - [x] Level 5: Extra Attack
-  - [x] Level 5: Fast Movement
-  - [x] Level 7: Feral Instinct
-  - [x] Level 7: Instinctive Pounce
-  - [x] Level 9: Brutal Strike
-  - [x] Level 11: Relentless Rage
-- [x] Subclass
-  - [x] Berserker
-    - [x] Level 3: Frenzy
-    - [x] Level 6: Mindless Rage
-    - [x] Level 10: Retaliation
-  - [ ] Giant
-  - [ ] Wild Magic
-  - [ ] Wildheart
-  - [x] World Tree
-    - [x] Level 3: Vitality of the Tree
-    - [x] Level 6: Branches of the Tree
-    - [x] Level 10: Battering Roots
-  - [x] Zealot
-    - [x] Level 3: Divine Fury
-    - [x] Level 3: Warrior of the Gods
-    - [x] Level 6: Fanatical Focus
-    - [x] Level 10: Zealous Presence
-### Bard
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Level 1: Bardic Inspiration
-  - [x] Level 1: Spellcasting
-  - [x] Level 2: Expertise
-  - [x] Level 2: Jack of All Trades
-  - [x] Level 5: Font of Inspiration
-  - [x] Level 7: Countercharm
-  - [x] Level 10: Magical Secrets
-- [x] Subclass
-  - [x] Dance
-    - [x] Level 3: Dazzling Footwork
-    - [x] Level 6: Inspiring Movement
-    - [x] Level 6: Tandem Footwork
-  - [ ] Swords
-  - [x] Glamour
-    - [x] Level 3: Beguiling Magic
-    - [x] Level 3: Mantle of Inspiration
-    - [x] Level 6: Mantle of Majesty
-  - [x] Lore
-    - [x] Level 3: Bonus Proficiencies
-    - [x] Level 3: Cutting Words
-    - [x] Level 6: Magical Discoveries
-  - [x] Valor
-    - [x] Level 3: Combat Inspiration
-    - [x] Level 3: Martial Training
-    - [x] Level 6: Extra Attack
-- [x] Spell List
-- [x] Magical Secrets spell list
-### Cleric
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Level 1: Spellcasting
-  - [x] Level 1: Divine Order
-  - [x] Level 2: Channel Divinity
-  - [x] Level 5: Sear Undead
-  - [x] Level 7: Blessed Strikes
-- [x] Subclass
-  - [ ] Death
-  - [ ] Nature
-  - [ ] Tempest
-  - [x] Knowledge
-    - [x] Level 3: Blessings of Knowledge
-    - [x] Level 3: Knowledge Domain Spells
-    - [x] Level 3: Mind Magic
-    - [x] Level 6: Unfettered Mind
-  - [x] Life
-    - [x] Level 3: Disciple of Life
-    - [x] Level 3: Life Domain Spells
-    - [x] Level 3: Preserve Life
-    - [x] Level 6: Blessed Healer
-  - [x] Light
-    - [x] Level 3: Light Domain Spells
-    - [x] Level 3: Radiance of the Dawn
-    - [x] Level 3: Warding Flare
-    - [x] Level 6: Improved Warding Flare
-  - [x] Trickery
-    - [x] Level 3: Blessing of the Trickster
-    - [x] Level 3: Trickery Domain Spells
-    - [x] Level 3: Invoke Duplicity
-    - [x] Level 6: Trickster's Transposition
-  - [x] War
-    - [x] Level 3: Guided Strike
-    - [x] Level 3: War Domain Spells
-    - [x] Level 3: War Priest
-    - [x] Level 6: War God's Blessing
-- [x] Spell List
-### Druid
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Level 1: Spellcasting
-  - [x] Level 1: Druidic
-  - [x] Level 1: Primal Order
-  - [x] Level 2: Wild Shape
-  - [x] Level 5: Wild Resurgence
-  - [x] Level 7: Elemental Fury
-- [ ] Subclass
-  - [ ] Land
-  - [ ] Sea
-  - [ ] Spore
-  - [ ] Stars
-  - [x] Moon
-    - [x] Level 3: Circle Forms
-    - [x] Level 6: Improved Circle Forms
-    - [x] Level 10: Moonlight Step
-- [x] Spell List
-### Fighter
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Level 1: Fighting Style
-  - [x] Level 1: Second Wind
-  - [x] Level 1: Weapon Mastery
-  - [x] Level 2: Action Surge
-  - [x] Level 2: Tactical Mind
-  - [x] Level 5: Extra Attack
-  - [x] Level 5: Tactical Shift
-  - [x] Level 9: Indomitable
-  - [x] Level 9: Tactical Master
-  - [x] Level 11: Two Extra Attacks
-- [ ] Subclass
-  - [ ] Arcane Archer
-  - [ ] Battle Master
-  - [ ] Psi Warrior
-  - [x] Champion
-    - [x] Level 3: Improved Critical
-    - [x] Level 3: Remarkable Athlete
-    - [x] Level 7: Additional Fighting Style
-    - [x] Level 10: Heroic Warrior
-  - [x] Eldritch Knight
-    - [x] Level 3: Spellcasting
-    - [x] Level 3: War Bond
-    - [x] Level 7: War Magic
-    - [x] Level 10: Eldritch Strike
-### Monk
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Level 1: Martial Arts
-  - [x] Level 1: Unarmored Defense
-  - [x] Level 2: Monk's Focus
-  - [x] Level 2: Unarmored Movement
-  - [x] Level 2: Uncanny Metabolism
-  - [x] Level 3: Deflect Attacks
-  - [x] Level 4: Slow Fall
-  - [x] Level 5: Extra Attack
-  - [x] Level 5: Stunning Strike
-  - [x] Level 6: Empowered Strikes
-  - [x] Level 7: Evasion
-  - [x] Level 9: Acrobatic Movement
-  - [x] Level 10: Heightened Focus
-  - [x] Level 10: Self-Restoration
-- [ ] Subclass
-  - [ ] Mercy
-  - [x] Elements
-    - [x] Level 3: Elemental Attunement
-    - [x] Level 6: Elemental Burst
-    - [x] Level 11: Stride of the Elements
-  - [x] Open Hand
-    - [x] Level 3: Open Hand Technique
-    - [x] Level 6: Wholeness of Body
-    - [x] Level 11: Fleet Step
-  - [x] Shadow
-    - [x] Level 3: Shadow Arts
-    - [x] Level 6: Shadow Step
-    - [x] Level 11: Improved Shadow Step
-### Paladin
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Level 1: Lay On Hands
-  - [x] Level 1: Weapon Mastery
-  - [x] Level 2: Fighting Style
-  - [x] Level 2: Paladin's Smite
-  - [x] Level 2: Spellcasting
-  - [x] Level 3: Channel Oath
-  - [x] Level 5: Extra Attack
-  - [x] Level 5: Faithful Steed
-  - [x] Level 6: Aura of Protection
-  - [x] Level 9: Abjure Foes
-  - [x] Level 10: Aura of Courage
-  - [x] Level 11: Radiant Strikes
-- [ ] Subclass
-  - [ ] Crown
-  - [ ] Glory
-  - [x] Oathbreaker
-  - [x] Ancients
-    - [x] Level 3: Nature's Wrath
-    - [x] Level 3: Oath of the Ancients Spells
-    - [x] Level 7: Aura of Warding
-  - [x] Devotion
-    - [x] Level 3: Oath of Devotion Spells
-    - [x] Level 3: Sacred Weapon
-    - [x] Level 7: Aura of Devotion
-  - [x] Vengeance
-    - [x] Level 3: Oath of Vengeance Spells
-    - [x] Level 3: Vow of Enmity
-    - [x] Level 7: Relentless Avenger
-- [x] Spell List
-### Ranger
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Level 1: Favored Enemy
-  - [x] Level 1: Weapon Mastery
-  - [x] Level 2: Deft Explorer
-  - [x] Level 2: Spellcasting
-  - [x] Level 5: Extra Attack
-  - [x] Level 6: Roving
-  - [x] Level 9: Expertise
-  - [x] Level 10: Tireless
-- [ ] Subclass
-  - [ ] Beast Master
-  - [ ] Fey Wanderer
-  - [ ] Swarm Keeper
-  - [x] Gloom Stalker
-    - [x] Level 3: Dread Ambusher
-    - [x] Level 3: Gloom Stalker Spells
-    - [x] Level 3: Umbral Sight
-    - [x] Level 7: Iron Mind
-    - [x] Level 11: Stalker's Flurry
-  - [ ] Hunter
-    - [ ] Level 3: Hunter's Prey
-    - [ ] Level 7: Defensive Tactics
-    - [x] Level 11: Superior Hunter's Prey
-- [x] Spell List
-### Rogue
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Level 1: Expertise
-  - [x] Level 1: Sneak Attack
-  - [x] Level 1: Weapon Mastery
-  - [x] Level 2: Cunning Action
-  - [x] Level 3: Steady Aim
-  - [x] Level 5: Cunning Strike
-  - [x] Level 5: Uncanny Dodge
-  - [x] Level 7: Evasion
-  - [x] Level 7: Reliable Talent
-  - [x] Level 11: Improved Cunning Strike
-- [ ] Subclass
-  - [ ] Soulknife
-  - [x] Arcane Trickster
-    - [x] Level 3: Mage Hand Legerdemain
-    - [x] Level 3: Spellcasting
-    - [x] Level 9: Magical Ambush
-  - [x] Assassin
-    - [x] Level 3: Assassinate
-    - [x] Level 3: Assassin's Tools
-    - [x] Level 9: Infiltration Expertise
-  - [x] Thief
-    - [x] Level 3: Fast Hands
-    - [x] Level 3: Second-Story Work
-    - [x] Level 9: Supreme Sneak
-  - [ ] Swashbuckler
-### Sorcerer
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Level 1: Spellcasting
-  - [x] Level 1: Innate Sorcery
-  - [x] Level 2: Font of Magic
-  - [x] Level 2: Metamagic
-  - [x] Level 5: Sorcerous Restoration
-  - [x] Level 7: Sorcery Incarnate
-- [ ] Subclass
-  - [ ] Aberrant
-  - [ ] Clockwork
-  - [ ] Draconic
-  - [ ] Shadow Magic
-  - [ ] Storm Sorcery
-  - [ ] Wild Magic
-- [x] Spell List
-### Warlock
-- [x] Class
-  - [x] Core Traits
-    - [x] Skill Proficiencies
-    - [x] Weapon Proficiencies
-    - [x] Armor Training
-  - [x] Level 1: Eldritch Invocations
-  - [x] Level 1: Pact Magic
-  - [x] Level 2: Magical Cunning
-  - [x] Level 11: Mystic Arcanum
-- [ ] Invocations
-  - [x] PactOfTheBlade
-    - [ ] Necrotic
-    - [ ] Psychic
-    - [ ] Radiant
-  - [x] PactOfTheChain
-  - [x] PactOfTheTome
-  - [x] ArmorOfShadows
-  - [x] BeastSpeech
-  - [x] BeguilingInfluence
-  - [x] EldritchMind
-  - [x] AgonizingBlast
-  - [x] DevilsSight
-  - [x] EldritchSpear
-  - [x] MaskOfManyFaces
-  - [x] OtherworldlyLeap
-  - [x] RepellingBlast
-  - [x] ThiefOfFiveFates
-  - [x] ThirstingBlade
-  - [x] InvestmentOfTheChainMaster
-  - [x] GiftOfTheDepths
-  - [x] EldritchSmite
-  - [x] BookOfAncientSecrets
-  - [x] MireTheMind
-  - [x] OneWithShadows
-  - [x] SignOfIllOmen
-  - [x] DreadfulWord
-  - [x] SculptorOfFlesh
-  - [x] WhispersOfTheGrave
-  - [x] Lifedrinker
-    - [x] Necrotic
-    - [ ] Psychic
-    - [ ] Radiant
-    - [ ] Hit Point Dice
-  - [x] GiftOfTheProtectors
-  - [x] MinionsOfChaos
-  - [x] DevouringBlade
-- [ ] Subclass
-  - [ ] Archfey
-    - [x] Level 3: Archfey Spells
-    - [ ] Level 3: Steps of the Fey
-    - [ ] Level 6: Misty Escape
-    - [ ] Level 10: Beguiling Defenses
-  - [ ] Celestial
-  - [ ] Fiend
-    - [ ] Level 3: Dark One's Blessing
-    - [x] Level 3: Fiend Spells
-    - [ ] Level 6: Dark One's Own Luck
-    - [ ] Level 10: Fiendish Resilience
-  - [ ] Great Old One
-    - [ ] Level 3: Awakened Mind
-    - [x] Level 3: Great Old One Spells
-    - [ ] Level 3: Psychic Spells
-    - [ ] Level 6: Clairvoyant Combatant
-    - [ ] Level 10: Eldritch Hex
-    - [ ] Level 10: Thought Shield
-  - [ ] Hexblade
-    - [x] Level 3: Hexblade Spells
-- [x] Spell List
-### Wizard
-- [ ] Class
-  - [x] Level 1: Spellcasting
-  - [ ] Level 1: Ritual Adept
-  - [x] Level 1: Arcane Recovery
-  - [x] Level 2: Scholar
-  - [ ] Level 5: Memorize Spell
-- [ ] Subclass
-  - [ ] Abjurer
-  - [ ] Bladesinger
-  - [ ] Diviner
-  - [ ] Evoker
-  - [ ] Illusionist
-- [x] Spell List
-### Artificer
-### Gunslinger
-### Illrigger
-### Psion
+- Acolyte
+- Charlatan
+- Criminal
+- Entertainer
+- Folk Hero
+- Guild Artisan
+- Haunted One
+- Noble
+- Outlander
+- Sage
+- Soldier
+- Urchin
+## [Class](./README_Class.MD)
 ## Common Action
-- [x] Distract
-- [x] Dodge
-- [x] Hide
-- [x] Jump
-- [x] Shove
-- [x] Topple
+- Distract
+- Dodge
+- Hide
+- Jump
+- Shove
+- Topple
 ## Feat
 ### Origin
-- [x] Alert
-- [x] Lucky
-- [x] Magic Initiate: Cleric
-- [x] Magic Initiate: Druid
-- [x] Magic Initiate: Wizard
-- [x] Musician (Performer)
-- [x] Savage Attacker
-- [x] Skilled
-- [x] Tavern Brawler
-- [x] Tough
+- Alert
+- Lucky
+- Magic Initiate: Cleric
+- Magic Initiate: Druid
+- Magic Initiate: Wizard
+- Musician (Performer)
+- Savage Attacker
+- Skilled
+- Tavern Brawler
+- Tough
 ### General
-- [x] Athlete
-- [x] Charger
-- [x] Crossbow Expert
-- [x] Defensive Duelist
-- [x] Dual Wielder
-- [ ] Dungeon Delver
-- [ ] Durable (보행으로 전체 생명력 절반 회복 짧휴당)
-- [x] Elemental Adept
-- [x] Great Weapon Master
-- [x] Heavily Armored
-- [x] Heavy Armor Master
-- [x] Lightly Armored
-- [x] Mage Slayer
-- [x] Martial Adept
-- [x] Medium Armor Master
-- [x] Speedy (Mobile)
-- [x] Polearm Master
-- [x] Resilient
-- [ ] Ritual Caster (활보 등 리추얼 태그 빠지면 그 주문들 추가)
-- [x] Sentinel
-- [x] Sharpshooter
-- [x] Shield Master
-- [x] Spell Sniper
-- [x] War Caster
-- [x] Weapon Master
+- Athlete
+- Charger
+- Crossbow Expert
+- Defensive Duelist
+- Dual Wielder
+- Dungeon Delver [ ]
+- Durable (보행으로 전체 생명력 절반 회복 짧휴당) [ ]
+- Elemental Adept
+- Great Weapon Master
+- Heavily Armored
+- Heavy Armor Master
+- Lightly Armored
+- Mage Slayer
+- Martial Adept
+- Medium Armor Master
+- Speedy (Mobile)
+- Polearm Master
+- Resilient
+- Ritual Caster (활보 등 리추얼 태그 빠지면 그 주문들 추가) [ ]
+- Sentinel
+- Sharpshooter
+- Shield Master
+- Spell Sniper
+- War Caster
+- Weapon Master
 ### Fighting Style
-## [Spell](./README_Spell)
+## [Spell](./README_Spell.MD)
