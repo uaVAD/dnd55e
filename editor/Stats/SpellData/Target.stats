@@ -448,9 +448,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="98ee5cb4-0e14-4d8d-ba67-cd81dad05440" />
         <field name="Name" type="NameTableFieldDefinition" value="Entangle" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ef279ab3-1c9f-4a5b-9302-de4c8ac43c5f" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(6,10,Vines,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -458,9 +459,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="613b83bc-e848-4a84-b987-0deb6825d013" />
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4d4d013a-ea6f-4620-b6b1-110f321f6ed8" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(6,10,Vines,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -468,9 +470,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="86fcbf58-3902-433f-96a5-b0694837b289" />
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5579c345-7251-453d-acb9-73dd9e162416" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(6,10,Vines,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -478,9 +481,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f056830b-b74d-4372-be62-a94e213ff82b" />
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="38697109-73aa-4247-b71e-e31d5945c371" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(6,10,Vines,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -488,9 +492,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="15a02606-f5c7-4bd5-aca5-03f4a8b3a7e1" />
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6ec71bc2-2c24-4891-a85f-ab1c692a77d8" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(6,10,Vines,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -498,9 +503,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="29031390-df2b-4336-a2c0-72d80ddfcb45" />
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="342d050f-bf8c-4b77-8317-bdec4e2a937c" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(6,10,Vines,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -508,8 +514,60 @@
         <field name="UUID" type="IdTableFieldDefinition" value="75bb1ce2-8baa-4063-8d82-7827eeb131a5" />
         <field name="Name" type="NameTableFieldDefinition" value="DEN_Entangle_Staff" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fa3bfe63-dd45-4991-9e65-a68a4b8b0766" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(6,10,Vines,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16dbe9e9-1069-4347-ba73-098cad143970" />
+        <field name="Name" type="NameTableFieldDefinition" value="Web" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="61290327-ad72-462a-80af-e1e76dabddb1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86f0a2c3-a9ac-41c8-94b9-cfa6393c572a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Web_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cc38d0da-62a2-4373-94cd-5fed2160aefe" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cceb420-e3eb-4880-8d6d-837155773ce3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Web_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="229710a0-dca2-4ff8-ae35-ef91d045aaed" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85d84f85-676e-4501-b866-0f643755cea6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Web_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6156cada-4752-45f7-b385-031d9b7db155" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc953948-598a-4878-a115-7101776c3de5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Web_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="816a1de8-aaa9-428a-8c42-6bdb9b9006fc" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
