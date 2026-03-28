@@ -2321,6 +2321,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Searing" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="df846491-89d5-4975-a21f-bf84bc398f25" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(1d6,Fire,Magical);ApplyStatus(SEARING_SMITE, 100, 10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2329,6 +2330,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Searing_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c28bb6de-7932-4fef-adbc-7cfcd0ca4393" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(2d6,Fire,Magical);ApplyStatus(SEARING_SMITE_2,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SEARING_SMITE_2, 100, 10)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2337,6 +2340,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Searing_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db62ae97-a7a1-4b6b-823f-d5af4cabc83e" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Fire,Magical);ApplyStatus(SEARING_SMITE_3,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SEARING_SMITE_3, 100, 10)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2345,6 +2350,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Searing_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b3ca7a9b-c363-4f1a-9743-1277104d3d1c" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Fire,Magical);ApplyStatus(SEARING_SMITE_4,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SEARING_SMITE,_4 100, 10)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2353,6 +2360,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Searing_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f9b03423-c961-42a8-a6a1-92db108de7fb" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Fire,Magical);ApplyStatus(SEARING_SMITE_5,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SEARING_SMITE_5, 100, 10)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2361,6 +2370,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Searing_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d299932e-bc24-43a3-b001-5ddbd02fb73e" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Fire,Magical);ApplyStatus(SEARING_SMITE_6,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SEARING_SMITE_6, 100, 10)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

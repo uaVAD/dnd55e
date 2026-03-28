@@ -526,6 +526,73 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="939b49ff-e4a2-47eb-bffe-565165a69db3" />
+        <field name="Name" type="NameTableFieldDefinition" value="SEARING_SMITE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a43f05fe-467d-48c2-a02a-eedb880ee79e" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d6,Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6,Fire)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c1b5131-cfc6-4c31-a8af-2e9ae6978844" />
+        <field name="Name" type="NameTableFieldDefinition" value="SEARING_SMITE_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="939b49ff-e4a2-47eb-bffe-565165a69db3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d6,Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d6,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64053961-6d03-4957-8458-0b0a6e7e5225" />
+        <field name="Name" type="NameTableFieldDefinition" value="SEARING_SMITE_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="939b49ff-e4a2-47eb-bffe-565165a69db3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d6,Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(4d6,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ea71610-4f8e-4e0a-bb58-d8089bdbb7ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="SEARING_SMITE_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="939b49ff-e4a2-47eb-bffe-565165a69db3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d6,Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="4" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d6,Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(5d6,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05bb85db-641a-4cef-bfee-4387fccdf47f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SEARING_SMITE_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="939b49ff-e4a2-47eb-bffe-565165a69db3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d6,Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(6d6,Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(6d6,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="881bc2b9-52b3-4c08-9c90-885cab567ff3" />
+        <field name="Name" type="NameTableFieldDefinition" value="SEARING_SMITE_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="939b49ff-e4a2-47eb-bffe-565165a69db3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(7d6,Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(7d6,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="616c542e-af33-4523-9383-164e70ce4e5d" />
         <field name="Name" type="NameTableFieldDefinition" value="DARKNESS_CASTER" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h48d3643fg9150g4323g6a3bg15e71e622720" version="1" />
