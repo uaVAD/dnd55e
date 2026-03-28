@@ -449,7 +449,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Entangle" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ef279ab3-1c9f-4a5b-9302-de4c8ac43c5f" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -460,7 +459,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4d4d013a-ea6f-4620-b6b1-110f321f6ed8" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -471,7 +469,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5579c345-7251-453d-acb9-73dd9e162416" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -482,7 +479,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="38697109-73aa-4247-b71e-e31d5945c371" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -493,7 +489,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6ec71bc2-2c24-4891-a85f-ab1c692a77d8" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -504,7 +499,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="342d050f-bf8c-4b77-8317-bdec4e2a937c" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -515,7 +509,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="DEN_Entangle_Staff" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fa3bfe63-dd45-4991-9e65-a68a4b8b0766" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Vines,true);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -1015,7 +1008,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ea4e8e48-47c2-4811-9676-14523ec3fa68" />
         <field name="Name" type="NameTableFieldDefinition" value="InsectPlague" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="078d9e8d-89a3-42f3-ac47-7202c73604be" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1023,7 +1015,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6f3df28e-ce86-4766-9509-097ea2be5def" />
         <field name="Name" type="NameTableFieldDefinition" value="InsectPlague_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d448a03f-8ce5-4d49-b859-7aac8dc025d0" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1129,7 +1120,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MindSpike" />
         <field name="Level" type="IntegerTableFieldDefinition" value="2" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Divination" enumeration_type_name="SpellSchool" version="1" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="DeathType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Death Type" version="1" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Psychic);ApplyStatus(MIND_SPIKE,100,3);" />
@@ -2075,7 +2066,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3e7bb141-8ea4-4f25-9a73-64710c2d9fcb" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f8f2f80f-8458-4148-b548-7ba5ff70a61a" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
@@ -2085,7 +2075,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d993b480-a6e4-491a-8560-4c36b6f0857d" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6da5bd4f-ceb2-4916-9cc7-650b5248fe30" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
@@ -2095,7 +2084,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a7ea935d-75fc-431c-92ee-1e20b6f107e4" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fb03bc06-c26e-4d88-bb87-e39372e9b80f" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
@@ -2105,7 +2093,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="11c4b2c3-831b-481c-91b9-f049e3218702" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7fb41025-38f7-4d73-908d-dacb992629d9" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
@@ -2115,7 +2102,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c857a4dd-759b-452e-a179-96a4024b4965" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6b1bfd2c-3a9d-468c-8301-9d1bbd5cbe0e" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
@@ -2125,7 +2111,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="000e67e1-a9f4-4eb7-a857-5a76685da4d8" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_CrownOfMadness" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9683bcbc-6065-457c-b51c-ed22786ed531" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
@@ -2135,7 +2120,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4aae5e13-509f-4d71-84ab-322466a78ae7" />
         <field name="Name" type="NameTableFieldDefinition" value="Confusion" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="947ee15a-4931-44ba-bdf6-15efe1785d7a" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
       </fields>
@@ -2145,7 +2129,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="71445bd8-fc54-47e0-97d7-e6a73cc5eecf" />
         <field name="Name" type="NameTableFieldDefinition" value="Confusion_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b26a04ec-0ca1-4521-a647-f3eb8ab8cc48" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
       </fields>
@@ -2155,7 +2138,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="61c4e666-3bbe-4b9b-9832-1d64c3aaf499" />
         <field name="Name" type="NameTableFieldDefinition" value="Confusion_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d3c9e86f-8938-46cf-804c-575e8095ef52" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
       </fields>
@@ -2165,7 +2147,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1e80f78d-0349-4fcb-8a40-893fb5fb0741" />
         <field name="Name" type="NameTableFieldDefinition" value="HoldMonster" />
         <field name="Level" type="IntegerTableFieldDefinition" value="5" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HOLD_MONSTER,100,10)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Tagged('UNDEAD') and not Self() and not Dead() and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and Character()" />
@@ -2204,7 +2186,6 @@
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
         <field name="CombatAIOverrideSpell" type="StatReferenceTableFieldDefinition" value="Target_HoldMonster_6_AI" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2213,7 +2194,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SynapticStatic" />
         <field name="Level" type="IntegerTableFieldDefinition" value="5" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Enchantment" enumeration_type_name="SpellSchool" version="1" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Intelligence, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d6,Psychic);ApplyStatus(SYNAPTIC_STATIC,100,10);" />
@@ -2645,7 +2626,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d70e5aa3-42fd-4794-8328-3c40cb7b2b4e" />
         <field name="Name" type="NameTableFieldDefinition" value="IceStorm" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d6cfb81e-11bb-4035-9f4e-ca0a65c8d5ab" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10,Bludgeoning,Magical);DealDamage(4d6,Cold,Magical);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((2d10)/2,Bludgeoning,Magical);DealDamage((4d6)/2,Cold,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d10, Bludgeoning);DealDamage(4d6, Cold)" />
@@ -2657,7 +2637,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ce68c065-e2d5-47b3-b2b0-9d3ff1f7980d" />
         <field name="Name" type="NameTableFieldDefinition" value="IceStorm_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e88ef0c2-9e43-4f0d-8446-9cbadac8d6e6" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10,Bludgeoning,Magical);DealDamage(4d6,Cold,Magical);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((3d10)/2,Bludgeoning,Magical);DealDamage((4d6)/2,Cold,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d10, Bludgeoning);DealDamage(4d6, Cold)" />
@@ -2669,7 +2648,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ca21ffb9-6614-4d2f-b984-43375a55ee28" />
         <field name="Name" type="NameTableFieldDefinition" value="IceStorm_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cf9768bb-b494-4233-9431-6a73b859b2da" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10,Bludgeoning,Magical);DealDamage(4d6,Cold,Magical);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((4d10)/2,Bludgeoning,Magical);DealDamage((4d6)/2,Cold,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d10, Bludgeoning);DealDamage(4d6, Cold)" />
@@ -2757,7 +2735,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0c7b8b84-6bd4-490f-89a4-15eb1e6544bb" />
         <field name="Name" type="NameTableFieldDefinition" value="PhantasmalKiller" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="501f7f93-5535-4172-97fb-7fd97be8c1c6" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1fc6d592gcc27gfae8g9211ge723a0f1c0e7" version="1" />
       </fields>
     </stat_object>
@@ -2766,7 +2743,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b3b8486e-9328-4192-98b6-11a7c545c3bd" />
         <field name="Name" type="NameTableFieldDefinition" value="PhantasmalKiller_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="988aa473-885a-42ad-87c0-db2912c5364e" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h28a36b4cg27b2gab96g42b0gbade6f8162f6" version="1" />
       </fields>
     </stat_object>
@@ -2775,7 +2751,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1223b653-97a2-421d-8ce3-bf41ea0c117a" />
         <field name="Name" type="NameTableFieldDefinition" value="PhantasmalKiller_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="eedb2281-c8eb-46e2-bbfa-90f1e6e82a00" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h32d2aff6ga0b0g13a1g550dgd7e4309b96fb" version="1" />
       </fields>
     </stat_object>
@@ -4014,7 +3989,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Blindness" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5074431a-102f-4603-a414-2547d282459f" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4023,7 +3997,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Blindness_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d5c6a23e-d00a-4770-a78b-fb4fc2196ddf" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4032,7 +4005,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Blindness_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0e4c0ac9-c53b-4929-b1be-ff43a6beeda3" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4041,7 +4013,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Blindness_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5091e369-737a-4568-977a-5fb6ab449480" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4050,7 +4021,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Blindness_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7c083cd8-d89b-468e-b3a0-740012d05099" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5046,7 +5016,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b577c2ca-33ad-484b-aba4-b52203620540" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalBurst" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_ElementalBurst_1;Target_ElementalBurst_2;Target_ElementalBurst_3;Target_ElementalBurst_4;Target_ElementalBurst_5;" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Fire);" />

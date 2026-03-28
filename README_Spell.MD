@@ -73,6 +73,7 @@
 - Phantasmal Killer
 - Polymorph
 - Stoneskin
+- Vitriolic Sphere
 ## Level 5
 - Cone of Cold
 - Contagion

@@ -683,6 +683,22 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c15c513d-b7df-43c9-b35d-b3e73b5c51b7" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d34bc336-56cb-4d6c-bdfb-5be961e87518" />
+        <field name="Name" type="NameTableFieldDefinition" value="VITRIOLIC_SPHERE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbdd2851fgaad9g9c74g84a7g3b02ca7cb05a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h50b099e6g73f6g882bg67ffge23cefdbcb29" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d4,Acid)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VitriolicSphere" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VITRIOLIC_SPHERE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d4, Acid)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(5d4, Acid)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="NonExtendable" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="0b2692dc-98f2-443e-93c9-be9c940a37c7" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dfb1cf75-94aa-4601-b1fa-059e5edaff47" />
