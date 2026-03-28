@@ -31,6 +31,7 @@
 - Longstrider
 - Magic Missile
 - Ray of Sickness
+- Searing Smite
 ## Level 2
 - Aid
 - Arcane Vigor
