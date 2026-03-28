@@ -2904,6 +2904,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Necrotic)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d49cf296-7f7b-4658-8171-13eeb08c7d88" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2920,6 +2921,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Necrotic)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d49cf296-7f7b-4658-8171-13eeb08c7d88" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2936,6 +2938,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Necrotic)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d49cf296-7f7b-4658-8171-13eeb08c7d88" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2952,6 +2955,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Necrotic)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d49cf296-7f7b-4658-8171-13eeb08c7d88" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2968,6 +2972,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Necrotic)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d49cf296-7f7b-4658-8171-13eeb08c7d88" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2984,6 +2989,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Necrotic)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d49cf296-7f7b-4658-8171-13eeb08c7d88" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3000,6 +3006,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Necrotic)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d49cf296-7f7b-4658-8171-13eeb08c7d88" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3016,6 +3023,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Necrotic)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d49cf296-7f7b-4658-8171-13eeb08c7d88" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
