@@ -6,6 +6,7 @@
 - Eldritch Blast
 - Mind Sliver
 - Poison Spray
+- Resistance
 - Sorcerous Burst
 - Spare the Dying
 - Starry Wisp
@@ -29,6 +30,7 @@
 - Jump
 - Longstrider
 - Magic Missile
+- Ray of Sickness
 ## Level 2
 - Aid
 - Arcane Vigor
@@ -43,6 +45,7 @@
 - Melf's Acid Arrow
 - Mind Spike
 - Misty Step
+- Ray of Enfeeblement
 ## Level 3
 - Aura of Vitality
 - Bestow Curse

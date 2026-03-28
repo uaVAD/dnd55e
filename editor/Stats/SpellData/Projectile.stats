@@ -1253,6 +1253,162 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D12Cantrip),Poison,Magical);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e5fe3f3-bb15-4d10-a342-cada9dca7a3e" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b76f3dee-cf0a-45b2-aeab-fcf1356db21d" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(3d8,Poison,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h62840b59g871cgdf70gec31g5bda4b8858d2" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5cab6231-79da-4fe2-98e4-181004c168df" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d1d56223-3ad8-4b40-aae9-a3dc7d8b04c6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(4d8,Poison,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0a0c0a89gc109g1dfega8b7g644a8b3a0f9d" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="54e00683-6122-4f9d-95fc-37904e2f10b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8700833c-e038-4bae-9cfb-dce3c9f8b3d6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(5d8,Poison,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19695d2bgc8ebgf448g68a8g09235680c4c8" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b8847ca-9450-4064-8dc2-0366424c221c" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4cd827e5-5ae1-43f6-a2f2-3e2e22a24409" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(6d8,Poison,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b2eb0a2g64b2g7bfcg2744g6270c1f1e167" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29bce934-151e-4159-973b-0ab35e182801" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="df766977-9d5f-4f67-b5f6-1b81e2ead84c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(7d8,Poison,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h29d2b04dgf6cdgaa4cge9cegcd50e2f94044" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c059d712-d932-4e10-a87c-f4088d624d4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d5fa2c2a-84bf-4a3c-ad73-6ec8801d89bb" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(8d8,Poison,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h72480687g9aedg63f6g71a9gf54e11ec105f" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a192182-33f0-449e-8fbf-60b5c334ea8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_BookOfAnceintSecrets" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce833cac-0e48-4393-bdc2-b25555f8e102" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(3d8,Poison,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="habfdeb9dg0444g413eg5f04g299364deece0" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1fd9b6eb-a280-4749-bb4d-eec22f31e346" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAG_RayOfSickness_Staff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d66d664c-7e0f-40aa-b31e-78a1a32bc505" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(3d8,Poison,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h881f5947g342fg38ffg9bc6g433b1271191a" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8fea6072-b601-400b-b30b-4befad8f5a0e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Legendary_Chromatic_RayOfSickness" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="748acc4d-7634-4231-8b4c-194b1ca240eb" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(7d8,Poison,Magical);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h10bab148g2e5eg90d3g12c3g198a5e4b7bd9" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5a7f84e-3b93-4dd3-960d-866241bc9485" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e79ff3d4-c908-4fab-b483-43274fe16563" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f226a79g1b15g405cgf870gf64805e10151" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69fd0d8b-5aaa-4fc5-a1b7-e0b3ba86a1b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="df60480c-6839-46c7-aab8-421ba8fb9b3f" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h204f9579g57ceg19e1g0cd5g863a58542053" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1ea94ff-85d4-412f-ba10-21a11193f327" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6337c627-7698-421c-a56d-c35b74cb3478" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h58d34c7bgba94g21d5gf05ag4ed5c0aea0ab" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf83a198-a105-4daa-91bc-778a37e54598" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dda2f767-003d-423c-b13e-1097f008f153" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0b14dd67gb5f5gc96dg4d31g57097dbedd01" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c2c956e-6267-4405-9fc8-9f0b3e7b7c74" />
+        <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7b85ef9-2b76-4d89-a37c-8ddc5bebd6e5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2eb3007dg66b1g256cg24e5g51538a8f09c9" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28c0e37c-5a41-4503-a9d4-8ddd59531780" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_RayOfEnfeeblement" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b0b8271-8072-4b9f-a78d-39eb3e2a90a0" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07724cb8g58c2g9aaag313cg5be5871047e1" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="63f1d83b-69e0-41b3-bdfb-e9beb10df7dc" />
@@ -1497,6 +1653,12 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9fad48e3-d6d1-4b37-b5e2-e5a0380cda26" />
         <field name="Name" type="NameTableFieldDefinition" value="Athlete_Jump" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2cdb12e9-7b79-4340-b884-f074d7247ecd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d2aa5de-b8c7-45ef-9c98-b61c99b5729f" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
       </fields>
     </stat_object>
   </stat_objects>

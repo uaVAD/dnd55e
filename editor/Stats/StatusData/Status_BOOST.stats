@@ -222,6 +222,71 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c386a85f-03b1-4d61-815d-4fcfe65283bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="RESISTANCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f18e6727-dbfe-4d98-b3fd-33629aecb330" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d6a4e32g87edg4607g6cd5g19197e4e0034" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RESISTANCE_OSIRIS,100,1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RESISTANCE_OSIRIS,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47f50812-fae1-4182-8829-bf9ae181308e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_END_GAME_RESISTANCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="94bee139-473a-4069-a09c-bbb40d0d7878" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e40a51eg6772g87d3ga8a6gd8b5dcc5e0f0" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RESISTANCE_OSIRIS,100,1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RESISTANCE_OSIRIS,100,1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RESISTANCE_OSIRIS);RemoveStatus(RESISTANCE_0);RemoveStatus(RESISTANCE_1);RemoveStatus(RESISTANCE_2);RemoveStatus(RESISTANCE_3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6d0d70ea-438c-4947-915c-bf42c777e1b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="RESISTANCE_OSIRIS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71c82643-195f-4a8c-bfea-b00ab15ad323" />
+        <field name="Name" type="NameTableFieldDefinition" value="RESISTANCE_0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All,Flat,1);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="485b723b-353b-42ec-8e61-b33f3c76cf51" />
+        <field name="Name" type="NameTableFieldDefinition" value="RESISTANCE_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="71c82643-195f-4a8c-bfea-b00ab15ad323" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All,Flat,2);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4d23067-d815-4b25-b830-e83d6b1f2ea5" />
+        <field name="Name" type="NameTableFieldDefinition" value="RESISTANCE_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="71c82643-195f-4a8c-bfea-b00ab15ad323" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All,Flat,3);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6240ae58-7baa-42cb-b3ac-a15173b63fae" />
+        <field name="Name" type="NameTableFieldDefinition" value="RESISTANCE_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="71c82643-195f-4a8c-bfea-b00ab15ad323" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All,Flat,4);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6ac7d9f0-81e2-4e24-aa7d-9163240813f4" />
         <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="15d2f192-eff4-4bcf-bc26-aca94bc7d295" />
@@ -590,6 +655,15 @@
         <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1f0855c-a4d9-45c1-9097-5cae9abbb75e" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAY_OF_ENFEEBLEMENT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68aa7ced-3a22-443a-94ce-d98f9a93370a" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6f9f97e3gf464g5501g588eg5db8ef9b538f" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(-1d8,,false);Disadvantage(Ability, Strength);IF(IsMeleeAttack()):Disdvantage(AttackRoll);IF(IsUnarmedAttack()):Disdvantage(AttackRoll);IF(Disdvantage()):Advantage(AttackRoll);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="004d83f8-8a7a-42ed-be19-8e0531a62aa6" />
@@ -828,6 +902,14 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PackHowl_Barbarian);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="229bcbca-f97a-4228-aef1-f7d0042f9dbd" />
+        <field name="Name" type="NameTableFieldDefinition" value="RECKLESS_ATTACK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e942caa-772e-4bee-a7a7-63b6417e6031" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):Advantage(AttackRoll);IF(IsUnarmedAttack()):Advantage(AttackRoll);IF(IsThrowAttackRoll()):Advantage(AttackRoll);Advantage(AttackTarget);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

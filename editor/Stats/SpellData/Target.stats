@@ -79,6 +79,22 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="710e9746-f945-4dd5-a1f6-e6932e105a66" />
+        <field name="Name" type="NameTableFieldDefinition" value="Resistance" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f7c279a4-5c97-4b27-9bcf-75008f1c907e" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd537bc94g933ag4203ga905g390b91aed106" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c19d1c9-77c5-4dd5-b1ba-b8cfefce17cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Resistance" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da4fa557-525b-403c-8324-27829ddcd5e5" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb291dd01gaa36gf848g9cb2g11776f6a95ba" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ff9c4870-30c5-4edd-bad8-7a1a1cf69b88" />
         <field name="Name" type="NameTableFieldDefinition" value="CureWounds" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="274ca174-0a39-4c9f-b60a-285fa07d4ba5" />
