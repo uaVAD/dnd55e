@@ -1193,6 +1193,33 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03ed20eb-6bea-49d3-9d30-9a4f27c67df5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViciousMockery" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff31b0b2-53f7-4147-adba-c3e63dbe62f9" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(VICIOUSMOCKERY,100,1);DealDamage(LevelMapValue(D6Cantrip),Psychic,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Psychic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a67e99a7-41bb-4993-b2ee-bc68c652935a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DirtyTrick_Vicious" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1798e677-9428-43f8-a29d-e78c51926a2a" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(VICIOUSMOCKERY,100,1);DealDamage(LevelMapValue(D6Cantrip),Psychic,Magical);ApplyStatus(SELF,SWASHBUCKLER_ADV,100,2);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Psychic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a5c9261-69d8-4132-bae5-4bdf94b5761f" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAG_ViciousMockery" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="db874287-c551-4684-b6f1-8b5ed7ad5864" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6,Psychic,Magical);ApplyStatus(VICIOUSMOCKERY,100,2);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Psychic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7bf6d45c-a16d-4c80-b74b-0de81ff6fd13" />
         <field name="Name" type="NameTableFieldDefinition" value="__ENCHANTMENT__SLEVEL__1" />
       </fields>
