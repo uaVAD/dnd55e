@@ -1233,4 +1233,26 @@ Bardic Damage. You can use Dexterity instead of Strength for the attack rolls of
   <content contentuid="h50bff1e7g1854g3605g542bg6e07ef5207cb" version="1">You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +[1] bonus to attack rolls and damage rolls. The spell ends early if you cast it again.</content>
   <content contentuid="hfa97514cg1b62ge708ge36dg6b7323d4da3e" version="1">You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +[1] bonus to attack rolls and damage rolls. The spell ends early if you cast it again.</content>
   <content contentuid="h85706f21g3bf8g589fgb2e1gb85b9c796d1c" version="1">You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +[1] bonus to attack rolls and damage rolls. The spell ends early if you cast it again.</content>
+  <content contentuid="hd1b1e771ga064g2c5ag80c8g726d183e2ca2" version="1">Misty Step</content>
+  <content contentuid="hca961975g13b2g5febg08c2g9d3660d98d2c" version="1">Surrounded by silver mist, you teleport to an unoccupied space you can see.</content>
+  <content contentuid="h09849cf3g915cg6336g4661g24f50ca9686e" version="1">Hellcrawler</content>
+  <content contentuid="hdc362569gd85ag24b4g0d8bg54d4710f50e8" version="1">Teleport to an area and deal [1] where you land. The impact blast spreads in a [2] zone.</content>
+  <content contentuid="h700842fbg53dbga933g834eg687da2c5ce10" version="1">Shadow Teleportation</content>
+  <content contentuid="h57588ff8g673cg4666g096age3b07eae06e0" version="1">Teleport to an unoccupied, obscured spot.</content>
+  <content contentuid="h8b4da624g88c6g4d24gc2b9g01b029e8ac84" version="1">Shadow Teleport</content>
+  <content contentuid="hea560c7bg2867g186ega7a5g68e209c62d64" version="1">Teleport to a shadowy location.</content>
+  <content contentuid="h8665cfd2gcdeeg2327g103cg20dfb27f2288" version="1">Shadow Teleport</content>
+  <content contentuid="h368ae20bg55efg0b36gcd78g6397f4a5e421" version="1">Teleport to a shadowy location. If you are &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET"&gt;Garrotting&lt;/LSTag&gt; a creature, it teleports with you.</content>
+  <content contentuid="h6be1083eg310ag11e6g4f3bg3586f4ae7246" version="1">Ethereal Jaunt</content>
+  <content contentuid="h1785347fg2b9egdb19g2afdg3bc79075ff41" version="1">Ethereal Jaunt</content>
+  <content contentuid="hcb0d96ffg7517gb4c2g0af2g93cb73a687f4" version="1">Shadow Teleport</content>
+  <content contentuid="hbe999f21g0f08ge96cg6594g8835d9d3fdc5" version="1">Teleport to a shadowy location. If you are &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET"&gt;Garrotting&lt;/LSTag&gt; a creature, it teleports with you.</content>
+  <content contentuid="h3a655c13g144fg3a01g4382gc6ee6a07b664" version="1">Shadow Teleport</content>
+  <content contentuid="hc70ed331g6b46g77d9g4d4cg645da0871699" version="1">Teleport to a shadowy location.</content>
+  <content contentuid="h390480b0g8f9fg5e94g1ba4g8e67566c3cce" version="1">Shadow Teleportation</content>
+  <content contentuid="h8a6538f6g5014g1d67gff85g2b5551228583" version="1">Teleport to an unoccupied, obscured spot.</content>
+  <content contentuid="h31098a1egf55bg9a74gf0f4ga0bac9f7d37a" version="1">Hellcrawler</content>
+  <content contentuid="h8d64c0afgae6cg9327g2eb2g99fc3bf2c7c7" version="1">Teleport to an area and deal [1] where you land. The impact blast spreads in a [2] zone.</content>
+  <content contentuid="h6e1403d1gbd2egd8fbge956ga08f199a8661" version="1">Misty Step</content>
+  <content contentuid="hf4388f0fgae70g972fg864eg47c7de2d60c5" version="1">Surrounded by silver mist, you teleport to an unoccupied space you can see.</content>
 </contentList>

@@ -40,8 +40,9 @@
 - Gust of Wind
 - Lesser Restoration
 - Magic Weapon
-- Mind Spike
 - Melf's Acid Arrow
+- Mind Spike
+- Misty Step
 ## Level 3
 - Aura of Vitality
 - Bestow Curse
