@@ -1549,7 +1549,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50a84c2agc47eg3409gfbf3g8b9efe860b49" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdbacd095g40f6g7468g5750g2f164c7506d4" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4007" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsDruidCantrip()):DamageBonus(max(0, WisdomModifier));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsDruidCantrip()):DamageBonus(max(0, WisdomModifier));IF(HasPassive('Land_3_CircleOfTheLandSpells_Arid',context.Source)and SpellId('Projectile_FireBolt')):DamageBonus(max(0, WisdomModifier));IF(HasPassive('Land_3_CircleOfTheLandSpells_Polar',context.Source)and SpellId('Projectile_RayOfFrost')):DamageBonus(max(0, WisdomModifier));IF(HasPassive('Land_3_CircleOfTheLandSpells_Temperate',context.Source)and SpellId('Target_ShockingGrasp')):DamageBonus(max(0, WisdomModifier));IF(HasPassive('Land_3_CircleOfTheLandSpells_Tropical',context.Source)and SpellId('Projectile_AcidSplash')):DamageBonus(max(0, WisdomModifier));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1599,6 +1599,12 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Thunder)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="767be56d-70f8-4c42-8a98-f2b7a74f4ef5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE MOON 4200__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="99ace013-6985-4758-8d7a-8af16e215e94" />
@@ -1636,6 +1642,56 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(MoonlightStep,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c4ec545-40ed-4105-84d5-4e8caf960644" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE LAND 4300__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e6f6a91-04c0-4d3b-966e-7318dc6cb5bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Land_3_CircleOfTheLandSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfcdb19afgd772g8c06gc034g42384d832b3b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd95cf570g7ab5ga240gfd2eg759fa404ffde" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Nature" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e39c238-190f-4a4c-9ee6-64feb00b7671" />
+        <field name="Name" type="NameTableFieldDefinition" value="Land_3_CircleOfTheLandSpells_Arid" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApply;OnStatusRemove" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('LAND_ARID',context.Source)):UnlockSpell(Projectile_FireBolt);IF(HasStatus('LAND_ARID',context.Source)):UnlockSpell(Zone_BurningHands,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_ARID',context.Source)):UnlockSpell(Shout_Blur,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_ARID',context.Source)and ClassLevelHigherOrEqualThan(5,'Druid')):UnlockSpell(Projectile_Fireball,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_ARID',context.Source)and ClassLevelHigherOrEqualThan(7,'Druid')):UnlockSpell(Target_Blight,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_ARID',context.Source)and ClassLevelHigherOrEqualThan(9,'Druid')):UnlockSpell(Wall_WallOfStone,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10de3817-749d-45fd-b72e-d3e8833841ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="Land_3_CircleOfTheLandSpells_Polar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e39c238-190f-4a4c-9ee6-64feb00b7671" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('LAND_POLAR',context.Source)):UnlockSpell(Projectile_RayOfFrost);IF(HasStatus('LAND_POLAR',context.Source)):UnlockSpell(Target_FogCloud,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_POLAR',context.Source)):UnlockSpell(Target_HoldPerson,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_POLAR',context.Source)and ClassLevelHigherOrEqualThan(5,'Druid')):UnlockSpell(Target_SleetStorm,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_POLAR',context.Source)and ClassLevelHigherOrEqualThan(7,'Druid')):UnlockSpell(Target_IceStorm,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_POLAR',context.Source)and ClassLevelHigherOrEqualThan(9,'Druid')):UnlockSpell(Zone_ConeOfCold,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cec98e06-d981-4bc2-adb5-37f8d99e4823" />
+        <field name="Name" type="NameTableFieldDefinition" value="Land_3_CircleOfTheLandSpells_Temperate" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e39c238-190f-4a4c-9ee6-64feb00b7671" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('LAND_TEMPERATE',context.Source)):UnlockSpell(Target_ShockingGrasp);IF(HasStatus('LAND_TEMPERATE',context.Source)):UnlockSpell(Target_Sleep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TEMPERATE',context.Source)):UnlockSpell(Target_MistyStep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TEMPERATE',context.Source)and ClassLevelHigherOrEqualThan(5,'Druid')):UnlockSpell(Zone_LightningBolt,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TEMPERATE',context.Source)and ClassLevelHigherOrEqualThan(7,'Druid')):UnlockSpell(Target_FreedomOfMovement,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TEMPERATE',context.Source)and ClassLevelHigherOrEqualThan(9,'Druid')):UnlockSpell(Target_GreaterRestoration,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32709e37-a2f2-4af3-b662-58b9977aef7a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Land_3_CircleOfTheLandSpells_Tropical" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e39c238-190f-4a4c-9ee6-64feb00b7671" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('LAND_TROPICAL',context.Source)):UnlockSpell(Projectile_AcidSplash);IF(HasStatus('LAND_TROPICAL',context.Source)):UnlockSpell(Projectile_RayOfSickness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TROPICAL',context.Source)):UnlockSpell(Target_Web,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TROPICAL',context.Source)and ClassLevelHigherOrEqualThan(5,'Druid')):UnlockSpell(Target_StinkingCloud,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TROPICAL',context.Source)and ClassLevelHigherOrEqualThan(7,'Druid')):UnlockSpell(Target_Polymorph,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TROPICAL',context.Source)and ClassLevelHigherOrEqualThan(9,'Druid')):UnlockSpell(Target_InsectPlague,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
       </fields>
     </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">

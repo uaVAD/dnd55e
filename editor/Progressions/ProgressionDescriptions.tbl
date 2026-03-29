@@ -47,5 +47,14 @@
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="efd5067b-2870-4d07-af8d-095883c2cf62" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59bddf9bg3094g2868gce0dgb0fbfbb3fdd4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22eae394ga5fbg653egff67gee9e5b542914" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="ElementalFuryList" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -1991,7 +1991,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="7" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,4)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(09c326c9-672c-4198-a4c0-6f07323bde27);SelectPassives(eb5672b5-ee56-4aed-a7aa-208f3092c432,1,PrimalOrderList)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(09c326c9-672c-4198-a4c0-6f07323bde27);SelectPassives(b3cf8b48-035f-4f2c-887f-d9bc55522d0c,1,ElementalFuryList)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2083,8 +2083,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheLand" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e64bc365-6037-4f82-b710-8d958d9334e6,1,DruidCircleLand);SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,1,0,,,,AlwaysPrepared);AddSpells(bd15435a-55a8-4e81-bbac-f6f600cbe1af,,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,1,0,,,,AlwaysPrepared);AddSpells(bd15435a-55a8-4e81-bbac-f6f600cbe1af,,,,AlwaysPrepared)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(NaturalRecoveryPoint,2,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Land_3_CircleOfTheLandSpells;Land_3_CircleOfTheLandSpells_Arid;Land_3_CircleOfTheLandSpells_Polar;Land_3_CircleOfTheLandSpells_Temperate;Land_3_CircleOfTheLandSpells_Tropical" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2106,7 +2107,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheLand" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(758a607c-7d6c-4b1a-a98f-c4e0885592a0,1,DruidCircleLand)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(NaturalRecoveryPoint,1,0)" />
       </fields>
     </stat_object>
@@ -2130,7 +2130,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheLand" />
         <field name="Level" type="ByteTableFieldDefinition" value="7" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(602834c9-0580-4ec8-b6bb-7a5a1c86d308,1,DruidCircleLand)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(NaturalRecoveryPoint,1,0)" />
       </fields>
     </stat_object>
@@ -2142,7 +2141,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheLand" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(433ef6a9-25f2-4ff8-8f40-013582c29129,1,DruidCircleLand)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(NaturalRecoveryPoint,1,0)" />
       </fields>
     </stat_object>

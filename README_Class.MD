@@ -19,9 +19,9 @@
 - Level 3: Frenzy
 - Level 6: Mindless Rage
 - Level 10: Retaliation
-### Giant [ ]
-### Wild Magic [ ]
-### Wildheart [ ]
+### Giant
+### Wild Magic
+### Wildheart
 ### World Tree
 - Level 3: Vitality of the Tree
 - Level 6: Branches of the Tree
@@ -111,6 +111,8 @@
 - Level 5: Wild Resurgence
 - Level 7: Elemental Fury
 ### Land [ ]
+- Level 3: Circle of the Land Spells
+- Level 3: Land's Aid
 ### Sea [ ]
 ### Spore [ ]
 ### Stars [ ]

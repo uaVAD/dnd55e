@@ -1441,6 +1441,64 @@
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL);RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3e0f22ee-f994-4566-a1df-4d98be460859" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE LAND 4300__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c74a887-b422-4a78-a9d6-a7b6c29bbf76" />
+        <field name="Name" type="NameTableFieldDefinition" value="LAND_ARID" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2fad506dgc3b4g8cf6g2268g89dd01b7b7be" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd2564d72g333bg1adbg8323g8c938a896550" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FireBolt" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LAND_ARID" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7eb52d28-b8b9-40f4-82ed-484134128f81" />
+        <field name="Name" type="NameTableFieldDefinition" value="LAND_POLAR" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h58de7593g077bg934ag945fg4fe25fcdc09e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha94194efgfa4agc8ddgfe31g0bc3f36c48a3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_RayOfFrost" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LAND_ARID" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b7d14f4-bc66-43e6-83e1-0ed718939333" />
+        <field name="Name" type="NameTableFieldDefinition" value="LAND_TEMPERATE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h088b6f4dg6df4g191egb507g382423e458d7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h317cdc52gc540g98dagc75eg4b43a1c01018" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ShockingGrasp" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LAND_ARID" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ad3ecc5-f202-482f-bceb-11d7256f0a27" />
+        <field name="Name" type="NameTableFieldDefinition" value="LAND_TROPICAL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb15d992cg437fg17e9g455bg7ba99f72dc7c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf78b7f33g6aa9g43f9g5859ga51f9e7facde" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_AcidSplash" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LAND_ARID" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a99d9d07-ee9c-4dc1-8977-a49e44d100d8" />

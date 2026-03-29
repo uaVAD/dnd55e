@@ -1172,6 +1172,77 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h019511d5gb330g2cd9gd860g84e25789d117" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28827dff-afd4-49d9-b80a-21d3121974d2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE LAND 4300__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9179a12c-4987-418d-8829-1cc0862ef0c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfTheLandSpells" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c847e3f-3b82-46a3-9247-0a784623b921" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_CircleOfTheLandSpells_1;Shout_CircleOfTheLandSpells_2;Shout_CircleOfTheLandSpells_3;Shout_CircleOfTheLandSpells_4;" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Land_Desert" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h571a7b7dg53fbg6786ge07dg6b9749737b6d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd365173fgd836g93a3gdf92g64f01d869f29" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2dcfef24-706b-4800-b8cf-4e08e16cc80b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfTheLandSpells_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9179a12c-4987-418d-8829-1cc0862ef0c9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_CircleOfTheLandSpells" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LAND_ARID,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h60146c67g6a55gece0g343eg45527c9e429a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdce9092dg00d6gbb1ege7ccg4566d43f1363" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LAND_ARID,100,-1);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6d2f4ff-3432-4a2e-b544-fe24a43675e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfTheLandSpells_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2dcfef24-706b-4800-b8cf-4e08e16cc80b" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LAND_POLAR,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Land_Arctic" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd1d44523g69ccgf313g036bga0c866484988" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5838ca69g39e0g1e69gd726g82f4309227aa" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LAND_POLAR,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b834c185-a2b6-4c36-934f-d2749a168c58" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfTheLandSpells_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f6d2f4ff-3432-4a2e-b544-fe24a43675e9" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LAND_TEMPERATE,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Land_Grassland" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc4166e3bg3c8fgd921g84f9g8a343922a258" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53adaf69g02c4gd6a7ge1ddg668563523831" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LAND_TEMPERATE,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a571775-abf1-49d6-9f75-a1fc4eac76b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfTheLandSpells_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f6d2f4ff-3432-4a2e-b544-fe24a43675e9" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LAND_TROPICAL,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Land_Underdark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4c72b567g1ff6gde9ag626fg50843dbe309d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd145debg872fgb1b1gc2f0g1c799a4601c4" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LAND_TROPICAL,100,-1);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="009c46a4-53fe-41c6-9942-641b6b9438eb" />
