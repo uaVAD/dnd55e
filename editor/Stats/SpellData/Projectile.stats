@@ -156,6 +156,23 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c53d5de8-93f5-4033-8536-e3270eec61bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="GreenFlameBlade" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoomingBlade)+SpellCastingAbilityModifier,Fire);" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="3" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and Enemy();" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="7f6c24ee-6521-426d-b1e1-ba26f8b0fd72" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35,,;85414f5f-b448-4dda-9370-1b6c4b38b561,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2e4ba987-c778-4a8f-84aa-aec6b9f5bd27" />
         <field name="Name" type="NameTableFieldDefinition" value="StarryWisp" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />

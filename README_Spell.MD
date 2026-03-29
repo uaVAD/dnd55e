@@ -4,6 +4,7 @@
 - Blade Ward
 - Chill Touch
 - Eldritch Blast
+- Green-Flame Blade
 - Mind Sliver
 - Poison Spray
 - Resistance
