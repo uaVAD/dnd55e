@@ -3152,6 +3152,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f69815fa-8c0b-46d0-80f7-ef4d06e029b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DungeonDelver" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="918614c2-3418-4a6e-85ce-41c9a4084c5e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hca029b39g4097g0379g6a74gd52bb5fd4a04" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5cc8709eg0974gcec1g323cg0a299d48a147" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(24)" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(Item()):Advantage(Skill,Perception);IF(IsTrap()):Advantage(SavingThrow, Strength);IF(IsTrap()):Advantage(SavingThrow, Wisdom);IF(IsTrap()):Advantage(SavingThrow, Constitution);IF(IsTrap()):Advantage(SavingThrow, Dexterity);IF(IsTrap()):Advantage(SavingThrow, Intelligence);IF(IsTrap()):Advantage(SavingThrow, Charisma);IF(IsTrap()):DamageReduction(All,Half);DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4de3d2fb-4276-4e98-8066-f8af602c8fe7" />
         <field name="Name" type="NameTableFieldDefinition" value="GreatWeaponMaster_BonusAttack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8df892b6-6c6c-45dc-8eda-b7923c406b27" />
@@ -3325,6 +3337,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="8a2ec75a-05b7-4da8-8e9d-6295e5371d84" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8155116dgb434g017cg6396g666179cd6bbd" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h81682b22g3da3g86c5g11f5gbebe41d25951" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

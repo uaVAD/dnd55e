@@ -105,7 +105,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
         <field name="UUID" type="IdTableFieldDefinition" value="71b65667-0eac-4e62-b878-fa862e88ebbf" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="DungeonDelver" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DungeonDelver_Perception;DungeonDelver_ResistTraps" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DungeonDelver" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(c277f573-aa6f-459d-a321-f2b04a498b6d,1,1,DEX_CON_WIS)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

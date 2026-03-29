@@ -68,7 +68,7 @@
                     <attribute id="UUID" type="guid" value="95777965-bb2b-4ad5-8cc8-3c0c407c4bc4"/>
                 </node>
                 <node id="FeatDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h9dd8a551g9f01g98dbg64f1ga485e59f0e9d" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h9dd8a551g9f01g98dbg64f1ga485e59f0e9d" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hfba39959g9b2dg1bffgffd6g069588fe122e" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="DungeonDelver"/>
                     <attribute id="FeatId" type="guid" value="71b65667-0eac-4e62-b878-fa862e88ebbf"/>

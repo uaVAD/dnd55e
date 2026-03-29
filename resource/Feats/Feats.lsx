@@ -72,7 +72,8 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="DungeonDelver"/>
-                    <attribute id="PassivesAdded" type="LSString" value="DungeonDelver_Perception;DungeonDelver_ResistTraps"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DungeonDelver"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(c277f573-aa6f-459d-a321-f2b04a498b6d,1,1,DEX_CON_WIS)"/>
                     <attribute id="UUID" type="guid" value="71b65667-0eac-4e62-b878-fa862e88ebbf"/>
                 </node>
                 <node id="Feat">
