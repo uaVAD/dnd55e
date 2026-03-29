@@ -87,5 +87,4 @@
 - Spell Sniper
 - War Caster
 - Weapon Master
-### Fighting Style
 ## [Spell](./README_Spell.MD)
