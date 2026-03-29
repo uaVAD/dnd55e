@@ -3164,6 +3164,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a24c71c-17e0-49e7-aecb-c65869e7c033" />
+        <field name="Name" type="NameTableFieldDefinition" value="Durable" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a19d5831-defd-45fe-9da1-2fd7a7facd8d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e93417ag9497g58f3ge9aag2e54d8ba4076" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf12dc8a9g3079g890agb1ffgdf7b91f3c03d" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="MaximizeHealing(Incoming);Advantage(DeathSavingThrow);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4de3d2fb-4276-4e98-8066-f8af602c8fe7" />
         <field name="Name" type="NameTableFieldDefinition" value="GreatWeaponMaster_BonusAttack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8df892b6-6c6c-45dc-8eda-b7923c406b27" />

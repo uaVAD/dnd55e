@@ -51,7 +51,7 @@
 - Defensive Duelist
 - Dual Wielder
 - Dungeon Delver
-- Durable (보행으로 전체 생명력 절반 회복 짧휴당) [ ]
+- Durable
 - Elemental Adept
 - Great Weapon Master
 - Heavily Armored

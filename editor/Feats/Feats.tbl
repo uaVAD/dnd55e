@@ -115,6 +115,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="56c3c247-35cf-4ffd-86dd-7d249cc1808f" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="Durable" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Durable" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(a0129b5e-ae05-4b07-905e-ec1c244728ae,1,1,CON)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

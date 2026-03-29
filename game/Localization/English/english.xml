@@ -800,7 +800,9 @@ You can make one off-hand attack without spending an action or a bonus action. Y
   <content contentuid="hfba39959g9b2dg1bffgffd6g069588fe122e" version="1">Dungeon Delver</content>
   <content contentuid="h9dd8a551g9f01g98dbg64f1ga485e59f0e9d" version="2">You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; made to detect hidden objects and on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; made to avoid or resist traps.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to the damage dealt by traps.&lt;br&gt;&lt;br&gt;You can see in the dark.</content>
   <content contentuid="h3e8e3421g4852g1a98g9d7cgf3947ee60a89" version="1">Durable</content>
-  <content contentuid="h6299a92eg8049g117bga5b7g17d26b0619d6" version="1">Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by 1, to a maximum of 20.&lt;br&gt;&lt;br&gt;You regain full &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; each time you take a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="h6299a92eg8049g117bga5b7g17d26b0619d6" version="2">Defy Death. You have Advantage on Death Saving Throws.
+
+Speedy Recovery. You regains the maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; possible when healed.</content>
   <content contentuid="h3f1eb96eg51f4gaf8cg5396g435ffda2161a" version="1">Great Weapon Master</content>
   <content contentuid="h00f044d5gf4edgc900g397bgca53d410bdad" version="2">Heavy Weapon Mastery. When you hit a creature with a weapon that has the Heavy property as part of the Attack action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your Proficiency Bonus.
 
@@ -1313,4 +1315,8 @@ Bardic Damage. You can use Dexterity instead of Strength for the attack rolls of
   <content contentuid="h81682b22g3da3g86c5g11f5gbebe41d25951" version="1">You have learnt three &lt;LSTag Tooltip="RitualSpell"&gt;ritual spells&lt;/LSTag&gt; of your choice.</content>
   <content contentuid="hca029b39g4097g0379g6a74gd52bb5fd4a04" version="1">Feat: Dungeon Delver</content>
   <content contentuid="h5cc8709eg0974gcec1g323cg0a299d48a147" version="2">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; made to detect hidden objects.&lt;br&gt;&lt;br&gt;You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; made to avoid traps and &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to trap damage.&lt;br&gt;&lt;br&gt;You can see in the dark up to [1].</content>
+  <content contentuid="h1e93417ag9497g58f3ge9aag2e54d8ba4076" version="1">Feat: Durable</content>
+  <content contentuid="hf12dc8a9g3079g890agb1ffgdf7b91f3c03d" version="2">Defy Death. You have Advantage on Death Saving Throws.
+
+Speedy Recovery. You regains the maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; possible when healed.</content>
 </contentList>
