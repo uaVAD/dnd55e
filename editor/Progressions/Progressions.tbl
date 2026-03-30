@@ -3703,6 +3703,41 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Glory" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Oath_Glory_Tenents;Glory_3_InspiringGlory;Glory_3_OathOfGlorySpells;Glory_3_PeerlessAthlete" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(fc3fe3e7-844a-470b-bc4b-9658acebb2ef,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_602" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3c1b30e7-f470-47e9-ab96-0eb0b43ab313" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="0b77ab31-6a51-4531-b924-95193d4b51c7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Glory" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(884308c9-dda8-404b-8f82-ac48a09790a7,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_603" />
+        <field name="UUID" type="IdTableFieldDefinition" value="03fefb11-bca1-4ff4-bc92-9d9bfdca6e79" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="0b77ab31-6a51-4531-b924-95193d4b51c7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Glory" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Glory_7_AuraOfAlacrity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_604" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d3ef2a0c-fcee-4b5a-9852-39f473fdaf3f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="0b77ab31-6a51-4531-b924-95193d4b51c7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Glory" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(f2f2b450-a126-4f1a-a524-dc24a5672922,OathSpells,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object color="#FF006400" is_substat="false">

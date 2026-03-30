@@ -160,9 +160,8 @@
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_CC_Paladin_Devotion" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haa96615cga522gdeb1ga810g8bef49c9c9e6" version="1" />
-        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="2de0a4fc-5831-4439-94d3-a7ff9b7aacf6" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="7efcadc0-9e88-4d0a-87b9-64a589e2df91" />
         <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Paladin" />
         <field name="SpellList" type="GuidObjectTableFieldDefinition" value="5d53e0f2-12a3-4a9e-819e-3d1c5b64496b" />

@@ -935,6 +935,27 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Haste;Target_ProtectionFromEnergy" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc3fe3e7-844a-470b-bc4b-9658acebb2ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin Glory Spells Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_GuidingBolt;Target_Heroism;Target_InspiringGlory" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="884308c9-dda8-404b-8f82-ac48a09790a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin Glory Spells Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_EnhanceAbility;Target_MagicWeapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2f2b450-a126-4f1a-a524-dc24a5672922" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin Glory Spells Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Haste;Target_ProtectionFromEnergy" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="40b9f92a-90a7-45dd-a189-1b249b2c49a2" />

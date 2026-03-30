@@ -1520,4 +1520,26 @@ Hand of Healing. When you use Hand of Healing, you can also end the following co
   <content contentuid="h71d21302ge040g032cg8f4egbd6bca2cfd63" version="1">Flurry of Healing and Harm</content>
   <content contentuid="h42f9b6e7gffe1gc587g6bc6g8fecaef7c546" version="1">Flurry of Harm</content>
   <content contentuid="h67d63e21g64a9g3fd1g0869gb6cda96834a4" version="1">Flurry of Healing</content>
+  <content contentuid="h23e44250ge3f6g6cdfg67abgd60e473e7182" version="1">Oath of the Glory Tenets</content>
+  <content contentuid="h171ca3c1gcab1gc3d9g0c93gb18e52880fdb" version="1">These paladins share the following tenets:
+
+Endeavor to be known by your deeds.
+Face hardships with courage.
+Inspire others to strive for glory.</content>
+  <content contentuid="h1f4761f8g70f7ge58fg4098g3ada7c0d7a24" version="1">Level 3: Inspiring Glory</content>
+  <content contentuid="h94d2b863gce81ge85ag20a9gd351c1d2fbe8" version="1">You can expend one use of your Channel Divinity and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.</content>
+  <content contentuid="h03040e0bgc3c2g707bg30dcgcf793eb4b7da" version="1">Level 3: Peerless Athlete</content>
+  <content contentuid="h7b9c5b5dg52ddg7d07gf72dgc579b62da603" version="1">You have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).</content>
+  <content contentuid="hadc15c48g3bdeg8e40g44fagefe0290db6ee" version="1">Level 7: Aura of Alacrity</content>
+  <content contentuid="h4b966c82g6ac4g74b4g1befg09e4bfb45f98" version="1">Your Speed increases by 10 feet.
+
+In addition, whenever an ally enters your Aura of Protection for the first time on a turn or starts their turn there, the ally’s Speed increases by 10 feet until the end of their next turn.</content>
+  <content contentuid="h39f392e7g879agff67g5eafg1fbe11db0e2a" version="1">Level 3: Oath of Glory Spells</content>
+  <content contentuid="hc41356d2g2208g0d0fg0023g8a9c6958aaac" version="1">The magic of your oath ensures that you always have certain spells ready. When you reach the Paladin levels specified in the Oath of Glory Spells table, you thereafter always have the following spells prepared: at 3rd level, Guiding Bolt and Heroism; at 5th level, Enhance Ability and Magic Weapon; and at 9th level, Haste and Protection from Energy.
+</content>
+  <content contentuid="he69c1c77gfc97gb4e2g7877gb843a6c497b6" version="1">Inspiring Glory</content>
+  <content contentuid="h46a88a7bg99ddgbfe4gc4aeg5843b027814d" version="1">You can expend one use of your Channel Divinity and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.</content>
+  <content contentuid="hb9b1e9b0g8892g5337gacb7g38aabc6e1177" version="1">Inspiring Glory</content>
+  <content contentuid="h142d77edg6f50gc87fg72f5g3158719e648d" version="1">Aura of Alacrity</content>
+  <content contentuid="h7a033e2cg8e6cgf063g4a3cgbbe483e2b4cf" version="1">Your Speed increases by 10 feet.</content>
 </contentList>

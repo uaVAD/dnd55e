@@ -2367,6 +2367,86 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):CharacterWeaponDamage(1d8,Radiant);IF(IsMeleeAttack()):CharacterUnarmedDamage(1d8,Radiant);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5cc8ee65-aa40-458f-a9d0-661b8e824263" />
+        <field name="Name" type="NameTableFieldDefinition" value="Oath_Devotion_Tenents" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0294e2ce-9719-45ed-80d1-9f05ffeb1981" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7103" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fa2f1b17-ab53-49f7-a8c9-9e924a826a0e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Oath_Glory_Tenents" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="690a630a-afaa-4a5e-826c-2bf054324d79" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h23e44250ge3f6g6cdfg67abgd60e473e7182" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h171ca3c1gcab1gc3d9g0c93gb18e52880fdb" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7203" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d8d862ce-fe61-4e41-b56e-c3fd1d7a39b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Glory_3_InspiringGlory" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f4761f8g70f7ge58fg4098g3ada7c0d7a24" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h94d2b863gce81ge85ag20a9gd351c1d2fbe8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_InspiringLeader" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6a7a251-33d6-4e85-b786-d017558978a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Glory_3_OathOfGlorySpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39f392e7g879agff67g5eafg1fbe11db0e2a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc41356d2g2208g0d0fg0023g8a9c6958aaac" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_InspiringLeader" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41246d3e-ac71-482e-b2e4-550f0d35de21" />
+        <field name="Name" type="NameTableFieldDefinition" value="Glory_3_PeerlessAthlete" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03040e0bgc3c2g707bg30dcgcf793eb4b7da" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b9c5b5dg52ddg7d07gf72dgc579b62da603" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_RemarkableAthlete_Jump" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Skill,Athletics);Advantage(Skill,Acrobatics);JumpMaxDistanceBonus(3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3fa101d-5f4b-4672-81bc-c8b6ef84d93e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Glory_7_AuraOfAlacrity" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hadc15c48g3bdeg8e40g44fagefe0290db6ee" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b966c82g6ac4g74b4g1befg09e4bfb45f98" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_StepOfTheWind_Dash" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7207" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,3,0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6068dc94-eebb-4ec1-920b-73ddd112da0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Oath_Ancients_Tenents" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b86af05-f1ed-4a96-b690-7b4c8fb4eaba" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7303" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="806bca67-674c-49a3-8b3d-0816865fb3ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="Oath_Vengeance_Tenents" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="83660091-20ad-4898-9e76-7423b470d0e9" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7403" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c3d7be02-5af7-4c57-a40a-8e128bdd3a93" />
@@ -2374,7 +2454,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="93712739-02e0-4ddd-9365-649a34ca8f04" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h36197b70g60e1g9d30g020ag5ebf5202eade" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c05bd1dg9548g9d0ag66dbgd31ce3af6dab" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7107" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7407" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,RELENTLESS_AVENGER,100,1);ApplyStatus(RELENTLESS_AVENGER_SENTINEL,100,1)" />
       </fields>
     </stat_object>

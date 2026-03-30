@@ -137,7 +137,6 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Devotion"/>
                     <attribute id="Description" type="TranslatedString" handle="haa96615cga522gdeb1ga810g8bef49c9c9e6" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h25af72e1gf482g34a9g529cg6374b4fb3326" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -152,7 +151,7 @@
                     <attribute id="UUID" type="guid" value="b81df0a8-5ecb-43b5-abd9-39b9a244561c"/>
                     <children>
                         <node id="Tags">
-                            <attribute id="Object" type="guid" value="2de0a4fc-5831-4439-94d3-a7ff9b7aacf6"/>
+                            <attribute id="Object" type="guid" value="7efcadc0-9e88-4d0a-87b9-64a589e2df91"/>
                         </node>
                     </children>
                 </node>
@@ -175,6 +174,19 @@
                     </children>
                 </node>
                 <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h9d72f0d7g2c0egb1bbgde11g3864f11ceed2" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2c7c5414g15dagaf08gfc1fg11fb9d066b49" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Soulknife"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="fe93dbcf-584d-4dfc-8818-93d7a965aa75"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="d779dba0-e93f-4e26-af43-cd06e1f9657f"/>
+                </node>
+                <node id="ClassDescription">
                     <attribute id="CanLearnSpells" type="bool" value="true"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h135ef26bgf199g1ad5g7571gfe75a8983f9c" version="2"/>
@@ -188,19 +200,6 @@
                     <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="c059dca1-c17d-4dce-8260-83ede5070eac"/>
-                </node>
-                <node id="ClassDescription">
-                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h9d72f0d7g2c0egb1bbgde11g3864f11ceed2" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h2c7c5414g15dagaf08gfc1fg11fb9d066b49" version="1"/>
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="Name" type="FixedString" value="Soulknife"/>
-                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="fe93dbcf-584d-4dfc-8818-93d7a965aa75"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
-                    <attribute id="UUID" type="guid" value="d779dba0-e93f-4e26-af43-cd06e1f9657f"/>
                 </node>
             </children>
         </node>

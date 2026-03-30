@@ -213,7 +213,11 @@
 - Level 10: Aura of Courage
 - Level 11: Radiant Strikes
 ### Crown
-### Glory [ ]
+### Glory
+- Level 3: Inspiring Glory
+- Level 3: Oath of Glory Spells
+- Level 3: Peerless Athlete
+- Level 7: Aura of Alacrity
 ### Oathbreaker
 ### Ancients
 - Level 3: Nature's Wrath

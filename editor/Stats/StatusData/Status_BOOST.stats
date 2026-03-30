@@ -1199,6 +1199,7 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1211,7 +1212,7 @@
         <field name="StackId" type="StringTableFieldDefinition" value="LIFE_GIVING_FORCE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(RageDamageDice));" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value=" IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
       </fields>
@@ -1299,7 +1300,7 @@
         <field name="StackId" type="StringTableFieldDefinition" value="MANTLEOFINSPIRATION" />
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(BardicInspiration)+Cause.LevelMapValue(BardicInspiration));" />
         <field name="Passives" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
@@ -1368,6 +1369,7 @@
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1430,6 +1432,7 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1567,6 +1570,7 @@
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1680,6 +1684,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0589432-ed77-4680-9260-c6498245dbbd" />
+        <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_PROTECTION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2a92e62b-3e82-4220-80ee-aa12e9aca5f0" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(Ally() and not Tagged('INANIMATE')):ApplyStatus(AURA_OF_PROTECTION_BUFF);IF(HasPassive('Glory_7_AuraOfAlacrity',context.Source) and Ally() and not Tagged('INANIMATE')):ApplyStatus(AURA_OF_ALACRITY)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8862c37c-ae37-49ce-8180-8ed75c5e5c2e" />
         <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_WARDING" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="63c13f85-b914-407a-b495-59d5500d7abb" />
@@ -1724,6 +1736,86 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="d06eba72-40ae-422d-b434-7befbd656853" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd54cf49fg52f9gc82fg23ddg240455666d75" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4580d441g9dc0gbc53g7a59g25cce7bd8ba2" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21697a6f-18f2-4f41-b3d8-2eb02991eada" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRING_GLORY_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9b1e9b0g8892g5337gacb7g38aabc6e1177" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_Rally" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INSPIRING_GLORY_1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP((2d8+Cause.ClassLevel(Paladin))/1);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25f123b1-cac4-428c-9819-39c2064326a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRING_GLORY_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21697a6f-18f2-4f41-b3d8-2eb02991eada" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP((2d8+Cause.ClassLevel(Paladin))/2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93a50e0c-cc83-42eb-a0ba-8200114c2380" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRING_GLORY_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21697a6f-18f2-4f41-b3d8-2eb02991eada" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP((2d8+Cause.ClassLevel(Paladin))/3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="84027723-52bb-4d13-88e5-efe2b41d7b99" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRING_GLORY_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21697a6f-18f2-4f41-b3d8-2eb02991eada" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP((2d8+Cause.ClassLevel(Paladin))/4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e254082-4d2a-4861-ab2a-ae47fb2522da" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRING_GLORY_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21697a6f-18f2-4f41-b3d8-2eb02991eada" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP((2d8+Cause.ClassLevel(Paladin))/5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="107c4be9-e31f-440e-88d8-18d12ef45145" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRING_GLORY_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21697a6f-18f2-4f41-b3d8-2eb02991eada" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP((2d8+Cause.ClassLevel(Paladin))/6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec24b75a-6cf2-433c-a869-a774e60403bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_ALACRITY" />
+        <field name="StackId" type="StringTableFieldDefinition" value="AURA_OF_ALACRITY" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(AURA_OF_ALACRITY_BUFF,100,2)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(AURA_OF_ALACRITY_BUFF,100,2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05a00ee5-1178-474e-8260-702aeffd5765" />
+        <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_ALACRITY_BUFF" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h142d77edg6f50gc87fg72f5g3158719e648d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7a033e2cg8e6cgf063g4a3cgbbe483e2b4cf" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Longstrider" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Longstrider_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Longstrider_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="AURA_OF_ALACRITY_BUFF" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,3,0);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e14337a2-55b0-495a-8294-02f7de8d0209" />
       </fields>
     </stat_object>
     <stat_object color="#FF006400" is_substat="false">
