@@ -14,6 +14,11 @@
                     <attribute id="Skills" type="LSString" value="Acrobatics,AnimalHandling,Athletics,History,Insight,Intimidation,Persuasion,Perception,Survival"/>
                     <attribute id="UUID" type="guid" value="6a4f8598-3a17-42d1-beac-d7ced582bafa"/>
                 </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="5.5 Fey Wanderer Skill List"/>
+                    <attribute id="Skills" type="LSString" value="Deception,Performance,Persuasion"/>
+                    <attribute id="UUID" type="guid" value="e65a325d-d626-4421-8c76-0f5fc0fde5a5"/>
+                </node>
             </children>
         </node>
     </region>

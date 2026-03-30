@@ -4111,7 +4111,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_584" />
         <field name="UUID" type="IdTableFieldDefinition" value="4c844e73-f3c4-4490-9c65-d6d9f8007e8d" />
@@ -4119,6 +4119,52 @@
         <field name="FSName" type="StringTableFieldDefinition" value="FeyWanderer" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FeyWanderer_3_DreadfulStrikes;FeyWanderer_3_FeyWandererSpells;FeyWanderer_3_OtherworldyGlamour" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(e65a325d-d626-4421-8c76-0f5fc0fde5a5,1);AddSpells(12700d45-6323-47a0-ae6d-5803de69bfba,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_605" />
+        <field name="UUID" type="IdTableFieldDefinition" value="67b74de2-b0e1-4c0c-9f8c-a981eeebc530" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="4c844e73-f3c4-4490-9c65-d6d9f8007e8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="FeyWanderer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(21aa7cda-1824-49af-a054-b909fa2bb1b3,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_606" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1180d512-06a7-48d5-9eba-5028c14444be" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="4c844e73-f3c4-4490-9c65-d6d9f8007e8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="FeyWanderer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FeyWanderer_7_BeguilingTwist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_607" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ee9d6547-3270-422f-9b4c-dd6dff6189ae" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="4c844e73-f3c4-4490-9c65-d6d9f8007e8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="FeyWanderer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d4a480ac-818f-4020-b6b0-3caf99566de4,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_608" />
+        <field name="UUID" type="IdTableFieldDefinition" value="719e34e6-60ed-45c7-9cf3-f3f947674a2e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="4c844e73-f3c4-4490-9c65-d6d9f8007e8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="FeyWanderer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FeyWanderer_11_MistyWanderer;FeyWanderer_11_MistyWanderer_Resource" />
       </fields>
     </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">

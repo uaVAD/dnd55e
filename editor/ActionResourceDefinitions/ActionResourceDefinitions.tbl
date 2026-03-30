@@ -255,6 +255,16 @@
         <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_34" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e73a6a89-0730-40fd-80b7-43059406383a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="MistyStep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hca8dab54g1bbegcd4bg350agf4c1e9eb7523" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />

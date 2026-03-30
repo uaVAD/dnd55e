@@ -244,8 +244,13 @@
 - Level 6: Roving
 - Level 9: Expertise
 - Level 10: Tireless
-### Beast Master [ ]
-### Fey Wanderer [ ]
+### Beast Master
+### Fey Wanderer
+- Level 3: Dreadful Strikes
+- Level 3: Fey Wanderer Spells
+- Level 3: Otherworldly Glamour
+- Level 7: Beguiling Twist
+- Level 11: Misty Wanderer
 ### Swarm Keeper
 ### Gloom Stalker
 - Level 3: Dread Ambusher
@@ -253,9 +258,9 @@
 - Level 3: Umbral Sight
 - Level 7: Iron Mind
 - Level 11: Stalker's Flurry
-### Hunter [ ]
-- Level 3: Hunter's Prey [ ]
-- Level 7: Defensive Tactics [ ]
+### Hunter
+- Level 3: Hunter's Prey
+- Level 7: Defensive Tactics
 - Level 11: Superior Hunter's Prey
 ## Rogue
 - Core Traits

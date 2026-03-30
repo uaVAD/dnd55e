@@ -2580,6 +2580,81 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasPassive('Hunter_11_SuperiorHuntersPrey',context.Source)):SpawnExtraProjectiles(Projectile_SuperiorHuntersPrey)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF006400" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7fe2dc0-3d45-4d1d-8419-c6820cd8543e" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FEY WANDERER 8400__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50721b7a-0cbe-4c6a-b87e-8d31bf268b11" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyWanderer_3_DreadfulStrikes" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28c5c053g608eg5d6cg49bdg9f3b8000ddfc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d7e1bf3g8ce5g97cdg6455g9d50ab2376ba" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponAttack()):CharacterWeaponDamage(LevelMapValue(FeyWanderer),Psychic);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ad7a247-c272-453e-8439-8b3af63f8c67" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyWanderer_3_FeyWandererSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b83ca6ag67bbga7f4gb3acgd0dc994c7828" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ae962aag1f80gf20eg9ad2g481c0cb2a1fe" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee3caa09-9fc3-488d-a0cd-bdf5b9cac188" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyWanderer_3_OtherworldyGlamour" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d499d8ag414fg53a9g921age039dc3c0999" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd06b5e66g0e5agf687ge0cegb2e88e5b715d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Deception,WisdomModifier);Skill(Intimidation,WisdomModifier);Skill(Performance,WisdomModifier);Skill(Persuasion,WisdomModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8fc5d83-0fd6-4b3f-a37a-bddff58b6b9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyWanderer_7_BeguilingTwist" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h96a833b9g92f8g5154g4eefg6f117854d8dc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7eb96189g76dfg2301gb96dg3136060e0f85" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8407" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Charmed);StatusImmunity(SG_Frightened);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b9f3629-971b-4bfc-ac42-ddcc652caa32" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyWanderer_11_MistyWanderer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9dab7504gf784g5021g0203g9af9fa141199" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf409717bg5c28g26d8gd2b4g68055dc739d0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8411" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnCombatStarted;OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasActionResource('MistyStep',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Target_MistyStep'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,MistyStep,1,0));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2c05466-36d4-4e10-ab02-fc8b6bf70580" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyWanderer_11_MistyWanderer_Resource" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnProficiencyChange;OnShortRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(MistyStep,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4b0a0ebb-4421-4f97-8a0e-a46bdf2729c8" />

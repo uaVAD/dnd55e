@@ -15,5 +15,12 @@
         <field name="Skills" type="StringTableFieldDefinition" value="Acrobatics,AnimalHandling,Athletics,History,Insight,Intimidation,Persuasion,Perception,Survival" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e65a325d-d626-4421-8c76-0f5fc0fde5a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Fey Wanderer Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Deception,Performance,Persuasion" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
