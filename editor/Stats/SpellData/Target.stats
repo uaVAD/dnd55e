@@ -2800,6 +2800,42 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="086b7c30-7450-4731-ba25-fa8cb74487dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2ed51899-8101-4622-a3d5-74c9cebf63a9" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c58a8d7-86bf-416d-bf4d-cd404dd16da5" />
+        <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e4763329-b414-46f8-b731-61a07806b14a" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6bfbdd40-627d-4eb0-98a2-82bda7d50355" />
+        <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a7dc9f4-5581-4566-b4d0-b1b44327e8b0" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b71f93a-f264-45df-91c5-d5122984320b" />
+        <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a55fa682-1c3f-442c-839c-97f93d78c282" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="04f49018-af87-4c8c-978d-89e8c3bb8a38" />
         <field name="Name" type="NameTableFieldDefinition" value="PhantomSteed" />
         <field name="Level" type="IntegerTableFieldDefinition" value="3" />
