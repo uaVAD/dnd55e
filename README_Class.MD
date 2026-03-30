@@ -177,7 +177,12 @@
 - Level 9: Acrobatic Movement
 - Level 10: Heightened Focus
 - Level 10: Self-Restoration
-### Mercy [ ]
+### Mercy
+- Level 3: Hand of Harm
+- Level 3: Hand of Healing
+- Level 3: Implements of Mercy
+- Level 6: Physician’s Touch
+- Level 11: Flurry of Healing and Harm
 ### Elements
 - Level 3: Elemental Attunement
 - Level 6: Elemental Burst

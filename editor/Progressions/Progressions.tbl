@@ -3291,6 +3291,30 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Mercy" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Mercy_3_HandOfHarm;Mercy_3_HandOfHealing;Mercy_3_ImplementsOfMercy;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_598" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1cca4858-5c31-4384-a5ae-141e1797fc1b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="21468e4d-7799-4330-b210-a6ac8228fa01" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mercy" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Mercy_6_PhysiciansTouch" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Insight);ProficiencyBonus(Skill,Medicine);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_601" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7bdd4c61-019e-49c8-bd3d-fbf5ce9be9e7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="21468e4d-7799-4330-b210-a6ac8228fa01" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mercy" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Mercy_11_FlurryOfHealingAndHarm" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">

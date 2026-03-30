@@ -82,6 +82,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dff4f0b0-3a7a-4792-a31b-0c2743a5aaf3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLEEDING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b67ac2b9-1af6-4810-bb68-48f447df53fa" />
+        <field name="StackId" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ebd1dcc5-41dd-4500-9c14-d68158a98205" />
         <field name="Name" type="NameTableFieldDefinition" value="DAZED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="98d3bc76-ade0-498a-8584-34f9bf6c3fb7" />
@@ -98,10 +107,9 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dff4f0b0-3a7a-4792-a31b-0c2743a5aaf3" />
-        <field name="Name" type="NameTableFieldDefinition" value="BLEEDING" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="b67ac2b9-1af6-4810-bb68-48f447df53fa" />
-        <field name="StackId" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a76501bd-cdb4-41a1-9e0a-7fc255eb1bc9" />
+        <field name="Name" type="NameTableFieldDefinition" value="POISONED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c55d0a13-1ef8-48a2-9c94-fba4f93072d3" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
@@ -1613,6 +1621,15 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33483b7agbd7cg35c6gf796g0a198715f127" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Thunder" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f955f6a0-aaf9-444f-9d84-dc6792971fba" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="083ee48e-8409-429d-b735-8b2b19177414" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAND_OF_HEALING" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HAND_OF_HEALING" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_HandOfHealing'),ModifyUseCosts(Replace,KiPoint,0,-1,KiPoint),ModifyIconGlow());" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">

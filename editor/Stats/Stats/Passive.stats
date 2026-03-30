@@ -2242,6 +2242,74 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Shout_StepOfTheWind'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint));" />
       </fields>
     </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d386944-7b68-4787-906f-77ed646dbb70" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MERCY 6400__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6764e51b-5106-413e-be1e-b73f17b2834d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mercy_3_HandOfHarm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e6a1a90gcd9dg5b91g933bg187d515e3a9e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49a38554ga520g69e1g1f66g89a99bbe4151" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Mercy_HandOfHarm" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_HandOfHarm);UnlockInterrupt(Interrupt_HandOfHarm_Critical);ActionResource(HandOfHarmTurn,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="96dbf3dd-a683-4685-b63c-6a48b44fa081" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mercy_3_HandOfHealing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h88dd0cdfgc1deg9209g9c35g14ede2f5ccbb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf80d830cg06deg648eg0d39g7c78218f5482" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Mercy_HandOfHealing" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HandOfHealing);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('KiPoint') and HasUseCosts('BonusActionPoint');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HAND_OF_HEALING,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7e4b405-1ff4-4f66-9898-df25ecd514c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mercy_3_ImplementsOfMercy" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb7d53c92gd795g4719g0be5g78a9b3fa1a4a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e2f0dfaga02cg9ad3g9586ga7ad2ece81cf" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Mercy_HandOfHealing" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DOUBLE_ALCHEMY);ProficiencyBonus(Skill,Insight);ProficiencyBonus(Skill,Medicine);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e94791f-e655-4076-bbd3-ef33945fe56b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mercy_6_PhysiciansTouch" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf114f234gb61fg2c9cg3fbeg05b349dd435f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02367640g69e6gdb06g9a72g6354c8a4ccb6" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Mercy_HandOfHealing" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8ea9ac6-fd86-4788-b303-ea6cabc4629d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mercy_11_FlurryOfHealingAndHarm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e476a49g95c8g6d46g4a14g10e6a16853c0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfb72e3c9g9b45g5b84g8517gffe9d7e74d19" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Mercy_FlurryOfHealing" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(FlurryOfHealingAndHarm,1,0);UnlockSpell(Target_FlurryOfHealing);UnlockSpell(Target_FlurryOfHarm);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8fe4a910-8e68-47eb-9068-dc3f6273b033" />

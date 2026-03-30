@@ -5319,6 +5319,79 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Thunder" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3dd775e2-ff60-44e7-95be-b61819f73081" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MERCY__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8568b2b4-8d1a-4a25-936d-725340c7e510" />
+        <field name="Name" type="NameTableFieldDefinition" value="HandOfHealing" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+WisdomModifier);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):RemoveStatus(SG_Poisoned);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):RemoveStatus(SG_Disease);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):RemoveStatus(SG_Paralyzed);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):RemoveStatus(SG_Blinded);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):RemoveStatus(ASTARION_WEAK);RemoveStatus(SELF,HAND_OF_HEALING);" />
+        <field name="TargetCeiling" type="StringTableFieldDefinition" value="0" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value=".25" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Mercy_HandOfHealing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32916177g482ag7227g21aagbd4d6aed7f71" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0fc86f08g49ceg3decg4adfg5398a052f261" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+WisdomModifier);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Vocal_Component_Monk_Control" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Monk_StunningStrike_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Monk_StunningStrike_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Stop" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead() and not Tagged('UNDEAD')" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;KiPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="4f0a01e4-761d-4236-b789-33c1e7532023,,;203f8bb2-6a8d-4c3c-9927-65bad54d325c,,;c369f7cf-f7ce-47dc-955c-a8aa66068457,,;843f4e10-7239-49f0-92c8-a385b920db93,,;e85be5a8-6e48-4da4-8486-0d168159df4e,,;5f3e4ce3-ccf4-4609-9aa7-684fc6506599,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;c369f7cf-f7ce-47dc-955c-a8aa66068457,,;,," />
+        <field name="DualWieldingSpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,,;f4ac302b-1569-404f-bd52-1fe443e265df,,:722df2d7-7898-4b0b-b930-5a850b55ccf0,,;a693a7c3-e7e7-4edb-98dd-db5fd700663f,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;DisableBlood" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Peaceful" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="96a51ac8-2e7e-4718-bb62-dcfd18964a02" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ce5a1256-d5c8-45b5-98fc-ee9a16e3673c" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d16a93f4-ddb5-4175-9b3f-22eced19ff02" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2ccb3f3-c3e0-4d34-a04a-0a46b657a740" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlurryOfHealing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d67d3d6-f4b6-4f49-9608-a289041ea931" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+WisdomModifier);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):RemoveStatus(SG_Poisoned);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):RemoveStatus(SG_Disease);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):RemoveStatus(SG_Paralyzed);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):RemoveStatus(SG_Blinded);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):RemoveStatus(ASTARION_WEAK);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Mercy_FlurryOfHealing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h67d63e21g64a9g3fd1g0869gb6cda96834a4" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+WisdomModifier);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;KiPoint:2;FlurryOfHealingAndHarm:1" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;DisableBlood" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="96a51ac8-2e7e-4718-bb62-dcfd18964a02" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ce5a1256-d5c8-45b5-98fc-ee9a16e3673c" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d16a93f4-ddb5-4175-9b3f-22eced19ff02" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db9e91f3-eb4a-4128-b0ed-794edbbc824f" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlurryOfHarm" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d67d3d6-f4b6-4f49-9608-a289041ea931" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);DealDamage(LevelMapValue(MartialArts)+WisdomModifier,Necrotic,Magical);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):ApplyStatus(POISONED,100,2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Mercy_FlurryOfHarm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h42f9b6e7gffe1gc587g6bc6g8fecaef7c546" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Bludgeoning);DealDamage(LevelMapValue(MartialArts)+WisdomModifier,Necrotic,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;KiPoint:2;FlurryOfHealingAndHarm:1;HandOfHarmTurn:1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="633b23a6-92eb-431b-90af-fa459a18c2b3" />

@@ -1500,4 +1500,24 @@ When you reach certain Fighter levels, you gain more uses of this feature.</cont
   <content contentuid="heae343e1g10f2g46fcgb78cgffc541e0c708" version="1">Level 7: Telekinetic Thrust (Push)</content>
   <content contentuid="hd22b82f8g71dfg62f2g255eg6bc04daa6824" version="1">Level 10: Guarded Mind</content>
   <content contentuid="ha5b2a394g2eb1g625dg2bdfgb9595a404a80" version="1">You have Resistance to Psychic damage. Moreover, you are immune to the Charmed and Frightened conditions.</content>
+  <content contentuid="h5e6a1a90gcd9dg5b91g933bg187d515e3a9e" version="1">Level 3: Hand of Harm</content>
+  <content contentuid="h49a38554ga520g69e1g1f66g89a99bbe4151" version="1">Once per turn when you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage equal to one roll of your Martial Arts die plus your Wisdom modifier.</content>
+  <content contentuid="h74bafa69ge700g8ad5g174dg42eb6622d0eb" version="1">Hand of Harm</content>
+  <content contentuid="h10df1491gc913g90b5g2218gc87364e153e8" version="1">Once per turn when you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage equal to one roll of your Martial Arts die plus your Wisdom modifier.</content>
+  <content contentuid="h16671b9ag2412g026aga841ga2feaa5f408b" version="1">Hand of Harm on Critical</content>
+  <content contentuid="h88dd0cdfgc1deg9209g9c35g14ede2f5ccbb" version="1">Level 3: Hand of Healing</content>
+  <content contentuid="hf80d830cg06deg648eg0d39g7c78218f5482" version="1">As a Magic action, you can expend 1 Focus Point to touch a creature and restore a number of Hit Points equal to a roll of your Martial Arts die plus your Wisdom modifier.&lt;br&gt;&lt;br&gt;When you use an bonus action that expends a Focus Point, you can use this feature without expending a Focus Point.</content>
+  <content contentuid="h32916177g482ag7227g21aagbd4d6aed7f71" version="1">Hand of Healing</content>
+  <content contentuid="h0fc86f08g49ceg3decg4adfg5398a052f261" version="1">As a Magic action, you can expend 1 Focus Point to touch a creature and restore a number of Hit Points equal to a roll of your Martial Arts die plus your Wisdom modifier.</content>
+  <content contentuid="hb7d53c92gd795g4719g0be5g78a9b3fa1a4a" version="1">Level 3: Implements of Mercy</content>
+  <content contentuid="h0e2f0dfaga02cg9ad3g9586ga7ad2ece81cf" version="1">You gain proficiency in the Insight and Medicine skills. You can brew two alchemical solutions instead of one when combining extracts, if you succeed a &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt; [1] Medicine &lt;LSTag Tooltip="AbilityCheck"&gt;Check&lt;/LSTag&gt;.</content>
+  <content contentuid="hf114f234gb61fg2c9cg3fbeg05b349dd435f" version="1">Level 6: Physician’s Touch</content>
+  <content contentuid="h02367640g69e6gdb06g9a72g6354c8a4ccb6" version="2">Hand of Harm. When you use Hand of Harm on a creature, you can also give that creature the Poisoned condition until the end of your next turn.
+
+Hand of Healing. When you use Hand of Healing, you can also end the following conditions on the creature you heal: Blinded, Disease, Paralyzed, Poisoned.</content>
+  <content contentuid="h5e476a49g95c8g6d46g4a14g10e6a16853c0" version="1">Level 11: Flurry of Healing and Harm</content>
+  <content contentuid="hfb72e3c9g9b45g5b84g8517gffe9d7e74d19" version="1">You can use Flurry of Healing and Flurry of Harm.&lt;br&gt;&lt;br&gt;You can use these benefits a total number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</content>
+  <content contentuid="h71d21302ge040g032cg8f4egbd6bca2cfd63" version="1">Flurry of Healing and Harm</content>
+  <content contentuid="h42f9b6e7gffe1gc587g6bc6g8fecaef7c546" version="1">Flurry of Harm</content>
+  <content contentuid="h67d63e21g64a9g3fd1g0869gb6cda96834a4" version="1">Flurry of Healing</content>
 </contentList>
