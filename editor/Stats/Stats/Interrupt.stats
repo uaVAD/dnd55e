@@ -393,6 +393,28 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69b698fd-1c0b-46d5-b89d-65be982264ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SOULKNIFE 9400__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9bb4451f-1a7c-4de5-8204-ccde40823e86" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_HomingStrikes" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c1c294e4-0896-4bf2-81cc-04c18ae14c53" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h71aac9ecg0f80gd235g2f2agef4ffc97d6a4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h601e5866g9f98g634egeeacg4867d033d389" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_3_PsionicPower" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_OBSERVER,LevelMapValue(Soulknife));" />
+        <field name="Cost" type="StringTableFieldDefinition" value="Soulknife:1;" />
+        <field name="Stack" type="StringTableFieldDefinition" value="Soulknife" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />

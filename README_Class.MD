@@ -277,7 +277,10 @@
 - Level 7: Evasion
 - Level 7: Reliable Talent
 - Level 11: Improved Cunning Strike
-### Soulknife [ ]
+### Soulknife
+- Level 3: Psionic Power
+- Level 3: Psychic Blades
+- Level 9: Soul Blades
 ### Arcane Trickster
 - Level 3: Mage Hand Legerdemain
 - Level 3: Spellcasting

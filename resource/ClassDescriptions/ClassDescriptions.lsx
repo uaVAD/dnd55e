@@ -175,16 +175,16 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h9d72f0d7g2c0egb1bbgde11g3864f11ceed2" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h2c7c5414g15dagaf08gfc1fg11fb9d066b49" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h9d72f0d7g2c0egb1bbgde11g3864f11ceed2" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2c7c5414g15dagaf08gfc1fg11fb9d066b49" version="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="Soulknife"/>
                     <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
                     <attribute id="PrimaryAbility" type="uint8" value="2"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="fe93dbcf-584d-4dfc-8818-93d7a965aa75"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="abc7b271-82a1-4139-9653-4c90a7984a38"/>
                     <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="0"/>
-                    <attribute id="UUID" type="guid" value="d779dba0-e93f-4e26-af43-cd06e1f9657f"/>
+                    <attribute id="UUID" type="guid" value="5764faec-f81c-4708-a652-15b3459715e8"/>
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CanLearnSpells" type="bool" value="true"/>

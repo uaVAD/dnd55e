@@ -191,5 +191,15 @@
         <field name="Level11" type="StringTableFieldDefinition" value="1d6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="Soulknife" />
+        <field name="UUID" type="IdTableFieldDefinition" value="19bc0b81-cfca-4138-88ae-8cbcaa272705" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level11" type="StringTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

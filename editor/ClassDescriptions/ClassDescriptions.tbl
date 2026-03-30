@@ -187,12 +187,12 @@
     <stat_object color="#FF483D8B" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
-        <field name="UUID" type="IdTableFieldDefinition" value="d779dba0-e93f-4e26-af43-cd06e1f9657f" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5764faec-f81c-4708-a652-15b3459715e8" />
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="Soulknife" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c7c5414g15dagaf08gfc1fg11fb9d066b49" version="1" />
-        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="fe93dbcf-584d-4dfc-8818-93d7a965aa75" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d72f0d7g2c0egb1bbgde11g3864f11ceed2" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c7c5414g15dagaf08gfc1fg11fb9d066b49" version="2" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="abc7b271-82a1-4139-9653-4c90a7984a38" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d72f0d7g2c0egb1bbgde11g3864f11ceed2" version="2" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="Ability" version="1" />

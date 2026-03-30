@@ -2686,6 +2686,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="565a6524-fb21-4df0-8ca3-80531c306e11" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rogue_3_SteadyAim_Throw" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9003" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="WieldingFinesseWeaponInSpecificHand(context.Source,true) or WieldingFinesseWeaponInSpecificHand(context.Source,false);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="MonkWeaponAttackOverride();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5fcac028-e182-4a70-a8b4-2a663ac054df" />
         <field name="Name" type="NameTableFieldDefinition" value="UncannyDodge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21f511b2g92a9g1aafg61d4g9e8e4ad1e872" version="1" />
@@ -2855,6 +2866,89 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="7d8b1526-a786-41eb-8ab4-ce9928660f06" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3cad8c7eg48eeg5692g23c0g79706df73d92" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9303" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b75ca73e-340d-4ca0-89e2-95aedd8eb00e" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SOULKNIFE 9400__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4524ec17-c123-46d3-92c3-94e72432c549" />
+        <field name="Name" type="NameTableFieldDefinition" value="Soulknife_3_PsionicPower" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h47241e4bg6824g8819g634eg085cabe63335" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcbc2740fgebc3g29dbg5465ge353fe6de2d6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_3_PsionicPower" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(Soulknife,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7976b1c-95b0-4397-843d-f9e57de74dc5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Soulknife_3_PsiBolsteredKnack" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbbc444d1gb077g0152ga3a4gb6e3870b0ab6" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c90402dgbf9bg9e7eg0564g9741710af3b2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_3_PsionicPower" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9403" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('Soulknife', 1, 0, false, false, context.Source);" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnAbilityCheck;OnInterruptUsed;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SkillCheck,LevelMapValue(Soulknife));RollBonus(RawAbility,LevelMapValue(Soulknife));" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAbilityCheck" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(SELF,Soulknife,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4549b851-02b5-418d-b338-e3a9a7883140" />
+        <field name="Name" type="NameTableFieldDefinition" value="Soulknife_3_HomingStrikes" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3580697bg942bgc735g6a43g973225efaf2b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9469e0a4gb203g618fg7964ge5af1758af45" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_3_PsionicPower" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_HomingStrikes);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2fe80e6b-ce75-44ca-911c-dc7771d2b460" />
+        <field name="Name" type="NameTableFieldDefinition" value="Soulknife_3_PsychicBlades" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h632d7b10g746bg45b9gef79gab9b0940bbe2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c45092ag40cag1de6gb0cag6f5b529f8501" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_3_PsychicBlades" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PsychicBlades);UnlockSpell(Shout_PsychicBlades_Dissmiss);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a5d6563-0310-4eee-ad96-20bde2b8abfc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Soulknife_9_PsychicTeleportation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd37bdacag5d81g33e4gfebeg8a73e82f76c0" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd91b7847g79e2gdae7g83f9g933470184630" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_9_PsychicTeleportation" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9409" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_PsychicTeleportation);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55d5a6fc-bf42-4358-b091-58ba1ce95897" />
+        <field name="Name" type="NameTableFieldDefinition" value="Soulknife_9_PsychicVeil" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h688284efg92e3g531egd411g61df3c36b276" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9446d065gc473g7595g3b13gfb953f314f52" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_9_PsychicVeil" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9409" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PsychicVeil);" />
       </fields>
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">

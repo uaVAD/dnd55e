@@ -1669,6 +1669,75 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42d1dbf6-e8c9-46ed-853d-3a4f9dc11a59" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SOULKNIFE 9400__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7e7db4a-eed4-4599-8760-9c6e1a13d723" />
+        <field name="Name" type="NameTableFieldDefinition" value="PsychicBlades" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon())):ApplyEquipmentStatus(MainHand,PSYCHIC_BLADE,100, -1);IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon(context.Target, false))):):ApplyEquipmentStatus(OffHand,PSYCHIC_BLADE_OFFHAND,100, -1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_3_PsychicBlades" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h535f8fd1g0766g1526ge835g936f753a3b27" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35a0000fg8dc5g3af7ge6b5g3ad5700dd6e6" version="2" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Item_ShadowBlade" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Item_ShadowBlade" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Item_ShadowBlade" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Item_ShadowBlade" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_EnchantWeapon" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Stealth;Invisible" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3998daf3-8dd5-4b10-b33a-5ab51bb97860" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="514ecdc7-87b3-43f8-bd8a-69fb3b46f8da" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PSYCHIC_BLADE,100, -1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="836bf8a4-30b3-4183-aa05-58f95408eec2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PsychicBlades_Dissmiss" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a7e7db4a-eed4-4599-8760-9c6e1a13d723" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon())):ApplyEquipmentStatus(MainHand,PSYCHIC_BLADE,100, 0);IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon(context.Target, false))):):ApplyEquipmentStatus(OffHand,PSYCHIC_BLADE_OFFHAND,100, 0);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_3_PsychicBlades_Dismiss" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h43839460gafc1g5826gd796g265c77684acc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Stealth;Invisible" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09a1486b-8732-4760-bfa3-fefb4085845d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PsychicVeil" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(INVISIBILITY,100, -1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not HasStatus('FAERIE_FIRE') and not IsConcentrating(context.Source)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_9_PsychicVeil" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd00572e3g8539gf0b2ga34cg5f825b6672dd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hff09f5d5ga364g24e6ga7a8g00dbb675ea16" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INVISIBILITY,100, -1);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_Invisibility_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_Invisibility_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;Soulknife:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6aae7c32-ce4b-4ad3-ad9b-f5a8c354e3cf,,;f3a26975-5aab-4fd6-989a-2b2515b57139,,;9942c019-92d2-4107-b6f8-35fd8df22c75,,;1a11f959-abd1-4fb9-a127-73e420f55586,,;307b18c3-f79b-4327-b296-1853334c0475,,;,,;,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="53589346-1eee-4de3-a42d-cec4b3e76705" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4fbf1266-e014-4921-85de-ec79cb05c82c" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3fcca7fe-3057-4949-95d5-d9578af66b99" />

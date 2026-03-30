@@ -1925,6 +1925,34 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5237f46-e96c-4342-9994-17b9b2888821" />
+        <field name="Name" type="NameTableFieldDefinition" value="PsychicTeleportation" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('')" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="738f5715-9415-4f38-a7d8-5999d8a7e4fd,edb4e94d-2efa-4335-b18a-2125656a3eb7,91b3ac49-bd61-4302-bfdd-aa784f9816fd" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_9_PsychicTeleportation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he29c5d51gec42gc381gbc4bg435221bc0568" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_SneakAttackProjectile" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Soulknife:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="e8075d90-9018-4b4a-8b2e-bab0cffe2fbd,,;f2803838-31cf-471b-85d1-92fa2d0eb7c2,,;4be0751c-9fca-4c35-9337-6bf8a321c516,,;86b52093-596c-4054-bb1d-2dbdfcdc4347,,;,,;,,;,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="62fa9d2f-ec0b-4900-a455-ec9b5e6e3eb4" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7a079407-0023-4594-a6db-527acac4db21" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSoundMagnitude" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6075d06fg73e3g4deag566fg55d336f1350b" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dbfa030b-ffcf-4767-9c87-44dc979dc28e" />
         <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
       </fields>
