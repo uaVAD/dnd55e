@@ -621,6 +621,22 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a25ac72b-96a2-46c4-be1c-8b552af0f851" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExtendRage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="87c0b5f9-8dc4-45fd-a036-63bf1ed5d13d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,RAGE_STOP_REMOVE,100,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h98ffe421g17f7g0329g024bg3e174475a832" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="781c0485-6128-4434-bff1-6ce163bc9d8a" />
         <field name="Name" type="NameTableFieldDefinition" value="FerociousAppetite" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d6b1d199-ca6f-404d-bee2-8997ad206fea" />

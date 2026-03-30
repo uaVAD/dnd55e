@@ -1577,4 +1577,5 @@ In addition, whenever an ally enters your Aura of Protection for the first time 
   <content contentuid="h47c75c00gad45gcc7agd1fbg3816f09eaa53" version="2">Deals Psychic damage and has the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property.&lt;br&gt;&lt;br&gt;The weapon can’t be knocked out of the wielder’s hand, and it automatically returns to the wielder when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;.</content>
   <content contentuid="h00d90ea3g3a77g156ege571g7795f88dc0b3" version="1">Psionic Power</content>
   <content contentuid="h43839460gafc1g5826gd796g265c77684acc" version="1">Dismiss Psychic Blades</content>
+  <content contentuid="h98ffe421g17f7g0329g024bg3e174475a832" version="1">Extend Rage</content>
 </contentList>
