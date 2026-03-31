@@ -79,6 +79,11 @@
                     <attribute id="SoundClassType" type="FixedString" value="Barbarian"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="UUID" type="guid" value="0e37e9bc-3909-49f4-8035-6d9736ad6867"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="1671b4bf-4f47-4bb7-9cb9-80bb1f6009d5"/>
+                        </node>
+                    </children>
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
@@ -200,6 +205,24 @@
                     <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="c059dca1-c17d-4dce-8260-83ede5070eac"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hdcc3a388gb292gacb2gf7d4gedf14ac8aeed" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h12ea65c7g08eega4d5gb643g2f478032d14d" version="2"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Aberrant"/>
+                    <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="dbbbe831-9082-4554-abe0-4e4480f1125e"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="ee5a89b5-21c6-419e-8b30-aecf929bd7d7"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="cdad1fc1-352b-4441-82f2-73d8433e42ea"/>
+                        </node>
+                    </children>
                 </node>
             </children>
         </node>

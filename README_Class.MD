@@ -305,7 +305,10 @@
 - Level 2: Metamagic
 - Level 5: Sorcerous Restoration
 - Level 7: Sorcery Incarnate
-### Aberrant [ ]
+### Aberrant Socery
+- Level 3: Psionic Spells
+- Level 6: Psionic Sorcery
+- Level 6: Psychic Defenses
 ### Clockwork [ ]
 ### Draconic [ ]
 ### Shadow Magic

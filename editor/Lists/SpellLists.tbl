@@ -1241,6 +1241,40 @@
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f80396e2-cb76-4694-b0db-5c34da61a478" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d14f464c-392a-4988-a8c2-e00c90a118a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ABBERANT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e01025f-900f-4a93-b5a9-25eda2bdc543" />
+        <field name="Name" type="NameTableFieldDefinition" value="Abberant Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_MindSliver;Shout_ArmsOfHadar;Target_DissonantWhisper;Target_CalmEmotions;Shout_DetectThoughts" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1d01f15-a8cc-40ba-8320-af26ffab4e52" />
+        <field name="Name" type="NameTableFieldDefinition" value="Abberant Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_HungerOfHadar" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55f6770b-22bd-4482-8636-666ae56fa3e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Abberant Level 7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_BlackTentacles" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="139bfb82-1a15-40a6-b2fd-f85b2b8bc764" />
+        <field name="Name" type="NameTableFieldDefinition" value="Abberant Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Throw_Telekinesis" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="28297251-2b44-4554-8723-4ab94229a3c0" />

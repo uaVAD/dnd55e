@@ -1578,4 +1578,14 @@ In addition, whenever an ally enters your Aura of Protection for the first time 
   <content contentuid="h00d90ea3g3a77g156ege571g7795f88dc0b3" version="1">Psionic Power</content>
   <content contentuid="h43839460gafc1g5826gd796g265c77684acc" version="1">Dismiss Psychic Blades</content>
   <content contentuid="h98ffe421g17f7g0329g024bg3e174475a832" version="1">Extend Rage</content>
+  <content contentuid="h12ea65c7g08eega4d5gb643g2f478032d14d" version="2">Aberrant Sorcery</content>
+  <content contentuid="hdcc3a388gb292gacb2gf7d4gedf14ac8aeed" version="2">An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?
+
+Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm’s warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole’s psionic power is yours. However you acquired this power, your mind is aflame with it.</content>
+  <content contentuid="h65ae228fgd955g4d7fg5f83g914fe7e83123" version="1">Level 3: Psionic Spells</content>
+  <content contentuid="hd2d76fb0g487cg3ab3g3908g9f58ed8e7217" version="1">When you reach certain Sorcerer levels specified in the Psionic Spells table, you always have the listed spells prepared.&lt;br&gt;&lt;br&gt;At Sorcerer level 3, you have Arms of Hadar, Calm Emotions, Detect Thoughts, Dissonant Whispers, and Mind Sliver prepared. At level 5, you additionally have Hunger of Hadar prepared. At level 7, you gain Evard’s Black Tentacles. At level 9, you gain Telekinesis, all of which are always prepared.</content>
+  <content contentuid="hc47eeb0bg59b3g6c84g97bbg6e37b0afac07" version="1">Level 6: Psionic Sorcery</content>
+  <content contentuid="h50cb5cf3g3c73g27b1gaca7g9a573996ab32" version="1">Level 6: Psychic Defenses</content>
+  <content contentuid="h9cc59e90gba0dg93e0gfef2g7374298fdf05" version="1">You have Resistance to Psychic damage. Moreover, you are immune to the Charmed and Frightened conditions.</content>
+  <content contentuid="h4aa07c08gb93egab88g61e1g0ced3d3207e0" version="1">When you cast any level 1+ spell from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of Sorcery Points equal to the spell’s level. If you cast the spell using Sorcery Points, it requires no Verbal or Somatic components, and it requires no Material components unless they are consumed by the spell or have a cost specified in it.</content>
 </contentList>

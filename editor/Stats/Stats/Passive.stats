@@ -2971,6 +2971,53 @@
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnCombatStarted;OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d614b884-d16c-422e-83c7-1a52c0bc7e24" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ABBERANT 10100__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba9e1659-9fbe-4bc1-b136-d9177c577186" />
+        <field name="Name" type="NameTableFieldDefinition" value="Abberant_3_PsionicSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65ae228fgd955g4d7fg5f83g914fe7e83123" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd2d76fb0g487cg3ab3g3908g9f58ed8e7217" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateSorcerer" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aebbe8bd-7b85-4248-a3d2-fe7291e49725" />
+        <field name="Name" type="NameTableFieldDefinition" value="Abberant_6_PsionicSorcery" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc47eeb0bg59b3g6c84g97bbg6e37b0afac07" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4aa07c08gb93egab88g61e1g0ced3d3207e0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThoughtShield_PsychicResistance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;MetaMagic;Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(AbberantPsionicSpells(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyIconGlow(),ModifyUseCosts(Add,SorceryPoint,SpellPowerLevel,0));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c14c3b4-e345-4f4a-8359-9bbcdb20065b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Abberant_6_PsychicDefenses" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50cb5cf3g3c73g27b1gaca7g9a573996ab32" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9cc59e90gba0dg93e0gfef2g7374298fdf05" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThoughtShield_PsychicReflection" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10106" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic, Resistant);StatusImmunity(SG_Charmed);StatusImmunity(SG_Frightened);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2082bb4-d1fe-4f0c-918b-4d5a8d43b9f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="__METAMAGIC__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b0fe4fe1-8f3c-45ba-8c2d-bed2ffd5930b" />

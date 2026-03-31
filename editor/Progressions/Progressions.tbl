@@ -4628,7 +4628,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SorceryPoint,1,0)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f80396e2-cb76-4694-b0db-5c34da61a478,1,2,SorcererSpell)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="36286b0a-26f9-4b4e-9311-fd1404301d20;b443a7fa-b36a-4cbc-9e4b-f3167de34d1b;d379fdae-b401-4731-8d50-277c73919ae3;14374d37-a70e-41a8-9dc5-85a23f8b5dd2" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="36286b0a-26f9-4b4e-9311-fd1404301d20;b443a7fa-b36a-4cbc-9e4b-f3167de34d1b;d379fdae-b401-4731-8d50-277c73919ae3;14374d37-a70e-41a8-9dc5-85a23f8b5dd2;ee5a89b5-21c6-419e-8b30-aecf929bd7d7" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4959,6 +4959,62 @@
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="ControlledChaos" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_611" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dbbbe831-9082-4554-abe0-4e4480f1125e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="dbbbe831-9082-4554-abe0-4e4480f1125e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Aberrant" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Abberant_3_PsionicSpells" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2e01025f-900f-4a93-b5a9-25eda2bdc543)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_612" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0d607288-1c4b-49e1-8ed3-681d4830c30f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="dbbbe831-9082-4554-abe0-4e4480f1125e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Aberrant" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(e1d01f15-a8cc-40ba-8320-af26ffab4e52)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_615" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ebc38162-4ba8-4251-a409-e49b9f8db2bb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="dbbbe831-9082-4554-abe0-4e4480f1125e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Aberrant" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Abberant_6_PsionicSorcery;Abberant_6_PsychicDefenses" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_613" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0dcde382-92e1-4555-8650-0113025430d5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="dbbbe831-9082-4554-abe0-4e4480f1125e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Aberrant" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(55f6770b-22bd-4482-8636-666ae56fa3e1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_614" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6970c41a-3974-45b1-8d0c-fd88411b69ca" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="dbbbe831-9082-4554-abe0-4e4480f1125e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Aberrant" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(139bfb82-1a15-40a6-b2fd-f85b2b8bc764)" />
       </fields>
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
