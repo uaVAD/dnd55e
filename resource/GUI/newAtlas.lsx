@@ -75,6 +75,34 @@
                     <attribute id="V2" type="float" value="0.062255859"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Archfey_DisappearingStep"/>
+                    <attribute id="U1" type="float" value="0.78149414"/>
+                    <attribute id="U2" type="float" value="0.81225586"/>
+                    <attribute id="V1" type="float" value="0.062744141"/>
+                    <attribute id="V2" type="float" value="0.093505859"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Archfey_DreadfulStep"/>
+                    <attribute id="U1" type="float" value="0.75024414"/>
+                    <attribute id="U2" type="float" value="0.78100586"/>
+                    <attribute id="V1" type="float" value="0.062744141"/>
+                    <attribute id="V2" type="float" value="0.093505859"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Archfey_RefreshingStep"/>
+                    <attribute id="U1" type="float" value="0.71899414"/>
+                    <attribute id="U2" type="float" value="0.74975586"/>
+                    <attribute id="V1" type="float" value="0.062744141"/>
+                    <attribute id="V2" type="float" value="0.093505859"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Archfey_TauntingStep"/>
+                    <attribute id="U1" type="float" value="0.68774414"/>
+                    <attribute id="U2" type="float" value="0.71850586"/>
+                    <attribute id="V1" type="float" value="0.062744141"/>
+                    <attribute id="V2" type="float" value="0.093505859"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Athletics"/>
                     <attribute id="U1" type="float" value="0.40649414"/>
                     <attribute id="U2" type="float" value="0.43725586"/>

@@ -1552,7 +1552,7 @@ In addition, whenever an ally enters your Aura of Protection for the first time 
   <content contentuid="h7eb96189g76dfg2301gb96dg3136060e0f85" version="2">The magic of the Feywild guards your mind. You are immune to the Charmed and Frightened conditions.</content>
   <content contentuid="h9dab7504gf784g5021g0203g9af9fa141199" version="1">Level 11: Misty Wanderer</content>
   <content contentuid="hf409717bg5c28g26d8gd2b4g68055dc739d0" version="1">You can cast Misty Step without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</content>
-  <content contentuid="hca8dab54g1bbegcd4bg350agf4c1e9eb7523" version="1">Misty Wanderer</content>
+  <content contentuid="hca8dab54g1bbegcd4bg350agf4c1e9eb7523" version="2">Misty Step</content>
   <content contentuid="h632d7b10g746bg45b9gef79gab9b0940bbe2" version="1">Level 3: Psychic Blades</content>
   <content contentuid="h2c45092ag40cag1de6gb0cag6f5b529f8501" version="2">You can manifest shimmering blades of psychic energy.&lt;br&gt;&lt;br&gt;While wielding a dagger, shortsword, or scimitar, you can change the weapon’s damage type to Psychic and give it the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property.</content>
   <content contentuid="h47241e4bg6824g8819g634eg085cabe63335" version="1">Level 3: Psionic Power</content>
@@ -1635,4 +1635,41 @@ If you do cast a Sorcerer spell with a spell slot before you finish a Long Rest,
   <content contentuid="h2adc185egdb92gc42cgef83gd94b5364f467" version="1">Paladin's Smite</content>
   <content contentuid="h22e041e9g38f5g44c4ga023g152c8451beae" version="2">Bernard</content>
   <content contentuid="hbc769f65g2e00g4787gb697gd955581a5567" version="2">Guardian of the Enchanted Tower</content>
+  <content contentuid="hb352a2d9g2b29g035bgcae6ge065a7ef8fe8" version="1">Level 3: Archfey Spells</content>
+  <content contentuid="hd7701b33g6b2fg2417gbd20g2eb61af61f00" version="1">The magic of your patron ensures that you always have certain spells ready. Upon reaching specific Warlock levels, you gain additional spells as shown in the Archfey Spells table, and you always have those spells prepared thereafter. &lt;br&gt;&lt;br&gt;At 3rd level, you gain Calm Emotions, Faerie Fire, Misty Step, Phantasmal Force, and Sleep. At 5th level, you gain Blink and Plant Growth. At 7th level, you gain Dominate Beast and Greater Invisibility. At 9th level, you gain Dominate Person and Seeming.</content>
+  <content contentuid="h46177747g5549g5775gad78g65fbcd1fc3a6" version="1">Level 3: Steps of the Fey</content>
+  <content contentuid="h8adb922fgacb1g0f7fg68fagec7157198cc9" version="4">Your patron grants you the ability to move between the boundaries of the planes. You can cast Misty Step without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+
+In addition, whenever you cast that spell, you can choose one of the following additional effects.
+
+Refreshing Step. Immediately after you teleport, you and one creature you can see within 10 feet of yourself gains 1d10 Temporary Hit Points.
+
+Taunting Step. Creatures within 10 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</content>
+  <content contentuid="h6115b3f2g010ag8559g7318gc2394c1971ed" version="1">Level 6: Misty Escape</content>
+  <content contentuid="h6dbe3baeg32b7g2be3gc059gc25854510170" version="3">You can cast Misty Step as a Reaction in response to taking damage.
+
+In addition, the following effects are now among your Steps of the Fey options.
+
+Disappearing Step. You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.
+
+Dreadful Step. Creatures within 10 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</content>
+  <content contentuid="h308c54bfg7af4ga905g67ffg8c054f26beab" version="1">Level 10: Beguiling Defenses</content>
+  <content contentuid="h9ff8c44bg3303gce13g6778gf58e24c5dda9" version="2">Your patron teaches you how to guard your mind and body. You are immune to the Charmed condition.
+
+In addition, immediately after a creature you can see hits you with an attack roll, you can take a Reaction to reduce the damage you take by half (round down), and you can force the attacker to take Psychic damage equal to the damage you take.</content>
+  <content contentuid="h832c95cdged4dg5872g8888g502dc91b83e0" version="1">Refreshing Step</content>
+  <content contentuid="h34d645ffgccd0g672cg5920g5e1aa15ee5a7" version="4">Immediately after you teleport, you and one creature you can see within 10 feet of yourself gains 1d10 Temporary Hit Points.</content>
+  <content contentuid="h7abb1184g0680g881dg18abgfc004e48f6e5" version="1">Refreshing Step</content>
+  <content contentuid="h9b9091cdg68c3ga5edgce70g3588f2071f07" version="1">Gain 1d10 Temporary Hit Points.</content>
+  <content contentuid="h756fd0efg7178gaf40g2209ge695b89e27d9" version="1">Taunting Step</content>
+  <content contentuid="h444275c2g565cg45a9gdfbdg183d47facddb" version="1">Creatures within 10 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</content>
+  <content contentuid="ha4fa9aabgb628g9f25g60a6g8ef2736d6490" version="1">Taunting Step</content>
+  <content contentuid="h81e4c4fcge764ge0d3g745cgea094c73c3cc" version="1">Disappearing Step</content>
+  <content contentuid="h7bd1bb01g45ccge8e6g5722g3072b6b0bf23" version="1">You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.</content>
+  <content contentuid="h6153da66gbfbeg1d0dgec8agfbc6490c04f5" version="1">Creatures within 10 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</content>
+  <content contentuid="h417a65f0geb7ag67d8g7e8eg6c0ea35a7357" version="1">Dreadful STep</content>
+  <content contentuid="h30f638b6g1b28g3f1fgb8cbge2ee1097d9ae" version="1">Dreadful Step</content>
+  <content contentuid="hf54c9af9g03dcg0142g4026g6139efcbb06e" version="1">Beguiling Defenses</content>
+  <content contentuid="h6a16f7e0g2947g3fdfgcea2g6f2905fb534c" version="1">Beguiling Defenses</content>
+  <content contentuid="h9fe00cb5g94cdg83e3g707ag20631bf85653" version="1">Immediately after a creature you can see hits you with an attack roll, you can take a Reaction to reduce the damage you take by half (round down), and you can force the attacker to take Psychic damage equal to the damage you take.</content>
 </contentList>

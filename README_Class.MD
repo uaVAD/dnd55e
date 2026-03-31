@@ -363,11 +363,11 @@
 - Gift of the Protectors
 - Minions of Chaos
 - Devouring Blade
-### Archfey [ ]
+### Archfey
 - Level 3: Archfey Spells
-- Level 3: Steps of the Fey [ ]
-- Level 6: Misty Escape [ ]
-- Level 10: Beguiling Defenses [ ]
+- Level 3: Steps of the Fey
+- Level 6: Misty Escape
+- Level 10: Beguiling Defenses
 ### Celestial [ ]
 ### Fiend [ ]
 - Level 3: Dark One's Blessing [ ]

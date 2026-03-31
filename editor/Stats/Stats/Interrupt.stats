@@ -448,6 +448,47 @@
         <field name="Properties" type="StringTableFieldDefinition" value="SetAdvantage();" />
       </fields>
     </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c815b78e-0ed5-4da1-afd0-c06c6359d0a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WARLOCK__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38241cc8-c7aa-428f-bb66-4f33d4a76b3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_MistyEscape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a848bcf0-aab2-44ab-8892-0b9b06583672" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(OBSERVER_OBSERVER,Shout_Invisibility_MistyEscape,true,true,true);ApplyStatus(OBSERVER_OBSERVER,MISTY_ESCAPE_INVISIBLE,100,2);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;MistyStep:1;" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f408d9a-0aff-4184-8e39-0f0288789a35" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_BeguilingDefenses" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6a16f7e0g2947g3fdfgcea2g6f2905fb534c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9fe00cb5g94cdg83e3g707ag20631bf85653" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_BeguilingDefenses" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPreDamage" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and IsAttack() and HasDamageEffectFlag(DamageFlags.Hit);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_OBSERVER,BEGUILING_DEFENSES_REDUCE_DAMAGE,100,0);ApplyStatus(OBSERVER_OBSERVER,INTERRUPT_FIGHTINGSTYLE_PROTECTION,100,0);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;WarlockSpellSlot:1:5;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ffc0d5b-d80b-4838-9836-68d25f06248b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_BeguilingDefenses_Free" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f408d9a-0aff-4184-8e39-0f0288789a35" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;BeguilingDefenses:1;" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />

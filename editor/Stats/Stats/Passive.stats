@@ -3614,6 +3614,69 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_THIRSTING_BLADE_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_2, 100, 1)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a3f2e956-f807-4545-be00-a6209bf606f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ARCHFEY 11100___" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a5ab1cd9-9f4c-4a36-a071-e5e5d98e3e00" />
+        <field name="Name" type="NameTableFieldDefinition" value="Archfey_3_ArchfeySpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb352a2d9g2b29g035bgcae6ge065a7ef8fe8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd7701b33g6b2fg2417gbd20g2eb61af61f00" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20ea553c-5a40-48cc-bb0f-df3c43be6cce" />
+        <field name="Name" type="NameTableFieldDefinition" value="Archfey_3_StepsOfTheFey" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46177747g5549g5775gad78g65fbcd1fc3a6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8adb922fgacb1g0f7fg68fagec7157198cc9" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Archfey_RefreshingStep" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_RefreshingStep);UnlockSpell(Teleportation_TauntingStep);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31853126-21b8-4977-b0ca-e410a7fd8272" />
+        <field name="Name" type="NameTableFieldDefinition" value="Archfey_3_StepsOfTheFey_Resource" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="25d2e9d7-71e3-4f91-bd5a-322e93ec660e" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11103" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Charisma',13,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Charisma',15,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Charisma',17,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Charisma',19,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Charisma',21,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Charisma',23,context.Source)):ActionResource(MistyStep,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c95026e0-7665-470e-91ef-e8eacefe65ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="Archfey_6_MistyEscape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0e04d301-f328-42cf-9cf2-081989abd6dc" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6115b3f2g010ag8559g7318gc2394c1971ed" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6dbe3baeg32b7g2be3gc059gc25854510170" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DisappearingStep" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11106" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_MistyEscape);UnlockSpell(Target_DisappearingStep);UnlockSpell(Teleportation_DreadfulStep);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d61be128-96c7-420f-bf2b-490e4b3f9ebd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Archfey_10_BeguilingDefenses" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h308c54bfg7af4ga905g67ffg8c054f26beab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ff8c44bg3303gce13g6778gf58e24c5dda9" version="2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cecf3be8-eb58-453c-92dc-dfe0628ea474" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11110" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Charmed);ActionResource(BeguilingDefenses,1,0);UnlockInterrupt(Interrupt_BeguilingDefenses_Free);UnlockInterrupt(Interrupt_BeguilingDefenses);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eb1cbe42-0730-470a-8946-510854f7a4e2" />

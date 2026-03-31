@@ -1951,6 +1951,39 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6075d06fg73e3g4deag566fg55d336f1350b" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="667e1d8c-7fcc-49dd-a589-348d89ebc320" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WARLOCK__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f30e6f5-c57f-4803-b899-0ae53da0e9b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="TauntingStep" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b146f8d-5314-4520-9ef1-e5b0f67e3bbe" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(GOADING_ATTACK,100,2);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Archfey_TauntingStep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha4fa9aabgb628g9f25g60a6g8ef2736d6490" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed4d49af-b68f-4b1e-9a55-1668a02ee3fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="DreadfulStep" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f30e6f5-c57f-4803-b899-0ae53da0e9b3" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10,Psychic);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DreadfulStep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h417a65f0geb7ag67d8g7e8eg6c0ea35a7357" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dbfa030b-ffcf-4767-9c87-44dc979dc28e" />
