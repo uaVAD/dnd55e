@@ -1966,6 +1966,85 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="2e0b20bb-9d15-4b14-b892-73484f66fd76" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="471f2809-bed8-496c-aa60-3985322e582c" />
+        <field name="Name" type="NameTableFieldDefinition" value="BASTION_OF_LAW_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39cf308a-3bd8-4e32-bcf0-8be7aa17a8ae" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6b29df7eg3f06gf064ge8b2g8615908c2d76" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5d57e46bg1ebeg7a15g45a1g5dee2e76459e" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All, Flat, 1d8);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="68b9c85e-e954-4449-84a5-975024aaa4df" />
+        <field name="EndEffect" type="GuidObjectTableFieldDefinition" value="f1ce7559-a4ea-4a4a-893c-ca289290b21a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dfc3eea5-02e7-43ac-a6d3-746d09548923" />
+        <field name="Name" type="NameTableFieldDefinition" value="BASTION_OF_LAW_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c47c305-ec15-4063-8ca3-d89e9950166d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc2662321g26c1g22a8g5c8aga0faf465d71b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e1aea80g4740gaa01gfe95g3cd0d19d1bdd" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All, Flat, 1d8);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(BASTION_OF_LAW_1,100,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="68b9c85e-e954-4449-84a5-975024aaa4df" />
+        <field name="EndEffect" type="GuidObjectTableFieldDefinition" value="f1ce7559-a4ea-4a4a-893c-ca289290b21a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d690fba-e154-492b-88d4-af438c9ff370" />
+        <field name="Name" type="NameTableFieldDefinition" value="BASTION_OF_LAW_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f1b4c908-746c-45ba-9ab8-b626fafd4c01" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbec0cb5dg9b75ga185g2c1dgfaf65e5abe35" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ee98c20g6713gb372g573dgca45f15d691f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All, Flat, 1d8);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(BASTION_OF_LAW_2,100,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="68b9c85e-e954-4449-84a5-975024aaa4df" />
+        <field name="EndEffect" type="GuidObjectTableFieldDefinition" value="f1ce7559-a4ea-4a4a-893c-ca289290b21a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0bd2df3-943a-4167-a775-b45361bdf3f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="BASTION_OF_LAW_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f83ef3c1-3188-4424-bdc8-14c05aaf3421" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd7bd558fg31f6g5181g4f70g8d12f9f3ec62" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbbfab3begf9cdg6052g4ac5g7eaf747c1f9a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All, Flat, 1d8);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(BASTION_OF_LAW_3,100,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="68b9c85e-e954-4449-84a5-975024aaa4df" />
+        <field name="EndEffect" type="GuidObjectTableFieldDefinition" value="f1ce7559-a4ea-4a4a-893c-ca289290b21a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ab446dd-fcfc-44de-8d34-d9f06ba02277" />
+        <field name="Name" type="NameTableFieldDefinition" value="BASTION_OF_LAW_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f4d341c-a2b4-4c1c-ac0c-3657a1f29cac" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40769efdg15a5g05b0ga0cfgfc303873f1b3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h063372f4g1033g08f6g55abgb32a96fe2615" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All, Flat, 1d8);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(BASTION_OF_LAW_4,100,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="68b9c85e-e954-4449-84a5-975024aaa4df" />
+        <field name="EndEffect" type="GuidObjectTableFieldDefinition" value="f1ce7559-a4ea-4a4a-893c-ca289290b21a" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

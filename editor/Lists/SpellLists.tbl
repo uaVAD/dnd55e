@@ -1275,6 +1275,40 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Throw_Telekinesis" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53c03d92-5b0b-476c-aa31-e5fe81f0358c" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CLOCKWORK__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="207190bb-3e24-45f3-b867-05481f67f402" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clockwork Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_CureWounds;Target_ProtectionFromEvilAndGood;Target_Aid;Target_LesserRestoration" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77ac0918-1d88-4997-9b18-fe5abc50b687" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clockwork Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ProtectionFromEnergy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34e8d166-7169-403d-9a42-a19c4a4cbe96" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clockwork Level 7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_FreedomOfMovement" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8347140-5b61-477a-b3d4-b5c6c2075343" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clockwork Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_GreaterRestoration" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="28297251-2b44-4554-8723-4ab94229a3c0" />

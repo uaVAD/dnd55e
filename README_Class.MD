@@ -309,7 +309,10 @@
 - Level 3: Psionic Spells
 - Level 6: Psionic Sorcery
 - Level 6: Psychic Defenses
-### Clockwork [ ]
+### Clockwork Socery
+- Level 3: Clockwork Spells
+- Level 3: Restore Balance
+- Level 6: Bastion of Law
 ### Draconic [ ]
 ### Shadow Magic
 ### Storm Sorcery

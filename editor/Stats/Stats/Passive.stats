@@ -2994,7 +2994,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Abberant_6_PsionicSorcery" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc47eeb0bg59b3g6c84g97bbg6e37b0afac07" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4aa07c08gb93egab88g61e1g0ced3d3207e0" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThoughtShield_PsychicResistance" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Abberant_6_PsionicSorcery" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;MetaMagic;Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(AbberantPsionicSpells(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyIconGlow(),ModifyUseCosts(Add,SorceryPoint,SpellPowerLevel,0));" />
@@ -3010,6 +3010,56 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10106" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic, Resistant);StatusImmunity(SG_Charmed);StatusImmunity(SG_Frightened);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b2d3ab0-0b3d-4fec-a5a5-982fc68c53da" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CLOCKWORK 10200__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="574837a2-3771-4185-a188-04aeb90154a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clockwork_3_ClockworkSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9ab7ccag545bgfa3age395g6151554c8b9d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hba43aa06gc80fg3f74gdf69g57af1f3cc5c1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateSorcerer" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28fad980-43a7-4968-9d12-2c18e4ed00ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clockwork_3_RestoreBalance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfd40eb1dg31b8ge687g72f6g0d0e8189a3d0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he4b6fb34g750cgd80agfb13ga652ce65321c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_3_RestoreBalance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_RestoreBalance_NegateAdvantage);UnlockInterrupt(Interrupt_RestoreBalance_NegateDisadvantage);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25d2e9d7-71e3-4f91-bd5a-322e93ec660e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clockwork_3_RestoreBalance_Resource" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnProficiencyChange;OnShortRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RestoreBalance,1,0);IF(AbilityGreaterThan('Charisma',13,context.Source)):ActionResource(RestoreBalance,1,0);IF(AbilityGreaterThan('Charisma',15,context.Source)):ActionResource(RestoreBalance,1,0);IF(AbilityGreaterThan('Charisma',17,context.Source)):ActionResource(RestoreBalance,1,0);IF(AbilityGreaterThan('Charisma',19,context.Source)):ActionResource(RestoreBalance,1,0);IF(AbilityGreaterThan('Charisma',21,context.Source)):ActionResource(RestoreBalance,1,0);IF(AbilityGreaterThan('Charisma',23,context.Source)):ActionResource(RestoreBalance,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6904df09-acb9-40be-ae2a-0116e540625a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0760afc2g8dcegf074g4f57g884f001c7d9e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9363b64fg9775gd54eg1f42g92939094253b" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10206" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BastionOfLaw);" />
       </fields>
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">

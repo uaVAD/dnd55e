@@ -415,6 +415,39 @@
         <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c0af732-25a5-4b38-91d4-372943c127be" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SORCERER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41a7fc1f-e928-44bf-b8d5-07eda37975ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_RestoreBalance_NegateAdvantage" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ed6c9e8gda3agd358gefd4gde8c0591a01e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbc25fac8gb48eg59a1gb63eg766af1e2e342" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_3_RestoreBalance" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and ((HasInterruptedAttack() and IsRerollInterruptInteresting(context.Source) and Enemy(context.Source, context.Observer)) or (HasInterruptedSavingThrow() and IsRerollInterruptInteresting() and Enemy(context.Target, context.Observer))) and not AnyEntityIsItem() and InterruptHasAdvantage();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="SetDisadvantage();" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;RestoreBalance:1;" />
+        <field name="Stack" type="StringTableFieldDefinition" value="RestoreBalance" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="276e887f-e469-4e1a-82a5-fa7c2c713a72" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_RestoreBalance_NegateDisadvantage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="41a7fc1f-e928-44bf-b8d5-07eda37975ae" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19f611d1g3d11g7a46g194eg9cb9032b0e08" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and ((HasInterruptedAttack() and IsRerollInterruptInteresting(context.Source) and not Enemy(context.Source, context.Observer)) or (HasInterruptedSavingThrow() and IsRerollInterruptInteresting() and not Enemy(context.Target, context.Observer))) and not AnyEntityIsItem() and InterruptHasDisadvantage();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="SetAdvantage();" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />

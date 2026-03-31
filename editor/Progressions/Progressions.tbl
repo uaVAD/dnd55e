@@ -4628,7 +4628,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SorceryPoint,1,0)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f80396e2-cb76-4694-b0db-5c34da61a478,1,2,SorcererSpell)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="36286b0a-26f9-4b4e-9311-fd1404301d20;b443a7fa-b36a-4cbc-9e4b-f3167de34d1b;d379fdae-b401-4731-8d50-277c73919ae3;14374d37-a70e-41a8-9dc5-85a23f8b5dd2;ee5a89b5-21c6-419e-8b30-aecf929bd7d7" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="ee5a89b5-21c6-419e-8b30-aecf929bd7d7;886e988c-1d77-43ad-a0a9-f1e48c56d29b;36286b0a-26f9-4b4e-9311-fd1404301d20;b443a7fa-b36a-4cbc-9e4b-f3167de34d1b;d379fdae-b401-4731-8d50-277c73919ae3;14374d37-a70e-41a8-9dc5-85a23f8b5dd2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5015,6 +5015,62 @@
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(139bfb82-1a15-40a6-b2fd-f85b2b8bc764)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_616" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cc859d9c-8ade-4d23-b710-c50b188b6b44" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="cc859d9c-8ade-4d23-b710-c50b188b6b44" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Clockwork" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Clockwork_3_ClockworkSpells;Clockwork_3_RestoreBalance;Clockwork_3_RestoreBalance_Resource" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(207190bb-3e24-45f3-b867-05481f67f402)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_617" />
+        <field name="UUID" type="IdTableFieldDefinition" value="23da49c7-d616-47e7-b6d5-73be503d58bd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="cc859d9c-8ade-4d23-b710-c50b188b6b44" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Clockwork" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(77ac0918-1d88-4997-9b18-fe5abc50b687)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_618" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1e2c39d1-0b58-4622-96af-aee5336b1d29" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="cc859d9c-8ade-4d23-b710-c50b188b6b44" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Clockwork" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_619" />
+        <field name="UUID" type="IdTableFieldDefinition" value="12963a1c-2951-4191-9e75-2e65b8ce6703" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="cc859d9c-8ade-4d23-b710-c50b188b6b44" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Clockwork" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(34e8d166-7169-403d-9a42-a19c4a4cbe96)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_620" />
+        <field name="UUID" type="IdTableFieldDefinition" value="011e1541-085d-486e-8df1-2c73cd0c1c3c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="cc859d9c-8ade-4d23-b710-c50b188b6b44" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Clockwork" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c8347140-5b61-477a-b3d4-b5c6c2075343)" />
       </fields>
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
