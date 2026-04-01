@@ -21,7 +21,7 @@
                 </node>
                 <node id="SkillList">
                     <attribute id="Name" type="FixedString" value="5.5 Elf Keen Senses"/>
-                    <attribute id="Skills" type="LSString" value="Insight, Perception, Survival "/>
+                    <attribute id="Skills" type="LSString" value="Insight,Perception,Survival "/>
                     <attribute id="UUID" type="guid" value="50b06c2b-a523-4950-9c1f-a246e1e0f8ec"/>
                 </node>
             </children>

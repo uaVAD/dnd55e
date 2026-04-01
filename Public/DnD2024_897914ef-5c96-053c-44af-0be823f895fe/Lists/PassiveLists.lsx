@@ -180,14 +180,14 @@
                     <attribute id="UUID" type="guid" value="5d87ff80-3037-4018-9aa9-3abb18d248d4"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Feat Tough"/>
-                    <attribute id="Passives" type="LSString" value="Tough"/>
-                    <attribute id="UUID" type="guid" value="9623a438-58c9-4857-a681-6e9691a459e3"/>
-                </node>
-                <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Feat TavernBrawler"/>
                     <attribute id="Passives" type="LSString" value="TavernBrawler"/>
                     <attribute id="UUID" type="guid" value="22254a0a-d047-48af-802d-a99af005b2a0"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Feat Tough"/>
+                    <attribute id="Passives" type="LSString" value="Tough"/>
+                    <attribute id="UUID" type="guid" value="9623a438-58c9-4857-a681-6e9691a459e3"/>
                 </node>
                 <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Fighter fighting style"/>
@@ -208,6 +208,11 @@
                     <attribute id="Name" type="FixedString" value="Human Origin Feat"/>
                     <attribute id="Passives" type="LSString" value="Alert,Healer,Lucky_Unlock,OriginFeat_MagicInitiate_Cleric,OriginFeat_MagicInitiate_Druid,OriginFeat_MagicInitiate_Wizard,Performer,SavageAttacker,OriginFeat_Skilled,TavernBrawler,Tough"/>
                     <attribute id="UUID" type="guid" value="51988e80-d7cc-4351-aa7d-83b8ba3f989a"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Elf Keen Sense List"/>
+                    <attribute id="Passives" type="LSString" value="Insight,Perception,Survival "/>
+                    <attribute id="UUID" type="guid" value="8738b757-88a6-424b-bec4-7807c7af8f70"/>
                 </node>
             </children>
         </node>

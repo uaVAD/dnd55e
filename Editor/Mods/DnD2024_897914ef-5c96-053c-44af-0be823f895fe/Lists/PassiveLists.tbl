@@ -282,5 +282,12 @@
         <field name="Passives" type="StringTableFieldDefinition" value="Alert,Healer,Lucky_Unlock,OriginFeat_MagicInitiate_Cleric,OriginFeat_MagicInitiate_Druid,OriginFeat_MagicInitiate_Wizard,Performer,SavageAttacker,OriginFeat_Skilled,TavernBrawler,Tough" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8738b757-88a6-424b-bec4-7807c7af8f70" />
+        <field name="Name" type="NameTableFieldDefinition" value="Elf Keen Sense List" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Insight,Perception,Survival " />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
