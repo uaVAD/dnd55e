@@ -2425,7 +2425,7 @@ data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
 data "Rarity" "Uncommon"
 data "WeaponFunctors" "GROUND:IF(HasStatus('BURNING',context.Source)):SurfaceChange(Ignite)"
 data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
-data "PassivesOnEquip" "HeavyWeapon_Melee;HeavyWeapon_Melee;WeaponMasteryGraze;"
+data "PassivesOnEquip" "HeavyWeapon_Melee;WeaponMasteryGraze;"
 data "Unique" "1"
 data "Weapon Properties" "Twohanded;Heavy;Melee"
 
