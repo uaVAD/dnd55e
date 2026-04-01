@@ -1717,4 +1717,5 @@ You can use this trait a number of times equal to your Proficiency Bonus, and yo
   <content contentuid="he98b170fg0b2bg4502g8a0fg3f8f765d62aa" version="1">You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.</content>
   <content contentuid="hebe3b6e0g1e21g24c8g8ce2gd9aaa9e5dde4" version="1">High Elf Cantrip</content>
   <content contentuid="h9adf7805gb424g309ag6e71g53eca41cd8d5" version="1">You may change your cantrip by selecting another one from the Wizard spell list below. This cantrip doesn't use &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; and can be cast at will.</content>
+  <content contentuid="h9b697d45g3dd3gf371g2860g7b65899c8fc7" version="1">Resistance</content>
 </contentList>

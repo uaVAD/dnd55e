@@ -226,10 +226,13 @@ data "OnRemoveFunctors" "RemoveStatus(RESISTANCE_OSIRIS);RemoveStatus(RESISTANCE
 new entry "RESISTANCE_OSIRIS"
 type "StatusData"
 data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 new entry "RESISTANCE_0"
 type "StatusData"
 data "StatusType" "BOOST"
+data "Description" "h9b697d45g3dd3gf371g2860g7b65899c8fc7;1"
+data "StackId" "RESISTANCE_0"
 data "Boosts" "DamageReduction(All,Flat,1);"
 data "RemoveEvents" "OnDamage"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"

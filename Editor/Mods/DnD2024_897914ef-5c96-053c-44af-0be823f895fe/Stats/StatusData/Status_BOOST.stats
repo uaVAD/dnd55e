@@ -288,6 +288,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6d0d70ea-438c-4947-915c-bf42c777e1b4" />
         <field name="Name" type="NameTableFieldDefinition" value="RESISTANCE_OSIRIS" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -297,6 +298,8 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All,Flat,1);" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9b697d45g3dd3gf371g2860g7b65899c8fc7" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RESISTANCE_0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
