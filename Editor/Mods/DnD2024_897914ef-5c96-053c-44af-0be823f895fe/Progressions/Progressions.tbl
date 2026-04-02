@@ -5591,7 +5591,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="GreatOldOne" />
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Thought_Shield_Psychic_Resistance;Thought_Shield_Psychic_Reflection" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Thought_Shield_Psychic_Resistance;GreatOldOne_10_EldritchHex" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(0d32b355-c548-4d51-88a6-9cd790e6de62)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

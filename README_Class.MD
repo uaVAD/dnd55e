@@ -379,12 +379,12 @@
 - Level 6: Dark One's Own Luck
 - Level 10: Fiendish Resilience
 ### Great Old One [ ]
-- Level 3: Awakened Mind [ ]
 - Level 3: Great Old One Spells
+- Level 3: Mortal Reminder
 - Level 3: Psychic Spells [ ]
-- Level 6: Clairvoyant Combatant [ ]
-- Level 10: Eldritch Hex [ ]
-- Level 10: Thought Shield [ ]
+- Level 6: EntropicWard
+- Level 10: Eldritch Hex
+- Level 10: Thought Shield
 ### Hexblade
 - Level 3: Hexblade Spells
 ## Wizard [ ]

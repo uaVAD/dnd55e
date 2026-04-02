@@ -2153,7 +2153,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(1d10);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value=" IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
@@ -2179,10 +2179,70 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.ClassLevel(Warlock)+Cause.CharismaModifier);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value=" IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6695955b-8b5a-4094-8a5c-608c8f36b15c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELDRITCH_HEX_STRENGTH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0d08bcc2-eaca-409a-a2d8-1f8ec3987b6a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8c7613e8g0898g642cg3ecagacb04ea736f7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb6a93cc1gf0edgea86g2a35gf0e952666978" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Strength);Disadvantage(SavingThrow, Strength);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="559a37ee-d468-45ad-acc5-8f9ee7ade1c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELDRITCH_HEX_DEXTERITY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c65d7e8-4769-411e-8c54-dbaa3acd6404" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha93766bcge230gbf23g5b7cgae5b74ac50c3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99a0b10fg027fga188g2137g2653a7759874" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Dexterity);Disadvantage(SavingThrow, Dexterity);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ddce3986-d498-4af3-9c03-a4f4c14cb3a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELDRITCH_HEX_CONSTITUTION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7911eb12-15aa-4006-933b-276213727509" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha5080f3bg7a16gdf7cg0ad8gf7cb0751f103" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha1b537d6gb014g4e76gdd96g37cbe829c37c" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Constitution);Disadvantage(SavingThrow, Constitution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="464b90ef-fb1f-4050-b70f-e4078ea5269f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELDRITCH_HEX_INTELLIGENCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5395d32e-4815-4db9-9c3c-f27fd40fd43c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d72d302gdd5dg712agaafdg2baf7f5356d6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85242573gb807g8f1eg76beg922d8d905e93" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Intelligence);Disadvantage(SavingThrow, Intelligence);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a40f1d0-e8ee-4401-97f8-736524081cdf" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELDRITCH_HEX_WISDOM" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16f5bc4a-d643-4984-89fb-d2cae0b56062" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2ca41adg3416g331eg5d18g8165647c1fa4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3c6667d4gfa1bgc9b9g5be0gb270c5c555d5" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Wisdom);Disadvantage(SavingThrow, Wisdom);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e75451d5-8f31-460d-a4ff-3189cd6124f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELDRITCH_HEX_CHARISMA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce07c48e-b024-4459-b47d-3ce2d5bc5c04" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb09d35e6g4dd1g0784g8c7fgc7f20e0d9670" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99239365g1e0eg35cfgc2edg0a2bbfb668ae" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Charisma);Disadvantage(SavingThrow, Charisma);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

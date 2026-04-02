@@ -1267,7 +1267,7 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Psychic)" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7bf6d45c-a16d-4c80-b74b-0de81ff6fd13" />
         <field name="Name" type="NameTableFieldDefinition" value="__ENCHANTMENT__SLEVEL__1" />
@@ -1311,7 +1311,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Strength" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fed088b-4166-4434-9904-77a8356b2ab5" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);ApplyStatus(HEX_STRENGTH,100,-1)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_STRENGTH,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_STRENGTH,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h380fb49dg3e47g7b02gf89dge802681c350e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2237238fg8d1fgafb3g32e9ge243c83acb05" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HEX_STRENGTH,100,-1)" />
@@ -1326,7 +1326,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Dexterity" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37545771-8cf3-45a2-91b9-62c8bd83a883" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);ApplyStatus(HEX_DEXTERITY,100,-1)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_DEXTERITY,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_DEXTERITY,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4237c162g3b21g9ad5gbb24gfcac91a66def" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9de3bf52g05b5ge6b3g5e7fgcfe595cd5d02" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HEX_DEXTERITY,100,-1)" />
@@ -1339,7 +1339,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Constitution" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37545771-8cf3-45a2-91b9-62c8bd83a883" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);ApplyStatus(HEX_CONSTITUTION,100,-1)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_CONSTITUTION,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_CONSTITUTION,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5237054dgbd17gc3dagc39cg00fae637b62d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4cdd970cg98a9g8973ga41eg3a0152f76dc6" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HEX_CONSTITUTION,100,-1)" />
@@ -1352,7 +1352,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Intelligence" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37545771-8cf3-45a2-91b9-62c8bd83a883" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);ApplyStatus(HEX_INTELLIGENCE,100,-1)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_INTELLIGENCE,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_INTELLIGENCE,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbea57063g0a4cg9437g0425g09d1d0f11ebd" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hba170a9fg16c5g2958gb01bg45ea03cb9d9d" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HEX_INTELLIGENCE,100,-1)" />
@@ -1365,7 +1365,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Wisdom" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37545771-8cf3-45a2-91b9-62c8bd83a883" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);ApplyStatus(HEX_WISDOM,100,-1)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_WISDOM,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_WISDOM,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h830830a0g7b58gd836gd2ceg2928e77472c1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd0159c36g4f28g7ca7g887dga2bf48ba4acd" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HEX_WISDOM,100,-1)" />
@@ -1378,7 +1378,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Charisma" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37545771-8cf3-45a2-91b9-62c8bd83a883" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);ApplyStatus(HEX_CHARISMA,100,-1)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_CHARISMA,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_CHARISMA,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc904ec1agac4cgacb6g35dfg81038f9c3e4f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7362e90bg474ag92ddg105fg55c4d3f42ec4" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HEX_CHARISMA,100,-1)" />
@@ -1578,7 +1578,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Reapply_Strength" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37f7f5f5-222d-4613-a4b5-e31b6865d419" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex_Reapply" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,,true);ApplyStatus(HEX_STRENGTH,100,-1,,,,,true);RemoveStatus(SELF,HEX_REAPPLY)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,,true);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_STRENGTH,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_STRENGTH,100,-1);RemoveStatus(SELF,HEX_REAPPLY);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h365cad4egf41dg3be3g2556g60c4f94dca47" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha11a0af0gf1fdg6d14gc928g6c0b30819c32" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_ReapplyHex_Strenght" />
@@ -1591,7 +1591,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Reapply_Dexterity" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37f7f5f5-222d-4613-a4b5-e31b6865d419" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex_Reapply" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,,true);ApplyStatus(HEX_DEXTERITY,100,-1,,,,,true);RemoveStatus(SELF,HEX_REAPPLY)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,,true);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_DEXTERITY,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_DEXTERITY,100,-1);RemoveStatus(SELF,HEX_REAPPLY);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h08115bbbgf0d0gd268g5ce9g6d73edc1f0dc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d10531bg4d81g6ccegbf1bgda8710332c45" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_ReapplyHex_Dexterity" />
@@ -1604,7 +1604,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Reapply_Constitution" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37f7f5f5-222d-4613-a4b5-e31b6865d419" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex_Reapply" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,,true);ApplyStatus(HEX_CONSTITUTION,100,-1,,,,,true);RemoveStatus(SELF,HEX_REAPPLY)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,,true);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_CONSTITUTION,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_CONSTITUTION,100,-1);RemoveStatus(SELF,HEX_REAPPLY);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc51bf50bg7affgbbefgf975ga57d608a8b19" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd9a8ca0ag30cagfb8agbc55g0402f2d4ba55" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_ReapplyHex_Constitution" />
@@ -1617,7 +1617,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Reapply_Intelligence" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37f7f5f5-222d-4613-a4b5-e31b6865d419" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex_Reapply" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,,true);ApplyStatus(HEX_INTELLIGENCE,100,-1,,,,,true);RemoveStatus(SELF,HEX_REAPPLY)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,,true);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_INTELLIGENCE,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_INTELLIGENCE,100,-1);RemoveStatus(SELF,HEX_REAPPLY);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86c9143ega058g12f9g6c50ga755dfac9985" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h58e709b8gc090g659agd6b3g9e417bbbda73" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_ReapplyHex_Intelligence" />
@@ -1630,7 +1630,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Reapply_Wisdom" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37f7f5f5-222d-4613-a4b5-e31b6865d419" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex_Reapply" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,,true);ApplyStatus(HEX_WISDOM,100,-1,,,,,true);RemoveStatus(SELF,HEX_REAPPLY)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,,true);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_WISDOM,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_WISDOM,100,-1);RemoveStatus(SELF,HEX_REAPPLY);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa7f6205ge320g224eg9c60g341254b00f5d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h43d4b358gb8f2ga4c7g6624g8428e6a2d7e0" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_ReapplyHex_Wisdom" />
@@ -1643,7 +1643,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hex_Reapply_Charisma" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37f7f5f5-222d-4613-a4b5-e31b6865d419" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Hex_Reapply" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,, true);ApplyStatus(HEX_CHARISMA,100,-1,,,,,true);RemoveStatus(SELF,HEX_REAPPLY)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HEX_OWNER,100,-1,,,,, true);IF(not HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(HEX_CHARISMA,100,-1);IF(HasPassive('GreatOldOne_10_EldritchHex',context.Source)):ApplyStatus(ELDRITCH_HEX_CHARISMA,100,-1);RemoveStatus(SELF,HEX_REAPPLY);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f62ceafgc618g1146g5257g5408af5dab65" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc1282babgcb3dge035g6100g9c90f22e8322" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_ReapplyHex_Charisma" />
@@ -6270,7 +6270,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5d8d21c0-0c86-4a70-b47a-c8477ccfbbb5" />
         <field name="Name" type="NameTableFieldDefinition" value="HealingLight_1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="598202d2-b155-4893-8798-1c85860fb80c" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="Target_HealingLight;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_HealingLight" />
       </fields>

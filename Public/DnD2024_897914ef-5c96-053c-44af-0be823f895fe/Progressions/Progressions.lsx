@@ -4345,8 +4345,9 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="GreatOldOne"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Thought_Shield_Psychic_Resistance;Thought_Shield_Psychic_Reflection"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Thought_Shield_Psychic_Resistance;GreatOldOne_10_EldritchHex"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0d32b355-c548-4d51-88a6-9cd790e6de62)"/>
                     <attribute id="TableUUID" type="guid" value="216e779e-3452-466c-933d-fb5723b90802"/>
                     <attribute id="UUID" type="guid" value="0bddcd15-58e7-40d2-8b44-8197ea6b540c"/>
                 </node>

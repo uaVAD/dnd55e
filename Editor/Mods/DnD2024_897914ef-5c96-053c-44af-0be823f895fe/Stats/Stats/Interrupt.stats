@@ -504,6 +504,32 @@
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd70c9f2-c3b7-4409-9aca-727a04f0e631" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_EntropicWard_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="90a5dbbe-d109-4c0b-883f-02911295d57b" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;WarlockSpellSlot:1:3;" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0eb1dd1c-b6a5-4375-959e-fb8a1666d78f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_EntropicWard_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dd70c9f2-c3b7-4409-9aca-727a04f0e631" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;WarlockSpellSlot:1:4;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73e78446-4328-4032-8f73-eb18b2ddcd60" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_EntropicWard_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dd70c9f2-c3b7-4409-9aca-727a04f0e631" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;WarlockSpellSlot:1:5;" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />

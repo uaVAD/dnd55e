@@ -3750,14 +3750,72 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5f67d7f8-04d3-47fd-a8bf-cc94f39a29af" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a05b5ec8-eda2-400c-9b57-2b8898212618" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkOnesOwnLuck" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c5752dae-6b9b-4637-94e8-7a5a0b79eedf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbbedb4f1g60d4g6ed0gb97bg90c73d16c026" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11306" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="64bc60bb-ea9f-4183-8e9b-aa1da0d4e2bc" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="802eeb76-d02c-4ae6-bc8d-12d908bbc84d" />
+        <field name="Name" type="NameTableFieldDefinition" value="FiendishResilience" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="168f7cad-6867-4cf4-ad69-850bca05c103" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h975e39acg9a17g2ad0g477cgf30fdb0bf07d" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11310" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="615e9afd-6a0f-4801-8251-96e74a9fa1e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GREAT OLD ONE 11400__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe0e5044-8595-4f58-9bb4-888483de8063" />
+        <field name="Name" type="NameTableFieldDefinition" value="ClarifiedMortality" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="173cefd5-a5df-4fa2-8bab-1f12f95fc8da" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbfafa7a4g3ea7g96f1gcfebg2da208843ab2" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ce5cf57-f715-430f-a25c-3c63c6c3d370" />
+        <field name="Name" type="NameTableFieldDefinition" value="EntropicWard" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bd19820-5c02-4483-8b82-d4cd8ea1dd2f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2af9e353ga54bg35f7gcc87g05adfcd9b61a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0eb341bcgb4f9g7430gafc5g64f46cf69004" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_EntropicWard);UnlockInterrupt(Interrupt_EntropicWard_3);UnlockInterrupt(Interrupt_EntropicWard_4);UnlockInterrupt(Interrupt_EntropicWard_5);ActionResource(Interrupt_EntropicWard_Charge,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ecc35b0-71dc-4f1f-8f35-90e78f123cf8" />
+        <field name="Name" type="NameTableFieldDefinition" value="GreatOldOne_10_EldritchHex" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb863e7fcg144ag2f29gf920g0935073a7b56" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8719a67ag57begdc42g8448g9aa4c0635f13" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Hex" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11410" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c51c1307-ae43-4894-8bbd-83a60cf1445f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thought_Shield_Psychic_Resistance" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39b2dc03-cb46-46b9-b1dc-ac258591a176" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he825a41dg5c3bgb501g5e02gc52e109b7efa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbb495285gca5fg5ea5g19a8g7daed758d05f" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11410" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic,Resistant);RedirectDamage(1,,Psychic,true);" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">

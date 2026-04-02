@@ -1343,6 +1343,11 @@
                     <attribute id="UUID" type="guid" value="2fce11f8-338b-43c2-a2cf-d13834c689bd"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="High Elf Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_MistyStep"/>
+                    <attribute id="UUID" type="guid" value="02686970-eb05-450f-8d17-fa1ddbea9295"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Wood Elf Level 3"/>
                     <attribute id="Spells" type="LSString" value="Target_Longstrider"/>
                     <attribute id="UUID" type="guid" value="5aa61fcb-8b06-402f-9288-48d5a86a0636"/>
@@ -1353,34 +1358,14 @@
                     <attribute id="UUID" type="guid" value="68acd617-9764-4a8b-9c91-6ddefc84f309"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="High Elf Level 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_MistyStep"/>
-                    <attribute id="UUID" type="guid" value="02686970-eb05-450f-8d17-fa1ddbea9295"/>
-                </node>
-                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Drow Level 5"/>
                     <attribute id="Spells" type="LSString" value="Target_Darkness"/>
                     <attribute id="UUID" type="guid" value="01f43aaa-1641-419d-bfd2-1dff1f033a52"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Tief Infernal Level 3"/>
-                    <attribute id="Spells" type="LSString" value="Shout_HellishRebuke"/>
-                    <attribute id="UUID" type="guid" value="09a912a1-3403-497e-9e78-a5a7e7af3e26"/>
-                </node>
-                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Tief Abyssal Level 1"/>
                     <attribute id="Spells" type="LSString" value="Projectile_PoisonSpray"/>
                     <attribute id="UUID" type="guid" value="03313193-d4b4-471a-b6ac-57fc4082ff5d"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Tief Chthonic Level 1"/>
-                    <attribute id="Spells" type="LSString" value="Target_ChillTouch"/>
-                    <attribute id="UUID" type="guid" value="ae2f64b5-aea1-475a-8066-f89988f45ac3"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Tief Infernal Level 1"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_FireBolt"/>
-                    <attribute id="UUID" type="guid" value="50aae515-92fe-455b-ac0b-cbda60c2b8f2"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Tief Abyssal Level 3"/>
@@ -1393,6 +1378,11 @@
                     <attribute id="UUID" type="guid" value="28e6dff6-f95d-4142-bdad-6dbd44c216a0"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Tief Chthonic Level 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_ChillTouch"/>
+                    <attribute id="UUID" type="guid" value="ae2f64b5-aea1-475a-8066-f89988f45ac3"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Tief Chthonic Level 3"/>
                     <attribute id="Spells" type="LSString" value="Shout_FalseLife"/>
                     <attribute id="UUID" type="guid" value="ec365b5c-c968-4a9e-ad07-f8a54a243c1b"/>
@@ -1403,9 +1393,24 @@
                     <attribute id="UUID" type="guid" value="f4a12dc4-edd6-4987-a8f5-faa39ca33236"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Tief Infernal Level 1"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_FireBolt"/>
+                    <attribute id="UUID" type="guid" value="50aae515-92fe-455b-ac0b-cbda60c2b8f2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Tief Infernal Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_HellishRebuke"/>
+                    <attribute id="UUID" type="guid" value="09a912a1-3403-497e-9e78-a5a7e7af3e26"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Tief Infernal Level 5"/>
                     <attribute id="Spells" type="LSString" value="Target_Darkness"/>
                     <attribute id="UUID" type="guid" value="36cd7889-8a59-4ddd-b65a-cb96fa358992"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One Level 10"/>
+                    <attribute id="Spells" type="LSString" value="Target_Hex"/>
+                    <attribute id="UUID" type="guid" value="0d32b355-c548-4d51-88a6-9cd790e6de62"/>
                 </node>
             </children>
         </node>
