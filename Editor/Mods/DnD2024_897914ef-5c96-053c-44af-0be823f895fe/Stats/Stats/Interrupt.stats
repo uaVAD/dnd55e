@@ -530,6 +530,54 @@
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;WarlockSpellSlot:1:5;" />
       </fields>
     </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="abd271fb-37a4-4173-9cc5-d6aae0955f4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WIZARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c1a01a7-7106-449f-8a80-f10922f0ff32" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_IllusorySelf_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ca2ae276-1b65-4f56-bb5e-4b4089056739" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f18e031-dcaf-4789-b9ea-20e95e937301" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_IllusorySelf_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c1a01a7-7106-449f-8a80-f10922f0ff32" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;SpellSlotsGroup:1:1:3;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15fe25d2-93af-4b65-83cf-3156738e9236" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_IllusorySelf_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c1a01a7-7106-449f-8a80-f10922f0ff32" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;SpellSlotsGroup:1:1:4;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="343a8b87-f0dc-448e-86c3-c9079419696b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_IllusorySelf_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c1a01a7-7106-449f-8a80-f10922f0ff32" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;SpellSlotsGroup:1:1:5;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9bb1e9a4-9f8c-4ed7-b960-8898ca8a132d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_IllusorySelf_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c1a01a7-7106-449f-8a80-f10922f0ff32" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;SpellSlotsGroup:1:1:6;" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />

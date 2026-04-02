@@ -387,7 +387,7 @@
 - Level 10: Thought Shield
 ### Hexblade
 - Level 3: Hexblade Spells
-## Wizard [ ]
+## Wizard
 - Core Traits
   - Skill Proficiencies
   - Weapon Proficiencies
@@ -396,14 +396,15 @@
 - Level 1: Arcane Recovery
 - Level 2: Ritual Adept
 - Level 2: Scholar
-### Abjurer [ ]
+### Abjurer
 ### Bladesinger [ ]
-### Diviner [ ]
+### Diviner
 ### Evoker
 - Level 3: Potent Cantrip
 - Level 6: Sculpt Spells
 - Level 10: Empowered Evocation
-### Illusionist [ ]
+### Illusionist
+- Level 10: Illusory Self
 ## Artificer
 ## Gunslinger
 ## Illrigger

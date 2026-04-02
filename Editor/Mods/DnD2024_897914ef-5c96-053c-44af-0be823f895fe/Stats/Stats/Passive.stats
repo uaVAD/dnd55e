@@ -3879,6 +3879,23 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12110" />
       </fields>
     </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3985ba97-77b8-44ca-89a3-072f37eabb95" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WIZARD ILLUSIONIST__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="17544998-e7aa-49ff-a1bb-1de40a451534" />
+        <field name="Name" type="NameTableFieldDefinition" value="IllusorySelf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b9dee4a-765b-4ae6-b7b2-bd7da5b8c044" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2fccb783g0014g25e8g73fbg7879e3ab30ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd251b05fg755bge84dgf97egf45679814510" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12210" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_IllusorySelf);UnlockInterrupt(Interrupt_IllusorySelf_2);UnlockInterrupt(Interrupt_IllusorySelf_3);UnlockInterrupt(Interrupt_IllusorySelf_4);UnlockInterrupt(Interrupt_IllusorySelf_5);UnlockInterrupt(Interrupt_IllusorySelf_6);ActionResource(Interrupt_IllusorySelf_Charge,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="056a0c12-3e41-4e67-a705-01e9fea8219f" />

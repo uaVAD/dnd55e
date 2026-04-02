@@ -2802,6 +2802,17 @@ using "EmpoweredEvocation"
 data "DisplayName" "h4df2acb8g6e7eg6b07ga5afg05bc5f965277;1"
 data "PriorityOrder" "12110"
 
+new entry "__WIZARD ILLUSIONIST__"
+type "PassiveData"
+
+new entry "IllusorySelf"
+type "PassiveData"
+using "IllusorySelf"
+data "DisplayName" "h2fccb783g0014g25e8g73fbg7879e3ab30ce;1"
+data "Description" "hd251b05fg755bge84dgf97egf45679814510;1"
+data "PriorityOrder" "12210"
+data "Boosts" "UnlockInterrupt(Interrupt_IllusorySelf);UnlockInterrupt(Interrupt_IllusorySelf_2);UnlockInterrupt(Interrupt_IllusorySelf_3);UnlockInterrupt(Interrupt_IllusorySelf_4);UnlockInterrupt(Interrupt_IllusorySelf_5);UnlockInterrupt(Interrupt_IllusorySelf_6);ActionResource(Interrupt_IllusorySelf_Charge,1,0);"
+
 new entry "__FIGHTING STYLE FEAT__"
 type "PassiveData"
 
