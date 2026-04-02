@@ -243,7 +243,6 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Push', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and IsHit();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(TargetSizeEqualOrSmaller(Size.Large)):Force(3);" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Push', context.Source);" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -256,7 +255,6 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_SAP,100,1)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ConcussiveSmash" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Sap', context.Source);" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Sap', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and IsHit();" />
       </fields>
     </stat_object>
@@ -270,7 +268,6 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_SLOW,100,1)" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Slow', context.Source);" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Slow', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and IsHit();" />
       </fields>
     </stat_object>
@@ -284,7 +281,6 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Topple" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WeaponAttackRollAbility(Ability.Strength)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()));IF(WeaponAttackRollAbility(Ability.Dexterity)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()));IF(WeaponAttackRollAbility(Ability.Intelligence)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, IntAttackSaveDC()));IF(WeaponAttackRollAbility(Ability.Wisdom)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, WisAttackSaveDC()));IF(WeaponAttackRollAbility(Ability.Charisma)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ChaAttackSaveDC()));" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Topple', context.Source);" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Topple', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and IsHit();" />
       </fields>
     </stat_object>
@@ -298,7 +294,6 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_OpeningAttack" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_VEX,100,2)" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Vex', context.Source);" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Vex', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and IsHit();" />
       </fields>
     </stat_object>
@@ -345,7 +340,7 @@
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6fd4a879g6dd9g5936gc329gc012af72f9c6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Ranged" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
