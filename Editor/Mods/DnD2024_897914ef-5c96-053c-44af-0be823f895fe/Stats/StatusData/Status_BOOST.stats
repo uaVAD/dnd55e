@@ -534,7 +534,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f4cb13fa-cc17-4ac3-a182-716b99461f3e" />
         <field name="Name" type="NameTableFieldDefinition" value="CROWN_OF_MADNESS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bb5cb102-77f5-4f12-b2f9-728b94f11f1f" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'CROWN_OF_MADNESS',9) and SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'CROWN_OF_MADNESS',10) and SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -561,7 +561,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bb845123-372d-4ce1-8956-d350a97d8357" />
         <field name="Name" type="NameTableFieldDefinition" value="DOMINATE_BEAST" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="22e5714c-c13b-4957-9eb9-906ae38ba0a2" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'DOMINATE_BEAST',9) and SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'DOMINATE_BEAST',10) and SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -569,7 +569,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="620bd8d0-6e3e-415e-b761-6c5e1657b4f3" />
         <field name="Name" type="NameTableFieldDefinition" value="DOMINATE_PERSON" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="54821fa4-01b2-4e7d-912a-581f1aa4a16b" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'DOMINATE_PERSON',9) and SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'DOMINATE_PERSON',10) and SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed())" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -1495,6 +1495,14 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="7b211a00-eb33-42a0-9499-66f75b344b3b" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Druid)*3);ACOverrideFormula(13,true,Wisdom);IF(HasPassive('Moon_6_ImprovedCircleForms'),context.Source):RollBonus(SavingThrow, WisdomModifier, Constitution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45f1d599-7be4-42ca-8616-e3c3519b7db5" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_TEMPHP_DRUIDLEVEL_3X_NPC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f884536-39f7-4874-9eeb-9adf72fa6e8a" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Level*3);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

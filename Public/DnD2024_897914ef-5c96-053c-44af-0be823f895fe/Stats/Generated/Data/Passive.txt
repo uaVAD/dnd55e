@@ -1194,6 +1194,13 @@ data "StatsFunctorContext" "OnStatusApplied"
 data "Conditions" "StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape');"
 data "StatsFunctors" "ApplyStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X,100,-1)"
 
+new entry "WildShape_TempHP_NPC"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnStatusApplied"
+data "Conditions" "StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape');"
+data "StatsFunctors" "ApplyStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X_NPC,100,-1)"
+
 new entry "Moon_6_ImprovedCircleForms"
 type "PassiveData"
 data "DisplayName" "h4d3aa54bg7cf4g12d5g0d79g21d13c55e1c1;1"

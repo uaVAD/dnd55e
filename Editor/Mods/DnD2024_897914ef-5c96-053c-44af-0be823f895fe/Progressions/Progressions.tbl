@@ -7561,5 +7561,24 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_670" />
+        <field name="UUID" type="IdTableFieldDefinition" value="99597b6a-61a4-4763-85c5-ffe2e0573f7e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="__NPC__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_667" />
+        <field name="UUID" type="IdTableFieldDefinition" value="13b286a5-fb07-4944-97e9-58be14a32678" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60" />
+        <field name="FSName" type="StringTableFieldDefinition" value="NPC_Druid" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WildShape_TempHP_NPC" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
