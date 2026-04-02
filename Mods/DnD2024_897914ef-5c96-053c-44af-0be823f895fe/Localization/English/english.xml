@@ -1762,4 +1762,6 @@ You can use this trait a number of times equal to your Proficiency Bonus, and yo
   <content contentuid="hfd791ef7g7534g8fdcgba6ag9741c29e31d4" version="1">Your class’s description tells you the die type of your character’s Hit Point Dice (or Hit Dice for short). At level 1, your character has 1 Hit Die. You can spend Hit Dice to recover Hit Points.</content>
   <content contentuid="hc1919180g48a0ga814g77dega72819b9d91a" version="1">Heroic Inspiration: Reroll with Advantage (Saving Throw)</content>
   <content contentuid="h665b0831g0a27gcf47g1dafg16ce9df4ed5c" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+  <content contentuid="h3f7b8985g6d22gafeag4f95gff41b038514a" version="1">Interception</content>
+  <content contentuid="h2f17ec6fgaccfg9489ga33dg5178d82df62d" version="1">When a creature you can see hits another creature within 5 feet of you with an attack roll, you can take a Reaction to reduce the damage dealt to the target by 1d10 plus your Proficiency Bonus. You must be holding a Shield or a Simple or Martial weapon to use this Reaction.</content>
 </contentList>
