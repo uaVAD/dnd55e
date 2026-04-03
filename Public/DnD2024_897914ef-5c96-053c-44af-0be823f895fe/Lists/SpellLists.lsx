@@ -995,25 +995,25 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 2"/>
-                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Shout_ShadowBlade_Class;Projectile_RayOfEnfeeblement"/>
                     <attribute id="UUID" type="guid" value="854033fe-84b8-4a22-9a0c-ddc0eb2a74d1"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="648310a4-d9b7-4cf5-b6a0-51bd957a798f"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 2 to 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Shout_ShadowBlade_Class;Projectile_RayOfEnfeeblement"/>
                     <attribute id="UUID" type="guid" value="dabcf27d-e106-4ae6-9c01-1db6e415e170"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="94fb74d6-c832-40f1-9e08-159ce46091a1"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 2 to 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Shout_ShadowBlade_Class;Projectile_RayOfEnfeeblement"/>
                     <attribute id="UUID" type="guid" value="e0b5d4fd-6e04-46b6-bb95-aa4209e2a508"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="f2067e9a-2780-44d0-b696-1870cc537dd4"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 2 to 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Shout_ShadowBlade_Class;Projectile_RayOfEnfeeblement"/>
                     <attribute id="UUID" type="guid" value="e1cb738a-2adf-4cdf-b5c2-3adc6bf6c602"/>
                 </node>
                 <node id="SpellList">
@@ -1112,6 +1112,11 @@
                     <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 5"/>
                     <attribute id="Spells" type="LSString" value="Throw_Telekinesis"/>
                     <attribute id="UUID" type="guid" value="6d2edca9-71a7-4f3f-89f0-fccfff0bdee5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One Level 10"/>
+                    <attribute id="Spells" type="LSString" value="Target_Hex"/>
+                    <attribute id="UUID" type="guid" value="0d32b355-c548-4d51-88a6-9cd790e6de62"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 2"/>
@@ -1406,11 +1411,6 @@
                     <attribute id="Name" type="FixedString" value="Tief Infernal Level 5"/>
                     <attribute id="Spells" type="LSString" value="Target_Darkness"/>
                     <attribute id="UUID" type="guid" value="36cd7889-8a59-4ddd-b65a-cb96fa358992"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One Level 10"/>
-                    <attribute id="Spells" type="LSString" value="Target_Hex"/>
-                    <attribute id="UUID" type="guid" value="0d32b355-c548-4d51-88a6-9cd790e6de62"/>
                 </node>
             </children>
         </node>

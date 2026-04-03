@@ -1378,14 +1378,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="854033fe-84b8-4a22-9a0c-ddc0eb2a74d1" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock SLevel 2" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Shout_ShadowBlade_Class;Projectile_RayOfEnfeeblement" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dabcf27d-e106-4ae6-9c01-1db6e415e170" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock SLevel 2 to 5" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Shout_ShadowBlade_Class;Projectile_RayOfEnfeeblement" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="648310a4-d9b7-4cf5-b6a0-51bd957a798f" />
       </fields>
     </stat_object>
@@ -1393,7 +1393,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e0b5d4fd-6e04-46b6-bb95-aa4209e2a508" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock SLevel 2 to 4" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Shout_ShadowBlade_Class;Projectile_RayOfEnfeeblement" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="94fb74d6-c832-40f1-9e08-159ce46091a1" />
       </fields>
     </stat_object>
@@ -1401,7 +1401,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e1cb738a-2adf-4cdf-b5c2-3adc6bf6c602" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock SLevel 2 to 3" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Shout_ShadowBlade_Class;Projectile_RayOfEnfeeblement" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f2067e9a-2780-44d0-b696-1870cc537dd4" />
       </fields>
     </stat_object>
