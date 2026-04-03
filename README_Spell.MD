@@ -53,6 +53,7 @@
 - Mind Spike
 - Misty Step
 - Ray of Enfeeblement
+- Shadow Blade
 - Snilloc's Snowball Swarm
 - Spiritual Weapon
 - Tasha's Mind Whip
