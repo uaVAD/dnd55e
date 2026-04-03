@@ -3308,6 +3308,8 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10,Necrotic,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d10,Necrotic)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d10/2,Necrotic,Magical);" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3319,6 +3321,8 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10,Necrotic,Magical)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d10,Necrotic)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d10/2,Necrotic,Magical);" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3330,6 +3334,8 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10,Necrotic,Magical)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d10,Necrotic)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d10/2,Necrotic,Magical);" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3341,6 +3347,8 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Necrotic,Magical)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d10,Necrotic)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Necrotic,Magical);" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3352,6 +3360,8 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Necrotic,Magical)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d10,Necrotic)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Necrotic,Magical);" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3363,6 +3373,8 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d10,Necrotic,Magical)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d10,Necrotic)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d10/2,Necrotic,Magical);" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3374,6 +3386,8 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Necrotic,Magical)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d10,Necrotic)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Necrotic,Magical);" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
