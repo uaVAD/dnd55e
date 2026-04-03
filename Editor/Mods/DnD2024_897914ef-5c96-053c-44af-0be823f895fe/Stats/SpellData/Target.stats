@@ -207,6 +207,12 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(12d4+SpellCastingAbilityModifier);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="862ae5fd-5c11-423c-8235-51da6995d0de" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ABJURATION__SLEVEL_2__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9b7a62d9-7bbd-4f53-a59f-82a29c828324" />
@@ -339,6 +345,70 @@
         <field name="Name" type="NameTableFieldDefinition" value="DEN_BearReward_LesserRestoration" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="281fcd05-f5a2-4619-942c-83ee24271853" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5eb55c0d-2892-4a78-bdf4-c52fb7893b81" />
+        <field name="Name" type="NameTableFieldDefinition" value="WardingBond" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00ec1220-f8ad-44c1-9125-89901b606642" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hca956f6fg7446gdf7fg60bag36e7853ca0c9" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53ffe427-e270-478d-a57b-a1bd4f715823" />
+        <field name="Name" type="NameTableFieldDefinition" value="WardingBond_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aa371818-f1b7-4d36-ae58-6e7ac2ed1419" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd0f268c5ga792g388ag89beg27993a801b4e" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a32c217f-4480-40eb-87e0-94e11847f52b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WardingBond_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39a55cb1-fc08-42dc-abc7-fabae811cbcd" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hddf1d80agc605gd10ageadfg364f889fcd0e" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f526ec2-21e5-4ea1-a2ce-8917cc477676" />
+        <field name="Name" type="NameTableFieldDefinition" value="WardingBond_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7ab4b0f0-5130-4ce2-9241-30ac170287a5" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hfb95ce72g8252ge83fg5316gf6e8f6c45584" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60ae14bc-edfa-4075-8713-2f845480fe14" />
+        <field name="Name" type="NameTableFieldDefinition" value="WardingBond_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="553ad447-85e1-4261-af93-b5fd9a80b33a" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hacd0f311gff68ge0cegd678g80ea9a8ee794" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0df6711-448a-4825-9bae-7873dc194583" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WardingBond" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="845fd6fa-eca4-409e-be42-179d9a797fbe" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h1cf67618gcdc1g9bf0g352egd9e5052a34ad" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22b5a1f2-6aa5-4dc4-9139-a79dc62b85da" />
+        <field name="Name" type="NameTableFieldDefinition" value="TWN_WardingBond" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b700e8ef-6b96-4063-8a89-d2ca973331e7" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd3e9c567g2905g672bg0224gf1c8ec229255" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41d04de7-d14d-41a6-be20-bb0a1b871fbc" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOW_WardingBond_Distant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6535f7da-969d-452f-939f-583ab015c03f" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h917f9908g4fcbge66dgb997gdac87ffc4aff" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
