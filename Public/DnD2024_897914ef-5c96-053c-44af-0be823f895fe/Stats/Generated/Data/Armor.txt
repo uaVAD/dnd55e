@@ -1,3 +1,6 @@
+new entry "__HEAVY ARMOR__"
+type "Armor"
+
 new entry "ARM_ChainMail_Body"
 type "Armor"
 using "_Body"
@@ -231,7 +234,18 @@ data "Boosts" "UnlockSpell(Shout_MAG_FireShield_Ravengard);Disadvantage(Skill,St
 data "PassivesOnEquip" "HeavyArmor_PlateArmor;ARM_MagicalPlate_2_Passive;MAG_LesserFlamingDispersion_Passive;"
 data "Unique" "1"
 
-new entry "__GLOVES__"
+new entry "__LIGHT ARMOR__"
+type "Armor"
+
+new entry "MAG_Bard_TempHP_Armor"
+type "Armor"
+using "MAG_Bard_TempHP_Armor"
+data "ArmorClass" "10"
+data "Boosts" "AC(1)"
+data "ArmorType" "Cloth"
+data "Proficiency Group" "None"
+
+new entry "__GLOVE__"
 type "Armor"
 
 new entry "MAG_Gortash_Gloves"

@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
   <stat_objects>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fbf881fe-f9e5-4cfe-94dc-5323fe899362" />
+        <field name="Name" type="NameTableFieldDefinition" value="__HEAVY ARMOR__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7f85f7e9-b500-4035-ab27-2d6741e1cdf4" />
@@ -303,10 +309,27 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_FireShield_Ravengard);Disadvantage(Skill,Stealth)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ddf66131-f739-411c-8e30-056ea0ccbec3" />
+        <field name="Name" type="NameTableFieldDefinition" value="__LIGHT ARMOR__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb2ee8ae-c12d-4f1c-97c5-d73ace088420" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Bard_TempHP_Armor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="595d4bf8-2785-489a-8813-43cc5ea67598" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(1)" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ab43ffbf-069c-4c37-a712-f0754bda4795" />
-        <field name="Name" type="NameTableFieldDefinition" value="__GLOVES__" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GLOVE__" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

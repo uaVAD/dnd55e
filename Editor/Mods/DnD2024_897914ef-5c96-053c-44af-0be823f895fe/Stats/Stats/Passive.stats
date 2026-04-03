@@ -4701,6 +4701,17 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haa6b6306gc9beg2335g7d38gc8a89fd7d942" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="537b12cd-b807-47e7-996f-ed0306b94e29" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BardicInspiration_TempHP_Armor_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c30a8d18-5c98-445a-9c44-5fbb52fbf9d6" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h425e3ae9ge949g55bbg3aecg26401432f816" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(ClassLevel(Bard))" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('BardicInspiration');" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />

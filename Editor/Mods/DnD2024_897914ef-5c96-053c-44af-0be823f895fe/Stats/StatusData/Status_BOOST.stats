@@ -3211,6 +3211,28 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ca97177-4911-41bd-a576-3c77ff843413" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MAGIC ITEM__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2611860-995e-4c29-a45f-640635cd5567" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TEMPORARY_HP_BARDIC_INSPIRATION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5de7f7de-443f-4eee-ab69-4898e641185a" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="ClassLevel(Bard)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAG_TEMPORARY_HP_BARDIC_INSPIRATION" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Bard));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1cb21de-94f6-4cda-9e9e-30d4bc328344" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7a06d37d-46d5-4533-83cb-ddc805c76c24" />

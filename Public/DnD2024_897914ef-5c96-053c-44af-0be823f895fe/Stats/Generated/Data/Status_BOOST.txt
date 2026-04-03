@@ -2550,6 +2550,22 @@ data "Passives" "Survival"
 data "StatusPropertyFlags" "IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "StatusGroups" "SG_RemoveOnRespec"
 
+new entry "__MAGIC ITEM__"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "MAG_TEMPORARY_HP_BARDIC_INSPIRATION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_TEMPORARY_HP_BARDIC_INSPIRATION"
+data "DescriptionParams" "ClassLevel(Bard)"
+data "StackId" "MAG_TEMPORARY_HP_BARDIC_INSPIRATION"
+data "Boosts" "TemporaryHP(ClassLevel(Bard));"
+
+new entry "New_Stat_2"
+type "StatusData"
+data "StatusType" "BOOST"
+
 new entry "__RACE__"
 type "StatusData"
 data "StatusType" "BOOST"

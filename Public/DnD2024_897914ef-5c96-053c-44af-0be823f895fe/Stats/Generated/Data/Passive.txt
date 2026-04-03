@@ -3393,6 +3393,14 @@ type "PassiveData"
 using "DEN_HellridersPride_Passive"
 data "Description" "haa6b6306gc9beg2335g7d38gc8a89fd7d942;1"
 
+new entry "MAG_BardicInspiration_TempHP_Armor_Passive"
+type "PassiveData"
+using "MAG_BardicInspiration_TempHP_Armor_Passive"
+data "Description" "h425e3ae9ge949g55bbg3aecg26401432f816;1"
+data "DescriptionParams" "GainTemporaryHitPoints(ClassLevel(Bard))"
+data "StatsFunctorContext" "OnCast;OnAttack;OnCastResolved"
+data "Conditions" "HasUseCosts('BardicInspiration');"
+
 new entry "__RACE__"
 type "PassiveData"
 
