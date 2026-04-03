@@ -316,20 +316,20 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />
-        <field name="UUID" type="IdTableFieldDefinition" value="48fcd4e6-761d-406e-95b9-b998957d7aaa" />
-        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Piercer" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Piercer" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_36" />
+        <field name="UUID" type="IdTableFieldDefinition" value="04ca42bc-8dfd-4aaa-8cc4-e27f564fd7a6" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="FeyTouched" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FeyTouched" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);SelectSpells(7e61eac9-f8cf-4a12-81fc-7877e6ab5ce0,1,0,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_28" />
-        <field name="UUID" type="IdTableFieldDefinition" value="e66e98e1-928e-45e0-9840-17ede32c13fe" />
-        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Slasher" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Slasher" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_41" />
+        <field name="UUID" type="IdTableFieldDefinition" value="688715c7-8f8f-4a1f-81d0-7acaedffc53a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="InspiringLeader" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="InspiringLeader" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -343,11 +343,56 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />
+        <field name="UUID" type="IdTableFieldDefinition" value="48fcd4e6-761d-406e-95b9-b998957d7aaa" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Piercer" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Piercer" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_30" />
         <field name="UUID" type="IdTableFieldDefinition" value="882ddfe5-4fa8-4298-8767-2ed23b298735" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="Poisoner" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Poisoner" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(15494b6c-d694-4782-ae5c-c0bf7e0f0cf2,1,1,DEX_INT)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_40" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5d736b5a-70a2-4cfa-9c9e-d580fe6de1dc" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ShadowTouched" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ShadowTouched" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);SelectSpells(51db480f-3894-4dc1-9990-eaed90968e12,1,0,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_42" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6dc5b792-a6f2-4d76-92c3-e0e2798976df" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SkillExpert" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SkillExpert" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,1,1,ALL_ABILITY);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,SkilledSkills);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_43" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b83c88fe-6331-4871-b0b1-f71eb435fbc3" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Skulker" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Skulker" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(b54e54c7-fc1d-4fbf-9fae-83c89a196da7,1,1,DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_28" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e66e98e1-928e-45e0-9840-17ede32c13fe" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Slasher" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Slasher" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
       </fields>
     </stat_object>
   </stat_objects>

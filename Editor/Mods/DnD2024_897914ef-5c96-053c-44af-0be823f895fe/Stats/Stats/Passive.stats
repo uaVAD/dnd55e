@@ -3980,7 +3980,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Blindness" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Blinded);IgnoreSurfaceCover(SurfaceDarknessCloud);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Blinded);IgnoreSurfaceCover(SurfaceDarknessCloud);DarkvisionRangeMin(3);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4678,6 +4678,65 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Poison);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, PoisonerSaveDC())):ApplyStatus(POISONED,100,2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ba00394-94b8-44d7-9ef2-08e35f8dd357" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90381d36g6a66g678dgc622g940db553e2a2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfaef3824g8845gb735gf4dfgd86da7822941" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,2);UnlockSpell(Target_MistyStep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2977f3f7-923f-4805-be85-085884f22bbb" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowTouched" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h373ea885g4542g96b0g1626g9afe46582637" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0c8f8629gcdb5g21d2g6ba3g68301d16a9ea" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_WildMagic_Barbarian_ShadowyTendrils" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,2);UnlockSpell(Target_Invisibility,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d7438ad-30b7-490b-8481-3309dd1cf902" />
+        <field name="Name" type="NameTableFieldDefinition" value="InspiringLeader" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h217127dag7542g9cacg618cg5aa51ecced4b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h008b1355g9855gf610g8c06gec5ceab5ab6f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_InspiringLeader" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_InspiringLeader);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b261ce3-b118-4a3f-b927-dc1a7e146b33" />
+        <field name="Name" type="NameTableFieldDefinition" value="SkillExpert" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h722f5cc4g1b03ga262gffdfg044c2f2f2f85" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07dde1d7g4173g2970g8a5fgd318f17b9b5f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Skilled" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b72eb31f-27d0-42c1-8f1c-66d214400946" />
+        <field name="Name" type="NameTableFieldDefinition" value="Skulker" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c144373g63c1g842bg99b7g472028280932" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h355c781dg7ea0g31c3g7904g5e09dcd7d24d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Hide" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Blinded);IgnoreSurfaceCover(SurfaceDarknessCloud);DarkvisionRangeMin(3);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

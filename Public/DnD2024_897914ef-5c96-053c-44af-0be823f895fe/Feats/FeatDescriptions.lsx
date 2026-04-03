@@ -223,7 +223,7 @@
                 </node>
                 <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="hc9a0b12cgc8fegf87fgb641gfcf715d58982" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h98f7bf60g0be6g2f80g7ff8g89648f02353b" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h98f7bf60g0be6g2f80g7ff8g89648f02353b" version="2"/>
                     <attribute id="ExactMatch" type="FixedString" value="MountedCombatant"/>
                     <attribute id="FeatId" type="guid" value="87b4f657-b656-4305-8435-ff39d78be5e5"/>
                     <attribute id="UUID" type="guid" value="22c3f2cc-c57f-4841-82bd-c3893f95b6b3"/>
@@ -234,6 +234,41 @@
                     <attribute id="ExactMatch" type="FixedString" value="Poisoner"/>
                     <attribute id="FeatId" type="guid" value="882ddfe5-4fa8-4298-8767-2ed23b298735"/>
                     <attribute id="UUID" type="guid" value="4a62cbfc-c5a5-40a3-92bf-88203c857e4e"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h9dd19073g7262gabe8g561dga56e7269712b" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3e078741g3071gaa98ga931g651f9cac58d8" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="FeyTouched"/>
+                    <attribute id="FeatId" type="guid" value="04ca42bc-8dfd-4aaa-8cc4-e27f564fd7a6"/>
+                    <attribute id="UUID" type="guid" value="fd9c803c-638b-4a60-b1a3-023b56512f40"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hbd7f0193ge427g3d75gc0adgfdba8212fb8b" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h45c39024gdfe0g1fbeg74d2g67115110174b" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="ShadowTouched"/>
+                    <attribute id="FeatId" type="guid" value="5d736b5a-70a2-4cfa-9c9e-d580fe6de1dc"/>
+                    <attribute id="UUID" type="guid" value="0702382b-7bec-4a49-90e4-a944245374bd"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hfe85ad95g8cb3g8eecg7ca9g7f8ee3255f42" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hea65502fg6391g1f02gf466g3d9d8f544c0b" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="InspiringLeader"/>
+                    <attribute id="FeatId" type="guid" value="688715c7-8f8f-4a1f-81d0-7acaedffc53a"/>
+                    <attribute id="UUID" type="guid" value="5f35c322-000a-4db4-a176-e89350f149e0"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="he4358e65g244dg1eb4g4922g6f5157e7df61" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h1c29dc7ag7a83g1964gab06g26984b4238e0" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="SkillExpert"/>
+                    <attribute id="FeatId" type="guid" value="6dc5b792-a6f2-4d76-92c3-e0e2798976df"/>
+                    <attribute id="UUID" type="guid" value="0ab0aee1-18bf-417c-b843-0bb585c71239"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h0df1df8cg4144g5ee4g0641gab98d991d8dc" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3590e174g151cg1c92gb9f4gb875191a6261" version="3"/>
+                    <attribute id="ExactMatch" type="FixedString" value="Skulker"/>
+                    <attribute id="FeatId" type="guid" value="b83c88fe-6331-4871-b0b1-f71eb435fbc3"/>
+                    <attribute id="UUID" type="guid" value="1b0ae0c7-ca6e-49d8-878a-90b1b98ac120"/>
                 </node>
             </children>
         </node>

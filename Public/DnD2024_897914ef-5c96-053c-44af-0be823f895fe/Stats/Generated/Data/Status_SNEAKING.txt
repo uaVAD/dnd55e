@@ -5,3 +5,9 @@ using "SNEAKING"
 data "OnApplyRoll" "SkillCheck(Skill.Stealth, 20)"
 data "OnApplySuccess" "ApplyStatus(INVISIBILITY,100,1)"
 
+new entry "SNEAKING_SKULKER"
+type "StatusData"
+data "StatusType" "SNEAKING"
+using "SNEAKING"
+data "OnApplyRoll" "SkillCheck(Skill.Stealth, 15)"
+

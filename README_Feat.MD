@@ -10,23 +10,25 @@
 - Thrown Weapon Fighting
 - Two-Weapon Fighting
 - Unarmed Fighting
-## Origin
+## Player's Handbook
+### Origin Feat (Revised)
 - Alert
 - Lucky
 - Magic Initiate: Cleric
 - Magic Initiate: Druid
 - Magic Initiate: Wizard
-- Musician (Performer)
+- Musician, formerly Performer
 - Savage Attacker
 - Skilled
 - Tavern Brawler
 - Tough
-## General
+### Origin Feat (New)
+- Healer
+### General Feat (Revised)
 - Actor
 - Athlete
 - Charger
 - Crossbow Expert
-- Crusher
 - Defensive Duelist
 - Dual Wielder
 - Dungeon Delver
@@ -39,17 +41,24 @@
 - Mage Slayer
 - Martial Adept
 - Medium Armor Master
-- Mounted Combatant
-- Piercer
-- Poisoner
 - Polearm Master
 - Resilient
 - Ritual Caster
 - Sentinel
 - Sharpshooter
 - Shield Master
-- Slasher
-- Speedy
+- Speedy, formerly Mobile
 - Spell Sniper
 - War Caster
 - Weapon Master
+### General Feat (New)
+- Crusher
+- Fey Touched
+- Inspiring Leader
+- Mounted Combatant
+- Piercer
+- Poisoner
+- Shadow Touched
+- SKill Expert
+- Skulker
+- Slasher

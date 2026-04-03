@@ -1507,6 +1507,7 @@
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1516,6 +1517,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="7b211a00-eb33-42a0-9499-66f75b344b3b" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Druid)*3);ACOverrideFormula(13,true,Wisdom);IF(HasPassive('Moon_6_ImprovedCircleForms'),context.Source):RollBonus(SavingThrow, WisdomModifier, Constitution);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1524,6 +1526,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_TEMPHP_DRUIDLEVEL_3X_NPC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6f884536-39f7-4874-9eeb-9adf72fa6e8a" />
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Level*3);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1907,6 +1910,7 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3232,7 +3236,30 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a342c119-a00f-4765-b8e3-64c128998320" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d5759d1-cca2-4a4d-b315-0eb1336123c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRING_LEADER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h67402ac7g0551gf435g6451g8cdb39545b19" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd28c4d74gd3aag5aa9g12b2g628e33edb9c9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_InspiringLeader" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INSPIRING_LEADER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.Level+Cause.ProficiencyBonus);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9ca97177-4911-41bd-a576-3c77ff843413" />
         <field name="Name" type="NameTableFieldDefinition" value="__MAGIC ITEM__" />
@@ -3246,12 +3273,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="ClassLevel(Bard)" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAG_TEMPORARY_HP_BARDIC_INSPIRATION" />
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Bard));" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f1cb21de-94f6-4cda-9e9e-30d4bc328344" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -3284,6 +3307,7 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
   </stat_objects>

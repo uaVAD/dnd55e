@@ -1373,7 +1373,7 @@ Healing. Each time you restore Hit Points to a creature, it regains additional H
   <content contentuid="h6abe2717g78bdgfbc5g2d30g1cc22e96ca24" version="1">Charge forward and attack the first enemy in your way.</content>
   <content contentuid="h6f880a83gf538g3473g56f7g616ba93a3e5b" version="1">Feat: Poisoner</content>
   <content contentuid="h9e96b030g4a5fgfbd9g8d73g10831d134be3" version="3">Potent Poison. Spells you cast and attacks you make ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage. In addition, when you deal Poison damage with a spell, you cannot roll a 1. &lt;br&gt;&lt;br&gt;Brew Poison. You gain a Poisoner’s Kit, and you have proficiency with them. When you deal poison damage to a creature, it must succeed on a Constitution saving throw or become Poisoned.</content>
-  <content contentuid="h98f7bf60g0be6g2f80g7ff8g89648f02353b" version="1">MountedCombatant</content>
+  <content contentuid="h98f7bf60g0be6g2f80g7ff8g89648f02353b" version="2">Mounted Combatant</content>
   <content contentuid="hc9a0b12cgc8fegf87fgb641gfcf715d58982" version="1">While you are mounted on the steed, you have Advantage on melee attack rolls against creatures of Small size or smaller. In addition, while mounted, you can’t be dismounted or knocked prone as a result of taking damage.</content>
   <content contentuid="hd96c9a15gcab7gfe30g113bg3a931597f197" version="1">Use Poisoner’s Kit</content>
   <content contentuid="hc75d67a3g0d25g5303gc7a2ga9450b0024d2" version="1">Apply Poison or Toxin to your currently equipped weapon set.</content>
@@ -1780,4 +1780,36 @@ You can use this trait a number of times equal to your Proficiency Bonus, and yo
   <content contentuid="h1cf67618gcdc1g9bf0g352egd9e5052a34ad" version="1">The spell ends if you drop to 0 Hit Points. It also ends if the spell is cast again on either of the connected creatures. The spell remains in effect only while you and the target are within 60 feet of each other.</content>
   <content contentuid="hd3e9c567g2905g672bg0224gf1c8ec229255" version="1">The spell ends if you drop to 0 Hit Points. It also ends if the spell is cast again on either of the connected creatures. The spell remains in effect only while you and the target are within 60 feet of each other.</content>
   <content contentuid="h917f9908g4fcbge66dgb997gdac87ffc4aff" version="1">The spell ends if you drop to 0 Hit Points. It also ends if the spell is cast again on either of the connected creatures. The spell remains in effect only while you and the target are within 60 feet of each other.</content>
+  <content contentuid="h90381d36g6a66g678dgc622g940db553e2a2" version="1">Feat: Fey Touched</content>
+  <content contentuid="hfaef3824g8845gb735gf4dfgd86da7822941" version="1">Choose one 1st-level spell from the Divination or Enchantment school. You always have that spell and Misty Step prepared. You also gain one 1st-level spell slot and one 2nd-level spell slot.</content>
+  <content contentuid="h373ea885g4542g96b0g1626g9afe46582637" version="1">Feat: Shadow Touched</content>
+  <content contentuid="h0c8f8629gcdb5g21d2g6ba3g68301d16a9ea" version="1">Choose one 1st-level spell from the Illusion or Necromancy school. You always have that spell and Invisibility prepared. You also gain one 1st-level spell slot and one 2nd-level spell slot.</content>
+  <content contentuid="h3e078741g3071gaa98ga931g651f9cac58d8" version="1">Fey Touched</content>
+  <content contentuid="h9dd19073g7262gabe8g561dga56e7269712b" version="1">Choose one 1st-level spell from the Divination or Enchantment school. You always have that spell and Misty Step prepared. You also gain one 1st-level spell slot and one 2nd-level spell slot.</content>
+  <content contentuid="h45c39024gdfe0g1fbeg74d2g67115110174b" version="1">Shadow Touched</content>
+  <content contentuid="hbd7f0193ge427g3d75gc0adgfdba8212fb8b" version="1">Choose one 1st-level spell from the Illusion or Necromancy school. You always have that spell and Invisibility prepared. You also gain one 1st-level spell slot and one 2nd-level spell slot.</content>
+  <content contentuid="h217127dag7542g9cacg618cg5aa51ecced4b" version="1">Feat: Inspiring Leader</content>
+  <content contentuid="h008b1355g9855gf610g8c06gec5ceab5ab6f" version="1">When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song, or dance. You can use this feature once per Short Rest. When you do so, each ally within 30 feet of you gains Temporary Hit Points equal to your character level plus your Proficiency Bonus.</content>
+  <content contentuid="h38de6e70g3483gb2a8gf232gce6933397614" version="1">Inspiring Leader</content>
+  <content contentuid="ha3aeca2ag84a7g9aa2gc23cg0d41a7036cc2" version="1">When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song, or dance. You can use this feature once per Short Rest. When you do so, each ally within 30 feet of you gains Temporary Hit Points equal to your character level plus your Proficiency Bonus.</content>
+  <content contentuid="h67402ac7g0551gf435g6451g8cdb39545b19" version="1">Inspiring Leader</content>
+  <content contentuid="hd28c4d74gd3aag5aa9g12b2g628e33edb9c9" version="1">Gain Temporary Hit Points equal to the spellcaster’s level plus their Proficiency Bonus.</content>
+  <content contentuid="hea65502fg6391g1f02gf466g3d9d8f544c0b" version="1">Inspiring Leader</content>
+  <content contentuid="hfe85ad95g8cb3g8eecg7ca9g7f8ee3255f42" version="1">When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song, or dance. You can use this feature once per Short Rest. When you do so, each ally within 30 feet of you gains Temporary Hit Points equal to your character level plus your Proficiency Bonus.</content>
+  <content contentuid="h722f5cc4g1b03ga262gffdfg044c2f2f2f85" version="1">Feat: Skill Expert</content>
+  <content contentuid="h07dde1d7g4173g2970g8a5fgd318f17b9b5f" version="1">Skill Proficiency. You gain proficiency in one skill of your choice.
+
+Expertise. Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill.</content>
+  <content contentuid="h1c29dc7ag7a83g1964gab06g26984b4238e0" version="1">Skill Expert</content>
+  <content contentuid="he4358e65g244dg1eb4g4922g6f5157e7df61" version="1">Skill Proficiency. You gain proficiency in one skill of your choice.
+
+Expertise. Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill.</content>
+  <content contentuid="h0c144373g63c1g842bg99b7g472028280932" version="1">Feat: Skulker</content>
+  <content contentuid="h355c781dg7ea0g31c3g7904g5e09dcd7d24d" version="1">Blindsight. You have Blindsight with a range of 10 feet.
+
+Fog of War. The DC to become Invisible when you take the Hide action is 15 instead of 20.</content>
+  <content contentuid="h3590e174g151cg1c92gb9f4gb875191a6261" version="3">Skulker</content>
+  <content contentuid="h0df1df8cg4144g5ee4g0641gab98d991d8dc" version="1">Blindsight. You have Blindsight with a range of 10 feet.
+
+Fog of War. The DC to become Invisible when you take the Hide action is 15 instead of 20.</content>
 </contentList>

@@ -15,6 +15,22 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47a715f3-40a5-4bde-9b4a-2c3df1ebe842" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hide" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="45fab3f5-5c1b-41ba-bd40-0d506eac0f94" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING,100,-1);IF(HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING_SKULKER,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ebe73fd-7f16-42ec-a963-c3ade5e2d88d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hide_BonusAction" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ba7823a9-ebfa-4c14-bef4-b4d7dd310e5d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING,100,-1);IF(HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING_SKULKER,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="94925ee4-4e61-4e91-a41e-1a87bf773590" />
         <field name="Name" type="NameTableFieldDefinition" value="HitPointDice" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1d6+ConstitutionModifier);" />
@@ -2452,6 +2468,35 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Item_GRN_Poison_vial_D_Sheathe" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1c64e7ffg27dfg1336g4d10g922cd9e93f4f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbe9f2752g8f47geea4gedcfg417ece6cb1bd" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ff7ab1c-a7a7-4b47-9b3d-7ac44017df29" />
+        <field name="Name" type="NameTableFieldDefinition" value="InspiringLeader" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(INSPIRING_LEADER,100,-1);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Ally()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_InspiringLeader" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h38de6e70g3483gb2a8gf232gce6933397614" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha3aeca2ag84a7g9aa2gc23cg0d41a7036cc2" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Bard_SongOfRest_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Bard_SongOfRest_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="InstrumentComponentPrepareSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Prepare" />
+        <field name="InstrumentComponentLoopingSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Loop" />
+        <field name="InstrumentComponentCastSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Cast" />
+        <field name="InstrumentComponentImpactSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Impact" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="850cd2f3-dde2-475d-b3a3-f35c47333523,,;,,;8bfc0edf-5baa-4344-a486-14032de5ab69,,;3935e00c-7d43-4243-a4ef-4c680530d593,,;ad775f69-0d9f-4215-bfc2-8e0ec7e32189,,;,,;6bfce8a0-80f1-47a8-97f4-34f4b8b6fe9e,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d2c9dc70-d8d8-40fc-87a8-3c14a3ea842a" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5e248293-1a8d-4557-a2e1-f399e4552ff0" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="b4d2ce64-af72-45a2-8146-6a9c3b71f1a6" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Instrument" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
