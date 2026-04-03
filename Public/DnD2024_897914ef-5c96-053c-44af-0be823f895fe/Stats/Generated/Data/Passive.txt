@@ -3270,7 +3270,7 @@ using "Sharpshooter_Bonuses"
 data "DisplayName" "ha55fe95cgd504gfcc1gb585g1162cb7cffcc;1"
 data "Description" "hb219036fg4365gffedg71d5g938331069179;2"
 data "PriorityOrder" "700"
-data "Boosts" "IgnoreLowGroundPenalty(RangedWeaponAttack);IgnoreLowGroundPenalty(RangedOffHandWeaponAttack);IgnorePointBlankDisadvantage(Ammunition);AttackSpellOverride(Projectile_MainHandAttack_Sharpshooter, Projectile_MainHandAttack);"
+data "Boosts" "IgnoreLowGroundPenalty(RangedWeaponAttack);IgnoreLowGroundPenalty(RangedOffHandWeaponAttack);IgnorePointBlankDisadvantage(Ammunition);IF(IsRangedWeaponAttack() and DistanceToTargetGreaterOrEqual(18)):Advantage(AttackRoll);UnlockSpellVariant(HasStringInSpellRoll('AttackType.RangedWeaponAttack'),ModifyTargetRadius(Override, 27));"
 
 new entry "ShieldMaster"
 type "PassiveData"

@@ -4538,7 +4538,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha55fe95cgd504gfcc1gb585g1162cb7cffcc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb219036fg4365gffedg71d5g938331069179" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLowGroundPenalty(RangedWeaponAttack);IgnoreLowGroundPenalty(RangedOffHandWeaponAttack);IgnorePointBlankDisadvantage(Ammunition);AttackSpellOverride(Projectile_MainHandAttack_Sharpshooter, Projectile_MainHandAttack);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLowGroundPenalty(RangedWeaponAttack);IgnoreLowGroundPenalty(RangedOffHandWeaponAttack);IgnorePointBlankDisadvantage(Ammunition);IF(IsRangedWeaponAttack() and DistanceToTargetGreaterOrEqual(18)):Advantage(AttackRoll);UnlockSpellVariant(HasStringInSpellRoll('AttackType.RangedWeaponAttack'),ModifyTargetRadius(Override, 27));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
