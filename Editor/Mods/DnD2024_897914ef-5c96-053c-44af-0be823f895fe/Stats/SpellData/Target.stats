@@ -5932,7 +5932,7 @@
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_Rally" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he69c1c77gfc97gb4e2g7877gb843a6c497b6" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h46a88a7bg99ddgbfe4gc4aeg5843b027814d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h46a88a7bg99ddgbfe4gc4aeg5843b027814d" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INSPIRING_GLORY_1,100,-1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Rally" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Rally" />

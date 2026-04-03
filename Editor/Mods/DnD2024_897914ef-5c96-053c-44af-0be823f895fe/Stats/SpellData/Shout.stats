@@ -1552,7 +1552,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Land_Desert" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h571a7b7dg53fbg6786ge07dg6b9749737b6d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd365173fgd836g93a3gdf92g64f01d869f29" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd365173fgd836g93a3gdf92g64f01d869f29" version="3" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
@@ -1591,7 +1591,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LAND_TEMPERATE,100,-1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Land_Grassland" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc4166e3bg3c8fgd921g84f9g8a343922a258" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53adaf69g02c4gd6a7ge1ddg668563523831" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53adaf69g02c4gd6a7ge1ddg668563523831" version="3" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LAND_TEMPERATE,100,-1);" />
       </fields>
     </stat_object>

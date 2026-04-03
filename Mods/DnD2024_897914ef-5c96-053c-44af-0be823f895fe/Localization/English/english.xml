@@ -1408,13 +1408,13 @@ If you choose Temperate Land, you have Misty Step, Shocking Grasp, and Sleep pre
 
 If you choose Tropical Land, you have Acid Splash, Ray of Sickness, and Web prepared at 3rd level; Stinking Cloud at 5th level; Polymorph at 7th level; and Insect Plague at 9th level.</content>
   <content contentuid="h571a7b7dg53fbg6786ge07dg6b9749737b6d" version="1">Circle of the Land Spells</content>
-  <content contentuid="hd365173fgd836g93a3gdf92g64f01d869f29" version="1">Whenever you finish a Long Rest, you choose one type of land: arid, polar, temperate, or tropical. Based on your choice, you consult the corresponding table and have all listed spells for your Druid level and lower prepared.
+  <content contentuid="hd365173fgd836g93a3gdf92g64f01d869f29" version="3">Whenever you finish a Long Rest, you choose one type of land: arid, polar, temperate, or tropical. Based on your choice, you consult the corresponding table and have all listed spells for your Druid level and lower prepared.
 
 If you choose Arid Land, you have Blur, Burning Hands, and Fire Bolt prepared at 3rd level; Fireball at 5th level; Blight at 7th level; and Wall of Stone at 9th level.
 
 If you choose Polar Land, you have Fog Cloud, Hold Person, and Ray of Frost prepared at 3rd level; Sleet Storm at 5th level; Ice Storm at 7th level; and Cone of Cold at 9th level.
 
-If you choose Temperate Land, you have Misty Step, Shocking Grasp, and Sleep prepared at 3rd level; Lightning Bolt at 5th level; Freedom of Movement at 7th level; and Tree Stride at 9th level.
+If you choose Temperate Land, you have Misty Step, Shocking Grasp, and Sleep prepared at 3rd level; Lightning Bolt at 5th level; Freedom of Movement at 7th level; and Greater Restoration at 9th level.
 
 If you choose Tropical Land, you have Acid Splash, Ray of Sickness, and Web prepared at 3rd level; Stinking Cloud at 5th level; Polymorph at 7th level; and Insect Plague at 9th level.</content>
   <content contentuid="h60146c67g6a55gece0g343eg45527c9e429a" version="1">Circle of the Land Spells: Arid Land</content>
@@ -1422,7 +1422,7 @@ If you choose Tropical Land, you have Acid Splash, Ray of Sickness, and Web prep
   <content contentuid="hd1d44523g69ccgf313g036bga0c866484988" version="1">Circle of the Land Spells: Polar Land</content>
   <content contentuid="h5838ca69g39e0g1e69gd726g82f4309227aa" version="1">If you choose Polar Land, you have Fog Cloud, Hold Person, and Ray of Frost prepared at 3rd level; Sleet Storm at 5th level; Ice Storm at 7th level; and Cone of Cold at 9th level.</content>
   <content contentuid="hc4166e3bg3c8fgd921g84f9g8a343922a258" version="1">Circle of the Land Spells: Temperate Land</content>
-  <content contentuid="h53adaf69g02c4gd6a7ge1ddg668563523831" version="1">If you choose Temperate Land, you have Misty Step, Shocking Grasp, and Sleep prepared at 3rd level; Lightning Bolt at 5th level; Freedom of Movement at 7th level; and Tree Stride at 9th level.</content>
+  <content contentuid="h53adaf69g02c4gd6a7ge1ddg668563523831" version="3">If you choose Temperate Land, you have Misty Step, Shocking Grasp, and Sleep prepared at 3rd level; Lightning Bolt at 5th level; Freedom of Movement at 7th level; and Greater Restoration at 9th level.</content>
   <content contentuid="h4c72b567g1ff6gde9ag626fg50843dbe309d" version="1">Circle of the Land Spells: Tropical Land</content>
   <content contentuid="hdd145debg872fgb1b1gc2f0g1c799a4601c4" version="1">If you choose Tropical Land, you have Acid Splash, Ray of Sickness, and Web prepared at 3rd level; Stinking Cloud at 5th level; Polymorph at 7th level; and Insect Plague at 9th level.</content>
   <content contentuid="h2fad506dgc3b4g8cf6g2268g89dd01b7b7be" version="1">Circle of the Land Spells: Arid Land</content>
@@ -1527,7 +1527,7 @@ Endeavor to be known by your deeds.
 Face hardships with courage.
 Inspire others to strive for glory.</content>
   <content contentuid="h1f4761f8g70f7ge58fg4098g3ada7c0d7a24" version="1">Level 3: Inspiring Glory</content>
-  <content contentuid="h94d2b863gce81ge85ag20a9gd351c1d2fbe8" version="1">You can expend one use of your Channel Divinity and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.</content>
+  <content contentuid="h94d2b863gce81ge85ag20a9gd351c1d2fbe8" version="2">You can expend one use of your Channel Oath and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.</content>
   <content contentuid="h03040e0bgc3c2g707bg30dcgcf793eb4b7da" version="1">Level 3: Peerless Athlete</content>
   <content contentuid="h7b9c5b5dg52ddg7d07gf72dgc579b62da603" version="1">You have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).</content>
   <content contentuid="hadc15c48g3bdeg8e40g44fagefe0290db6ee" version="1">Level 7: Aura of Alacrity</content>
@@ -1538,7 +1538,7 @@ In addition, whenever an ally enters your Aura of Protection for the first time 
   <content contentuid="hc41356d2g2208g0d0fg0023g8a9c6958aaac" version="1">The magic of your oath ensures that you always have certain spells ready. When you reach the Paladin levels specified in the Oath of Glory Spells table, you thereafter always have the following spells prepared: at 3rd level, Guiding Bolt and Heroism; at 5th level, Enhance Ability and Magic Weapon; and at 9th level, Haste and Protection from Energy.
 </content>
   <content contentuid="he69c1c77gfc97gb4e2g7877gb843a6c497b6" version="1">Inspiring Glory</content>
-  <content contentuid="h46a88a7bg99ddgbfe4gc4aeg5843b027814d" version="1">You can expend one use of your Channel Divinity and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.</content>
+  <content contentuid="h46a88a7bg99ddgbfe4gc4aeg5843b027814d" version="2">You can expend one use of your Channel Oath and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.</content>
   <content contentuid="hb9b1e9b0g8892g5337gacb7g38aabc6e1177" version="1">Inspiring Glory</content>
   <content contentuid="h142d77edg6f50gc87fg72f5g3158719e648d" version="1">Aura of Alacrity</content>
   <content contentuid="h7a033e2cg8e6cgf063g4a3cgbbe483e2b4cf" version="1">Your Speed increases by 10 feet.</content>

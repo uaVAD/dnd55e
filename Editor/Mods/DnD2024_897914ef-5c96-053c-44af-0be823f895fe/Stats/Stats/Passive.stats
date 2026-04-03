@@ -2448,7 +2448,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d8d862ce-fe61-4e41-b56e-c3fd1d7a39b0" />
         <field name="Name" type="NameTableFieldDefinition" value="Glory_3_InspiringGlory" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f4761f8g70f7ge58fg4098g3ada7c0d7a24" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h94d2b863gce81ge85ag20a9gd351c1d2fbe8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h94d2b863gce81ge85ag20a9gd351c1d2fbe8" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_InspiringLeader" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7203" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
