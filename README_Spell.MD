@@ -46,6 +46,7 @@
 - Crown of Madness
 - Darkness
 - Find Steed
+- Flame Blade
 - Gust of Wind
 - Lesser Restoration
 - Magic Weapon

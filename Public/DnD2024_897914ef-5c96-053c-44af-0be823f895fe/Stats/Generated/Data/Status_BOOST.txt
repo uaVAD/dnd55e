@@ -343,7 +343,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "StackId" "YMS_TRUE_STRIKE_ON"
 data "StackPriority" "1"
-data "Boosts" "WeaponProperty(Magical);WeaponAttackRollAbilityOverride(SpellCastingAbility);"
+data "Boosts" "WeaponProperty(Magical);WeaponAttackRollAbilityOverride(SpellCastingAbility);WeaponDamageTypeOverride(Radiant);"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 new entry "YMS_TRUE_STRIKE_OFF"
@@ -581,6 +581,33 @@ data "RemoveConditions" "not (HasStatus('DARKNESS_CASTER') or HasStatus('DARKNES
 data "RemoveEvents" "OnTurn;OnDamage"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "ApplyStatus(SELF,DARKNESS_RECAST,100,10)"
+
+new entry "FLAME_BLADE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FLAME_BLADE"
+data "Boosts" "IF(Item(context.Source)):WeaponProperty(Unstowable);Attribute(InventoryBound);GameplayLight(3,false,0.1);WeaponAttackTypeOverride(MeleeSpellAttack);WeaponAttackRollAbilityOverride(SpellCastingAbility);"
+
+new entry "FLAME_BLADE_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FLAME_BLADE_4"
+data "Boosts" "IF(Item(context.Source)):WeaponProperty(Unstowable);Attribute(InventoryBound);GameplayLight(3,false,0.1);WeaponAttackTypeOverride(MeleeSpellAttack);WeaponAttackRollAbilityOverride(SpellCastingAbility);"
+
+new entry "FLAME_BLADE_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FLAME_BLADE_6"
+data "Boosts" "IF(Item(context.Source)):WeaponProperty(Unstowable);Attribute(InventoryBound);GameplayLight(3,false,0.1);WeaponAttackTypeOverride(MeleeSpellAttack);WeaponAttackRollAbilityOverride(SpellCastingAbility);"
+
+new entry "LIGHT_FLAME_BLADE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "LIGHT_FLAME_BLADE"
+
+new entry "New_Stat_1"
+type "StatusData"
+data "StatusType" "BOOST"
 
 new entry "GUST_OF_WIND_RECAST"
 type "StatusData"
