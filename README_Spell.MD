@@ -53,6 +53,7 @@
 - Melf's Acid Arrow
 - Mind Spike
 - Misty Step
+- Prayer of Healing
 - Ray of Enfeeblement
 - Shadow Blade
 - Snilloc's Snowball Swarm

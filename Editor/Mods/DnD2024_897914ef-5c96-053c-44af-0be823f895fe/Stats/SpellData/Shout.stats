@@ -180,6 +180,12 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="092d5a5c-87fc-47c8-8534-f96d2b6ece49" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ABJURATION SLEVEL 2__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9d2df13c-143c-4a15-8c64-62476423723a" />
         <field name="Name" type="NameTableFieldDefinition" value="ArcaneVigor" />
         <field name="Level" type="IntegerTableFieldDefinition" value="2" />
@@ -250,6 +256,71 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(6d8+SpellCastingAbilityModifier)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed88df45-d389-4b76-a962-4c66d2cac6dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="PrayerOfHealing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a46558b8-6576-4011-916e-73eb7a6ccb15" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2d8+SpellCastingAbilityModifier);ShortRest();" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5a116b29gfa53g8de0g6237g5a2e4982dfe5" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanShortRest('NotEnoughResources')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnTurn;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6f93545-ed92-43d2-bb97-f035c689fcdf" />
+        <field name="Name" type="NameTableFieldDefinition" value="PrayerOfHealing_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ae77d92b-072a-4ad2-a9b0-e7c00f5029ff" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(3d8+SpellCastingAbilityModifier);ShortRest();" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h568cd018gb348gb0a5g559fgc0dd5e263efc" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanShortRest('NotEnoughResources')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnTurn;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a56e331-bbc6-43da-bede-8c46bf1b81c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="PrayerOfHealing_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78f73cf9-7a86-4f12-8197-4cde5e75e16e" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4d8+SpellCastingAbilityModifier);ShortRest();" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb81653bdgbf89g4d3eg8b44g1d6392df53a6" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanShortRest('NotEnoughResources')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnTurn;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d72b4ab-eb08-4e5b-a6a8-383288a68123" />
+        <field name="Name" type="NameTableFieldDefinition" value="PrayerOfHealing_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="434dcd1e-bc22-4700-93f7-885da99dbbbe" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5d8+SpellCastingAbilityModifier);ShortRest();" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h8d8901f6g2e5cg9e63gccfag9986aa35774d" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanShortRest('NotEnoughResources')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnTurn;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6ef96e2-d937-469a-834e-c8cc31a7a2fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="PrayerOfHealing_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="72512661-621e-41a3-9218-f88f4a6ff719" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6d8+SpellCastingAbilityModifier);ShortRest();" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h29b83689gfd3bg5f53g17f0g9a9d6b677256" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanShortRest('NotEnoughResources')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnTurn;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2133,13 +2204,6 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f4d1d3da-0193-4f35-bd70-44f3a889810c" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="c90dca7b-0926-4158-8015-9acc390fea0f" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="3c7b783e-d2ee-4125-9f94-0d48d44fe3e8" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ef136757-5cc0-49fe-b693-02fba27f99ed" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="a46558b8-6576-4011-916e-73eb7a6ccb15" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
