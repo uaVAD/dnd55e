@@ -22,12 +22,5 @@
         <field name="Skills" type="StringTableFieldDefinition" value="Deception,Performance,Persuasion" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="50b06c2b-a523-4950-9c1f-a246e1e0f8ec" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Elf Keen Senses" />
-        <field name="Skills" type="StringTableFieldDefinition" value="Insight,Perception,Survival " />
-      </fields>
-    </stat_object>
   </stat_objects>
 </stats>

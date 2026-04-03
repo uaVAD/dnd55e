@@ -58,7 +58,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0);ActionResource(Rage,1,0)" />
         <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;07234f31-c239-4a57-aeb4-868f3e1a318e;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d;d6db66be-cc60-4ebd-bf63-2a856bbfedaf;0e37e9bc-3909-49f4-8035-6d9736ad6867" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_3_PrimalKnowledge" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,1)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(4f027368-7aa6-4a3a-a1ce-d5195ba2ba27,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7308,7 +7308,7 @@
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Resourceful" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1);SelectPassives(51988e80-d7cc-4351-aa7d-83b8ba3f989a,1,HumanOriginFeat);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e9c5cb8f-1dc5-4118-be31-ff2ce2569917,1);SelectPassives(51988e80-d7cc-4351-aa7d-83b8ba3f989a,1,HumanOriginFeat);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
