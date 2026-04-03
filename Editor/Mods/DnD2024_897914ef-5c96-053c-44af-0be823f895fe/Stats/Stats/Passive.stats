@@ -4040,6 +4040,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Boosts" type="StringTableFieldDefinition" value="EntityThrowDamage(2);" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_FrenziedThrow" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4048,7 +4049,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_TwoWeaponFighting" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5186208a-4ab6-476f-8c39-3d89f2beaa3c" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h83c327a7g73d2g3cd4g5cd3g80e43c101d1d" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_FrenziedThrow" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
       </fields>
     </stat_object>
