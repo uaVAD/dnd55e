@@ -1108,7 +1108,7 @@ data "Boosts" "Skill(Arcana,WisdomModifier);Skill(Nature,WisdomModifier);UnlockS
 new entry "Cleric_PrimalOrder_Magician_6"
 type "PassiveData"
 using "Cleric_PrimalOrder_Magician_1"
-data "DisplayName" "hab8ea7d9g7419g79d4ge012g86380a295a02;1"
+data "DisplayName" "hab8ea7d9g7419g79d4ge012g86380a295a02;2"
 data "ExtraDescription" "hf5a7c07dg5d75g8b41g3ce4g8e350dae85b9;1"
 data "Icon" "Spell_Necromancy_SpareTheDying"
 data "Boosts" "Skill(Arcana,WisdomModifier);Skill(Nature,WisdomModifier);UnlockSpell(Target_SpareTheDying);"

@@ -1515,7 +1515,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="181a5647-3938-4437-83c4-b523048aab6e" />
         <field name="Name" type="NameTableFieldDefinition" value="Cleric_PrimalOrder_Magician_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8bef4cb7-a796-4437-9ee9-8a06e57aeaae" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hab8ea7d9g7419g79d4ge012g86380a295a02" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hab8ea7d9g7419g79d4ge012g86380a295a02" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf5a7c07dg5d75g8b41g3ce4g8e350dae85b9" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_SpareTheDying" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Nature,WisdomModifier);UnlockSpell(Target_SpareTheDying);" />
