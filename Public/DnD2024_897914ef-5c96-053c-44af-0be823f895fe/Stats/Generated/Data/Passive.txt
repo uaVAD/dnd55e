@@ -2336,11 +2336,13 @@ using "Metamagic_Extended"
 new entry "Metamagic_Heightened"
 type "PassiveData"
 using "Metamagic_Heightened"
+data "DescriptionParams" "2"
 data "Boosts" "UnlockSpellVariant(HeightenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifySavingThrowDisadvantage());"
 
 new entry "Metamagic_Quickened"
 type "PassiveData"
 using "Metamagic_Quickened"
+data "DescriptionParams" "2"
 data "Boosts" "UnlockSpellVariant(QuickenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));"
 
 new entry "Metamagic_Subtle"

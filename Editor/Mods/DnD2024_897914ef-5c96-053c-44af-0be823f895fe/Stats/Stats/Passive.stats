@@ -3248,6 +3248,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Heightened" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c3c01a6e-8e28-400d-a26f-6f2b24ba829b" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(HeightenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifySavingThrowDisadvantage());" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3256,6 +3257,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Quickened" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3545c2ba-eede-464c-8521-bcc2146ccee1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(QuickenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
