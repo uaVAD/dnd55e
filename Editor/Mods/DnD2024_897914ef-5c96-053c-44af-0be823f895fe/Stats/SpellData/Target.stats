@@ -2230,52 +2230,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1e80f78d-0349-4fcb-8a40-893fb5fb0741" />
-        <field name="Name" type="NameTableFieldDefinition" value="HoldMonster" />
-        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HOLD_MONSTER,100,10)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Tagged('UNDEAD') and not Self() and not Dead() and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and Character()" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,," />
-        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;IsConcentration;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
-        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Enchantment" enumeration_type_name="SpellSchool" version="1" />
-        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HOLD_MONSTER,100,10)" />
-        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="bcdca947-b1ba-475f-8e3b-9ac850da90fa" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d2ef6b50-243f-478d-85c6-892086a1477e" />
-        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="e1b340b6-78a9-413a-bb7e-8299848238ae" />
-        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_HoldMonster_L4to5" />
-        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_HoldMonster_L4to5" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_HoldMonster" />
-        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="22ced04e-39ec-4faf-b358-708cb8f53ce4" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
-        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_HoldMonster_L4to5" />
-        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Control_HoldMonster_L4to5" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c3189221-b5e3-4ee6-8d32-bacd1f642ce9" />
-        <field name="Name" type="NameTableFieldDefinition" value="HoldMonster_6" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="1e80f78d-0349-4fcb-8a40-893fb5fb0741" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_HoldMonster" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
-        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
-        <field name="CombatAIOverrideSpell" type="StatReferenceTableFieldDefinition" value="Target_HoldMonster_6_AI" />
-        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="999c3895-792a-4a03-a9da-580c612b7975" />
         <field name="Name" type="NameTableFieldDefinition" value="SynapticStatic" />
         <field name="Level" type="IntegerTableFieldDefinition" value="5" />
