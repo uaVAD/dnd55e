@@ -230,7 +230,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4d5463ed-a78f-49ba-bb92-6e6be5319bf7" />
         <field name="Name" type="NameTableFieldDefinition" value="Feat Musician" />
-        <field name="Passives" type="StringTableFieldDefinition" value="Performer" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Musician" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

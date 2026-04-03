@@ -171,7 +171,7 @@
                 </node>
                 <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Feat Musician"/>
-                    <attribute id="Passives" type="LSString" value="Performer"/>
+                    <attribute id="Passives" type="LSString" value="Musician"/>
                     <attribute id="UUID" type="guid" value="4d5463ed-a78f-49ba-bb92-6e6be5319bf7"/>
                 </node>
                 <node id="PassiveList">

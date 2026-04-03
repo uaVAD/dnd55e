@@ -4154,7 +4154,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dfebbd34-7982-4a75-a9d0-60633a967dc0" />
-        <field name="Name" type="NameTableFieldDefinition" value="Performer" />
+        <field name="Name" type="NameTableFieldDefinition" value="Musician" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1c16ff18-f4a3-4666-8391-5ff3570e7a08" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45825d61g1009g094fgd261g57f7112238f9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h658ed514ge9dcg9a0fg207fg2dacf4e5e1ad" version="2" />

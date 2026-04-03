@@ -2996,7 +2996,7 @@ type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Target_BattleMedic);"
 
-new entry "Performer"
+new entry "Musician"
 type "PassiveData"
 using "Performer"
 data "DisplayName" "h45825d61g1009g094fgd261g57f7112238f9;1"
