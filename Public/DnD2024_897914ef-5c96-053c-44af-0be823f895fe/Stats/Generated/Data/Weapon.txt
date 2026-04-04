@@ -2107,7 +2107,7 @@ data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
 data "Rarity" "Uncommon"
 data "DefaultBoosts" "WeaponProperty(Magical)"
 data "Boosts" "UnlockSpell(Projectile_HAG_RayOfSickness_Staff)"
-data "PassivesOnEquip" "WeaponMasteryTopple;WeaponMasteryTopple;"
+data "PassivesOnEquip" "WeaponMasteryTopple;"
 data "Unique" "1"
 
 new entry "HAG_SwampedHero_OldFancyGreatsword"
