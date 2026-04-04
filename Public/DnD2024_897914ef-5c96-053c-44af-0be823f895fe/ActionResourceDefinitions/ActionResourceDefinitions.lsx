@@ -329,6 +329,7 @@
                     <attribute id="UUID" type="guid" value="f731c3bf-88c4-4fab-bf44-fae650ea2ec3"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h33e4840fg9b06g37ddg46b2g81f0faa0ab99" version="1"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
                     <attribute id="Name" type="FixedString" value="MageSlayer"/>
                     <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
@@ -351,6 +352,17 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="hd3b6f9bdga558g9498gb53egf8707edcbf80" version="1"/>
                     <attribute id="Name" type="FixedString" value="HeroicInspiration"/>
                     <attribute id="UUID" type="guid" value="cab54f89-f8bf-4f78-a512-5327880c6a65"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="__XANATHARS GUIDE TO EVERYTHING__"/>
+                    <attribute id="UUID" type="guid" value="fd6f503f-0e70-448f-8694-fd43dfa81118"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h533e7ae0g8d45gc06bg5b2dg17156082d092" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="FadeAway"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="d9f8521e-1bd2-435d-aebd-3e0a1a847308"/>
                 </node>
             </children>
         </node>

@@ -467,6 +467,24 @@
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="MageSlayer" />
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
         <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33e4840fg9b06g37ddg46b2g81f0faa0ab99" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_49" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fd6f503f-0e70-448f-8694-fd43dfa81118" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__XANATHARS GUIDE TO EVERYTHING__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_50" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d9f8521e-1bd2-435d-aebd-3e0a1a847308" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="FadeAway" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h533e7ae0g8d45gc06bg5b2dg17156082d092" version="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

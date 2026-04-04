@@ -1820,4 +1820,58 @@ Fog of War. The DC to become Invisible when you take the Hide action is 15 inste
   <content contentuid="h8d8901f6g2e5cg9e63gccfag9986aa35774d" version="1">Gain the benefits of a Short Rest.</content>
   <content contentuid="h29b83689gfd3bg5f53g17f0g9a9d6b677256" version="1">Gain the benefits of a Short Rest.</content>
   <content contentuid="h9e1946a3g463agb8b7g75e7gd94f9c36f9f7" version="1">When you use Smite spells, you gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+  <content contentuid="h49c4cec7gb617g6a1eg491fgb75829e376fa" version="1">Feat: Dragon Fear</content>
+  <content contentuid="h1e4b1002g6774g3698g6495gb47ef39af956" version="2">You gain one use of your Breath Weapon.&lt;br&gt;&lt;br&gt;You can expend one use of your Breath Weapon to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw. On a failed save, a target becomes frightened of you for 1 minute.</content>
+  <content contentuid="h430183d9g2467g740eg12f4g394e373bda31" version="1">Dragon Fear</content>
+  <content contentuid="h1296e788gbe31g8450g4a0cg6c2851fe0b5f" version="1">You can expend one use of your Breath Weapon to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw. On a failed save, a target becomes frightened of you for 1 minute.</content>
+  <content contentuid="hf77239c8gc341gd005gafa4g973247f6b867" version="1">Dragon Fear</content>
+  <content contentuid="h1db10ba1g91aagc5a2g2acbg5853ba104450" version="5">Prerequisite: Dragonborn&lt;br&gt;&lt;br&gt;When angered, you can radiate menace.&lt;br&gt;&lt;br&gt;You gain one use of your Breath Weapon.&lt;br&gt;&lt;br&gt;You can expend one use of your Breath Weapon to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw. On a failed save, a target becomes frightened of you for 1 minute.</content>
+  <content contentuid="h5029006cg1d84g898agfbf2g6cbc772fdf9b" version="1">Xanathar's Guide to Everything</content>
+  <content contentuid="ha022bdf2g8459g8f09g9f3eg1fb7dd37302a" version="1">Xanathar's Guide to Everything</content>
+  <content contentuid="h8f0ab00ag0746gf074g340age19b8809a448" version="1">Dragon Hide</content>
+  <content contentuid="h9034c86agb8d7g13ffge863g1561ec6ea096" version="3">Prerequisite: Dragonborn&lt;br&gt;&lt;br&gt;You manifest scales and claws reminiscent of your draconic ancestors.&lt;br&gt;&lt;br&gt;Your scales harden. While you aren’t wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.&lt;br&gt;&lt;br&gt;You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. When you hit with an unarmed strike using these claws, the attack deals an additional 1d4 slashing damage.</content>
+  <content contentuid="h15c9cd37ga045g7431ge7e7g0c7fa387fb99" version="1">Feat: Dragon Hide</content>
+  <content contentuid="hb434eaecg1425g3722gfd51g5065b8b2a915" version="1">Your scales harden. While you aren’t wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.&lt;br&gt;&lt;br&gt;You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. When you hit with an unarmed strike using these claws, the attack deals an additional 1d4 slashing damage.</content>
+  <content contentuid="hff5fa241g78c2g2414gf5caga9f8235efc8d" version="1">Feat: Dragon Hide</content>
+  <content contentuid="h2f58c2a0g1fd8gcbc6g65e4g15015618e4f6" version="1">Feat: Dwarven Fortitude</content>
+  <content contentuid="haa8d3917gd15fg261dg5b19g07a62de6a88f" version="1">Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).</content>
+  <content contentuid="h399266afg5858g5079g1067g6fd5b17e38ef" version="1">Dwarven Fortitude</content>
+  <content contentuid="h5d6d057fg00c7g16f2g3e29g4815f812225a" version="3">Prerequisite: Dwarf&lt;br&gt;&lt;br&gt;You have the blood of dwarf heroes flowing through your veins.&lt;br&gt;&lt;br&gt;Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).</content>
+  <content contentuid="h59ec731bg946dg1c9eg2b5fg04fb49032eb0" version="1">Feat: Elven Accuracy</content>
+  <content contentuid="h7568c386gf212ga40dg691eg69b66c143ccb" version="1">Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</content>
+  <content contentuid="h871574cdg815eg20feg9c4bg90c69f23267f" version="1">Elven Accuracy</content>
+  <content contentuid="h9859bb44g3e14g4995geac2ga0aad82d5174" version="3">Prerequisite: Elf or half-elf&lt;br&gt;&lt;br&gt;The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force.&lt;br&gt;&lt;br&gt;Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</content>
+  <content contentuid="h9e85d1b6g9ae7gbd03g0979g143f269618f6" version="1">Feat: Fade Away</content>
+  <content contentuid="hf3c081c9gfff8gde1bg3dfdg9efec07a99db" version="1">Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short or long rest.</content>
+  <content contentuid="he5681483gc147g2847g3d00g9d1fbf8ceb55" version="1">Fade Away</content>
+  <content contentuid="h77e7a483ged12gb338gf5e8g19d2932eb5ca" version="1">Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short or long rest.</content>
+  <content contentuid="h33e4840fg9b06g37ddg46b2g81f0faa0ab99" version="1">Mage Slayer</content>
+  <content contentuid="h533e7ae0g8d45gc06bg5b2dg17156082d092" version="1">Fade Away</content>
+  <content contentuid="hb58ca71cg198agc573gb1c7g7c178be23f23" version="1">Fade Away</content>
+  <content contentuid="h05d7703fg52a0gdeefgd5b6g6d58a2ca1db4" version="3">Prerequisite: Gnome&lt;br&gt;&lt;br&gt;Your people are clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm.&lt;br&gt;&lt;br&gt;Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short or long rest.</content>
+  <content contentuid="h9f87a9d2g9d12g4c2cg64e6g15737cbc6441" version="1">Feat: Flames of Phlegethos</content>
+  <content contentuid="hc35093b5g5ceag870eg966fg55e93a47c7ca" version="1">When you roll fire damage for a spell you cast, you can reroll any 1 on the fire damage dice.&lt;br&gt;&lt;br&gt;Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. While these flames are present, any creature that hits you with a melee attack takes 1d4 fire damage.</content>
+  <content contentuid="h39fb369dg4fccg4963gd303g8b939bce8d8f" version="1">Flames of Phlegethos</content>
+  <content contentuid="hb537b09ag83a8g4f18gf705gc5ec2b658965" version="1">Flames of Phlegethos</content>
+  <content contentuid="h5421b0a0g7e88g3249g1c1fg0bb7fa658d3a" version="1">Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. While these flames are present, any creature that hits you with a melee attack takes 1d4 fire damage.</content>
+  <content contentuid="h3502d470g3a45gf7d7g2d8dgb6979a6b5440" version="1">Flames of Phlegethos</content>
+  <content contentuid="hc93c8d09ge62bg58d1g07dcgb03858e06604" version="2">Prerequisite: Tiefling&lt;br&gt;&lt;br&gt;You learn to call on hellfire to serve your commands.&lt;br&gt;&lt;br&gt;When you roll fire damage for a spell you cast, you can reroll any 1 on the fire damage dice.&lt;br&gt;&lt;br&gt;Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. While these flames are present, any creature that hits you with a melee attack takes 1d4 fire damage.</content>
+  <content contentuid="h8da0ffe6gfac9g6966g9355g3d3ff1aeff52" version="1">Feat: Infernal Constitution</content>
+  <content contentuid="h8a863439g286bg8971g8df1g7a3cb3edc5c6" version="1">You have resistance to cold damage and poison damage.
+You have advantage on saving throws against being poisoned.</content>
+  <content contentuid="h9870add4g87a1g306fg4d11g7626059e8997" version="1">Infernal Constitution</content>
+  <content contentuid="h303c0002gfd86g7697g4741ge4ae9b93c916" version="2">Prerequisite: Tiefling&lt;br&gt;&lt;br&gt;Fiendish blood runs strong in you, unlocking a resilience akin to that possessed by some fiends.&lt;br&gt;&lt;br&gt;You have resistance to cold damage and poison damage.
+You have advantage on saving throws against being poisoned.</content>
+  <content contentuid="he3cdc39cg8e39gb2e3gc628g38d8698d6dfb" version="1">Feat: Orcish Fury</content>
+  <content contentuid="h4b0f1e63g20c9gcc05ga203g340139e843f1" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a melee weapon attack, you deal an extra dice of weapon damage. </content>
+  <content contentuid="h09b6e651g8c58gb250g73d8gf855f2d9b768" version="1">Orcish Fury</content>
+  <content contentuid="h505c9691gb92dg0066g1bd8gee8dbadfa730" version="1">Prerequisite: Half-orc&lt;br&gt;&lt;br&gt;When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a melee weapon attack, you deal an extra dice of weapon damage. </content>
+  <content contentuid="he151a721gdcf4gc33fg689cg1cae9782fe92" version="1">Squat Nimbleness</content>
+  <content contentuid="h4512f4d8gc99aga64eg600bg8cac11c86e39" version="1">Prerequisite: Dwarf or a Small race&lt;br&gt;&lt;br&gt;You are uncommonly nimble for your race.&lt;br&gt;&lt;br&gt;Increase your walking speed by 5 feet.
+You gain proficiency in the Acrobatics or Athletics skill (your choice).
+You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to escape from being restrained.</content>
+  <content contentuid="h1dbe3f90g3d47gc1cagd861g317e83891368" version="1">Feat: Squat Nimbleness</content>
+  <content contentuid="h40770da0g7507g2a0eg4c0dgbab4e296bc1d" version="1">Increase your walking speed by 5 feet.
+You gain proficiency in the Acrobatics or Athletics skill (your choice).
+You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to escape from being restrained.</content>
 </contentList>

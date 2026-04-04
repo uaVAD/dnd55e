@@ -19,6 +19,11 @@
                     <attribute id="Skills" type="LSString" value="Deception,Performance,Persuasion"/>
                     <attribute id="UUID" type="guid" value="e65a325d-d626-4421-8c76-0f5fc0fde5a5"/>
                 </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="XGE Squat Nimbleness Skill List"/>
+                    <attribute id="Skills" type="LSString" value="Acrobatics,Athletics"/>
+                    <attribute id="UUID" type="guid" value="d263c18a-c305-4c25-909c-10ff69e48aee"/>
+                </node>
             </children>
         </node>
     </region>

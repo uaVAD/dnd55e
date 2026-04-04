@@ -62,3 +62,13 @@
 - SKill Expert
 - Skulker
 - Slasher
+## Xanathar's Guide to Everything
+- Dragon Fear
+- Dragon Hide
+- Dwarven Fortitude
+- Elven Accuracy
+- Fade Away
+- Flames of Phlegethos
+- Infernal Constitution
+- Orcish Fury
+- Squat Nimbleness

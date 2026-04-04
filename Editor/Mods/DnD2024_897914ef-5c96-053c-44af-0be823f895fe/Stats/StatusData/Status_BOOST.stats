@@ -3298,6 +3298,26 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3926f1f3-cdbd-4d6f-9616-8358d41c9bc1" />
+        <field name="Name" type="NameTableFieldDefinition" value="__XANATHARS GUIDE TO EVERYTHING__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fce635c2-f002-4f21-8578-801736722334" />
+        <field name="Name" type="NameTableFieldDefinition" value="FLAMES_OF_PHLEGETHOS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb537b09ag83a8g4f18gf705gc5ec2b658965" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5421b0a0g7e88g3249g1c1fg0bb7fa658d3a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Tiefling_HellishResistance" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_FireShieldWarm_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_FireShieldWarm_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FLAMES_OF_PHLEGETHOS" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FlamesOfPhlegethos_FireDamage" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a25f92a9-7078-4a5f-8648-c0bb9f4fee39" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9ca97177-4911-41bd-a576-3c77ff843413" />
         <field name="Name" type="NameTableFieldDefinition" value="__MAGIC ITEM__" />
       </fields>

@@ -54,6 +54,21 @@
                     <attribute id="Name" type="FixedString" value="DEX INT"/>
                     <attribute id="UUID" type="guid" value="15494b6c-d694-4782-ae5c-c0bf7e0f0cf2"/>
                 </node>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Strength, Constitution, Charisma"/>
+                    <attribute id="Name" type="FixedString" value="STR CON CHA"/>
+                    <attribute id="UUID" type="guid" value="6f722be8-f281-4eee-8948-a56f04d4943d"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Intelligence, Wisdom, Charisma"/>
+                    <attribute id="Name" type="FixedString" value="DEX INT WIS CHA"/>
+                    <attribute id="UUID" type="guid" value="fe3d9cad-c1a0-41fe-8662-ba0e75691ff2"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Intelligence, Charisma"/>
+                    <attribute id="Name" type="FixedString" value="INT CHA"/>
+                    <attribute id="UUID" type="guid" value="6e2f58d6-3434-49b1-a786-b4685e96343b"/>
+                </node>
             </children>
         </node>
     </region>

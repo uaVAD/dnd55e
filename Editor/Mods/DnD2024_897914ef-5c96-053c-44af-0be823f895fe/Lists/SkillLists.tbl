@@ -22,5 +22,12 @@
         <field name="Skills" type="StringTableFieldDefinition" value="Deception,Performance,Persuasion" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d263c18a-c305-4c25-909c-10ff69e48aee" />
+        <field name="Name" type="NameTableFieldDefinition" value="XGE Squat Nimbleness Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Acrobatics,Athletics" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
