@@ -1858,6 +1858,7 @@ data "StatusType" "BOOST"
 data "StackId" "INTERRUPT_FIGHTINGSTYLE_PROTECTION_UNLOCK"
 data "TickType" "StartTurn"
 data "Boosts" "UnlockInterrupt(Interrupt_FightingStyle_Protection_2);"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 new entry "__ORIGIN FEAT__"
 type "StatusData"
