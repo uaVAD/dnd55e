@@ -489,6 +489,34 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d70aaca9-9ebe-4bf9-9f82-a3b244b4b12e" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__FORGOTTEN REALMS HEROES OF FAERUN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_52" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8dfea2e1-ff94-4212-b537-c5b1039e3ac7" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SacredFlame" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a0876d7g8491g0bbeg8ee3g09ef60d525a6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6fcd846dgd479g5f4dgffd4g14a8140f6ba1" version="2" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_53" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bfb62029-8c64-4c96-ab75-5000447ddf62" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SpellfireSpark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h55a0b294g7523g791cgb041gfe4ae841cef0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b8e3a06gdde1gc2ecgce15ga5797c09467a" version="2" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_42" />
         <field name="UUID" type="IdTableFieldDefinition" value="d0a8fbe1-fb92-44ba-bdf3-f1356ca328d0" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="__RACE__" />
@@ -512,6 +540,9 @@
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="HeroicInspiration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3b6f9bdga558g9498gb53egf8707edcbf80" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h43bcb1b9g7661gd847g5c69g16cf92019e88" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
       </fields>
     </stat_object>
   </stat_objects>

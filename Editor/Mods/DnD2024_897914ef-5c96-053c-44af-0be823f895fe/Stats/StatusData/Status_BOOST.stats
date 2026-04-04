@@ -24,6 +24,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b9dd668-c2fb-4157-a246-f41c6d8e2c39" />
+        <field name="Name" type="NameTableFieldDefinition" value="HEROIC_INSPIRATION_TEMP" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hee930e39g569egbf9bgf8d4gce1dcff3b5cd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd9193a10g8e78g28bagc22eg90d1be20c4d7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Human_HeroicInspiration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HeroicInspiration,1,0);UnlockInterrupt(Interrupt_HeroicInspiration_RollAdditionalDie_General);UnlockInterrupt(Interrupt_HeroicInspiration_RollAdditionalDie_SavingThrow_General);" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HEROIC_INSPIRATION_TEMP" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bfba64d6-e25c-492d-adb0-e299d34894fb" />
         <field name="Name" type="NameTableFieldDefinition" value="EXTRA_ATTACK" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2e2ad149-8527-440a-9172-45d89725b9f4" />
@@ -3315,6 +3327,69 @@
         <field name="StackId" type="StringTableFieldDefinition" value="FLAMES_OF_PHLEGETHOS" />
         <field name="Passives" type="StringTableFieldDefinition" value="FlamesOfPhlegethos_FireDamage" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a25f92a9-7078-4a5f-8648-c0bb9f4fee39" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02996c57-11b8-4a0b-ba5a-16ac0415c995" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FORGOTTEN REALMS HEROES OF FAERUN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6761e789-d08e-4930-9fc1-c6939f3302a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="LLA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="367a4d0a-6aa5-4078-9556-5343b1e2d5c6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4b058a0g2cdbgba7agf3cfg71fa968bbd61" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LLA" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63117999-f683-4b18-9fd4-6e2a8cdb2af0" />
+        <field name="Name" type="NameTableFieldDefinition" value="LLA_OWNER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="703793ed-a835-4038-826b-925b0a87bd35" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9fa0d3deg53aag92d4g5ba5g0185574f2cd7" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LLA_OWNER" />
+        <field name="Passives" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8b8b4ff-1fb2-4f8e-86cb-9c07de447290" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAND_AS_ONE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2be276d9g9017gecc8g9365g09bb5b15e42e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4bf93b9cg7a63g5e2bgf86ag8868c3da02b1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnhanceAbility_BullsStrenght" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STAND_AS_ONE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="10" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(Ally() and not Tagged('INANIMATE')):ApplyStatus(STAND_AS_ONE_BUFF)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Grounded);ActionResourceBlock(ReactionActionPoint);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ecb5a9d5-2827-463c-a8b3-5b36ca64dcb8" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAND_AS_ONE_BUFF" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e8b8b4ff-1fb2-4f8e-86cb-9c07de447290" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a6c93d3gcdf4g613agfc21g4b2eb3d82a7e" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STAND_AS_ONE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Grounded);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6fb45d71-e85e-4cea-a1da-ccdd84439832" />
+        <field name="Name" type="NameTableFieldDefinition" value="FAMILY_FIRST" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ffec0c89-1f6b-41d2-8224-9f41b3153ed4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45c64306g0c10g4b75g2a61ga03cdc9f028f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FAMILY_FIRST" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

@@ -336,6 +336,17 @@
                     <attribute id="UUID" type="guid" value="6e696104-66ef-427c-849f-85b60aff88e5"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="__XANATHARS GUIDE TO EVERYTHING__"/>
+                    <attribute id="UUID" type="guid" value="fd6f503f-0e70-448f-8694-fd43dfa81118"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h533e7ae0g8d45gc06bg5b2dg17156082d092" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="FadeAway"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="d9f8521e-1bd2-435d-aebd-3e0a1a847308"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__RACE__"/>
                     <attribute id="UUID" type="guid" value="d0a8fbe1-fb92-44ba-bdf3-f1356ca328d0"/>
                 </node>
@@ -350,19 +361,30 @@
                 <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="h43bcb1b9g7661gd847g5c69g16cf92019e88" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hd3b6f9bdga558g9498gb53egf8707edcbf80" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
                     <attribute id="Name" type="FixedString" value="HeroicInspiration"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="cab54f89-f8bf-4f78-a512-5327880c6a65"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Name" type="FixedString" value="__XANATHARS GUIDE TO EVERYTHING__"/>
-                    <attribute id="UUID" type="guid" value="fd6f503f-0e70-448f-8694-fd43dfa81118"/>
+                    <attribute id="Name" type="FixedString" value="__FORGOTTEN REALMS HEROES OF FAERUN__"/>
+                    <attribute id="UUID" type="guid" value="d70aaca9-9ebe-4bf9-9f82-a3b244b4b12e"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h533e7ae0g8d45gc06bg5b2dg17156082d092" version="1"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="FadeAway"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="UUID" type="guid" value="d9f8521e-1bd2-435d-aebd-3e0a1a847308"/>
+                    <attribute id="Description" type="TranslatedString" handle="h6fcd846dgd479g5f4dgffd4g14a8140f6ba1" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7a0876d7g8491g0bbeg8ee3g09ef60d525a6" version="1"/>
+                    <attribute id="Name" type="FixedString" value="SacredFlame"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="8dfea2e1-ff94-4212-b537-c5b1039e3ac7"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h7b8e3a06gdde1gc2ecgce15ga5797c09467a" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h55a0b294g7523g791cgb041gfe4ae841cef0" version="1"/>
+                    <attribute id="Name" type="FixedString" value="SpellfireSpark"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="bfb62029-8c64-4c96-ab75-5000447ddf62"/>
                 </node>
             </children>
         </node>

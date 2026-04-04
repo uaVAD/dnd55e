@@ -1,5 +1,6 @@
 function IsClericCantrip()
 	return SpellId('Target_SacredFlame')
+	 | SpellId('Target_SacredFlame_BonusAction')
 	 | SpellId('Target_TollTheDead')
 	 | SpellId('Target_BurstingSinew')
 	 | SpellId('Shout_WordOfRadiance')

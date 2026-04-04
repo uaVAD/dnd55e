@@ -3381,7 +3381,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11002" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWarlockCantrip() and IsCharismaModifierPositive()):DamageBonus(CharismaModifier);IF(HasPassive('Celestial_3_CelestialSpells',context.Source) and SpellId('Target_SacredFlame') and IsCharismaModifierPositive()):DamageBonus(CharismaModifier);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWarlockCantrip() and IsCharismaModifierPositive()):DamageBonus(CharismaModifier);IF(HasPassive('Celestial_3_CelestialSpells',context.Source) and (SpellId('Target_SacredFlame') or SpellId('Target_SacredFlame_BonusAction')) and IsCharismaModifierPositive()):DamageBonus(CharismaModifier);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4876,6 +4876,129 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RESTRAINED_ADV);ActionResource(Movement,1.5,0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e79574a-7e8c-4d37-aabf-d5b80c6e97a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__TASHAS CAULDRON OF EVERYTHING__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="970f4a17-816d-4d43-978f-3037e1a619b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MetamagicAdept" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SorceryPoint,2,0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e044ee4-8467-4e71-a83e-7aa05d257856" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FORGOTTEN REALMS HEROES OF FAERUN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bfaeaccb-bda9-4ff3-88e7-c12efe5ce384" />
+        <field name="Name" type="NameTableFieldDefinition" value="CultOfTheDragonInitiate" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0d2663e7ga6eag1b82g8e4bg4351babc6226" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5648b3eag0325g46d8g5cd1g0463117aab6a" version="4" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerShortRest" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DragonsTerror);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApply" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(StatusHasStatusGroup(context.StatusId, 'SG_Frightened')):ApplyStatus(SELF,HEROIC_INSPIRATION_TEMP,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="364d1ad0-de5e-40a5-bfeb-223be556f60a" />
+        <field name="Name" type="NameTableFieldDefinition" value="EmeraldEnclaveFledgling" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9882b9efg772bg815eg465bg5671d559ae9f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha908486dgac97g5080g2fcdg248197559140" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SpeakWithAnimals);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b0b8b5a-4ae7-4b9d-8fb6-39ca68e9630c" />
+        <field name="Name" type="NameTableFieldDefinition" value="HarperAgent" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32098dd3g6f72g92eag10cbg76fc72c357c4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96873617g1939g4ab3g3ea5g0e3840510734" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c49e9188-4240-4e1a-be95-b7afb69f39c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="LordsAllianceAgent" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb61939ecg2158g4da3gadf9g7aace51ea588" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6c140161ge881g7f60g8a89gbf47719d5f66" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsCritical();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HEROIC_INSPIRATION_TEMP,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5d67d8e-dc47-4731-a36d-105d41c90ebb" />
+        <field name="Name" type="NameTableFieldDefinition" value="LordsAllianceAgent_Advantage" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsHit();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsMeleeAttack()):ApplyStatus(SWAP,LLA,100,2);IF(IsMeleeAttack()):ApplyStatus(SELF,LLA_OWNER,100,2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="52888a00-90a8-4849-959d-0c088152d9a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PurpleDragonRook" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h460435aaga1b3g7abbg15e5g3ca6334b18ec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h76a090b6gcb17g375dg822fgdf79bae4b00a" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_PurpleDragonRook);ProficiencyBonus(Skill,Persuasion);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d886c39-03c3-4155-bb4a-25b798c59afe" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellfireSpark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd178e099gb659g6341ga121g62c3fe95197b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5b07f997g2114g17b3gd384gcaa505b50750" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SacredFlame);UnlockSpell(Target_SacredFlame_BonusAction);ActionResource(SacredFlame,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(SacredFlame,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(SacredFlame,1,0);UnlockInterrupt(Interrupt_SpellfireSpark);ActionResource(SpellfireSpark,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77f31ce0-9aca-4a6d-bbdc-80dc5dba3428" />
+        <field name="Name" type="NameTableFieldDefinition" value="TyroOfTheGauntlet" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcdc555cfg9d57g4360g3b62gca191ef8dbeb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae5d214ag6792g7325g5146gf48dfd5f7239" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnhanceAbility_BullsStrenght" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ToggledDefaultOn;ToggledDefaultAddToHotbar;IsToggled" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(STAND_AS_ONE,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(STAND_AS_ONE)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4f53701-09fa-4b86-a33f-2aea48bf9a58" />
+        <field name="Name" type="NameTableFieldDefinition" value="ZhentarimRuffian" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc035112fg126ag11d6gfb7dg336a2c68d5d8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb6c99f09gddf8gda0ag3134gfda7f384b17d" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsReactionAttack(context.Source)):Reroll(Damage,20,true);UnlockSpell(Shout_FamilyFirst);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

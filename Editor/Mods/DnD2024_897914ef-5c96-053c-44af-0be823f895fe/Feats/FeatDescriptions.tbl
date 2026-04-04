@@ -481,5 +481,135 @@
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="SquatNimbleness" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="96f84efa-51e0-483a-a77d-cdb458b1d12c" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="6c966718-574f-4e9a-9e97-1069242843a9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc21b0d36g2755g50e6ge494g02f450138ec2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hce732cf1g4e06ge110g8d34g08c428a3b974" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="TCE_FEAT" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_48" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cfa4e735-30b9-4cb5-be3f-34c68832a806" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="a230431d-ce32-4a08-8d1b-bc6c6d462d0e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h35050c0eg78deg45e0g4f6fg8c9ef353a3a9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h12be78fcg4014gf53egdd87g0988b8262c10" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="EldritchAdept" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_49" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f335dd67-30b3-44f9-934c-990f48510837" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="ef5a96c7-b21f-4a23-aa44-3997efe5b471" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h417312b5gae0dgc1a6gfa11g6ce1f7d0f573" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha9db555bg9216gb5b2g0ee9gc9f5d2f74c3a" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="FightingInitiate" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_50" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cf1681fe-71db-4094-a844-69091db575cc" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="8af37785-7ab1-4010-82f2-7fd226593ea1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4998c762g7d6egdfc2g2fd6gdf770ccc5c4d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf9cd95ecgf1f8gb541gd6dcgf5f3c5bd5322" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="MetamagicAdept" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_52" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c738d751-622e-41ac-b4e2-55d4d51a073e" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="8828bdb8-33b0-4842-a328-974fdcd132fc" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h07d286f6gc9ceg419dgb13dg7480d479c810" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hab576294g3e47gcbbeg44c0g9dc38a2a3ab6" version="2" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="FRHOF_ORIGIN_FEAT" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_53" />
+        <field name="UUID" type="IdTableFieldDefinition" value="90570651-a4fd-416e-9da3-195e91af68d9" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="d0cd7940-22a8-4e79-9e86-ad29a51dec97" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h131adc06g9cd1g7b27g9571g87157dc4b980" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc477acf9gaec4g36b5g7d0bg06d04d9b41f4" version="2" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="CultOfTheDragonInitiate" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_54" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9147f1d6-a449-47f6-a033-f9d03d6bc61e" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="f09e0734-4d05-4596-9e4b-e9ec758cd280" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff02d5beg6459g3c3ag3b99gadddccb29990" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9dd6f816g7d8eg2378g9af9g3b609e271919" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="EmeraldEnclaveFledgling" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_55" />
+        <field name="UUID" type="IdTableFieldDefinition" value="80d0935e-2c6d-47e1-86e1-a8991a48dddd" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="9d75c4c9-4700-4858-b0aa-5aca36dbc354" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c7893begd4c4gb155gaa06gc35e907bc369" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a020e0cgf5c4g50b0g2c1eg4923fce674b6" version="3" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="HarperAgent" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_56" />
+        <field name="UUID" type="IdTableFieldDefinition" value="18251952-c4ce-4ae3-8554-1246bf9a42ef" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="3febb938-6128-4001-9dfb-581c943da22e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha3dd6113g523fga059ga221g580b213b88b8" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ee892fdg07d1g3e46ga80bg74e493bcf181" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="LordsAllianceAgent" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_57" />
+        <field name="UUID" type="IdTableFieldDefinition" value="837dc8cb-4b04-48fb-9449-1df74cf11d94" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="d0ec7532-bf16-45dd-9583-4f56b7ce332a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha118d2a1gbbb4gcfd3g1676g37accfee78d4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf2f81938g5ca0gb0eega680g3ec73dd11dd8" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="PurpleDragonRook" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_58" />
+        <field name="UUID" type="IdTableFieldDefinition" value="34357ee5-357c-45de-aaf4-05bc1f9b502d" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="41ad39b6-a333-4359-aed0-aed465318ac1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h37427b79gd475g84c7g03e9g66f300db641b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdefd07e9gac32g3227g03d6g27116876f808" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="SpellfireSpark" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_59" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dd5c31c4-0285-4211-adf2-856dbf93694b" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="3428189b-9a9b-40f5-979b-bfc6833a085c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1683d699gbd26g0b5fg3b54g431044aa2005" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfde09985geec3g307ag4015ga087801eec7f" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="TyroOfTheGauntlet" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a1ac6997-84c1-49bc-800e-50ad23575d68" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="ad0e0884-9af9-4dea-b497-d4394ca68903" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h892adbd2g77e7g3445g2923gacaeb87d4b31" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35e74b0fg788bg373bg7feag7976ce468738" version="2" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="ZhentarimRuffian" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

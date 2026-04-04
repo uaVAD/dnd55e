@@ -466,6 +466,23 @@ data "Cost" "ReactionActionPoint:1;FadeAway:1;"
 data "Cooldown" "OncePerShortRest"
 data "InterruptDefaultValue" "Ask;Enabled"
 
+new entry "__FORGOTTEN REALMS HEROES OF FAERUN__"
+type "InterruptData"
+
+new entry "Interrupt_SpellfireSpark"
+type "InterruptData"
+data "DisplayName" "h8b6799cbg2042gdd00gaddeg24b4180f6ca3;1"
+data "Description" "h11f2c0a6g0e9cg591agcdd9g71cba221f057;1"
+data "Icon" "PassiveFeature_Generic_Magical"
+data "InterruptContext" "OnPreDamage"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit);"
+data "Properties" "AdjustRoll(OBSERVER_TARGET,-1d4,All);"
+data "Cost" "SpellfireSpark:1;"
+data "Stack" "SpellfireSpark"
+data "InterruptDefaultValue" "Enabled"
+
 new entry "__RACE__"
 type "InterruptData"
 
@@ -484,4 +501,12 @@ using "Interrupt_HeroicInspiration_RollAdditionalDie"
 data "DisplayName" "hc1919180g48a0ga814g77dega72819b9d91a;1"
 data "Description" "h665b0831g0a27gcf47g1dafg16ce9df4ed5c;1"
 data "Conditions" "not Dead(context.Observer) and (HasInterruptedSavingThrow() and Self(context.Observer,context.Target) and IsRerollInterruptInteresting()) and not AnyEntityIsItem()"
+
+new entry "Interrupt_HeroicInspiration_RollAdditionalDie_General"
+type "InterruptData"
+using "Interrupt_HeroicInspiration_RollAdditionalDie"
+
+new entry "Interrupt_HeroicInspiration_RollAdditionalDie_SavingThrow_General"
+type "InterruptData"
+using "Interrupt_HeroicInspiration_RollAdditionalDie_SavingThrow"
 

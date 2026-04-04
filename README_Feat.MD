@@ -72,3 +72,18 @@
 - Infernal Constitution
 - Orcish Fury
 - Squat Nimbleness
+## Tasha's Cauldron of Everything
+- Eldritch Adept
+- Fighting Initiate
+- Metamagic Adept
+## Forgotten Realms: Heroes of Faerûn
+### Origin Feat
+- Cult of the Dragon Initiate
+- Emerald Enclave Fledgling
+- Harper Agent
+- Lords’ Alliance Agent
+- Purple Dragon Rook
+- Spellfire Spark
+- Tyro of the Gauntlet
+- Zhentarim Ruffian
+### General Feat

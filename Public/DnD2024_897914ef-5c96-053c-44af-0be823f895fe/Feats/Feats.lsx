@@ -325,6 +325,72 @@
                     <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX);SelectSkills(d263c18a-c305-4c25-909c-10ff69e48aee,1,SkilledSkills);"/>
                     <attribute id="UUID" type="guid" value="4ed110ea-6f86-4567-8469-973e9591fec5"/>
                 </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="TCE_FEAT"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Charisma&apos;,100)"/>
+                    <attribute id="UUID" type="guid" value="6c966718-574f-4e9a-9e97-1069242843a9"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="EldritchAdept"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(ab56f79f-95ec-48e5-bd83-e80ba9afc844,1)"/>
+                    <attribute id="UUID" type="guid" value="a230431d-ce32-4a08-8d1b-bc6c6d462d0e"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="FightingInitiate"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1)"/>
+                    <attribute id="UUID" type="guid" value="ef5a96c7-b21f-4a23-aa44-3997efe5b471"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="MetamagicAdept"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MetamagicAdept"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(c3506532-36eb-4d18-823e-497a537a9619,2)"/>
+                    <attribute id="UUID" type="guid" value="8af37785-7ab1-4010-82f2-7fd226593ea1"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="FRHOF_ORIGIN_FEAT"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Charisma&apos;,100)"/>
+                    <attribute id="UUID" type="guid" value="8828bdb8-33b0-4842-a328-974fdcd132fc"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="CultOfTheDragonInitiate"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CultOfTheDragonInitiate"/>
+                    <attribute id="UUID" type="guid" value="d0cd7940-22a8-4e79-9e86-ad29a51dec97"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="EmeraldEnclaveFledgling"/>
+                    <attribute id="PassivesAdded" type="LSString" value="EmeraldEnclaveFledgling"/>
+                    <attribute id="UUID" type="guid" value="f09e0734-4d05-4596-9e4b-e9ec758cd280"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="HarperAgent"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HarperAgent"/>
+                    <attribute id="UUID" type="guid" value="9d75c4c9-4700-4858-b0aa-5aca36dbc354"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="LordsAllianceAgent"/>
+                    <attribute id="PassivesAdded" type="LSString" value="LordsAllianceAgent;LordsAllianceAgent_Advantage"/>
+                    <attribute id="UUID" type="guid" value="3febb938-6128-4001-9dfb-581c943da22e"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="PurpleDragonRook"/>
+                    <attribute id="PassivesAdded" type="LSString" value="PurpleDragonRook"/>
+                    <attribute id="UUID" type="guid" value="d0ec7532-bf16-45dd-9583-4f56b7ce332a"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="SpellfireSpark"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SpellfireSpark"/>
+                    <attribute id="UUID" type="guid" value="41ad39b6-a333-4359-aed0-aed465318ac1"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="TyroOfTheGauntlet"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TyroOfTheGauntlet"/>
+                    <attribute id="UUID" type="guid" value="3428189b-9a9b-40f5-979b-bfc6833a085c"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="ZhentarimRuffian"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ZhentarimRuffian"/>
+                    <attribute id="UUID" type="guid" value="ad0e0884-9af9-4dea-b497-d4394ca68903"/>
+                </node>
             </children>
         </node>
     </region>

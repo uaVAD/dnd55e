@@ -672,6 +672,29 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29bef8ea-72ea-495f-8510-f2bb20102f6f" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FORGOTTEN REALMS HEROES OF FAERUN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14d98bed-cb6f-4be3-b833-c2c8883f2479" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_SpellfireSpark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8b6799cbg2042gdd00gaddeg24b4180f6ca3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11f2c0a6g0e9cg591agcdd9g71cba221f057" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPreDamage" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-1d4,All);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="SpellfireSpark:1;" />
+        <field name="Stack" type="StringTableFieldDefinition" value="SpellfireSpark" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4bca4e77-1674-48d0-9dc6-25f6b9bb5119" />
         <field name="Name" type="NameTableFieldDefinition" value="__RACE__" />
       </fields>
@@ -696,6 +719,20 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc1919180g48a0ga814g77dega72819b9d91a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h665b0831g0a27gcf47g1dafg16ce9df4ed5c" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and (HasInterruptedSavingThrow() and Self(context.Observer,context.Target) and IsRerollInterruptInteresting()) and not AnyEntityIsItem()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83231a8f-b7da-4dbd-9e73-fc772879651b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_HeroicInspiration_RollAdditionalDie_General" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9cf7ecb-773f-40da-ade0-03c2b6a81c63" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="350b64f7-aaa1-49fb-a50b-3923fbcca8fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_HeroicInspiration_RollAdditionalDie_SavingThrow_General" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fd8cdbb-fe22-4c38-955c-42a95a61ee8b" />
       </fields>
     </stat_object>
   </stat_objects>
