@@ -720,6 +720,7 @@ type "SpellData"
 data "SpellType" "Shout"
 using "Shout_Rage_Frenzy"
 data "SpellProperties" "AI_IGNORE:IF(not ClassLevelHigherOrEqualThan(9,'Barbarian')):ApplyStatus(RAGE_FRENZY,100,100);AI_IGNORE:IF(ClassLevelHigherOrEqualThan(9,'Barbarian')):ApplyStatus(RAGE_FRENZY_2,100,100);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);"
+data "Description" "hdc0c151fgfe8egbcabge68cg685831c227f1;1"
 data "TooltipStatusApply" "ApplyStatus(RAGE_FRENZY,100,100)"
 
 new entry "Shout_Rage_Giant"

@@ -883,6 +883,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="132e3878-391b-4e1e-967e-ec2fefcfb4b6" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:IF(not ClassLevelHigherOrEqualThan(9,'Barbarian')):ApplyStatus(RAGE_FRENZY,100,100);AI_IGNORE:IF(ClassLevelHigherOrEqualThan(9,'Barbarian')):ApplyStatus(RAGE_FRENZY_2,100,100);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RAGE_FRENZY,100,100)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc0c151fgfe8egbcabge68cg685831c227f1" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
