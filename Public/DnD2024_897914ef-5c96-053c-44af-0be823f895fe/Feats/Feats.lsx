@@ -467,6 +467,41 @@
                     <attribute id="Selectors" type="LSString" value="SelectAbilities(ed9b9504-0b9e-491b-83c2-8eb12888b3a1,1,1,DEX_CHA);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,1)"/>
                     <attribute id="UUID" type="guid" value="cbd956c2-755d-4de6-97de-664ce7c31650"/>
                 </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="LOTR_FEAT"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Charisma&apos;,100)"/>
+                    <attribute id="UUID" type="guid" value="df06920e-d0c3-46e6-b63e-5b03cfc31e22"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="DeadlyArchery"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DeadlyArchery"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(b54e54c7-fc1d-4fbf-9fae-83c89a196da7,1,1,DEX)"/>
+                    <attribute id="UUID" type="guid" value="268d6ae8-b849-4d65-af68-42a60845030d"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="DragonSlayer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DragonSlayer"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
+                    <attribute id="UUID" type="guid" value="7c2f1e44-5cde-4931-b654-d327354a054e"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="FierceShot"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FierceShot"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
+                    <attribute id="UUID" type="guid" value="d5138112-8de6-4581-bbc6-7a1c9351f518"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="GleamOfWrath"/>
+                    <attribute id="PassivesAdded" type="LSString" value="GleamOfWrath"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
+                    <attribute id="UUID" type="guid" value="91d37609-5bc1-41ec-bf6c-a58e683d563b"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Nimbleness"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Nimbleness"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(b54e54c7-fc1d-4fbf-9fae-83c89a196da7,1,1,DEX)"/>
+                    <attribute id="UUID" type="guid" value="46557a4e-aa90-4ce8-b9e5-a7f5a1603cea"/>
+                </node>
             </children>
         </node>
     </region>

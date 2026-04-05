@@ -2704,6 +2704,36 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4b307dd-dad2-4190-956a-df43c2b66632" />
+        <field name="Name" type="NameTableFieldDefinition" value="__THE LORD OF THE RINGS ROLEPLAYING__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6fd4627-64c1-458e-8973-74acc9121dd9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeadlyArchery" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8106a913-eb53-4222-b1b0-65873284e068" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(STEADY_AIM_RANGED,100,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hef1660acg903fg1237g99f8g6b9c3a3e042b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4674709g7d30gba4fgad6cg17adc9b95a51" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(STEADY_AIM_RANGED,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eaa67190-5037-4f73-9151-4257d8788311" />
+        <field name="Name" type="NameTableFieldDefinition" value="GleamOfWrath" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8762f201-9578-45c5-8f21-e682f117548d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, GLEAM_OF_WRATH,100, 10);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Daylight_Enchantment" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h93af975eg1568g7912g8166g2000a25d6098" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h89b6e006g139bgf893g9a7dg642ea772fd27" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GLEAM_OF_WRATH,100, 10)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c482b0a4-e57f-44f0-b583-217817854eb4" />
         <field name="Name" type="NameTableFieldDefinition" value="__RACE__" />
       </fields>

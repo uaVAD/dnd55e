@@ -56,7 +56,6 @@ DIV queries not referenced:
 ---------------------------
 RealToString( (REAL)_, (STRING)_ )
 PartyRemoveTaggedItems( (CHARACTER)_, (STRING)_, (INTEGER)_, (INTEGER)_ )
-IsSpellActive( (GUIDSTRING)_, (STRING)_, (INTEGER)_ )
 IsDialogueBlocked( (CHARACTER)_, (INTEGER)_ )
 GetSurfaceTypeIndex( (STRING)_, (INTEGER)_ )
 GetParentPlatform( (ITEM)_, (PLATFORM)_ )
