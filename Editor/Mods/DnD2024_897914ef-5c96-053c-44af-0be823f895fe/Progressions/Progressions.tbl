@@ -7710,6 +7710,43 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_686" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f653d537-bc14-4fea-b7d2-25734ec928a2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="81e2cb57-6a12-4429-b3a5-f72549355b3b" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Githyanki" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gith_MartialProdigy" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(5216169f-6b32-4860-8664-61348d970e48);AddSpells(4d7bfb6c-5001-4a83-8728-94e3711516d3,,Intelligence,,AlwaysPrepared)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);Resistance(Psychic,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_687" />
+        <field name="UUID" type="IdTableFieldDefinition" value="851880cb-3b5d-4129-9b25-3bb17d849f87" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="81e2cb57-6a12-4429-b3a5-f72549355b3b" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Githyanki" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(a1d806b1-c3b9-4d89-9ad9-95e382a25b92,,,,AlwaysPrepared)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_688" />
+        <field name="UUID" type="IdTableFieldDefinition" value="37ad7172-291b-4a05-b226-2734170fb4fa" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="81e2cb57-6a12-4429-b3a5-f72549355b3b" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Githyanki" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(02686970-eb05-450f-8d17-fa1ddbea9295,,,,AlwaysPrepared)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_670" />

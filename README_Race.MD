@@ -33,6 +33,12 @@
 - Level 1: Speed: 35 feet
 - Level 3: Longstrider
 - Level 5: Pass without Trace
+## Githyanki
+- Creature Type: Humanoid
+- Speed: 30 feet
+- Astral Knowledge
+- Githyanki Psionics
+- Psychic Resilience
 ## Gnome
 - Creature Type: Humanoid
 - Size: Small (about 3–4 feet tall)
