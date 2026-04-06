@@ -2111,6 +2111,59 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic, Resistant);StatusImmunity(SG_Charmed);StatusImmunity(SG_Frightened);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b17253e-0ea9-4bf3-8379-def739ed5910" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BANNERET 5500__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4724513c-4e6b-4943-9d94-452ecef042a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Banneret_3_KnightlyEnvoy" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40c5a6a5g42eagbba6g5c64g5ece9eb7fe14" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6aeb659gba2ag0648g1d28g8d765621e3a9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Persuasion" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ExpertiseBonus(Persuasion);ExpertiseBonus(Intimidation);ExpertiseBonus(Performance);ExpertiseBonus(Insight);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba015f7d-dc7b-4b0a-902c-22a7a6619ac0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Banneret_3_GroupRecovery" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f223b42g605egefc2g504ag6ef36cc460ed" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8111f35ge4bag28bcg4d99g339262b0a595" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Banneret_GroupRecovery" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_GroupRecovery);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f113b94-295f-4b9d-8cff-68c30b85cb98" />
+        <field name="Name" type="NameTableFieldDefinition" value="Banneret_7_TeamTactics" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc240e7f1g2979geff6gfcc4g1d63a78b39bd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3cc7fa69g03fdgb1f5g1a26g3dbd2b575ce8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_CommandersStrike" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5507" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32a3eff2-cc57-4ec8-ab2b-6d7dc273ddd6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Banneret_10_RallyingSurge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4def2360g5a4cgbe2fge70fgbe9d99d7fa1f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9e1cff8dg946cga7ccgaeddg5ee4b899b6c6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Banneret_RallyingSurge" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5510" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_RallyingSurge);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="608a56c7-9d33-485c-a11f-d75a940fd8bf" />

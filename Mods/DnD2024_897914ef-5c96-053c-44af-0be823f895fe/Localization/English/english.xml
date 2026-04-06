@@ -2201,4 +2201,22 @@ Once you use this feature to modify a casting of Moonbeam, you can’t use it ag
   <content contentuid="hc939b12eg2ee5g197bgc522ga5abc592a4b0" version="1">Lunar Vitality</content>
   <content contentuid="h97618a1dg57f7g2acfg001dg5ba785249fde" version="1">Blessings of Moonlight</content>
   <content contentuid="h13f755b1gb20cg69d9g98a6g40d319bcab11" version="1">While you cast Moonbeam, a creature of your choice that you can see within 60 feet of yourself regains 2d4 Hit Points.</content>
+  <content contentuid="h010a539fg50d1ga5d6g15a9g504704ac4e2c" version="1">Banneret</content>
+  <content contentuid="h6ea1c6eag9b3dg7479ge12cgb52dd829b0da" version="1">Bannerets are paragons of valor and leadership who protect the innocent and rally fellow adventurers to the causes of justice and freedom. Many are knights serving in Cormyr, the Silver Marches, Damara, Chessenta, or other lands across Faerûn. They wander the realms as knights errant, taking the fight against evil beyond their kingdom’s borders.
+
+A Banneret relies on judgment, bravery, and fidelity to the code of chivalry to guide them in defeating evildoers. A lone Banneret is a skilled warrior, but when leading a band of allies one of these warriors can transform even a poorly equipped militia into a ferocious war band.</content>
+  <content contentuid="h40c5a6a5g42eagbba6g5c64g5ece9eb7fe14" version="1">Level 3: Knightly Envoy</content>
+  <content contentuid="ha6aeb659gba2ag0648g1d28g8d765621e3a9" version="1">You gain expertise in all of the following skills: Insight, Intimidation, Persuasion, and Performance.</content>
+  <content contentuid="h3f223b42g605egefc2g504ag6ef36cc460ed" version="1">Level 3: Group Recovery</content>
+  <content contentuid="ha8111f35ge4bag28bcg4d99g339262b0a595" version="2">When you use your Second Wind to regain Hit Points, you can choose a number of allies within a 30-foot emanation originating from you, up to a number of allies equal to your Charisma modifier. Each of those allies regains Hit Points equal to 1d10 + your Fighter level.</content>
+  <content contentuid="hc240e7f1g2979geff6gfcc4g1d63a78b39bd" version="1">Level 7: Team Tactics</content>
+  <content contentuid="h3cc7fa69g03fdgb1f5g1a26g3dbd2b575ce8" version="1">When you use Group Recovery, each chosen ally has Advantage on D20 Tests until the start of your next turn.</content>
+  <content contentuid="h4def2360g5a4cgbe2fge70fgbe9d99d7fa1f" version="1">Level 10: Rallying Surge</content>
+  <content contentuid="h9e1cff8dg946cga7ccgaeddg5ee4b899b6c6" version="1">When you use your Action Surge, you can choose a number of allies within a 30-foot emanation originating from you, up to a number of allies equal to your Charisma modifier. Each of those allies gains the benefit of Action Surge.</content>
+  <content contentuid="h20c820b5g9ed5g6cf5gf004ge0cc7d3c1bb8" version="1">Group Recovery</content>
+  <content contentuid="h6bfa7986g7edeg322fgd99egace84461fcf5" version="1">You choose a number of allies within a 30-foot emanation originating from you, up to a number of allies equal to your Charisma modifier. Each of those allies regains Hit Points equal to 1d10 + your Fighter level.</content>
+  <content contentuid="hed379247g311dgc5a8g87cag1e9a14eb6346" version="1">Rallying Surge</content>
+  <content contentuid="h02149e62gbafbgc9c5g274fg20af94229331" version="1">You choose a number of allies within a 30-foot emanation originating from you, up to a number of allies equal to your Charisma modifier. Each of those allies gains the benefit of your Action Surge.</content>
+  <content contentuid="hcc7a8ccdg1f74g8794gabebg481d991a2048" version="1">Team Tactics</content>
+  <content contentuid="hfb637e3bg85b6g0960g0cb5g7005f951cbcd" version="1">Has Advantage on D20 Tests until the start of your next turn.</content>
 </contentList>

@@ -2076,6 +2076,9 @@
                                     <attribute id="Object" type="guid" value="1be5aa5a-e221-4f0e-a1bf-be25f5d23224"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="f507f7bc-3d1a-4034-9590-ddef5a05d5b3"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="e668c6f1-5149-4b10-ab7e-3637ed444066"/>
                                 </node>
                                 <node id="SubClass">
@@ -6037,6 +6040,30 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Banneret"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Banneret_3_KnightlyEnvoy;Banneret_3_GroupRecovery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
+                    <attribute id="UUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Banneret"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Banneret_7_TeamTactics"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
+                    <attribute id="UUID" type="guid" value="00b735ef-7cd9-4efc-b968-e41f707eebfa"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="Banneret"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Banneret_10_RallyingSurge"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
+                    <attribute id="UUID" type="guid" value="e9214a86-c2d6-4880-b891-284e44fa1d9f"/>
                 </node>
             </children>
         </node>

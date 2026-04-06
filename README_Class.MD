@@ -147,11 +147,12 @@
 - Level 9: Tactical Master
 - Level 11: Two Extra Attacks
 ### Arcane Archer
+### Banneret
+- Level 3: Knightly Envoy
+- Level 3: Group Recovery
+- Level 7: Team Tactics
+- Level 10: Rallying Surge
 ### Battle Master
-### Psi Warrior
-- Level 3: Psionic Power
-- Level 7: Telekinetic Adept
-- Level 10: Guarded Mind
 ### Champion
 - Level 3: Improved Critical
 - Level 3: Remarkable Athlete
@@ -162,6 +163,10 @@
 - Level 3: War Bond
 - Level 7: War Magic
 - Level 10: Eldritch Strike
+### Psi Warrior
+- Level 3: Psionic Power
+- Level 7: Telekinetic Adept
+- Level 10: Guarded Mind
 ## Monk
 - Core Traits
   - Skill Proficiencies
