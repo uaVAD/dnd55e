@@ -99,3 +99,9 @@
 - Purple Dragon Commandant
 - Spellfire Adept
 - Zhentarim Tactics
+## The Lord of The Ring Roleplaying
+- Deadly Archery
+- Dragon-Slayer
+- Fierce Shot
+- Gleam of Wrath
+- Nimbleness
