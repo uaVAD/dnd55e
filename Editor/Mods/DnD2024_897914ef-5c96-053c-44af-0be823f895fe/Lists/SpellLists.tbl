@@ -1046,6 +1046,27 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_PlantGrowth" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7814ed90-c0f0-4b87-af54-bbc8fc6fec19" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Winter Walker Level 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_IceKnife" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83418d74-fa55-45dd-ba77-f4cdfc7a5615" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Winter Walker Level 5 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_HoldPerson" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9421b857-96ec-4d77-9ecc-10bc7af4ea20" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Winter Walker Level 9 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_RemoveCurse" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0e828d11-d946-450c-9152-b893b5f05511" />

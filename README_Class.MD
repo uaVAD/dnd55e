@@ -260,7 +260,6 @@
 - Level 3: Otherworldly Glamour
 - Level 7: Beguiling Twist
 - Level 11: Misty Wanderer
-### Swarm Keeper
 ### Gloom Stalker
 - Level 3: Dread Ambusher
 - Level 3: Gloom Stalker Spells
@@ -271,6 +270,13 @@
 - Level 3: Hunter's Prey
 - Level 7: Defensive Tactics
 - Level 11: Superior Hunter's Prey
+### Swarm Keeper
+### Winter Walker
+- Level 3: Frigid Explorer
+- Level 3: Hunter's Rime
+- Level 3: Winter Walker Spells
+- Level 7: Fortifying Soul
+- Level 11: Chilling Retribution
 ## Rogue
 - Core Traits
   - Skill Proficiencies

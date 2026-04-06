@@ -2219,4 +2219,39 @@ A Banneret relies on judgment, bravery, and fidelity to the code of chivalry to 
   <content contentuid="h02149e62gbafbgc9c5g274fg20af94229331" version="1">You choose a number of allies within a 30-foot emanation originating from you, up to a number of allies equal to your Charisma modifier. Each of those allies gains the benefit of your Action Surge.</content>
   <content contentuid="hcc7a8ccdg1f74g8794gabebg481d991a2048" version="1">Team Tactics</content>
   <content contentuid="hfb637e3bg85b6g0960g0cb5g7005f951cbcd" version="1">Has Advantage on D20 Tests until the start of your next turn.</content>
+  <content contentuid="ha112c9d1gc29dg2a81g78e9g5ee83dc15b44" version="1">Level 3: Frigid Explorer</content>
+  <content contentuid="hdf72a045g6802g6864g7289gb8715a4c18b6" version="1">Biting Cold. Damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.
+
+Frost Resistance. You have Resistance to Cold damage.
+
+Polar Strikes. When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target. When you reach Ranger level 11, this extra damage increases to 1d6.</content>
+  <content contentuid="hf2ce8883g7e85g48fcgfb85geaec662b97b7" version="1">Level 3: Hunter's Rime</content>
+  <content contentuid="hf17390fdg279dg4294gb86ag4e1049c6b097" version="1">Ice rimes you and your prey, protecting you and hindering them. When you cast Hunter’s Mark, you gain Temporary Hit Points equal to 1d10 plus your Ranger level.
+
+Additionally, while a creature is marked by your Hunter’s Mark, it can’t take the Disengage action.</content>
+  <content contentuid="h61ea7154gfc5cg2d12gf82ega36108b6e52c" version="1">Level 3: Winter Walker Spells</content>
+  <content contentuid="h4d24d172g9754g69f8g404agfcebc39ded6a" version="2">At 3rd level, you gain the Winter Walker Spells feature. The magic of your path ensures you always have certain spells prepared; when you reach specific Ranger levels, you automatically have the associated spells prepared. At 3rd level, you have Ice Knife prepared, at 5th level you gain Hold Person, and at 9th level you gain Remove Curse.</content>
+  <content contentuid="h225798f8g19eag252fgafe7gb82f389f37c8" version="1">Level 7: Fortifying Soul</content>
+  <content contentuid="hbeb4351eged06g5aa8g19cag2270bd60a6eb" version="1">Your experience surviving harrowing environments allows you to bolster your allies in addition to yourself. As a Magic action, choose a number of creatures you can see equal to your Wisdom modifier (minimum of one). Each chosen creature regains Hit Points equal to 1d10 plus your Ranger level and has Advantage on saving throws to avoid or end the Frightened condition for 1 hour.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest.</content>
+  <content contentuid="hd373a822gfb21g38dfge5a8g77c001185e3a" version="1">Level 11: Chilling Retribution</content>
+  <content contentuid="hb6e753d8g25f2gee18g87d6gdda8a5857b4c" version="3">When a creature hits you with an attack roll, you can take a Reaction to force the creature to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Stunned condition for 2 turns.
+
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</content>
+  <content contentuid="hd3324082ga20dg104bg944cg8e9d750a54a5" version="1">Hunter's Rime</content>
+  <content contentuid="h7d1048f2gc9feg4128g633ag3409fc6ecdc6" version="1">It can’t take the Disengage action.</content>
+  <content contentuid="hfb12d0cdg48ffg1464gb153g8e462f617426" version="1">Hunter's Rime</content>
+  <content contentuid="h319bdef0g52b5g7c9dg095eg8fdb31fd0953" version="1">You gain Temporary Hit Points equal to 1d10 plus your Ranger level.</content>
+  <content contentuid="hbf27e726g8355g4950ga017g8d4589b1b9aa" version="1">Fortifying Soul</content>
+  <content contentuid="h3b19ec2fg1828gff82g805cg351bdc1b191b" version="1">As a Magic action, choose a number of creatures you can see equal to your Wisdom modifier (minimum of one). Each chosen creature regains Hit Points equal to 1d10 plus your Ranger level and has Advantage on saving throws to avoid or end the Frightened condition for 1 hour.</content>
+  <content contentuid="haf330cbag9da5g81b9gc9c4g13038dc4bc59" version="1">Fortifying Soul</content>
+  <content contentuid="h1b6a7023gadf1g5468g1b86gda2cac4d8e2b" version="1">Have Advantage on saving throws to avoid or end the Frightened condition</content>
+  <content contentuid="hcf64a967g8805ge99bg1ff7ga0cb9cd0764c" version="1">Chilling Retribution</content>
+  <content contentuid="hae8770acg873fg844dgedd5g825cc772d72c" version="1">When a creature hits you with an attack roll, you can take a Reaction to force the creature to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Stunned condition until the end of your next turn.</content>
+  <content contentuid="h2dc72da7geb6fg6757g65b9g28c64f77f068" version="1">Chilling Retribution</content>
+  <content contentuid="h4ff1d8aeg3628g34f5gd2e0gf05e758e89f6" version="1">Chilling Retribution</content>
+  <content contentuid="h7683213dgcd67g8a04g76bdg263469054d80" version="1">When a creature hits you with an attack roll, you can take a Reaction to force the creature to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Stunned condition for 2 turns.</content>
+  <content contentuid="h6c8f835eg0910g6b96ga78bg651c0ba6cd54" version="1">Winter Walker</content>
+  <content contentuid="h11ed03f2g16a9g0ee9g4b45g6c8ca4ac593d" version="1">Winter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. These ruthless, rimed Rangers hunt monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves. Winter Walkers are well versed in the phenomena of Icewind Dale, including the latent magic of fallen Netherese cities, endemic monsters like yetis and crag cats, and the rising threat of Underdark invaders. Due to their cold pragmatism, terrifying magic, and mastery of the region, Winter Walkers are regarded with equal parts respect and fear. Ten-Towns citizens say that Winter Walkers’ frequent exposure to malignant entities gives them their fearsome powers. Many Reghed nomads, on the other hand, believe that nature spirits bestow on Winter Walkers a unique curse.</content>
 </contentList>

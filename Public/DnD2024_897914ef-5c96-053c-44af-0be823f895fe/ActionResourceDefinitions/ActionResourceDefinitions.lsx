@@ -64,6 +64,16 @@
                     <attribute id="UUID" type="guid" value="20256438-c967-424c-bd65-3d91ea98f229"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="__BARD__"/>
+                    <attribute id="UUID" type="guid" value="e4e4d529-5386-489f-b547-57425041cfe9"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc939b12eg2ee5g197bgc522ga5abc592a4b0" version="1"/>
+                    <attribute id="Name" type="FixedString" value="LunarVitality"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="707b34bf-aa14-461c-8a38-19bd0ee9b76e"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__CLERIC__"/>
                     <attribute id="UUID" type="guid" value="6c281aa0-c218-4137-86d3-adc4baa29248"/>
                 </node>
@@ -401,14 +411,11 @@
                     <attribute id="UUID" type="guid" value="cab54f89-f8bf-4f78-a512-5327880c6a65"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Name" type="FixedString" value="__BARD__"/>
-                    <attribute id="UUID" type="guid" value="e4e4d529-5386-489f-b547-57425041cfe9"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="hc939b12eg2ee5g197bgc522ga5abc592a4b0" version="1"/>
-                    <attribute id="Name" type="FixedString" value="LunarVitality"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="707b34bf-aa14-461c-8a38-19bd0ee9b76e"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2dc72da7geb6fg6757g65b9g28c64f77f068" version="1"/>
+                    <attribute id="Name" type="FixedString" value="ChillingRetribution"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="95ea1262-7759-475b-84e1-7a57d6e51799"/>
                 </node>
             </children>
         </node>

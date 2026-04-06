@@ -2367,6 +2367,30 @@
                     <attribute id="UUID" type="guid" value="f072d681-705b-4aa7-af7e-2937fda087c2"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Banneret"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Banneret_3_KnightlyEnvoy;Banneret_3_GroupRecovery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
+                    <attribute id="UUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Banneret"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Banneret_7_TeamTactics"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
+                    <attribute id="UUID" type="guid" value="00b735ef-7cd9-4efc-b968-e41f707eebfa"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="Banneret"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Banneret_10_RallyingSurge"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
+                    <attribute id="UUID" type="guid" value="e9214a86-c2d6-4880-b891-284e44fa1d9f"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Scimitars);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Monk"/>
@@ -3064,6 +3088,9 @@
                                 </node>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="29dc22b5-5e22-46d8-99f9-02e348f0b0b2"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="fbf9d94c-9175-4145-9bd9-645dec6d4f1d"/>
                                 </node>
                             </children>
                         </node>
@@ -6043,27 +6070,44 @@
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="Banneret"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Banneret_3_KnightlyEnvoy;Banneret_3_GroupRecovery"/>
+                    <attribute id="Name" type="LSString" value="WinterWalker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WinterWalker_3_FirigidExplorer;WinterWalker_3_HuntersRime;WinterWalker_3_WinterWalkerSpells"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
-                    <attribute id="UUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(7814ed90-c0f0-4b87-af54-bbc8fc6fec19,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                    <attribute id="UUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="WinterWalker"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(83418d74-fa55-45dd-ba77-f4cdfc7a5615,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                    <attribute id="UUID" type="guid" value="544b9809-606a-42e6-ab41-b9ec6e5dba89"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="Name" type="LSString" value="Banneret"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Banneret_7_TeamTactics"/>
+                    <attribute id="Name" type="LSString" value="WinterWalker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WinterWalker_7_FortifyingSoul"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
-                    <attribute id="UUID" type="guid" value="00b735ef-7cd9-4efc-b968-e41f707eebfa"/>
+                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                    <attribute id="UUID" type="guid" value="b5c24b91-871f-42d8-a61e-e37f5b18cbb2"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Level" type="uint8" value="10"/>
-                    <attribute id="Name" type="LSString" value="Banneret"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Banneret_10_RallyingSurge"/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="WinterWalker"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
-                    <attribute id="UUID" type="guid" value="e9214a86-c2d6-4880-b891-284e44fa1d9f"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(9421b857-96ec-4d77-9ecc-10bc7af4ea20,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                    <attribute id="UUID" type="guid" value="6e2d854d-97ac-4936-a93b-61047fa08f38"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="WinterWalker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WinterWalker_11_ChillingRetribution"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                    <attribute id="UUID" type="guid" value="fa3de721-8bab-4724-8765-686075c474d0"/>
                 </node>
             </children>
         </node>

@@ -195,6 +195,11 @@
                     <attribute id="UUID" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Moon Bard Moon Beam"/>
+                    <attribute id="Spells" type="LSString" value="Target_Moonbeam"/>
+                    <attribute id="UUID" type="guid" value="9316b546-2289-4922-aa31-8e23f5233201"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__CLERIC__"/>
                     <attribute id="UUID" type="guid" value="e0d6becd-5773-4fbf-a96c-e57c9da9138d"/>
                 </node>
@@ -1428,9 +1433,19 @@
                     <attribute id="UUID" type="guid" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Moon Bard Moon Beam"/>
-                    <attribute id="Spells" type="LSString" value="Target_Moonbeam"/>
-                    <attribute id="UUID" type="guid" value="9316b546-2289-4922-aa31-8e23f5233201"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Winter Walker Level 3 List"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_IceKnife"/>
+                    <attribute id="UUID" type="guid" value="7814ed90-c0f0-4b87-af54-bbc8fc6fec19"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Winter Walker Level 5 List"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoldPerson"/>
+                    <attribute id="UUID" type="guid" value="83418d74-fa55-45dd-ba77-f4cdfc7a5615"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Winter Walker Level 9 List"/>
+                    <attribute id="Spells" type="LSString" value="Target_RemoveCurse"/>
+                    <attribute id="UUID" type="guid" value="9421b857-96ec-4d77-9ecc-10bc7af4ea20"/>
                 </node>
             </children>
         </node>

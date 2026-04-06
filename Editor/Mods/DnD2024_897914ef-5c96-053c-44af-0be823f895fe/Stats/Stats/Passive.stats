@@ -2834,6 +2834,73 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(MistyStep,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(MistyStep,1,0);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF006400" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42e86b96-5c08-403c-a7b2-54a674b21c92" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WINTER WALKER 8500__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f75175d6-c0fc-435f-8d62-615e39067c12" />
+        <field name="Name" type="NameTableFieldDefinition" value="WinterWalker_3_FirigidExplorer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha112c9d1gc29dg2a81g78e9g5ee83dc15b44" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdf72a045g6802g6864g7289gb8715a4c18b6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_NaturalExplorer_WastelandWanderer_Cold" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponAttack()):CharacterWeaponDamage(LevelMapValue(FeyWanderer),Cold);IgnoreResistance(Cold,Resistant);Resistance(Cold,Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03e029c6-a58b-4260-b606-8b8d453d79c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="WinterWalker_3_HuntersRime" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2ce8883g7e85g48fcgfb85geaec662b97b7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf17390fdg279dg4294gb86ag4e1049c6b097" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_NaturalExplorer_WastelandWanderer_Cold" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HuntersMark();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNTERS_RIME_TEMPHP,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94fb073a-84a7-4fd7-9e10-55445451a7f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="WinterWalker_3_WinterWalkerSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h61ea7154gfc5cg2d12gf82ega36108b6e52c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d24d172g9754g69f8g404agfcebc39ded6a" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_NaturalExplorer_WastelandWanderer_Cold" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4fb28b2c-54a0-4e4e-a166-8e94773f92f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WinterWalker_7_FortifyingSoul" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h225798f8g19eag252fgafe7gb82f389f37c8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbeb4351eged06g5aa8g19cag2270bd60a6eb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ProtectionFromEnergy_Cold" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8507" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FortifyingSoul);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36d08e39-90e5-44b1-875e-876e6534b0e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="WinterWalker_11_ChillingRetribution" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd373a822gfb21g38dfge5a8g77c001185e3a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb6e753d8g25f2gee18g87d6gdda8a5857b4c" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ArmorOfAgathys" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8511" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ChillingRetribution);ActionResource(ChillingRetribution,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(ChillingRetribution,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(ChillingRetribution,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(ChillingRetribution,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(ChillingRetribution,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(ChillingRetribution,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4b0a0ebb-4421-4f97-8a0e-a46bdf2729c8" />
@@ -5480,6 +5547,13 @@
         <field name="UUID" type="IdTableFieldDefinition" value="78f6de1a-86d1-4d19-8863-fa2629bff2b1" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Distant_GLO_Baelen" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(DistantSpellCheck(),ModifyTargetRadius(Multiplicative,2.5));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="959681b3-8f21-4ef9-9070-44df0cd94811" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58f3fcbf-861b-44ff-a868-bb2f135c43b8" />
       </fields>
     </stat_object>
   </stat_objects>

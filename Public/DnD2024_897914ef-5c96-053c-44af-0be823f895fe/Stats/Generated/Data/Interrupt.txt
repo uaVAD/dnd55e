@@ -281,6 +281,26 @@ data "Properties" "IF(not UndeadOrFiend(context.Target)):DealDamage(5d8,Radiant,
 data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:6;"
 data "EnableCondition" "not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER','ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN'});"
 
+new entry "__RANGER__"
+type "InterruptData"
+
+new entry "Interrupt_ChillingRetribution"
+type "InterruptData"
+data "DisplayName" "h4ff1d8aeg3628g34f5gd2e0gf05e758e89f6;1"
+data "Description" "h7683213dgcd67g8a04g76bdg263469054d80;1"
+data "Icon" "PassiveFeature_ArmorOfAgathys"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and IsAttack() and not IsMiss() and not HasStatus('INVISIBILITY') and not AnyEntityIsItem() and HasLastAttackTriggered();"
+data "Properties" "ApplyStatus(OBSERVER_SOURCE,STUNNED,100,2,,,,not SavingThrow(Ability.Wisdom,SourceSpellDC()));"
+data "Cost" "ReactionActionPoint:1;ChillingRetribution:1;"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'});"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "TooltipAttackSave" "Wisdom"
+data "TooltipStatusApply" "ApplyStatus(STUNNED,100,2)"
+
 new entry "__ROGUE__"
 type "InterruptData"
 
