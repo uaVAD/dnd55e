@@ -364,6 +364,9 @@
                                     <attribute id="Object" type="guid" value="d21368ac-c776-465c-9dcf-6123dd52734f"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="338cd823-6cec-434c-91ea-083ad535833f"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="c4bd5252-d68a-4330-9431-5e8ab24c5f29"/>
                                 </node>
                                 <node id="SubClass">
@@ -781,6 +784,72 @@
                     <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="300669be-c07a-42cc-85a7-f1f956e79059"/>
                     <attribute id="UUID" type="guid" value="3fdb602b-bb6e-45a5-95c9-ca73b618e63a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="MoonCollege"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Moon_3_MoonsInspiration;Moon_3_PrimalLore"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,1,0,,,,AlwaysPrepared);SelectSkills(a3e28a89-3c36-4516-a1ed-c8061ba7f166,1);"/>
+                    <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
+                    <attribute id="UUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="MoonCollege"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Moon_6_BlessingsOfMoonlight"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(c213ca01-3767-457b-a5c8-fd4c1dd656e2,1,1,BardSpells);AddSpells(9316b546-2289-4922-aa31-8e23f5233201,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
+                    <attribute id="UUID" type="guid" value="20a55fe8-66ec-488c-b352-a47eb5d28b32"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="MoonCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
+                    <attribute id="UUID" type="guid" value="9c05cb56-b4ef-44ee-9cd6-f9db2c386e12"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="MoonCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
+                    <attribute id="UUID" type="guid" value="431f0685-5368-40dc-aef1-a6b08f5f969f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="MoonCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,1,1,BardSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
+                    <attribute id="UUID" type="guid" value="6449c84e-2961-4ab7-a5ed-72fe350a27c2"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="MoonCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
+                    <attribute id="UUID" type="guid" value="201cc35e-adfd-4afb-8e13-958dccb70648"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="MoonCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
+                    <attribute id="UUID" type="guid" value="d0d674a8-d3c2-4e89-a5ec-5ce769c6c21e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="MoonCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
+                    <attribute id="UUID" type="guid" value="90329a28-e7fe-4e10-b13a-de19bfc62717"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons)"/>

@@ -1427,6 +1427,11 @@
                     <attribute id="Spells" type="LSString" value="Target_Jump"/>
                     <attribute id="UUID" type="guid" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Moon Bard Moon Beam"/>
+                    <attribute id="Spells" type="LSString" value="Target_Moonbeam"/>
+                    <attribute id="UUID" type="guid" value="9316b546-2289-4922-aa31-8e23f5233201"/>
+                </node>
             </children>
         </node>
     </region>

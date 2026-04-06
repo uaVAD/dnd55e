@@ -84,6 +84,22 @@
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_56" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e4e4d529-5386-489f-b547-57425041cfe9" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__BARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_57" />
+        <field name="UUID" type="IdTableFieldDefinition" value="707b34bf-aa14-461c-8a38-19bd0ee9b76e" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="LunarVitality" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc939b12eg2ee5g197bgc522ga5abc592a4b0" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />

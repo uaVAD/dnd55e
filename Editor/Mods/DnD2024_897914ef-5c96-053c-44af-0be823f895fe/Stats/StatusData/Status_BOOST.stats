@@ -1548,6 +1548,36 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68bce034-5cb4-431e-8c9d-a879a16966b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MOON__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="801235cf-98f2-44fd-b36e-e9683cae4489" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRED_ECLIPSE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha0ddac76g013eg8574g0831g4fde2e2fef92" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h976048b3gf9c6gba32g7185g9373737f96b8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DisappearingStep" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INSPIRED_ECLIPSE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6ed2154-797b-43c7-b27b-1c2dfe962ff7" />
+        <field name="Name" type="NameTableFieldDefinition" value="LUNAR_VITALITY" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9f1b45feg3a13g4bccg4842g98f511ae2e02" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h88fd7cb1g4a94g8ad2g4bf8ga268d1168276" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Longstrider" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LUNAR_VITALITY" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,3,0);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(Cause.LevelMapValue(BardicInspiration));" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="77df3921-0178-43dd-a351-3784d5ac19a5" />

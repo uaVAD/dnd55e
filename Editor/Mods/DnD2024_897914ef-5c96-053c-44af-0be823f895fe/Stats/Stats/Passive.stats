@@ -1128,6 +1128,50 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_TandemFootwork);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d0202780-7d33-4e65-9be5-ff7db8a03061" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MOON__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="918a102d-8414-4f16-aae9-03759baaeaf8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moon_3_MoonsInspiration" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9223661bgace2gba01g10dcgfc1ea09add5a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he8fec49dgf4c3g6a97g790bg3a7f505054bf" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Moonbeam" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_InspiredEclipse);ActionResource(LunarVitality,1,0);UnlockInterrupt(Interrupt_LunarVitality);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('BardicInspiration');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,INSPIRED_ECLIPSE,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28003056-29b2-482b-818a-d3c3b84be5da" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moon_3_PrimalLore" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haca3aef8ga626gc323g22acg746bfa4a9426" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h16bfd443g2ac4gcdcegaa91gcadfccb20761" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Moonbeam" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9dde4262-b7cd-4b97-97f2-07117e7ebaf9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moon_6_BlessingsOfMoonlight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3911c437g16cagdddcgede4gaa0c643aec8c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haa5e73d8ga7e5ge281g8b67gae695bb23d75" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Moonbeam" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BlessingsOfMoonlight);ActionResource(SpellSlot,1,2);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="66fe610b-11db-4906-b6ba-d2ed0a595376" />

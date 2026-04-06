@@ -56,6 +56,10 @@
 - Level 3: Bonus Proficiencies
 - Level 3: Cutting Words
 - Level 6: Magical Discoveries
+## Moon
+- Level 3: Moon's Inspiration
+- Level 3: Primal Lore
+- Level 6: Blessings of Moonlight
 ### Valor
 - Level 3: Combat Inspiration
 - Level 3: Martial Training

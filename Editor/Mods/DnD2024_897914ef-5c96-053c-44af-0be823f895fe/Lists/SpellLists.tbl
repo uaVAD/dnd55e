@@ -259,6 +259,13 @@
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard Magical Secrets" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9316b546-2289-4922-aa31-8e23f5233201" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Moon Bard Moon Beam" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Moonbeam" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e0d6becd-5773-4fbf-a96c-e57c9da9138d" />

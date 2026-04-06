@@ -2171,4 +2171,34 @@ You can deal extra damage to a target when you deal damage to it with an attack 
   <content contentuid="h14b0a7adg6f8dg3aefgbc10ge9f1398e2825" version="1">Inner Radiance</content>
   <content contentuid="h868292b4g07bag5039g7a39g8b646671c67e" version="2">Has a 1d4 penalty to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
   <content contentuid="h6ef5198eg577fg6ca6gc4d9gb725efc2c584" version="1">Mind Sliver</content>
+  <content contentuid="h8c610e61ga284gbdd9gf4c4gc19e363942ea" version="1">College of the Moon</content>
+  <content contentuid="h759d592bgce3eg0689gb28cgb0e2182d4aba" version="1">The College of the Moon traces its origins to the ancient druidic circles of the Moonshae Isles, who entrusted the first Bards of this tradition with chronicling the stories of the islands and their people. Bards of this college draw from the isles’ fey magic and the primal power of the moonwells to bolster their allies, protect the natural world, and inspire their bardic works.</content>
+  <content contentuid="h9223661bgace2gba01g10dcgfc1ea09add5a" version="1">Level 3: Moon's Inspiration</content>
+  <content contentuid="he8fec49dgf4c3g6a97g790bg3a7f505054bf" version="1">The primal and ever-changing power of the moon flows through you, granting you the following benefits.
+
+Inspired Eclipse. When you take a Bonus Action to give a creature a Bardic Inspiration die, you can have the Invisible condition and teleport up to 30 feet to an unoccupied space you can see as part of that Bonus Action. This invisibility lasts until the start of your next turn and ends early immediately after you make an attack roll, deal damage, or cast a spell.
+
+Lunar Vitality. Once per turn when you restore Hit Points to a creature with a spell, you can expend a Bardic Inspiration die and increase the amount of Hit Points restored by a number equal to a roll of the Bardic Inspiration die. The creature’s Speed also increases by 10 feet until the end of its next turn.</content>
+  <content contentuid="haca3aef8ga626gc323g22acg746bfa4a9426" version="1">Level 3: Primal Lore</content>
+  <content contentuid="h16bfd443g2ac4gcdcegaa91gcadfccb20761" version="1">You learn Druidic and one cantrip from the Druid spell list. It counts as a Bard spell for you but doesn’t count against the number of cantrips you know. 
+
+Additionally, choose one of the following skills: Animal Handling, Insight, Medicine, Nature, Perception, or Survival. You have proficiency in that skill.</content>
+  <content contentuid="h3911c437g16cagdddcgede4gaa0c643aec8c" version="1">Level 6: Blessings of Moonlight</content>
+  <content contentuid="haa5e73d8ga7e5ge281g8b67gae695bb23d75" version="1">You always have the Moonbeam spell prepared.
+
+While you cast Moonbeam, a creature of your choice that you can see within 60 feet of yourself regains 2d4 Hit Points.
+
+Once you use this feature to modify a casting of Moonbeam, you can’t use it again until you finish a Long Rest.
+</content>
+  <content contentuid="h4b8c5fb1g0cb0gdf42g5d1bgd60b7110c837" version="1">Inspired Eclipse</content>
+  <content contentuid="h354b3d9ag3986g5438g5c7fg5f7f7196c4c4" version="1">When you take a Bonus Action to give a creature a Bardic Inspiration die, you can have the Invisible condition and teleport up to 30 feet to an unoccupied space you can see as part of that Bonus Action. This invisibility lasts until the start of your next turn and ends early immediately after you make an attack roll, deal damage, or cast a spell.</content>
+  <content contentuid="ha0ddac76g013eg8574g0831g4fde2e2fef92" version="1">Inspired Eclipse</content>
+  <content contentuid="h976048b3gf9c6gba32g7185g9373737f96b8" version="1">When you take a Bonus Action to give a creature a Bardic Inspiration die, you can have the Invisible condition and teleport up to 30 feet to an unoccupied space you can see as part of that Bonus Action. This invisibility lasts until the start of your next turn and ends early immediately after you make an attack roll, deal damage, or cast a spell.</content>
+  <content contentuid="h9f1b45feg3a13g4bccg4842g98f511ae2e02" version="1">Lunar Vitality</content>
+  <content contentuid="h88fd7cb1g4a94g8ad2g4bf8ga268d1168276" version="1">The creature’s Speed also increases by 10 feet.</content>
+  <content contentuid="h6088fb76ga8b7g5ae5gfb3eg1af90e35d769" version="1">Lunar Vitality</content>
+  <content contentuid="h81c2cbd1ge2a2g4781g89a2gf1b79723f601" version="1">Once per turn when you restore Hit Points to a creature with a spell, you can expend a Bardic Inspiration die and increase the amount of Hit Points restored by a number equal to a roll of the Bardic Inspiration die. The creature’s Speed also increases by 10 feet until the end of its next turn.</content>
+  <content contentuid="hc939b12eg2ee5g197bgc522ga5abc592a4b0" version="1">Lunar Vitality</content>
+  <content contentuid="h97618a1dg57f7g2acfg001dg5ba785249fde" version="1">Blessings of Moonlight</content>
+  <content contentuid="h13f755b1gb20cg69d9g98a6g40d319bcab11" version="1">While you cast Moonbeam, a creature of your choice that you can see within 60 feet of yourself regains 2d4 Hit Points.</content>
 </contentList>

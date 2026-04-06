@@ -256,6 +256,19 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="c059dca1-c17d-4dce-8260-83ede5070eac"/>
                 </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h759d592bgce3eg0689gb28cgb0e2182d4aba" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8c610e61ga284gbdd9gf4c4gc19e363942ea" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="MoonCollege"/>
+                    <attribute id="ParentGuid" type="guid" value="92cd50b6-eb1b-4824-8adb-853e90c34c90"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Bard"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="338cd823-6cec-434c-91ea-083ad535833f"/>
+                </node>
             </children>
         </node>
     </region>

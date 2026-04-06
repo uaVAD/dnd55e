@@ -82,7 +82,7 @@
         <field name="Tags" type="GuidObjectListTableFieldDefinition" value="1671b4bf-4f47-4bb7-9cb9-80bb1f6009d5" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
         <field name="UUID" type="IdTableFieldDefinition" value="0da91e7c-7880-4cfa-819b-82eb6f41130f" />
@@ -96,6 +96,22 @@
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0b95e32g4ebbg93cdgf26eg83a31fd8654e" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="338cd823-6cec-434c-91ea-083ad535833f" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="MoonCollege" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8c610e61ga284gbdd9gf4c4gc19e363942ea" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h759d592bgce3eg0689gb28cgb0e2182d4aba" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="6f0b7e21-2421-4aeb-b572-49d794693a90" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Bard" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">

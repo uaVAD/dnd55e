@@ -5158,6 +5158,67 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36a92632-4571-4de0-83e4-7991a6ce67a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MOON__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00de6a3b-ea9f-41ea-96ba-05440de4f1da" />
+        <field name="Name" type="NameTableFieldDefinition" value="InspiredEclipse" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:ApplyStatus(SELF,INVISIBILITY,100,2);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('INSPIRED_ECLIPSE');" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnAttack" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DisappearingStep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b8c5fb1g0cb0gdf42g5d1bgd60b7110c837" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h354b3d9ag3986g5438g5c7fg5f7f7196c4c4" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INVISIBILITY,100,2);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_Invisibility_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_Invisibility_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Invisibility" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Stealth;Invisible" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="LineOfSightFlags" type="EnumerationListTableFieldDefinition" value="AddSourceHeight" enumeration_type_name="LineOfSightFlags" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4f8e353e-c04e-45c3-880b-d10885fd091f" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="68b1219a-ccc2-4b29-bb42-b18996de3b4d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0972eb9-9c3f-413e-8660-ece89946c991" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessingsOfMoonlight" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2d4);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('MOONBEAM_OWNER') or HasStatus('MOONBEAM_OWNER_3') or HasStatus('MOONBEAM_OWNER_4') or HasStatus('MOONBEAM_OWNER_5') or HasStatus('MOONBEAM_OWNER_6');" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnAttack" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h97618a1dg57f7g2acfg001dg5ba785249fde" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h13f755b1gb20cg69d9g98a6g40d319bcab11" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(2d4)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_HealingWord_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_HealingWord_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;2f893fad-98eb-47cf-a524-dd4efd42bc2a,,;ca3147a8-2cf6-45a8-ac9a-1ce0fc11305f,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="96a51ac8-2e7e-4718-bb62-dcfd18964a02" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7a73fa11-81e8-44bc-8653-a0d0ebbecf4b" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="70319a43-6342-4996-811d-dd50df8b3fa1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8eb25539-7225-4ac8-bb2d-f16cbdea9ab8" />
@@ -6310,7 +6371,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="47ac300d-75f6-42ba-88bf-54587b4e6d2a" />
         <field name="Name" type="NameTableFieldDefinition" value="DisappearingStep" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ff1deee8-698a-477c-b4bb-d1609f546b31" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();ApplyStatus(SELF,INVISIBILITY,100,2);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:ApplyStatus(SELF,INVISIBILITY,100,2);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AoEConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DisappearingStep" />
@@ -6324,6 +6385,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4f8e353e-c04e-45c3-880b-d10885fd091f" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="68b1219a-ccc2-4b29-bb42-b18996de3b4d" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Stealth;Invisible" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">

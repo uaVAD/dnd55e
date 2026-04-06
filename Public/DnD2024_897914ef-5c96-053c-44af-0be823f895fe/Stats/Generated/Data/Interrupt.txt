@@ -29,6 +29,28 @@ data "InterruptDefaultValue" "Enabled"
 data "EnableCondition" "not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'});"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 
+new entry "__BARD__"
+type "InterruptData"
+
+new entry "Interrupt_LunarVitality"
+type "InterruptData"
+data "DisplayName" "h6088fb76ga8b7g5ae5gfb3eg1af90e35d769;1"
+data "Description" "h81c2cbd1ge2a2g4781g89a2gf1b79723f601;1"
+data "Icon" "GenericIcon_Intent_Healing"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Nearby"
+data "Container" "YesNoDecision"
+data "Conditions" "Self(context.Source,context.Observer) and Ally(context.Target, context.Observer) and IsHeallingSpell();"
+data "Properties" "ApplyStatus(OBSERVER_TARGET,LUNAR_VITALITY,100,1);"
+data "Cost" "BardicInspiration:1;LunarVitality:1;"
+data "InterruptDefaultValue" "Ask;Enabled"
+
+new entry "New_Stat_1"
+type "InterruptData"
+
+new entry "New_Stat_2"
+type "InterruptData"
+
 new entry "__CLERIC__"
 type "InterruptData"
 

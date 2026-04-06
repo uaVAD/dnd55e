@@ -366,6 +366,20 @@
                     <attribute id="UUID" type="guid" value="bfb62029-8c64-4c96-ab75-5000447ddf62"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5f50ef61g2ff2g155dg73ecgcdb03dd1d00d" version="1"/>
+                    <attribute id="Name" type="FixedString" value="FairyTrickster"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="85d3737e-010c-4ba9-baf2-e5561156354c"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2c67fd73g9c3bg2dc8gf508gba72fd03b787" version="1"/>
+                    <attribute id="Name" type="FixedString" value="EncourageAlly"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="b55e618d-78af-4920-b7ae-9a82f0a04327"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__RACE__"/>
                     <attribute id="UUID" type="guid" value="d0a8fbe1-fb92-44ba-bdf3-f1356ca328d0"/>
                 </node>
@@ -387,18 +401,14 @@
                     <attribute id="UUID" type="guid" value="cab54f89-f8bf-4f78-a512-5327880c6a65"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h5f50ef61g2ff2g155dg73ecgcdb03dd1d00d" version="1"/>
-                    <attribute id="Name" type="FixedString" value="FairyTrickster"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="85d3737e-010c-4ba9-baf2-e5561156354c"/>
+                    <attribute id="Name" type="FixedString" value="__BARD__"/>
+                    <attribute id="UUID" type="guid" value="e4e4d529-5386-489f-b547-57425041cfe9"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h2c67fd73g9c3bg2dc8gf508gba72fd03b787" version="1"/>
-                    <attribute id="Name" type="FixedString" value="EncourageAlly"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="b55e618d-78af-4920-b7ae-9a82f0a04327"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc939b12eg2ee5g197bgc522ga5abc592a4b0" version="1"/>
+                    <attribute id="Name" type="FixedString" value="LunarVitality"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="707b34bf-aa14-461c-8a38-19bd0ee9b76e"/>
                 </node>
             </children>
         </node>
