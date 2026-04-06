@@ -1301,7 +1301,7 @@
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Disengage" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Disengage" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1;BardicInspiration:1;" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="71c7b6a4-8178-45da-81f7-2ecb3fa5ec2a,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;71c7b6a4-8178-45da-81f7-2ecb3fa5ec2a,,;,,;71c7b6a4-8178-45da-81f7-2ecb3fa5ec2a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="NoCameraMove" enumeration_type_name="SpellFlagList" version="1" />
@@ -1343,6 +1343,7 @@
         <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="b4d2ce64-af72-45a2-8146-6a9c3b71f1a6" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Instrument" enumeration_type_name="SpellSheathing" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_TandemFootwork" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
