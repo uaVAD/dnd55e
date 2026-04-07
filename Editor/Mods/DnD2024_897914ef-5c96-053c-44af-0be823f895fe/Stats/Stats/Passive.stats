@@ -631,6 +631,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37d7c097-2e1b-43a7-8572-eee874d87a6c" />
+        <field name="Name" type="NameTableFieldDefinition" value="TrueStrikeOwner" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,YMS_TRUE_STRIKE_OFF,100,1);ApplyEquipmentStatus(MeleeOffHand,YMS_TRUE_STRIKE_OFF,100,1);ApplyEquipmentStatus(RangedMainHand,YMS_TRUE_STRIKE_OFF,100,1);ApplyEquipmentStatus(RangedOffHand,YMS_TRUE_STRIKE_OFF,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ba80bfc3-baf5-4d90-b899-025253148a73" />
         <field name="Name" type="NameTableFieldDefinition" value="HuntersMark" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="57c81a71-acd5-4238-b1d5-632a7497de77" />

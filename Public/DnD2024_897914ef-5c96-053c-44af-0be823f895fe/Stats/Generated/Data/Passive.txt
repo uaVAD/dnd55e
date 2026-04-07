@@ -449,6 +449,11 @@ data "StatsFunctors" "ApplyStatus(PRONE_MOUNT,100,1,,,,not SavingThrow(Ability.D
 new entry "__DIVINATION__"
 type "PassiveData"
 
+new entry "TrueStrikeOwner"
+type "PassiveData"
+data "StatsFunctorContext" "OnCast"
+data "StatsFunctors" "ApplyEquipmentStatus(MeleeMainHand,YMS_TRUE_STRIKE_OFF,100,1);ApplyEquipmentStatus(MeleeOffHand,YMS_TRUE_STRIKE_OFF,100,1);ApplyEquipmentStatus(RangedMainHand,YMS_TRUE_STRIKE_OFF,100,1);ApplyEquipmentStatus(RangedOffHand,YMS_TRUE_STRIKE_OFF,100,1)"
+
 new entry "HuntersMark"
 type "PassiveData"
 using "HuntersMark"

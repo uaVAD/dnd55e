@@ -385,7 +385,7 @@ data "StatusType" "BOOST"
 data "DisplayName" "h7ccf8c10gf790g421aga43agdb3994f68bc3;1"
 data "Icon" "Spell_Divination_TrueStrike"
 data "StackId" "YMS_TRUE_STRIKE_OWNER"
-data "Passives" "YMS_TrueStrike_Owner;"
+data "Passives" "TrueStrikeOwner;"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "StatusGroups" "SG_RemoveOnRespec"
 
