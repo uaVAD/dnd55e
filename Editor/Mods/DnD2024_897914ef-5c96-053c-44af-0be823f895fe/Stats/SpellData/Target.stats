@@ -5462,7 +5462,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ace9716c-8151-438b-a0e7-ff4baa6f7960" />
         <field name="Name" type="NameTableFieldDefinition" value="PreserveLife_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="581e1f2f-1b30-44be-8471-2b06718fb63a" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2.5*ClassLevel(Cleric));" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5*ClassLevel(Cleric)/2);" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
       </fields>
@@ -5472,7 +5472,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bec095a5-70b7-4d53-8544-236fe4000acd" />
         <field name="Name" type="NameTableFieldDefinition" value="PreserveLife_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="581e1f2f-1b30-44be-8471-2b06718fb63a" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1.6667*ClassLevel(Cleric));" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5*ClassLevel(Cleric)/3);" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="3" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
       </fields>
@@ -5482,7 +5482,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1e3bf384-5305-4689-a78c-919a485757af" />
         <field name="Name" type="NameTableFieldDefinition" value="PreserveLife_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="581e1f2f-1b30-44be-8471-2b06718fb63a" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1.25*ClassLevel(Cleric));" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5*ClassLevel(Cleric)/4);" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="4" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
       </fields>
@@ -5502,7 +5502,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8b33a195-a974-4231-9c84-49327260a7a4" />
         <field name="Name" type="NameTableFieldDefinition" value="PreserveLife_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="581e1f2f-1b30-44be-8471-2b06718fb63a" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(0.8333*ClassLevel(Cleric));" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5*ClassLevel(Cleric)/6);" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
