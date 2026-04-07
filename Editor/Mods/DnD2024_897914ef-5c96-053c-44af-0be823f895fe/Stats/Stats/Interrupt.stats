@@ -385,6 +385,66 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem();" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e963fa9e-e54e-45bf-9732-abb43e127bba" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DaosCrush" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and IsSmiteSpells() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack() and not AnyEntityIsItem();" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ChannelOath:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ce47465gdfeag71dcgb0bdgeadc0c987cab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb3aa275bga6abgc81agd39bg3d1c211dcc20" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_EnsnaringStrikeMelee" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Strength" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RESTRAINED,100,10);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(RESTRAINED,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83db5161-9a05-4dac-9fcf-f3869fc76ac6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DjinnisEscape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e963fa9e-e54e-45bf-9732-abb43e127bba" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd20d93a6g9ec6gc3cdg1890g0e70817191af" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc2eacb6dgfdd7gb76ag186cgecc6d2ed93b5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_OBSERVER,DJINNIS_ESCAPE,100,2);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="205761bc-2fe6-4f67-a043-8a78dd869b90" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_EfreetisFury" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e963fa9e-e54e-45bf-9732-abb43e127bba" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h41d151e2g9ff2g7903gdcffg74d3df5ec77f" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbf690b7ag3334g153agbf4dgf3261e437b08" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SearingSmite" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(2d4,Fire,Magical);CreateExplosion(Projectile_EfreetisFury);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="51d528b3-91d5-48fc-aade-045fc2cca51e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_MaridsSurge" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e963fa9e-e54e-45bf-9732-abb43e127bba" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h48d5140cg0c24ga6cfg77d7g5b5aac3590e3" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h79a50a5ag645fgfec1g1742g3190589c1ba0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
+        <field name="Properties" type="StringTableFieldDefinition" value="CreateExplosion(Projectile_MaridsSurge);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(4.5)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="558dcc8c-07ec-4a4c-aa43-80ae550b62ff" />

@@ -963,6 +963,27 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Haste;Target_ProtectionFromEnergy" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c806a879-10ff-4da2-9bde-5a98ec12e95d" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin Noble Spell Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb;Target_Smite_Thunderous" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="076f5b81-8589-4516-9af1-6f956f720836" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin Noble Spell Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_MirrorImage;Target_PhantasmalForce" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b84fa5b9-209a-472a-add4-9db277b89fdf" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin Noble Spell Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Fly;Target_GaseousForm" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="40b9f92a-90a7-45dd-a189-1b249b2c49a2" />

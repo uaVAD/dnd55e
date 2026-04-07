@@ -221,25 +221,30 @@
 - Level 9: Abjure Foes
 - Level 10: Aura of Courage
 - Level 11: Radiant Strikes
-### Crown
-### Glory
+### Oath of the Ancients
+- Level 3: Nature's Wrath
+- Level 3: Oath of the Ancients Spells
+- Level 7: Aura of Warding
+### Oath of the Crown
+### Oath of Devotion
+- Level 3: Oath of Devotion Spells
+- Level 3: Sacred Weapon
+- Level 7: Aura of Devotion
+### Oath of Glory
 - Level 3: Inspiring Glory
 - Level 3: Oath of Glory Spells
 - Level 3: Peerless Athlete
 - Level 7: Aura of Alacrity
-### Oathbreaker
-### Ancients
-- Level 3: Nature's Wrath
-- Level 3: Oath of the Ancients Spells
-- Level 7: Aura of Warding
-### Devotion
-- Level 3: Oath of Devotion Spells
-- Level 3: Sacred Weapon
-- Level 7: Aura of Devotion
-### Vengeance
+### Oath of the Noble Genies
+- Level 3: Elemental Smite
+- Level 3: Genie Spells
+- Level 3: Genie’s Splendor
+- Level 7: Aura of Elemental Shielding
+### Oath of Vengeance
 - Level 3: Oath of Vengeance Spells
 - Level 3: Vow of Enmity
 - Level 7: Relentless Avenger
+### Oathbreaker
 ## Ranger
 - Core Traits
   - Skill Proficiencies
@@ -263,7 +268,7 @@
 ### Gloom Stalker
 - Level 3: Dread Ambusher
 - Level 3: Gloom Stalker Spells
-- Level 3: Umbral Sight
+- Level 3: Umbral **Sight**
 - Level 7: Iron Mind
 - Level 11: Stalker's Flurry
 ### Hunter

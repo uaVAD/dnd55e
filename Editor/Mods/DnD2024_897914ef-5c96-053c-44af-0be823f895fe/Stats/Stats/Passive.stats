@@ -2637,6 +2637,64 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,RELENTLESS_AVENGER,100,1);ApplyStatus(RELENTLESS_AVENGER_SENTINEL,100,1)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ad40dbe-18de-4f03-a544-754868568e1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Oath_NobleGenie_Tenents" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0294e2ce-9719-45ed-80d1-9f05ffeb1981" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb164a5bag7669g815dg9cbcg748f8e4a9d39" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3efdb1d4g5d1cg2afeg34fag81c302e26784" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="896c54f6-2c7a-4dbb-817d-6333ab8034ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="NobleGenie_3_ElementalSmite" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h971f55edg2fffg4d13geef5ga5900f12d913" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haaf829fagd4d2g973eg987ag882a31fcb4ae" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Sorcerer_Passive_ElementalAffinity_Resistance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_DaosCrush);UnlockInterrupt(Interrupt_DjinnisEscape);UnlockInterrupt(Interrupt_EfreetisFury);UnlockInterrupt(Interrupt_MaridsSurge);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7a001395-31f7-4bfa-85dd-d282b8998bd3" />
+        <field name="Name" type="NameTableFieldDefinition" value="NobleGenie_3_GenieSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf359a230g9c7ag4b00g9797g85e2e40e5b9f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he0865db7gfb16g94fegbb02gd941d6db835a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Sorcerer_Passive_ElementalAffinity_Resistance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ed2709f-72e3-44e5-a43a-3fd328bea740" />
+        <field name="Name" type="NameTableFieldDefinition" value="NobleGenie_3_GeniesSplendor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9ef367bcg743fg6596ga14cgdc4842c967b1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f395fe8g244dg8ddcgcbe0g3ee47a325f9f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Sorcerer_Passive_ElementalAffinity_Resistance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not WearingArmor(context.Source)):ACOverrideFormula(10,true,Dexterity,Charisma);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc3424a7-7172-4791-a98b-b903565d570e" />
+        <field name="Name" type="NameTableFieldDefinition" value="NobleGenie_7_AuraOfElementalShielding" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ad2ebf2gb473g88deg2fb9gc419b2fa63cf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ed8c047g25f9g2d20g185eg45a7a0f16ff5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Sorcerer_Passive_ElementalAffinity_Resistance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7507" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f620b722-de59-43de-ab62-d304856a04ec" />

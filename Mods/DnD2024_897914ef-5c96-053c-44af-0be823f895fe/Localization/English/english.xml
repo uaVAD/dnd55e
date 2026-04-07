@@ -2254,4 +2254,44 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
   <content contentuid="h7683213dgcd67g8a04g76bdg263469054d80" version="1">When a creature hits you with an attack roll, you can take a Reaction to force the creature to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Stunned condition for 2 turns.</content>
   <content contentuid="h6c8f835eg0910g6b96ga78bg651c0ba6cd54" version="1">Winter Walker</content>
   <content contentuid="h11ed03f2g16a9g0ee9g4b45g6c8ca4ac593d" version="1">Winter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. These ruthless, rimed Rangers hunt monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves. Winter Walkers are well versed in the phenomena of Icewind Dale, including the latent magic of fallen Netherese cities, endemic monsters like yetis and crag cats, and the rising threat of Underdark invaders. Due to their cold pragmatism, terrifying magic, and mastery of the region, Winter Walkers are regarded with equal parts respect and fear. Ten-Towns citizens say that Winter Walkers’ frequent exposure to malignant entities gives them their fearsome powers. Many Reghed nomads, on the other hand, believe that nature spirits bestow on Winter Walkers a unique curse.</content>
+  <content contentuid="hfc2052ffgc5b0gbd9agca4bg0c13d926684c" version="1">Oath of the Noble Genies</content>
+  <content contentuid="h1e8b4682gc0aag5810g20f4gffc2487083b4" version="1">Paladins sworn to the Oath of the Noble Genies revere the forces of the Elemental Planes. Through taking this oath, Paladins draw power from the four different types of genies—dao, masters of earth; djinn, masters of air; efreet, masters of fire; and marids, masters of water. In Faerûn, many Paladins who swear this oath hail from Calimshan, a land teeming with genies.</content>
+  <content contentuid="hb164a5bag7669g815dg9cbcg748f8e4a9d39" version="1">Oath of the Noble Genies Tenets</content>
+  <content contentuid="h3efdb1d4g5d1cg2afeg34fag81c302e26784" version="1">Paladins who swear this oath often undertake quests that take them all over the Realms and across the multiverse—including the Elemental Planes. These paladins share the following tenets:
+
+Sow the seeds of creation amid the ashes of destruction.
+Lead with splendor and grace.
+Respect the elements, and fear their wrath.</content>
+  <content contentuid="h971f55edg2fffg4d13geef5ga5900f12d913" version="1">Level 3: Elemental Smite</content>
+  <content contentuid="haaf829fagd4d2g973eg987ag882a31fcb4ae" version="4">Immediately after you cast Smite Spell, you can expend one use of your Channel Divinity and invoke one of the following effects.
+
+Dao’s Crush. Earth rises up around the target. The target has the Restrained condition.
+
+Djinni’s Escape. You teleport to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Prone, and Restrained conditions.
+
+Efreeti’s Fury. The target takes an extra 2d4 Fire damage, and flames leap from the target to all enemies you can see within 30 feet of yourself. Each of those creatures also takes 2d4 Fire damage.
+
+Marid’s Surge. The target and each creature of your choice in a 10-foot Emanation originating from you make a Strength saving throw against your spell save DC. On a failed save, a creature is pushed 15 feet straight away from you and has the Prone condition.</content>
+  <content contentuid="hf359a230g9c7ag4b00g9797g85e2e40e5b9f" version="1">Level 3: Genie Spells</content>
+  <content contentuid="he0865db7gfb16g94fegbb02gd941d6db835a" version="1">When you reach certain Paladin levels, the magic of the genie ensures you always have specific spells prepared. At 3rd level, you always have Chromatic Orb and Thunderous Smite prepared. At 5th level, you additionally have Mirror Image and Phantasmal Force prepared. At 9th level, you additionally have Fly and Gaseous Form prepared.</content>
+  <content contentuid="h9ef367bcg743fg6596ga14cgdc4842c967b1" version="1">Level 3: Genie's Splendor</content>
+  <content contentuid="h9f395fe8g244dg8ddcgcbe0g3ee47a325f9f" version="1">When you aren’t wearing any armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers. You can use a Shield and still gain this benefit.
+
+You also gain proficiency in one of the following skills of your choice: Acrobatics, Intimidation, Performance, or Persuasion.</content>
+  <content contentuid="h1ad2ebf2gb473g88deg2fb9gc419b2fa63cf" version="1">Level 7: Aura of Elemental Shielding</content>
+  <content contentuid="h4ed8c047g25f9g2d20g185eg45a7a0f16ff5" version="1">You and your allies have Resistance to Acid, Cold, Fire, Lightning, and Thunder damage while within your Aura of Protection.</content>
+  <content contentuid="h7ce47465gdfeag71dcgb0bdgeadc0c987cab" version="1">Dao’s Crush</content>
+  <content contentuid="hb3aa275bga6abgc81agd39bg3d1c211dcc20" version="1">Earth rises up around the target. The target has the Restrained condition.</content>
+  <content contentuid="hd20d93a6g9ec6gc3cdg1890g0e70817191af" version="2">Djinni’s Escape</content>
+  <content contentuid="hc2eacb6dgfdd7gb76ag186cgecc6d2ed93b5" version="1">You teleport to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Prone, and Restrained conditions.</content>
+  <content contentuid="h41d151e2g9ff2g7903gdcffg74d3df5ec77f" version="2">Efreeti’s Fury</content>
+  <content contentuid="hbf690b7ag3334g153agbf4dgf3261e437b08" version="2">The target takes an extra 2d4 Fire damage, and flames leap from the target to all enemies you can see within 30 feet of yourself. Each of those creatures also takes 2d4 Fire damage.</content>
+  <content contentuid="h48d5140cg0c24ga6cfg77d7g5b5aac3590e3" version="2">Marid’s Surge</content>
+  <content contentuid="h79a50a5ag645fgfec1g1742g3190589c1ba0" version="1">The target and each creature of your choice in a 10-foot Emanation originating from you make a Strength saving throw against your spell save DC. On a failed save, a creature is pushed 15 feet straight away from you and has the Prone condition.</content>
+  <content contentuid="h19a32ab1gef64g369egfeb4ge2bbdbae8999" version="1">Djinni’s Escape</content>
+  <content contentuid="h08615922g6a70gfeabg9ddeg3e421bcce131" version="1">You teleport to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Prone, and Restrained conditions.</content>
+  <content contentuid="h2f104997g62ecgd0e7g3258g0be25d035207" version="1">Djinni’s Escape</content>
+  <content contentuid="h2882b8f2g2c4dg9432gc6b0gd97aa3d6ec17" version="1">You teleport to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Prone, and Restrained conditions.</content>
+  <content contentuid="hab8ce398geb65gdcbbgc14ega6cd5dd5da1c" version="1">Aura of Elemental Shielding</content>
+  <content contentuid="h9b2090d2g2df9ga6b6g06e6g8c2dc62f5763" version="1">Have Resistance to Acid, Cold, Fire, Lightning, and Thunder damage.</content>
 </contentList>

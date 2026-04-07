@@ -756,6 +756,21 @@
                     <attribute id="UUID" type="guid" value="d4a480ac-818f-4020-b6b0-3caf99566de4"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Winter Walker Level 3 List"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_IceKnife"/>
+                    <attribute id="UUID" type="guid" value="7814ed90-c0f0-4b87-af54-bbc8fc6fec19"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Winter Walker Level 5 List"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoldPerson"/>
+                    <attribute id="UUID" type="guid" value="83418d74-fa55-45dd-ba77-f4cdfc7a5615"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Winter Walker Level 9 List"/>
+                    <attribute id="Spells" type="LSString" value="Target_RemoveCurse"/>
+                    <attribute id="UUID" type="guid" value="9421b857-96ec-4d77-9ecc-10bc7af4ea20"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__ROGUE__"/>
                     <attribute id="UUID" type="guid" value="0e828d11-d946-450c-9152-b893b5f05511"/>
                 </node>
@@ -1433,19 +1448,19 @@
                     <attribute id="UUID" type="guid" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Winter Walker Level 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_IceKnife"/>
-                    <attribute id="UUID" type="guid" value="7814ed90-c0f0-4b87-af54-bbc8fc6fec19"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Paladin Noble Spell Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Target_Smite_Thunderous"/>
+                    <attribute id="UUID" type="guid" value="c806a879-10ff-4da2-9bde-5a98ec12e95d"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Winter Walker Level 5 List"/>
-                    <attribute id="Spells" type="LSString" value="Target_HoldPerson"/>
-                    <attribute id="UUID" type="guid" value="83418d74-fa55-45dd-ba77-f4cdfc7a5615"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Paladin Noble Spell Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_MirrorImage;Target_PhantasmalForce"/>
+                    <attribute id="UUID" type="guid" value="076f5b81-8589-4516-9af1-6f956f720836"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Winter Walker Level 9 List"/>
-                    <attribute id="Spells" type="LSString" value="Target_RemoveCurse"/>
-                    <attribute id="UUID" type="guid" value="9421b857-96ec-4d77-9ecc-10bc7af4ea20"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Paladin Noble Spell Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Fly;Target_GaseousForm"/>
+                    <attribute id="UUID" type="guid" value="b84fa5b9-209a-472a-add4-9db277b89fdf"/>
                 </node>
             </children>
         </node>

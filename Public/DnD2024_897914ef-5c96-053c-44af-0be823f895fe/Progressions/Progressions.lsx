@@ -2751,6 +2751,9 @@
                                     <attribute id="Object" type="guid" value="b81df0a8-5ecb-43b5-abd9-39b9a244561c"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="0845c298-29fa-424b-b2be-b941345a5e90"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="3cc3d397-c47d-4966-87ae-88827f73f645"/>
                                 </node>
                             </children>
@@ -3031,6 +3034,39 @@
                     <attribute id="Selectors" type="LSString" value="AddSpells(f2f2b450-a126-4f1a-a524-dc24a5672922,OathSpells,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="0b77ab31-6a51-4531-b924-95193d4b51c7"/>
                     <attribute id="UUID" type="guid" value="d3ef2a0c-fcee-4b5a-9852-39f473fdaf3f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="NobleGenie"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Oath_NobleGenie_Tenents;NobleGenie_3_ElementalSmite;NobleGenie_3_GenieSpells;NobleGenie_3_GeniesSplendor"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c806a879-10ff-4da2-9bde-5a98ec12e95d,OathSpells,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="86ae831e-aa1b-4f18-b3d2-6c60fc32ff3c"/>
+                    <attribute id="UUID" type="guid" value="86ae831e-aa1b-4f18-b3d2-6c60fc32ff3c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="NobleGenie"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(076f5b81-8589-4516-9af1-6f956f720836,OathSpells,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="86ae831e-aa1b-4f18-b3d2-6c60fc32ff3c"/>
+                    <attribute id="UUID" type="guid" value="e4975cd9-69a8-4972-9fb3-cf98c4a701d6"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="NobleGenie"/>
+                    <attribute id="PassivesAdded" type="LSString" value="NobleGenie_7_AuraOfElementalShielding"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="86ae831e-aa1b-4f18-b3d2-6c60fc32ff3c"/>
+                    <attribute id="UUID" type="guid" value="6339739e-ced5-4864-a2a8-5b3f8404e7c3"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="NobleGenie"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(b84fa5b9-209a-472a-add4-9db277b89fdf,OathSpells,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="86ae831e-aa1b-4f18-b3d2-6c60fc32ff3c"/>
+                    <attribute id="UUID" type="guid" value="93bdca19-c2fd-4129-9390-3cbc3af4239d"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(FavoredEnemy,2,0)"/>
@@ -3371,6 +3407,47 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="4c844e73-f3c4-4490-9c65-d6d9f8007e8d"/>
                     <attribute id="UUID" type="guid" value="719e34e6-60ed-45c7-9cf3-f3f947674a2e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="WinterWalker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WinterWalker_3_FirigidExplorer;WinterWalker_3_HuntersRime;WinterWalker_3_WinterWalkerSpells"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(7814ed90-c0f0-4b87-af54-bbc8fc6fec19,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                    <attribute id="UUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="WinterWalker"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(83418d74-fa55-45dd-ba77-f4cdfc7a5615,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                    <attribute id="UUID" type="guid" value="544b9809-606a-42e6-ab41-b9ec6e5dba89"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="WinterWalker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WinterWalker_7_FortifyingSoul"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                    <attribute id="UUID" type="guid" value="b5c24b91-871f-42d8-a61e-e37f5b18cbb2"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="WinterWalker"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(9421b857-96ec-4d77-9ecc-10bc7af4ea20,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                    <attribute id="UUID" type="guid" value="6e2d854d-97ac-4936-a93b-61047fa08f38"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="WinterWalker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WinterWalker_11_ChillingRetribution"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
+                    <attribute id="UUID" type="guid" value="fa3de721-8bab-4724-8765-686075c474d0"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);Proficiency(LightArmor);ActionResource(SneakAttack_Charge,1,0);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Scimitars);Proficiency(Shortswords)ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);"/>
@@ -6067,47 +6144,6 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="WinterWalker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="WinterWalker_3_FirigidExplorer;WinterWalker_3_HuntersRime;WinterWalker_3_WinterWalkerSpells"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(7814ed90-c0f0-4b87-af54-bbc8fc6fec19,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
-                    <attribute id="UUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="5"/>
-                    <attribute id="Name" type="LSString" value="WinterWalker"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(83418d74-fa55-45dd-ba77-f4cdfc7a5615,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
-                    <attribute id="UUID" type="guid" value="544b9809-606a-42e6-ab41-b9ec6e5dba89"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="Name" type="LSString" value="WinterWalker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="WinterWalker_7_FortifyingSoul"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
-                    <attribute id="UUID" type="guid" value="b5c24b91-871f-42d8-a61e-e37f5b18cbb2"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="WinterWalker"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(9421b857-96ec-4d77-9ecc-10bc7af4ea20,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
-                    <attribute id="UUID" type="guid" value="6e2d854d-97ac-4936-a93b-61047fa08f38"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="WinterWalker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="WinterWalker_11_ChillingRetribution"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
-                    <attribute id="UUID" type="guid" value="fa3de721-8bab-4724-8765-686075c474d0"/>
                 </node>
             </children>
         </node>

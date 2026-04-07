@@ -6412,6 +6412,25 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="959b1f79-0f0d-4502-908c-50f12ce34f04" />
+        <field name="Name" type="NameTableFieldDefinition" value="DjinnisEscape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f104997g62ecgd0e7g3258g0be25d035207" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2882b8f2g2c4dg9432gc6b0gd97aa3d6ec17" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold;HasHighGroundRangeExtension;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:ApplyStatus(SELF,DJINNIS_ESCAPE_COOLDOWN,100,2);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('DJINNIS_ESCAPE_COOLDOWN', context.Source);" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1f46d6c3-537e-48de-b08f-3a0a2d5fe53a" />
