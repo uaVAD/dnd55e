@@ -2361,4 +2361,34 @@ The Frightened target repeats the save at the end of each of its turns, ending t
   <content contentuid="hb44a03abgc118ge0f2g55eegf877db7779de" version="1">Dread Allegiance: Myrkul</content>
   <content contentuid="h6e38ab81gffdegf60dgddc7gdd71c617d269" version="1">You gain Resistance to Necrotic damage and can cast Chill Touch.</content>
   <content contentuid="h4d43ff27g7af4g7c74gd48dg5f5bf9706659" version="1">1</content>
+  <content contentuid="h5d10607dg8858g0d58gde8bgfe26a1630521" version="1">Level 3: Spellfire Burst</content>
+  <content contentuid="h8c1cf02dg530eg20c8ge29dgf4ccedf5993c" version="1">When you spend at least 1 Sorcery Point as part of a Magic action or a Bonus Action on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.
+
+Bolstering Flames. You or one creature you can see within 30 feet of yourself gains Temporary Hit Points equal to 1d4 plus your Charisma modifier.
+
+Radiant Fire. One creature you can see within 30 feet of yourself takes 1d4 Fire or Radiant damage (your choice).</content>
+  <content contentuid="h792eabcbgff7bgb40dg8713g68bba5de6f04" version="1">Level 3: Spellfire Spells</content>
+  <content contentuid="h848282acg476egf71fgd7feg17ed2acf814f" version="1">When you reach certain Sorcerer levels, you thereafter always have specific spells prepared. At 3rd level, you always have Cure Wounds, Guiding Bolt, Lesser Restoration, and Scorching Ray prepared. At 5th level, you also have Aura of Vitality and Counterspell prepared. At 7th level, you also have Fire Shield and Wall of Fire prepared. At 9th level, you also have Greater Restoration and Flame Strike prepared.</content>
+  <content contentuid="h1381ca97g4947g98bdg940ag252c0d161fbf" version="1">Level 6: Absorb Spells</content>
+  <content contentuid="hf28a6857g5521g1f6eg1195g302e7c01246f" version="1">Whenever a target fails the saving throw against a Counterspell you cast, you regain 1d4 Sorcery Points.</content>
+  <content contentuid="h602c4560gbaadg43f4gca20g38ba13dd40b6" version="1">Spellfire Burst</content>
+  <content contentuid="h34d5fc08g03dage117ge30cge3bac9365062" version="1">When you spend at least 1 Sorcery Point as part of a Magic action or a Bonus Action on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.
+
+Bolstering Flames. You or one creature you can see within 30 feet of yourself gains Temporary Hit Points equal to 1d4 plus your Charisma modifier.
+
+Radiant Fire. One creature you can see within 30 feet of yourself takes 1d4 Fire or Radiant damage (your choice).</content>
+  <content contentuid="ha9f42619g46e1gf33agd7f6gca23d5d634b0" version="1">Spellfire Burst</content>
+  <content contentuid="h8a4d1ebag9e23g557bg322agfe82662adcaa" version="1">When you spend at least 1 Sorcery Point as part of a Magic action or a Bonus Action on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.</content>
+  <content contentuid="h33522f06g6cadgaee9g398eg0bd52adb964b" version="1">Bolstering Flames</content>
+  <content contentuid="h0ffef888g07e1g2e7dgf090g1e02c22995ae" version="1">You or one creature you can see within 30 feet of yourself gains Temporary Hit Points equal to 1d4 plus your Charisma modifier.</content>
+  <content contentuid="hcbc34c94g87dagca44ge6bcg1c07a081e603" version="1">Radiant Fire: Fire</content>
+  <content contentuid="h37be3b80g09fbg170eg2b7cg065997dc9bf9" version="1">One creature you can see within 30 feet of yourself takes 1d4 Fire damage.</content>
+  <content contentuid="h14663f97g9c94ge2fegb1d6g11e9d19efb32" version="1">Radiant Fire: Radiant</content>
+  <content contentuid="hf4271cc8ge175g82fcg26deg011060d3570a" version="1">One creature you can see within 30 feet of yourself takes 1d4 Radiant damage.</content>
+  <content contentuid="h9de61a36g2e2dgb757g472cge372a5d76c6d" version="1">Bolstering Flames</content>
+  <content contentuid="h5a2f62c0g20c4g7473ge5fagb7ae81549ea5" version="1">Gain Temporary Hit Points equal to 1d4 plus spell caster's Charisma modifier.</content>
+  <content contentuid="hebae72e1ga142gbc3dg8f84ge0a92b2e9d8e" version="1">Spellfire Sorcery</content>
+  <content contentuid="h60db9c86g6587g9b47g7ddcgd3131d7fdb99" version="1">Your innate power stems from the source of magic itself: the Weave. This connection manifests as a rare ability known as spellfire, and you surge with radiant bursts of this raw magic. Your talent with spellfire allows you to heal allies, sear enemies, and absorb powerful spells.
+
+Wielders of spellfire tend to have a penchant for wandering. Many travel between cosmopolitan settlements, such as those along the Sword Coast, and wield their magic in service of the common good. Others realize their own strange powers by roaming equally strange lands, from the magic-blasted wastes of the desert of Anauroch to the god-touched wilds of the Old Empires. Wherever they go in the Realms, spellfire Sorcerers are courted by factions with interests in the arcane arts, such as the Harpers, Cult of the Dragon, and Red Wizards.</content>
 </contentList>

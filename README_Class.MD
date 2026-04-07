@@ -268,7 +268,7 @@
 ### Gloom Stalker
 - Level 3: Dread Ambusher
 - Level 3: Gloom Stalker Spells
-- Level 3: Umbral **Sight**
+- Level 3: Umbral Sight
 - Level 7: Iron Mind
 - Level 11: Stalker's Flurry
 ### Hunter
@@ -342,6 +342,10 @@
 - Level 6: Elemental Affinity
 - Level 11: Dragon Wings
 ### Shadow Magic
+### Spellfire Sorcery
+- Level 3: Spellfire Burst
+- Level 3: Spellfire Spells
+- Level 6: Absorb Spells
 ### Storm Sorcery
 ### Wild Magic Sorcery
 - Level 3: Wild Magic Surge

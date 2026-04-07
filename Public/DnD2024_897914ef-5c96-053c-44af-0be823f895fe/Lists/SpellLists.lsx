@@ -795,6 +795,11 @@
                     <attribute id="UUID" type="guid" value="2a9f03ae-49e7-4dee-a3a5-8e7bb395d5ac"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Scions of the Three Level 3 List"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DreadAllegiance"/>
+                    <attribute id="UUID" type="guid" value="dcc68396-ebf2-4555-8139-63a43b5366ee"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__SORCERER__"/>
                     <attribute id="UUID" type="guid" value="408b991d-6e0a-44b0-b0fb-5fdc3777834f"/>
                 </node>
@@ -1463,9 +1468,28 @@
                     <attribute id="UUID" type="guid" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Scions of the Three Level 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Shout_DreadAllegiance"/>
-                    <attribute id="UUID" type="guid" value="dcc68396-ebf2-4555-8139-63a43b5366ee"/>
+                    <attribute id="Name" type="FixedString" value="__SPELLFIRE__"/>
+                    <attribute id="UUID" type="guid" value="4dab8d0a-76ce-452a-9e39-abae613afa94"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Spellfire Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_CureWounds;Projectile_GuidingBolt;Target_LesserRestoration;Projectile_ScorchingRay"/>
+                    <attribute id="UUID" type="guid" value="73f86cca-6acf-45a3-b4f6-89d86155fd6f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Spellfire Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_Counterspell"/>
+                    <attribute id="UUID" type="guid" value="d9632e3c-b5b9-4280-8f47-492dd6cdb830"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Spellfire Level 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Wall_WallOfFire"/>
+                    <attribute id="UUID" type="guid" value="caf2a394-2c42-4c0e-8467-b7883b22733e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Spellfire Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_GreaterRestoration;Target_FlameStrike"/>
+                    <attribute id="UUID" type="guid" value="441cf186-3059-4ccf-ab7a-1de73a62aad6"/>
                 </node>
             </children>
         </node>

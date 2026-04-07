@@ -1365,6 +1365,40 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_GreaterRestoration" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4dab8d0a-76ce-452a-9e39-abae613afa94" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SPELLFIRE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73f86cca-6acf-45a3-b4f6-89d86155fd6f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spellfire Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_CureWounds;Projectile_GuidingBolt;Target_LesserRestoration;Projectile_ScorchingRay" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9632e3c-b5b9-4280-8f47-492dd6cdb830" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spellfire Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfVitality;Target_Counterspell" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="caf2a394-2c42-4c0e-8467-b7883b22733e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spellfire Level 7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_FireShield;Wall_WallOfFire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="441cf186-3059-4ccf-ab7a-1de73a62aad6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spellfire Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_GreaterRestoration;Target_FlameStrike" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="28297251-2b44-4554-8723-4ab94229a3c0" />

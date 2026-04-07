@@ -3513,6 +3513,48 @@
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d7bcb54-ba10-4789-abb1-ac0a0182d66d" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SPELLFIRE 10500__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="445b767b-3bd3-403a-958e-fd654a232852" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellfireSorcery_3_SpellfireBurst" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5d10607dg8858g0d58gde8bgfe26a1630521" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c1cf02dg530eg20c8ge29dgf4ccedf5993c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Cleric_DivineSpark_Radiant" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('USING_METAMAGIC',context.Source) and (IsSpell() or IsCantrip());" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,SPELLFIRE_BURST,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64029af5-1691-4fda-bdc8-c84edaad9990" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellfireSorcery_3_SpellfireSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h792eabcbgff7bgb40dg8713g68bba5de6f04" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h848282acg476egf71fgd7feg17ed2acf814f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Cleric_DivineSpark_Radiant" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d8d2cc1d-4ed9-44e1-9876-0c8d8ed2c6e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellfireSorcery_6_AbsorbSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1381ca97g4947g98bdg940ag252c0d161fbf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf28a6857g5521g1f6eg1195g302e7c01246f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Counterspell" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f2082bb4-d1fe-4f0c-918b-4d5a8d43b9f1" />
         <field name="Name" type="NameTableFieldDefinition" value="__METAMAGIC__" />
       </fields>
@@ -3522,6 +3564,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b0fe4fe1-8f3c-45ba-8c2d-bed2ffd5930b" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Careful" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4934c1a7-4e55-40c1-8d37-7d0d877b9922" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3529,6 +3573,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cc81419d-8402-44b4-b0a6-f999a0597da3" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Distant" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5fae949d-95d0-4d52-980d-093d3641808a" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3537,6 +3583,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Empowered" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4b1bec57-9505-4015-a519-3ccde0cc970a" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(Damage,20,false);UnlockSpellVariant(EmpoweredSpellCheck(),ModifyUseCosts(Add,SorceryPoint,1,0));" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3544,6 +3592,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="29fc84b3-1e6b-499f-bf6a-a43527688f94" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Extended" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="38afe5df-8cf9-4023-afee-1b72d052e180" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3553,6 +3603,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c3c01a6e-8e28-400d-a26f-6f2b24ba829b" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(HeightenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifySavingThrowDisadvantage());" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('SorceryPoint', 2, 0, false, false, context.Source);" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3562,6 +3615,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="3545c2ba-eede-464c-8521-bcc2146ccee1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(QuickenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('SorceryPoint', 2, 0, false, false, context.Source);" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3569,6 +3625,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="23e5a723-1146-447a-b2cd-c1b59cfe92f5" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Subtle" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ba4b264c-9417-4f24-a409-51ee6d386f42" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3576,6 +3634,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cb0431f3-2ccb-4008-9149-dfb86e3e7a70" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Twinned" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="692e3104-8120-4a2e-b672-55a138303fb1" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,TWINNED_ON,100,-1);ApplyStatus(USING_METAMAGIC,100,1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,TWINNED_ON,100,-1);RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">

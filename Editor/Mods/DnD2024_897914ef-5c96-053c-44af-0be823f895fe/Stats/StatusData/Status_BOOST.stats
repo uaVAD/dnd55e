@@ -2450,6 +2450,44 @@
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e4dc7ec-0c60-44ea-b31c-c248f2c75b16" />
+        <field name="Name" type="NameTableFieldDefinition" value="USING_METAMAGIC" />
+        <field name="StackId" type="StringTableFieldDefinition" value="USING_METAMAGIC" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d943c274-8b65-4fb1-a316-ca05628324f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPELLFIRE_BURST" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h602c4560gbaadg43f4gca20g38ba13dd40b6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34d5fc08g03dage117ge30cge3bac9365062" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Cleric_DivineSpark_Radiant" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SPELLFIRE_BURST" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SpellFireBurst);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c680fc6-916e-4506-b5ad-7ee5c15b6f6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="BOLSTERING_FLAMES" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9de61a36g2e2dgb757g472cge372a5d76c6d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5a2f62c0g20c4g7473ge5fagb7ae81549ea5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Cleric_DivineSpark_Heal" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BOLSTERING_FLAMES" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(1d4+Cause.CharismaModifier);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="894106a1-04a8-4f54-a29a-e3513e4493dc" />

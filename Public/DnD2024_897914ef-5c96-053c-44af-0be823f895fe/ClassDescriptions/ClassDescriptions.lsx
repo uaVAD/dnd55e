@@ -342,6 +342,19 @@
                         </node>
                     </children>
                 </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h60db9c86g6587g9b47g7ddcgd3131d7fdb99" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hebae72e1ga142gbc3dg8f84ge0a92b2e9d8e" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Spellfire"/>
+                    <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="9e855a88-3ace-4332-a875-2489fa757ef7"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="42622d71-74af-409a-b821-85f270245fe2"/>
+                </node>
             </children>
         </node>
     </region>
