@@ -3780,5 +3780,59 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttack() or IsSpell()):DamageBonus(ProficiencyBonus, Necrotic);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="452a54eb-17df-4763-ab1f-4cf7a0656376" />
+        <field name="Name" type="NameTableFieldDefinition" value="__PERFORM__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b78704da-1e47-4bbb-95ee-3622c21fd8de" />
+        <field name="Name" type="NameTableFieldDefinition" value="PERFORM_POSITIVE_BARDDANCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a1c9e280-3389-45ed-b0dc-997e771e875e" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7e4e14d-755a-433b-8918-2265f07e0a26" />
+        <field name="Name" type="NameTableFieldDefinition" value="PERFORM_POSITIVE_STARGAZING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8af7179-8158-4e62-88c8-60ea171f1543" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="79072746-f731-417b-affa-793954116038" />
+        <field name="Name" type="NameTableFieldDefinition" value="PERFORM_POSITIVE_THEPOWER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ca5eaeff-356a-49a6-82aa-46ac34b2579c" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e58eb8b1-bd1e-4fa3-bc9a-93adb9ddba7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PERFORM_POSITIVE_DOS2_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a7b4747f-5b53-4d96-9971-c3f6f6644c65" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d921e84d-1668-4f7f-bbdd-5ebd83ca2c6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PERFORM_POSITIVE_DOS2_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d3cf567-0727-47a6-86a8-be551df062c9" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b70ed17-6aa4-4d1c-ba36-70b720114d60" />
+        <field name="Name" type="NameTableFieldDefinition" value="PERFORM_POSITIVE_DOS2_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="be41a080-f938-4c33-9102-e4fb3fb0c4c3" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

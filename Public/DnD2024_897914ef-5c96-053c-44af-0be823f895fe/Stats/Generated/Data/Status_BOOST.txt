@@ -3011,3 +3011,43 @@ data "Icon" "GenericIcon_DamageType_Necrotic"
 data "StackId" "HEAVENLY_WINGS"
 data "Boosts" "IF(IsAttack() or IsSpell()):DamageBonus(ProficiencyBonus, Necrotic);"
 
+new entry "__PERFORM__"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "PERFORM_POSITIVE_BARDDANCE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PERFORM_POSITIVE_BARDDANCE"
+data "RemoveEvents" "OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded"
+
+new entry "PERFORM_POSITIVE_STARGAZING"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PERFORM_POSITIVE_STARGAZING"
+data "RemoveEvents" "OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded"
+
+new entry "PERFORM_POSITIVE_THEPOWER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PERFORM_POSITIVE_THEPOWER"
+data "RemoveEvents" "OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded"
+
+new entry "PERFORM_POSITIVE_DOS2_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PERFORM_POSITIVE_DOS2_1"
+data "RemoveEvents" "OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded"
+
+new entry "PERFORM_POSITIVE_DOS2_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PERFORM_POSITIVE_DOS2_2"
+data "RemoveEvents" "OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded"
+
+new entry "PERFORM_POSITIVE_DOS2_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PERFORM_POSITIVE_DOS2_3"
+data "RemoveEvents" "OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded"
+
