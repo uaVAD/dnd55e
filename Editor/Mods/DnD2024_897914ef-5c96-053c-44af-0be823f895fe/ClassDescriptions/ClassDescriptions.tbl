@@ -335,5 +335,24 @@
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Wizard" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8047cf29-2c79-4f12-a4bf-d965a023be63" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="BladesingingSchool" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hede4cb27g87edg8c8fg8923ga74ca862fc12" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="eb51387c-6990-4f9b-965a-3acae7ba49d1" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="BladeSinger" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf106deb5gfb07g4bdeg0a01g623dd85de6b9" version="1" />
+        <field name="ValidSomaticEquipmentList" type="StringTableFieldDefinition" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="bc52a699-cf55-4dad-9710-927e655910fd" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

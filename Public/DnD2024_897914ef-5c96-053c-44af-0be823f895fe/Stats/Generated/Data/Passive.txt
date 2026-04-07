@@ -3036,6 +3036,63 @@ data "Description" "hd251b05fg755bge84dgf97egf45679814510;1"
 data "PriorityOrder" "12210"
 data "Boosts" "UnlockInterrupt(Interrupt_IllusorySelf);UnlockInterrupt(Interrupt_IllusorySelf_2);UnlockInterrupt(Interrupt_IllusorySelf_3);UnlockInterrupt(Interrupt_IllusorySelf_4);UnlockInterrupt(Interrupt_IllusorySelf_5);UnlockInterrupt(Interrupt_IllusorySelf_6);ActionResource(Interrupt_IllusorySelf_Charge,1,0);"
 
+new entry "__WIZARD BLANDSINGER__12303"
+type "PassiveData"
+
+new entry "Bladesinger_3_Bladesong"
+type "PassiveData"
+data "DisplayName" "hd699c237g9c18g83b1g6f1dg6cc399770254;1"
+data "Description" "h3b87eea0g36e0gf638g04c0gc6f56f797e73;2"
+data "Icon" "Action_Bladesong"
+data "PriorityOrder" "12303"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',13,context.Source)):ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',15,context.Source)):ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',17,context.Source)):ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',19,context.Source)):ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',21,context.Source)):ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',23,context.Source)):ActionResource(Bladesong,1,0);"
+
+new entry "Bladesinger_3_Bladesong_ArcaneRecovery"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "BoostContext" "OnCast;OnCombatStarted;OnCreate;OnTurn"
+data "Boosts" "IF(HasActionResource('Bladesong',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_Bladesong'),ModifyUseCosts(Replace,ArcaneRecoveryPoint,0,-1,ArcaneRecoveryPoint),ModifyUseCosts(Add,Bladesong,1,0));"
+
+new entry "Bladesinger_3_TrainingInWarAndSong"
+type "PassiveData"
+data "DisplayName" "h2bf11353gf199g41edg8f9eg584aaad22078;1"
+data "Description" "h352f38e9g6190gf239gf947g79ecb474c84f;1"
+data "Icon" "Action_Bladesong"
+data "PriorityOrder" "12303"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "Proficiency(Battleaxes);Proficiency(Flails);Proficiency(Longswords);Proficiency(Morningstars);Proficiency(Rapiers);Proficiency(Scimitars);Proficiency(Shortswords);Proficiency(Tridents);Proficiency(Warhammers);Proficiency(Warpicks);"
+
+new entry "Bladesong_Armor_Message"
+type "PassiveData"
+
+new entry "Bladesong_Boost"
+type "PassiveData"
+
+new entry "Bladesong_Damage"
+type "PassiveData"
+
+new entry "Bladesong_Healing"
+type "PassiveData"
+
+new entry "Bladesong_Shield"
+type "PassiveData"
+
+new entry "Bladesong_Shield_Message"
+type "PassiveData"
+
+new entry "Bladesong_Unarmed"
+type "PassiveData"
+
+new entry "Bladesong_Unlock"
+type "PassiveData"
+
+new entry "Bladesong_Weapon"
+type "PassiveData"
+
+new entry "Bladesong_Weapon_Message"
+type "PassiveData"
+
 new entry "__FIGHTING STYLE FEAT__"
 type "PassiveData"
 

@@ -29,5 +29,12 @@
         <field name="Skills" type="StringTableFieldDefinition" value="Acrobatics,Athletics" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6cb5bcdd-7107-49aa-a508-de1f99ecb6ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bladesinger Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value=" Acrobatics, Athletics, Performance, Persuasion" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

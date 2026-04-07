@@ -6435,9 +6435,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="BladesingingSchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectEquipment(5309613d-e7cb-4176-95b6-0c8b796d47d0,1,WarAndSong);AddSpells(e97297e2-5cc9-45c9-ae8d-5a24257dd176,,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="TraininginWarandSong;Bladesong_Armor_Message;Bladesong_Weapon_Message;Bladesong_Shield_Message;Bladesong_Weapon;Bladesong_Shield;Bladesong_Unarmed" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightArmor);Proficiency(Daggers);Proficiency(Sickles);Proficiency(Shortswords);Proficiency(Rapiers);Proficiency(Scimitars);Proficiency(Longswords);ProficiencyBonus(Skill,Performance);ActionResource(Bladesong,2,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(e97297e2-5cc9-45c9-ae8d-5a24257dd176,,,,AlwaysPrepared);SelectSkills(6cb5bcdd-7107-49aa-a508-de1f99ecb6ba,1);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Bladesinger_3_Bladesong;Bladesinger_3_Bladesong_ArcaneRecovery;Bladesinger_3_TrainingInWarAndSong" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6458,7 +6457,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="BladesingingSchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Bladesong,1,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6500,7 +6498,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="BladesingingSchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Bladesong,1,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -188,6 +188,20 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h1e8b4682gc0aag5810g20f4gffc2487083b4" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfc2052ffgc5b0gbd9agca4bg0c13d926684c" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="NobleGenie"/>
+                    <attribute id="ParentGuid" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="86ae831e-aa1b-4f18-b3d2-6c60fc32ff3c"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Paladin"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="0845c298-29fa-424b-b2be-b941345a5e90"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h60b4a6b6g2c59g4b4cgb657g5872fb1a68d4" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h7448ea4fg8ab9g8b26gf04dg6a7767cae2dd" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -297,17 +311,23 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h1e8b4682gc0aag5810g20f4gffc2487083b4" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hfc2052ffgc5b0gbd9agca4bg0c13d926684c" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hf106deb5gfb07g4bdeg0a01g623dd85de6b9" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hede4cb27g87edg8c8fg8923ga74ca862fc12" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="MustPrepareSpells" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="NobleGenie"/>
-                    <attribute id="ParentGuid" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="86ae831e-aa1b-4f18-b3d2-6c60fc32ff3c"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Paladin"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
-                    <attribute id="UUID" type="guid" value="0845c298-29fa-424b-b2be-b941345a5e90"/>
+                    <attribute id="Name" type="FixedString" value="BladesingingSchool"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="eb51387c-6990-4f9b-965a-3acae7ba49d1"/>
+                    <attribute id="SoundClassType" type="FixedString" value="BladeSinger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="8047cf29-2c79-4f12-a4bf-d965a023be63"/>
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="bc52a699-cf55-4dad-9710-927e655910fd"/>
+                        </node>
+                    </children>
                 </node>
             </children>
         </node>

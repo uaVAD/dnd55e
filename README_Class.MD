@@ -417,7 +417,11 @@
 - Level 2: Ritual Adept
 - Level 2: Scholar
 ### Abjurer
-### Bladesinger [ ]
+### Bladesinger
+- Level 3: Bladesong
+- Level 3: Training in War and Song
+- Level 6: Extra Attack
+- Level 10: Song of Defense
 ### Diviner
 ### Evoker
 - Level 3: Potent Cantrip

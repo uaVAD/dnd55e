@@ -4200,6 +4200,105 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_IllusorySelf);UnlockInterrupt(Interrupt_IllusorySelf_2);UnlockInterrupt(Interrupt_IllusorySelf_3);UnlockInterrupt(Interrupt_IllusorySelf_4);UnlockInterrupt(Interrupt_IllusorySelf_5);UnlockInterrupt(Interrupt_IllusorySelf_6);ActionResource(Interrupt_IllusorySelf_Charge,1,0);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb119064-d3c4-41ca-850e-2094fc61c76b" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WIZARD BLANDSINGER__12303" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b2417deb-e2b4-4a72-a7bd-509747bec126" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesinger_3_Bladesong" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd699c237g9c18g83b1g6f1dg6cc399770254" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3b87eea0g36e0gf638g04c0gc6f56f797e73" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Bladesong" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',13,context.Source)):ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',15,context.Source)):ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',17,context.Source)):ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',19,context.Source)):ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',21,context.Source)):ActionResource(Bladesong,1,0);IF(AbilityGreaterThan('Intelligence',23,context.Source)):ActionResource(Bladesong,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="add11b3a-e1e5-4bc6-bc95-1f63fcbcc8ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesinger_3_Bladesong_ArcaneRecovery" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnCombatStarted;OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasActionResource('Bladesong',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_Bladesong'),ModifyUseCosts(Replace,ArcaneRecoveryPoint,0,-1,ArcaneRecoveryPoint),ModifyUseCosts(Add,Bladesong,1,0));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="364b0864-c8c2-4bd0-9e57-439f7e2c517c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesinger_3_TrainingInWarAndSong" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2bf11353gf199g41edg8f9eg584aaad22078" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h352f38e9g6190gf239gf947g79ecb474c84f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Bladesong" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Battleaxes);Proficiency(Flails);Proficiency(Longswords);Proficiency(Morningstars);Proficiency(Rapiers);Proficiency(Scimitars);Proficiency(Shortswords);Proficiency(Tridents);Proficiency(Warhammers);Proficiency(Warpicks);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3f73274-2ecd-45fe-beae-3df4dd8105af" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Armor_Message" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c179583-bf47-4eda-954e-b2a9e0e55e57" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Boost" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b4959d1e-b8e7-4ee4-9440-f6d6383363b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Damage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8ee8f2b-bb79-4ca7-94b9-2d500af78b76" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Healing" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="80ab746f-024e-4b37-808a-dd39436ac373" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Shield" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1206fedc-9f80-4787-bf0d-45a8a9b28ff6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Shield_Message" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8452ed3e-ef7e-4617-875d-39024e786712" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Unarmed" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f99d7ef-a1e2-4a90-945a-a68d8029d4b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Unlock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f614bbb7-f4ab-4e86-95e5-5a2ffcc2534c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Weapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45719d25-644b-4609-ac33-1a8690fc0bbb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Weapon_Message" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="056a0c12-3e41-4e67-a705-01e9fea8219f" />

@@ -5018,12 +5018,11 @@
                     <attribute id="UUID" type="guid" value="fb80a80b-d512-4ff5-89d8-b4fa6c29f96e"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Daggers);Proficiency(Sickles);Proficiency(Shortswords);Proficiency(Rapiers);Proficiency(Scimitars);Proficiency(Longswords);ProficiencyBonus(Skill,Performance);ActionResource(Bladesong,2,0)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="BladesingingSchool"/>
-                    <attribute id="PassivesAdded" type="LSString" value="TraininginWarandSong;Bladesong_Armor_Message;Bladesong_Weapon_Message;Bladesong_Shield_Message;Bladesong_Weapon;Bladesong_Shield;Bladesong_Unarmed"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Bladesinger_3_Bladesong;Bladesinger_3_Bladesong_ArcaneRecovery;Bladesinger_3_TrainingInWarAndSong"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectEquipment(5309613d-e7cb-4176-95b6-0c8b796d47d0,1,WarAndSong);AddSpells(e97297e2-5cc9-45c9-ae8d-5a24257dd176,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(e97297e2-5cc9-45c9-ae8d-5a24257dd176,,,,AlwaysPrepared);SelectSkills(6cb5bcdd-7107-49aa-a508-de1f99ecb6ba,1);"/>
                     <attribute id="TableUUID" type="guid" value="eb51387c-6990-4f9b-965a-3acae7ba49d1"/>
                     <attribute id="UUID" type="guid" value="ca3998ec-99fc-4058-ae08-587adeb9d8ec"/>
                 </node>
@@ -5035,7 +5034,6 @@
                     <attribute id="UUID" type="guid" value="8c21951a-3922-417f-96d7-0d293206ac1d"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Bladesong,1,0)"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="BladesingingSchool"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -5065,7 +5063,6 @@
                     <attribute id="UUID" type="guid" value="8c63cb2d-feba-4a08-9764-e4c07a302a46"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Bladesong,1,0)"/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="BladesingingSchool"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>

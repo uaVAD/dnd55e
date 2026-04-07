@@ -2212,6 +2212,30 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="3c7b783e-d2ee-4125-9f94-0d48d44fe3e8" />
       </fields>
     </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ede7faf2-0cd7-406e-af51-6d59fd67369c" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WIZARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1e0ce59-3055-447e-89cf-0d4cd7799d53" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bladesong" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c66dd2b3-eab8-40e8-93de-7e6b25a78437" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcf424f73gfc0dg7cc2gd583ga378200e953d" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ArcaneRecoveryPoint:1;" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="BladesongAvaliable()" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BLADESONG,100,10);ApplyEquipmentStatus(MainHand, BLADESONG_BLADEWORK,100, 10);ApplyEquipmentStatus(OffHand, BLADESONG_BLADEWORK,100, 10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6878c41b-cc35-4405-ac7c-e4ae75fc9114" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f297a9c5-cadb-4c19-96bc-f4d5eed62659" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d9003a82-f63d-4c4e-99ed-6fa48c42a7e4" />

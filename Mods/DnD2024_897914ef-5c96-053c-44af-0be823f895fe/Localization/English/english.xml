@@ -2294,4 +2294,34 @@ You also gain proficiency in one of the following skills of your choice: Acrobat
   <content contentuid="h2882b8f2g2c4dg9432gc6b0gd97aa3d6ec17" version="1">You teleport to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Prone, and Restrained conditions.</content>
   <content contentuid="hab8ce398geb65gdcbbgc14ega6cd5dd5da1c" version="1">Aura of Elemental Shielding</content>
   <content contentuid="h9b2090d2g2df9ga6b6g06e6g8c2dc62f5763" version="1">Have Resistance to Acid, Cold, Fire, Lightning, and Thunder damage.</content>
+  <content contentuid="hd699c237g9c18g83b1g6f1dg6cc399770254" version="1">Level 3: Bladesong</content>
+  <content contentuid="h3b87eea0g36e0gf638g04c0gc6f56f797e73" version="2">As a Bonus Action, you invoke an elven magic called the Bladesong, provided you aren’t wearing armor or using a Shield.
+
+The Bladesong lasts for 1 minute and ends early if you have the Incapacitated condition, if you don armor or a Shield, or if you use two hands to make an attack with a weapon. You can dismiss the Bladesong at any time (no action required).
+
+You can invoke the Bladesong a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You regain one expended use when you use Arcane Recovery.</content>
+  <content contentuid="hcf424f73gfc0dg7cc2gd583ga378200e953d" version="1">While the Bladesong is active, you gain the following benefits.
+
+Agility. You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1), and your Speed increases by 10 feet. In addition, you have Advantage on Dexterity (Acrobatics) checks.
+
+Bladework. Whenever you attack with a weapon with which you have proficiency, you can use your Intelligence modifier for the attack and damage rolls instead of using Strength or Dexterity.
+
+Focus. When you make a Constitution saving throw to maintain Concentration, you can add your Intelligence modifier to the total.</content>
+  <content contentuid="he1fbff1eg96ceg2664g8478gd2144519fd4d" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; You can't wear Armour or Shields while Bladesinging.</content>
+  <content contentuid="he1710159g6478g8470g4eecg831913a667d2" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; You must be wielding a weapon in one hand.</content>
+  <content contentuid="h1669b47agf0fagd245g92f2g0e39a2c90370" version="1">Agility. You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1), and your Speed increases by 10 feet. In addition, you have Advantage on Dexterity (Acrobatics) checks.
+
+Bladework. Whenever you attack with a weapon with which you have proficiency, you can use your Intelligence modifier for the attack and damage rolls instead of using Strength or Dexterity.
+
+Focus. When you make a Constitution saving throw to maintain Concentration, you can add your Intelligence modifier to the total.</content>
+  <content contentuid="h55238b55g2b39g51dcg5270gfe86eeeec5e8" version="1">Bladework</content>
+  <content contentuid="hede9123cg6b75g7af2ge6a9g09aa7751575f" version="1">Whenever you attack with a weapon with which you have proficiency, you can use your Intelligence modifier for the attack and damage rolls instead of using Strength or Dexterity.</content>
+  <content contentuid="h2bf11353gf199g41edg8f9eg584aaad22078" version="1">Level 3: Training in War and Song</content>
+  <content contentuid="h352f38e9g6190gf239gf947g79ecb474c84f" version="1">You gain proficiency with all Melee Martial weapons that don’t have the Two-Handed or Heavy property. You can use a Melee weapon with which you have proficiency as a Spellcasting Focus for your Wizard spells.
+
+You also gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Performance, or Persuasion.</content>
+  <content contentuid="hede4cb27g87edg8c8fg8923ga74ca862fc12" version="1">Bladesinger</content>
+  <content contentuid="hf106deb5gfb07g4bdeg0a01g623dd85de6b9" version="1">Bladesingers master a tradition of wizardry that incorporates swordplay and dance. In combat, a Bladesinger uses intricate, elegant maneuvers that fend off harm and allow the Bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a Bladesinger at work remember the display as one of the more beautiful experiences in their life—a glorious dance accompanied by a singing blade.
+
+Bladesinging is associated with the ancient elven societies that first mastered the art and coined the term. Even today, most Bladesingers still hail from old elven realms, such as Myth Drannor, or from non-elven societies that share land and history with elves, such as the Silver Marches. Wherever they hail from, Bladesingers take their talents all across the Realms to help common people and perform heroic deeds. Most communities greet the arrival of a Bladesinger as a good omen.</content>
 </contentList>
