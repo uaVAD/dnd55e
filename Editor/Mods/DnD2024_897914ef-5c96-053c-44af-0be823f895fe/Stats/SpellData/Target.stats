@@ -6633,6 +6633,18 @@
         <field name="SpellEffect" type="GuidObjectTableFieldDefinition" value="4d97dc4c-0b6f-4c87-a65a-6e6f08c186b9" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="528e2ddd-1ffc-44b4-9d56-3ac20a43b043" />
+        <field name="Name" type="NameTableFieldDefinition" value="HairTrigger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6707901c-81b4-4e77-8b0c-4eb486b44976" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he20aedbcg8a55ge2e1gc6e1g892e80b9dd06" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h52e0bfc4g2561g410ag637eg759d80be5ce4" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DualWieldingUseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful;CanDualWield;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ee7e12b2-ed52-4592-8d1f-03bf9f577679" />

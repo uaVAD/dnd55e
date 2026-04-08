@@ -2331,6 +2331,37 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5da4144-d04f-4969-a26a-33c9f741159a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__HIGHWAY RIDER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5ae068b-43e1-4c46-b804-cbbdc60fd031" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAIR_TRIGGER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfdbc8b12gdf41gcf0fg7579g6557c7859eb6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1b35c761g20a0gdbf9gd311g6f35d870fb66" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Projectile_MainHandAttack_Firearm" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HairTrigger);UnlockSpell(Projectile_HairTrigger);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SpellId('Target_HairTrigger') or SpellId('Projectile_HairTrigger')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ec4c1a7-ff6e-471b-bf7c-9947bbbe706e" />
+        <field name="Name" type="NameTableFieldDefinition" value="HORSE_LORD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c6d6cb32-b383-4980-80c4-e0b2205d80c3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7b19797cg51e0ge287ge71eg179578a32576" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc426f330gcc3fge554g4368gf9e59e055631" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_AspectOfTheBeast_Stallion" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HORSE_LORD" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Rogue)*2);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5b751f3e-87d4-4163-b666-37c11c5d67a7" />

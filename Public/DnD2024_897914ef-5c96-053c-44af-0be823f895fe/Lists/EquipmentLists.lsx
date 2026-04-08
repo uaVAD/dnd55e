@@ -9,6 +9,11 @@
                     <attribute id="Name" type="FixedString" value="Gunslinger Weapons"/>
                     <attribute id="UUID" type="guid" value="1ff4a7ef-7e27-4307-8b41-5087dce60abe"/>
                 </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="WPN_Pistol;WPN_Pistol_Copy"/>
+                    <attribute id="Name" type="FixedString" value="Highway Rider Weapons"/>
+                    <attribute id="UUID" type="guid" value="94ae74c1-f079-4b27-b488-9ef96432a897"/>
+                </node>
             </children>
         </node>
     </region>

@@ -142,6 +142,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnEquip;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('FIREARM_NO_BONUS', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand))):ApplyEquipmentStatus(RangedMainHand, FIREARM_ADD_BONUS, 100, -1);IF(not HasStatus('FIREARM_NO_BONUS', GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand))):ApplyEquipmentStatus(RangedOffHand, FIREARM_ADD_BONUS, 100, -1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Projectile_MainHandAttack_Firearm" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -3407,6 +3408,64 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="ToggleGroup" type="StringTableFieldDefinition" value="Rogue_5_CunningStrike" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2715c03f-3fe2-44f2-bbe1-7f7398eb455d" />
+        <field name="Name" type="NameTableFieldDefinition" value="__HIGHWAY RIDER 9600__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="deed1efb-77fe-4a97-83bd-1fd3ca601631" />
+        <field name="Name" type="NameTableFieldDefinition" value="HighwayRider_3_HairTrigger" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf94de242ge211g147egfef6gf0c946d2ffe0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h83b92101gfc2bg31e9gf707gf2e81d4a43fc" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Projectile_MainHandAttack_Firearm" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9603" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Combat()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(HAIR_TRIGGER,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68be93df-f502-4260-85e0-57758a9c74e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="HighwayRider_3_TrustyMount" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc27b910g6850g1264gef1agb05f75743b92" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4bf647c4g9622g1b59gd3ccg7614d1ac3969" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9603" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FindSteed,Singular,,UntilShortRest,Intelligence);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fbadb27b-761d-4a80-a910-3b7c7d521c02" />
+        <field name="Name" type="NameTableFieldDefinition" value="HighwayRider_3_RideThemDown" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h97981f9bgce50gd7e8g2a87gceb5d667aef5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd4cfe56g5d63g5f04ge52dg1620a9b457fa" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_RakishAudacity_SneakAttack_Ranged" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9603" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApply;OnStatusRemove" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="HasStatus('FIND_STEED',context.Source);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_SneakAttack_Rakish);UnlockInterrupt(Interrupt_SneakAttack_Rakish_Critical);UnlockSpell(Target_SneakAttack_Rakish);UnlockSpell(Projectile_SneakAttack_Rakish);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8a876ed-e0cb-4962-bca2-679766e86d0f" />
+        <field name="Name" type="NameTableFieldDefinition" value="HighwayRider_9_HorseLord" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf021de0g26a4ge1e4ge868g80ee6afb7879" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0221fc2dgce10g295eg2d4agd7d6c48ba873" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9610" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_HorseLord);" />
       </fields>
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">

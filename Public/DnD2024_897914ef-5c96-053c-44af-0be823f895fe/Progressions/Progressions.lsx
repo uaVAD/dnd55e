@@ -2032,6 +2032,30 @@
                     <attribute id="UUID" type="guid" value="d3a1ac91-c610-4a4b-b6ad-56c71c200f81"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDragons"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dragons_3_DraconicLore;Dragons_3_DragonShape"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
+                    <attribute id="UUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDragons"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dragons_6_ImprovedDragonShape"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
+                    <attribute id="UUID" type="guid" value="1f60957b-4431-44a0-a681-c1a8de704f8b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDragons"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dragons_10_DraconicMagic"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
+                    <attribute id="UUID" type="guid" value="e1b3144d-6132-4697-a345-17e4972530b3"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(SecondWind,2,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Fighter"/>
@@ -3505,6 +3529,9 @@
                                     <attribute id="Object" type="guid" value="eeb1f97b-7cc4-4720-b2a8-bf8cbb4dc76e"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="e0613554-075a-48ac-8c74-a051d57d4a39"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="5764faec-f81c-4708-a652-15b3459715e8"/>
                                 </node>
                                 <node id="SubClass">
@@ -3805,6 +3832,23 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="60cd0d4d-532d-4a1c-bc6e-1bc2ca458db8"/>
                     <attribute id="UUID" type="guid" value="aaa370df-434f-41d5-8088-638572f023b9"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="HighwayRider"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HighwayRider_3_HairTrigger;HighwayRider_3_TrustyMount;HighwayRider_3_RideThemDown;FirearmExpert"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectEquipment(94ae74c1-f079-4b27-b488-9ef96432a897,2)"/>
+                    <attribute id="TableUUID" type="guid" value="8e20bc2e-8a65-472d-8e14-66d91edfcdd3"/>
+                    <attribute id="UUID" type="guid" value="8e20bc2e-8a65-472d-8e14-66d91edfcdd3"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="HighwayRider"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HighwayRider_9_HorseLord"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="8e20bc2e-8a65-472d-8e14-66d91edfcdd3"/>
+                    <attribute id="UUID" type="guid" value="a5e66f96-2387-44f5-825f-046ea5197f46"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice06,1,0);ActionResource(InnateSorcery,2,0);Proficiency(SimpleWeapons);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma)"/>
@@ -6463,30 +6507,6 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="CircleOfDragons"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Dragons_3_DraconicLore;Dragons_3_DragonShape"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
-                    <attribute id="UUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="CircleOfDragons"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Dragons_6_ImprovedDragonShape"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
-                    <attribute id="UUID" type="guid" value="1f60957b-4431-44a0-a681-c1a8de704f8b"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="10"/>
-                    <attribute id="Name" type="LSString" value="CircleOfDragons"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Dragons_10_DraconicMagic"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
-                    <attribute id="UUID" type="guid" value="e1b3144d-6132-4697-a345-17e4972530b3"/>
                 </node>
             </children>
         </node>

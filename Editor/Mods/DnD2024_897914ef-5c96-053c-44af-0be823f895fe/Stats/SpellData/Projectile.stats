@@ -2101,6 +2101,21 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6075d06fg73e3g4deag566fg55d336f1350b" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46d70672-86e5-47d3-8ce7-15ff755c78c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="HairTrigger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dc75f60c-beac-4588-a14a-43834eeb8f8f" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="d23ed285-77c1-4467-a064-2dbf6bc239f1,6c253ed6-8087-4c13-bb98-1513938ffaed,1b614d6d-15b6-475b-bfb2-1008db1cd3f3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Projectile_MainHandAttack_Firearm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h613fc304gdb88g758bgc98cg5ab761c0998b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc50e8dbcg2bbagfb26gb64fg9efcb00f26ed" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Projectiles_Grn_Impact_Bomb" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DualWieldingUseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;CanDualWield;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="667e1d8c-7fcc-49dd-a589-348d89ebc320" />

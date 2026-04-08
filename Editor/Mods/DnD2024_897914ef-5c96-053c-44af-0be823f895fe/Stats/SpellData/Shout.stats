@@ -2197,6 +2197,25 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DREAD_ALLEGIANCE_3,100, -1);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="243714b9-d9ae-47b1-83b2-de0d7c8259d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="__HIGHWAY RIDER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="95bc1153-c3a7-45cb-8872-e81aae577a50" />
+        <field name="Name" type="NameTableFieldDefinition" value="HorseLord" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="955773be-e957-4aa2-9edb-974abb6ec719" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HORSE_LORD,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_AspectOfTheBeast_Stallion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2881789ag8c50g0643gc4afgdefe86565759" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h169d7ad1g382fg6e64gd7bag6b40733be6b3" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HORSE_LORD,100,-1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3fcca7fe-3057-4949-95d5-d9578af66b99" />

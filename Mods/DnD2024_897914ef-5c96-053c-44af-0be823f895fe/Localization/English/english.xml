@@ -2516,4 +2516,24 @@ Druids from this Circle know that dragons, and draconic magic, are as connected 
   <content contentuid="hd3ad95cbg5d22g8cf8g0922gb17a3e44311f" version="1">Level 10: Draconic Magic</content>
   <content contentuid="h8a430f87g813dg7f42g06f9gd34f0e6f79f3" version="1">While in Dragon Shape, you can cast your prepared Druid spells, and your AC increases by 2.</content>
   <content contentuid="h7ee8c4acge213gdc57g0743g89e268308429" version="1">Click the spell slot icon on the hotbar to use your prepared spells.</content>
+  <content contentuid="he87fc2b8g89e0g6349gbba8g169827090bfc" version="1">Highway Rider</content>
+  <content contentuid="h71ff1a29gf725g3e28gb5bfg5096950ebc3f" version="1">Stalking the backroads, the Highway Rider strikes fear into the heart of every traveler and penny-pinching merchant. They run down their prize astride a swift and loyal steed— and then make a quick getaway.</content>
+  <content contentuid="hf94de242ge211g147egfef6gf0c946d2ffe0" version="1">Level 3: Hair Trigger</content>
+  <content contentuid="h83b92101gfc2bg31e9gf707gf2e81d4a43fc" version="3">You gain Expertise with Firearms. In addition, you can make one weapon attack on the first turn of combat without using an action.</content>
+  <content contentuid="hcc27b910g6850g1264gef1agb05f75743b92" version="1">Level 3: Trusty Mount</content>
+  <content contentuid="h4bf647c4g9622g1b59gd3ccg7614d1ac3969" version="1">You always have the Find Steed spell prepared. With this feature, you can cast it without a spell slot or components, and your spellcasting ability for it is Intelligence.&lt;br&gt;&lt;br&gt;Once you cast the spell with this feature, you can’t do so in this way again until you finish a Short Rest.</content>
+  <content contentuid="h97981f9bgce50gd7e8g2a87gceb5d667aef5" version="1">Level 3: Ride Them Down</content>
+  <content contentuid="hdd4cfe56g5d63g5f04ge52dg1620a9b457fa" version="1">You don’t need Advantage on the attack roll to use Sneak Attack while riding your steed, provided you don’t have Disadvantage on the attack roll.</content>
+  <content contentuid="hcf021de0g26a4ge1e4ge868g80ee6afb7879" version="1">Level 9: Horse Lord</content>
+  <content contentuid="h0221fc2dgce10g295eg2d4agd7d6c48ba873" version="1">When you are not in combat, you can spend 1 minute grooming and caring for your mount, at the end of which it gains a number of Temporary Hit Points equal to twice your Rogue level.</content>
+  <content contentuid="h2881789ag8c50g0643gc4afgdefe86565759" version="1">Horse Lord</content>
+  <content contentuid="h169d7ad1g382fg6e64gd7bag6b40733be6b3" version="1">You can spend 1 minute grooming and caring for your mount, at the end of which it gains a number of Temporary Hit Points equal to twice your Rogue level.</content>
+  <content contentuid="h7b19797cg51e0ge287ge71eg179578a32576" version="1">Horse Lord</content>
+  <content contentuid="hc426f330gcc3fge554g4368gf9e59e055631" version="1">You can spend 1 minute grooming and caring for your mount, at the end of which it gains a number of Temporary Hit Points equal to twice your Rogue level.</content>
+  <content contentuid="hfdbc8b12gdf41gcf0fg7579g6557c7859eb6" version="1">Hair Trigger</content>
+  <content contentuid="h1b35c761g20a0gdbf9gd311g6f35d870fb66" version="1">You can make one weapon attack on the first turn of combat without using an action.</content>
+  <content contentuid="he20aedbcg8a55ge2e1gc6e1g892e80b9dd06" version="1">Hair Trigger</content>
+  <content contentuid="h52e0bfc4g2561g410ag637eg759d80be5ce4" version="1">You can make one weapon attack on the first turn of combat without using an action.</content>
+  <content contentuid="h613fc304gdb88g758bgc98cg5ab761c0998b" version="1">Hair Trigger</content>
+  <content contentuid="hc50e8dbcg2bbagfb26gb64fg9efcb00f26ed" version="1">You can make one weapon attack on the first turn of combat without using an action.</content>
 </contentList>

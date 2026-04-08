@@ -314,6 +314,12 @@
 - Level 3: Bloodthirst
 - Level 3: Dread Allegiance
 - Level 9: Strike Fear
+### Highway Rider
+- Level 3: Firearm Expert
+- Level 3: Hair Trigger
+- Level 3: Trusty Mount
+- Level 3: Ride Them Down
+- Level 9: Horse Lord
 ### Soulknife
 - Level 3: Psionic Power
 - Level 3: Psychic Blades

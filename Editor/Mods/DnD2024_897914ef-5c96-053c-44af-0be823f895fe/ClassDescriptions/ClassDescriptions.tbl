@@ -299,6 +299,22 @@
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_23" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e0613554-075a-48ac-8c74-a051d57d4a39" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="HighwayRider" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he87fc2b8g89e0g6349gbba8g169827090bfc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71ff1a29gf725g3e28gb5bfg5096950ebc3f" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="8e20bc2e-8a65-472d-8e14-66d91edfcdd3" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Rogue" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_24" />
