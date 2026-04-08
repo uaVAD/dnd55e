@@ -4,5 +4,11 @@
 - Hellrider's Pride
 - Helmet of Smiting
 - Hunting Shortbow
+- Musket
+- Musket +1
+- Musket +2
+- Pistol
+- Pistol +1
+- Pistol +2
 - Spellthief
 - The Oak Father's Embrace

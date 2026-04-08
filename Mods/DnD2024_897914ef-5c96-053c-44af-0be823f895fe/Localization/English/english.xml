@@ -2483,4 +2483,16 @@ At character level 5, they gain Large Form. As a Bonus Action, they can grow to 
   <content contentuid="hc1e20b2eg75ccg05fcgecaag065752a6e0ac" version="1">Magic and guns aren’t so different—arcane power is like gunpowder, a spell is like a bullet, and you are like a gun, directing your spells with precision at unfortunate targets. Spellslingers mix the disciplines of gunplay and spellcasting, sometimes loading arcane charges with your shots and firing bullets enhanced with lighting, frost, or flame.</content>
   <content contentuid="hcf49c14dg93ceg7906g770dg50e2ea6a3c87" version="1">White Hat</content>
   <content contentuid="h5e8ae88cg3e3fg20acg354bg8c4bea47525e" version="1">Some Gunslingers live by a code and expect others to do the same. These Gunslingers, known as White Hats, sometimes serve as officers of the law but never hesitate to do what’s right when the law says otherwise. Despite their affinity for deadly weapons, White Hats prefer to keep their friends safe and subdue their enemies nonviolently—a preference their enemies don’t often oblige.</content>
+  <content contentuid="h39141f86g1ee2ga21ag8d53ga05af28fd1f7" version="3">Pistol</content>
+  <content contentuid="hf305122ag44adg88bag55cbgd8db4c039656" version="3">The earliest type of one-handed firearm, a Pistol operates as a miniature Musket, loading and firing a single heavy projectile with deadly results.</content>
+  <content contentuid="h1060906fg1496g1454g9846g4f2197c2c188" version="1">Firearem</content>
+  <content contentuid="h05daeb7eg0489g5774g293ag23a57911c159" version="1">If you lack the Firearm Expert property, you don’t add your ability modifier to this weapon’s damage rolls.</content>
+  <content contentuid="h7ded197eg2127g6036ge3dcgb2d60fbb65bf" version="1">Firearem</content>
+  <content contentuid="hafe832f4g5639gf264g68a3ge1ab2fdd021c" version="1">If you lack the Firearm Expert property, you don’t add your ability modifier to this weapon’s damage rolls.</content>
+  <content contentuid="he70e8fadg370cg0fbbgffa4gbdf8dc36cb12" version="1">Firearm Expert</content>
+  <content contentuid="h99e9e197g55f2g72f5g3b37g75a3f15b60bc" version="1">You are a firearm expert. You can add your ability modifier to the damage rolls of weapon attacks made with firearms.</content>
+  <content contentuid="h4e6ec503g245cg8614g1c81g7087625fa70e" version="1">Firearem Expert</content>
+  <content contentuid="h86b389a9gfe27g7353g9f20g12d9431a57fa" version="1">You are a firearm expert. You can add your ability modifier to the damage rolls of weapon attacks made with firearms.</content>
+  <content contentuid="h61b78046g443bg1d02ge5bbgfe44da9ef621" version="4">Musket</content>
+  <content contentuid="h4b2511a0g4888gc3ffg4e1fgc9d9ee28927a" version="4">A long-barreled firearm designed for two-handed use, a Musket delivers powerful, accurate shots by firing a single heavy projectile over long distances.</content>
 </contentList>

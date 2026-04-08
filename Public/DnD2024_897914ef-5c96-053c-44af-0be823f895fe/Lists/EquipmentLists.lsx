@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="EquipmentLists">
+        <node id="root">
+            <children>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="WPN_Pistol;WPN_Pistol_Copy;WPN_Musket"/>
+                    <attribute id="Name" type="FixedString" value="Gunslinger Weapons"/>
+                    <attribute id="UUID" type="guid" value="1ff4a7ef-7e27-4307-8b41-5087dce60abe"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

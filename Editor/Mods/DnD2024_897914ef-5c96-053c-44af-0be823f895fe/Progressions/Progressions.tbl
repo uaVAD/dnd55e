@@ -7424,9 +7424,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_1_QuickDraw" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_1_QuickDraw;FirearmExpert" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(SimpleWeapons);Proficiency(Longbows);Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);Proficiency(LightArmor)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(2ae028ad-6390-4504-b22b-a87b9badf348,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(2ae028ad-6390-4504-b22b-a87b9badf348,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList);SelectEquipment(1ff4a7ef-7e27-4307-8b41-5087dce60abe,2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7437,7 +7437,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_1_QuickDraw" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_1_QuickDraw;FirearmExpert" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);Proficiency(Longbows);Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
       </fields>

@@ -93,6 +93,32 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnLongRest;OnShortRest"
 data "StatsFunctors" "ApplyStatus(SELF,DEXTERITY_BASED_UNARMED_ATTACK,100,-1)"
 
+new entry "FirearmExpert"
+type "PassiveData"
+data "DisplayName" "he70e8fadg370cg0fbbgffa4gbdf8dc36cb12;1"
+data "Description" "h99e9e197g55f2g72f5g3b37g75a3f15b60bc;1"
+data "PriorityOrder" "11"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnCreate;OnEquip;OnLongRest;OnShortRest"
+data "StatsFunctors" "IF(not HasStatus('FIREARM_NO_BONUS', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand))):ApplyEquipmentStatus(RangedMainHand, FIREARM_ADD_BONUS, 100, -1);IF(not HasStatus('FIREARM_NO_BONUS', GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand))):ApplyEquipmentStatus(RangedOffHand, FIREARM_ADD_BONUS, 100, -1);"
+
+new entry "Firearm"
+type "PassiveData"
+
+new entry "Firearm_MainHand"
+type "PassiveData"
+data "DisplayName" "h1060906fg1496g1454g9846g4f2197c2c188;1"
+data "ExtraDescription" "h05daeb7eg0489g5774g293ag23a57911c159;1"
+data "PriorityOrder" "10"
+data "Properties" "IsHidden"
+data "Boosts" "AttackSpellOverride(Projectile_MainHandAttack_Firearm,Projectile_MainHandAttack);"
+
+new entry "Firearm_Offhand"
+type "PassiveData"
+using "Firearm_MainHand"
+data "Properties" "IsHidden"
+data "Boosts" "AttackSpellOverride(Projectile_OffhandAttack_Firearm,Projectile_OffhandAttack);"
+
 new entry "HeavyEquipment"
 type "PassiveData"
 

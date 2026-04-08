@@ -132,6 +132,44 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,DEXTERITY_BASED_UNARMED_ATTACK,100,-1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38e641ea-ed37-4d2e-a199-d03151326c65" />
+        <field name="Name" type="NameTableFieldDefinition" value="FirearmExpert" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he70e8fadg370cg0fbbgffa4gbdf8dc36cb12" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99e9e197g55f2g72f5g3b37g75a3f15b60bc" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnEquip;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('FIREARM_NO_BONUS', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand))):ApplyEquipmentStatus(RangedMainHand, FIREARM_ADD_BONUS, 100, -1);IF(not HasStatus('FIREARM_NO_BONUS', GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand))):ApplyEquipmentStatus(RangedOffHand, FIREARM_ADD_BONUS, 100, -1);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d5ba88e-fb1c-4cc0-8e37-dffa7708a906" />
+        <field name="Name" type="NameTableFieldDefinition" value="Firearm" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8aec279-db4c-4d91-8576-992ca4a975ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="Firearm_MainHand" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1060906fg1496g1454g9846g4f2197c2c188" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h05daeb7eg0489g5774g293ag23a57911c159" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Projectile_MainHandAttack_Firearm,Projectile_MainHandAttack);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d830a6d6-b78f-4c67-b568-95e6e9810140" />
+        <field name="Name" type="NameTableFieldDefinition" value="Firearm_Offhand" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f8aec279-db4c-4d91-8576-992ca4a975ab" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Projectile_OffhandAttack_Firearm,Projectile_OffhandAttack);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9daae7da-e5d9-4b0e-943b-ad63b909e1c1" />

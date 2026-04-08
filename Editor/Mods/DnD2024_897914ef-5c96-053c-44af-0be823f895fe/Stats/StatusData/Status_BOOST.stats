@@ -192,6 +192,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dfa4ab0d-b80f-4607-b5f5-872f335fb590" />
+        <field name="Name" type="NameTableFieldDefinition" value="FIREARM_NO_BONUS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ded197eg2127g6036ge3dcgb2d60fbb65bf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hafe832f4g5639gf264g68a3ge1ab2fdd021c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Projectile_MainHandAttack_Firearm" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FIREARM_NO_BONUS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="BlockAbilityModifierDamageBonus();" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7618208-8a05-49d4-9b6d-97825d790cb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="FIREARM_ADD_BONUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dfa4ab0d-b80f-4607-b5f5-872f335fb590" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e6ec503g245cg8614g1c81g7087625fa70e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h86b389a9gfe27g7353g9f20g12d9431a57fa" version="1" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9203e648-3fab-4948-9ae4-aa66cd6dd2fc" />
         <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_CLEAVE_TARGET" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
