@@ -2713,7 +2713,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="1be5aa5a-e221-4f0e-a1bf-be25f5d23224;f507f7bc-3d1a-4034-9590-ddef5a05d5b3;e668c6f1-5149-4b10-ab7e-3637ed444066;0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf;b722614a-303f-411a-bb19-a1882ad1f4cc;1d23232f-cafb-4162-ac2a-a926fd6f734f" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="1be5aa5a-e221-4f0e-a1bf-be25f5d23224;f507f7bc-3d1a-4034-9590-ddef5a05d5b3;e668c6f1-5149-4b10-ab7e-3637ed444066;58e63bc1-b176-412f-8b30-3cea9a647dbb;0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf;b722614a-303f-411a-bb19-a1882ad1f4cc;1d23232f-cafb-4162-ac2a-a926fd6f734f;3d9e9113-46c7-4c81-bb20-93ad097588bc" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
       </fields>
     </stat_object>
@@ -3113,6 +3113,87 @@
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Banneret_10_RallyingSurge" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_751" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ef6183fe-474b-440b-bd03-6e5cecc7e001" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ef6183fe-474b-440b-bd03-6e5cecc7e001" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Cavalier" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Cavalier_3_BonusProficiency;Cavalier_3_BornToTheSaddle;Cavalier_3_UnwaveringMark;Cavalier_3_UnwaveringMark_Resource;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(863fb9f2-3ecf-44e9-88df-5c9ffa9c9e59,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_752" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e0a6640b-15c1-49df-8e37-fecde7945212" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ef6183fe-474b-440b-bd03-6e5cecc7e001" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Cavalier" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Cavalier_7_WardingManeuver" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_753" />
+        <field name="UUID" type="IdTableFieldDefinition" value="80c83d90-529b-45ad-ad7b-0b6ff1cc14f0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ef6183fe-474b-440b-bd03-6e5cecc7e001" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Cavalier" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Cavalier_10_HoldTheLine" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_754" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162" />
+        <field name="FSName" type="StringTableFieldDefinition" value="RuneKnight" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RuneKnight_3_RuneCarver;RuneKnight_3_GiantsMight" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rune,3,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_755" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f59db700-bb5d-4abf-a6e2-a733a8318fb7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162" />
+        <field name="FSName" type="StringTableFieldDefinition" value="RuneKnight" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RuneKnight_7_RunicShield" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rune,1,0);ActionResource(RunicShield,3,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_757" />
+        <field name="UUID" type="IdTableFieldDefinition" value="38a6372c-1913-4d51-8350-f76f3e2b7dc0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162" />
+        <field name="FSName" type="StringTableFieldDefinition" value="RuneKnight" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RunicShield,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_756" />
+        <field name="UUID" type="IdTableFieldDefinition" value="56d1febc-0e13-483a-b274-c36505c925ce" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162" />
+        <field name="FSName" type="StringTableFieldDefinition" value="RuneKnight" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RuneKnight_10_GreatStature" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rune,1,0)" />
       </fields>
     </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">

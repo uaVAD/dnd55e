@@ -50,5 +50,12 @@
         <field name="Skills" type="StringTableFieldDefinition" value="Deception, Insight, Perception" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="863fb9f2-3ecf-44e9-88df-5c9ffa9c9e59" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cavalier Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="AnimalHandling, History, Insight, Performance, Persuasion" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

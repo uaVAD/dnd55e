@@ -225,6 +225,26 @@
         <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_67" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1fa11c9b-ab06-41ab-b404-92cb4dc27830" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59e2bd3dg4c8fgb3e9g4be1g17c0354f71d2" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_68" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4ae560b0-c5a0-4bf9-829a-f813993aebd7" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="RunicShield" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hffe0a439g2edag0f4bg85dbg933db0b1a8b0" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
@@ -276,8 +296,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
         <field name="UUID" type="IdTableFieldDefinition" value="305c3234-7504-45cf-9072-703ad6e318ec" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="FavoredEnemy" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a2bbcc7gff7eg7312gb3f5g2e15ba81d07c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcd8000b2gdb8aga27dg0c5agb3cd6b125346" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a2bbcc7gff7eg7312gb3f5g2e15ba81d07c" version="2" />
         <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />

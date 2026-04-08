@@ -158,6 +158,12 @@
 - Level 7: Team Tactics
 - Level 10: Rallying Surge
 ### Battle Master
+### Cavalier
+- Level 3: Bonus Proficiency
+- Level 3: Born to the Saddle
+- Level 3: Unwavering Mark
+- Level 7: Warding Maneuver
+- Level 10: Hold the Line
 ### Champion
 - Level 3: Improved Critical
 - Level 3: Remarkable Athlete
@@ -172,6 +178,11 @@
 - Level 3: Psionic Power
 - Level 7: Telekinetic Adept
 - Level 10: Guarded Mind
+### Rune Knight
+- Level 3: Rune Carver
+- Level 3: Giant’s Might
+- Level 7: Runic Shield
+- Level 10: Great Stature
 ## Monk
 - Core Traits
   - Skill Proficiencies

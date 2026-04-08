@@ -1833,6 +1833,76 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="948d324f-167c-42ab-b7d2-70a8e54257c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="FIRE_RUNE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06dee418g7023gcae2g1dd4g7246a7a21faf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0738e060g6dbdgd884ga7eag9103f532652e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SearingSmite" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Snared" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Snared" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_SearingSmite" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_SearingSmite_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FIRE_RUNE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Strength" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6, Fire,Magical)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Restrained;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="914844bf-3848-4193-9fcd-a27b82b394c0" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="bdfb09d0-0f10-4796-bb78-5a6570c0a5cb" />
+        <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="f9b06276-bb8f-4fb2-8789-989de2fe0287" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99510d77-9b33-4e31-8f51-05b773b417c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="FROST_RUNE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99fb6d15gdad4gf9ebgb1f5gfc423b34bdf4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61c977efg9e94ga7feg7173g45a085a426e1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ArmorOfAgathys" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_ArmorOfAgathys_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_ArmorOfAgathys_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FROST_RUNE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(RawAbility,2,Strength);RollBonus(RawAbility,2,Dexterity);RollBonus(RawAbility,2,Constitution);RollBonus(RawAbility,2,Intelligence);RollBonus(RawAbility,2,Wisdom);RollBonus(RawAbility,2,Charisma);RollBonus(SavingThrow,2,Strength);RollBonus(SavingThrow,2,Constitution);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="0418887d-31c8-4f58-997f-e521b6e8ebeb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="298d128d-f625-47c2-ac21-316cfba37175" />
+        <field name="Name" type="NameTableFieldDefinition" value="STORM_RUNE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d68e61ag18degff1egcb3cg93abd525a72f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h70f68e2egfe60g8371gc262g13645f286d18" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HeartOfTheStorm_Thunder" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STORM_RUNE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StormRune_Advantage);UnlockInterrupt(Interrupt_StormRune_Disadvantage);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c49280d-acdc-445c-a968-4102bcf3e21c" />
+        <field name="Name" type="NameTableFieldDefinition" value="GIANTS_MIGHT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9dff998f-0cb3-4ce2-abb3-74d7c63ab673" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha4dc5a17g4a69gb755g889cg187ead2dfb7f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability, Strength);Advantage(SavingThrow, Strength);CharacterWeaponDamage(1d6);ObjectSize(+1);ScaleMultiplier(1.33);CharacterUnarmedDamage(1d6);CarryCapacityMultiplier(1.25);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="165cc2e5-4a77-4b7b-95bd-a1d9a6c8d4dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="GREAT_STATURE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2c49280d-acdc-445c-a968-4102bcf3e21c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4a3c73bbg633cg224dg4073g6346f0550299" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability, Strength);Advantage(SavingThrow, Strength);CharacterWeaponDamage(1d8);ObjectSize(+1);ScaleMultiplier(1.33);CharacterUnarmedDamage(1d8);CarryCapacityMultiplier(1.25);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="39ed4673-c749-4248-963c-700038f953f0" />

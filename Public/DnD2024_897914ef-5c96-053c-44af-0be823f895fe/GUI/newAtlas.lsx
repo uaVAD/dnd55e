@@ -502,6 +502,13 @@
                     <attribute id="V2" type="float" value="0.01550293"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="RuneKnight_3_RuneCarver"/>
+                    <attribute id="U1" type="float" value="0.78137207"/>
+                    <attribute id="U2" type="float" value="0.79675293"/>
+                    <attribute id="V1" type="float" value="0.01574707"/>
+                    <attribute id="V2" type="float" value="0.03112793"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Sea_WrathOfTheSea"/>
                     <attribute id="U1" type="float" value="0.78137207"/>
                     <attribute id="U2" type="float" value="0.79675293"/>

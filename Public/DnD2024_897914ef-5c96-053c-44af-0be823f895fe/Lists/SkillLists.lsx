@@ -39,6 +39,11 @@
                     <attribute id="Skills" type="LSString" value="Deception, Insight, Perception"/>
                     <attribute id="UUID" type="guid" value="d4202817-9db9-4377-aa9a-0d0096e556ba"/>
                 </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="5.5 Cavalier Skill List"/>
+                    <attribute id="Skills" type="LSString" value="AnimalHandling, History, Insight, Performance, Persuasion"/>
+                    <attribute id="UUID" type="guid" value="863fb9f2-3ecf-44e9-88df-5c9ffa9c9e59"/>
+                </node>
             </children>
         </node>
     </region>

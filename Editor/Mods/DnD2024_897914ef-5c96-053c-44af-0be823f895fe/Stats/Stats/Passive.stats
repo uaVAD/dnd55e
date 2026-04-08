@@ -2269,6 +2269,134 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_RallyingSurge);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e3748a4-99ff-4c40-94f7-0c8572bdbe7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CAVALIER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9a6f0a2-6c2c-48d1-ab55-ad4a1f4ca29d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cavalier_3_BonusProficiency" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h63ce4017geac0gc60egf8b5g9dce552352fa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h51fe1e07g2424g5ddcg0df6g20465b6f7342" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="AnimalHandling" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="52cbf475-cadb-47d0-8525-39a0dcf72253" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cavalier_3_BornToTheSaddle" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h07ffaea2g95cdgb266g0772gc36a0178e777" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h92ac32f2gae16g6effgdffege7984a067a57" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FindSteed,Singular,,UntilShortRest,Intelligence);UnlockSpell(Target_HuntersMark,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f600ae99-3eec-4a37-a346-c8d0e63e6f8e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cavalier_3_UnwaveringMark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0de3a5fgafe3g904agae5fgdfc2d5a9d82b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39e677d5ged8fgc431g5486g61bd08885fd5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HuntersMark" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnCombatStarted;OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasActionResource('FavoredEnemy',1,0,false,false,context.Source)):UnlockSpellVariant(HuntersMark(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,FavoredEnemy,1,0));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efab3a3e-4db5-48ee-8430-a59e56f0f285" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cavalier_3_UnwaveringMark_Resource" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnProficiencyChange;OnShortRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(FavoredEnemy,1,0);IF(AbilityGreaterThan('Strength',13,context.Source)):ActionResource(FavoredEnemy,1,0);IF(AbilityGreaterThan('Strength',15,context.Source)):ActionResource(FavoredEnemy,1,0);IF(AbilityGreaterThan('Strength',17,context.Source)):ActionResource(FavoredEnemy,1,0);IF(AbilityGreaterThan('Strength',19,context.Source)):ActionResource(FavoredEnemy,1,0);IF(AbilityGreaterThan('Strength',21,context.Source)):ActionResource(FavoredEnemy,1,0);IF(AbilityGreaterThan('Strength',23,context.Source)):ActionResource(FavoredEnemy,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3e10343-ae99-47cd-826f-571aa88a5e20" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cavalier_7_WardingManeuver" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbb926017g2b0agbe90g66bcgbf207e483612" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2bb03e3g700ag8cdagaff7gd4fdd097b625" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveAction_FightingStyle_Protection" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5507" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_WardingManeuver);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3378dcc3-98ec-4b97-975e-c4e9d22919ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cavalier_10_HoldTheLine" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd234d1a5g51feg1581ga07ag43fc0a63f55a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96dd1a79g41bfg7310gfaedg7ce04dd1acf3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PolearmMaster_AttackOfOpportunity" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5510" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_HoldTheLine);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c8c3f21-3ca4-4a43-9c87-9ac50497b280" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RUNE KNIGHT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56743894-5c42-4660-9a94-9cbeb8667104" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneKnight_3_RuneCarver" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8810d94cg3f6ag7eebgb3e6g1e498faee90a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea7ba403g54b1gb4c6g477cg081231fd6e91" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="RuneKnight_3_RuneCarver" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_CloudRune);UnlockInterrupt(Interrupt_FireRune);UnlockSpell(Shout_FrostRune);UnlockSpell(Target_StoneRune);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f9efee4-0796-4e0b-9a6f-1d3b52e58986" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneKnight_3_GiantsMight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h234cd41egb166g8eb3g6939g36498884c3ea" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hffd4abcage782g546dgaeacgc8fe055bd42e" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnlargeReduce" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_GiantsMight);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="085ea2db-01c8-4f9d-b81a-e8005e679e49" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneKnight_7_RunicShield" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c76a4f7g48d1g3368ga27agbd1576843d8d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f5052c1ga6c8ga38cg6399gbc4405cf0442" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Shield" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5507" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_HillRune);UnlockSpell(Shout_StormRune);UnlockInterrupt(Interrupt_RunicShield);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02814d3c-22dd-4527-9f07-5e60dc6357f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneKnight_10_GreatStature" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e152278g0424g0354g3000g79c86331ed68" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdbd971c9g92f8ga84bg8f1eg267b38cd8ffc" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnlargeReduce" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5510" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="608a56c7-9d33-485c-a11f-d75a940fd8bf" />

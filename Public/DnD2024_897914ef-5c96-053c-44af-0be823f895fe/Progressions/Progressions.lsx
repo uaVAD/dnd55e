@@ -2109,6 +2109,9 @@
                                     <attribute id="Object" type="guid" value="e668c6f1-5149-4b10-ab7e-3637ed444066"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="58e63bc1-b176-412f-8b30-3cea9a647dbb"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf"/>
                                 </node>
                                 <node id="SubClass">
@@ -2116,6 +2119,9 @@
                                 </node>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="1d23232f-cafb-4162-ac2a-a926fd6f734f"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="3d9e9113-46c7-4c81-bb20-93ad097588bc"/>
                                 </node>
                             </children>
                         </node>
@@ -2416,6 +2422,66 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="9791d0bf-56f4-4c33-a16f-c3616d46ae01"/>
                     <attribute id="UUID" type="guid" value="e9214a86-c2d6-4880-b891-284e44fa1d9f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Cavalier"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Cavalier_3_BonusProficiency;Cavalier_3_BornToTheSaddle;Cavalier_3_UnwaveringMark;Cavalier_3_UnwaveringMark_Resource;"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(863fb9f2-3ecf-44e9-88df-5c9ffa9c9e59,1)"/>
+                    <attribute id="TableUUID" type="guid" value="ef6183fe-474b-440b-bd03-6e5cecc7e001"/>
+                    <attribute id="UUID" type="guid" value="ef6183fe-474b-440b-bd03-6e5cecc7e001"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Cavalier"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Cavalier_7_WardingManeuver"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="ef6183fe-474b-440b-bd03-6e5cecc7e001"/>
+                    <attribute id="UUID" type="guid" value="e0a6640b-15c1-49df-8e37-fecde7945212"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="Cavalier"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Cavalier_10_HoldTheLine"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="ef6183fe-474b-440b-bd03-6e5cecc7e001"/>
+                    <attribute id="UUID" type="guid" value="80c83d90-529b-45ad-ad7b-0b6ff1cc14f0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Rune,3,0)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="RuneKnight"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RuneKnight_3_RuneCarver;RuneKnight_3_GiantsMight"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162"/>
+                    <attribute id="UUID" type="guid" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Rune,1,0);ActionResource(RunicShield,3,0)"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="RuneKnight"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RuneKnight_7_RunicShield"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162"/>
+                    <attribute id="UUID" type="guid" value="f59db700-bb5d-4abf-a6e2-a733a8318fb7"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(RunicShield,1,0)"/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="RuneKnight"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162"/>
+                    <attribute id="UUID" type="guid" value="38a6372c-1913-4d51-8350-f76f3e2b7dc0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Rune,1,0)"/>
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="RuneKnight"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RuneKnight_10_GreatStature"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162"/>
+                    <attribute id="UUID" type="guid" value="56d1febc-0e13-483a-b274-c36505c925ce"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Scimitars);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity)"/>

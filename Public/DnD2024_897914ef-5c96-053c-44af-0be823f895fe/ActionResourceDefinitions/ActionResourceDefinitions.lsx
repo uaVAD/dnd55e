@@ -163,6 +163,20 @@
                     <attribute id="UUID" type="guid" value="07ac3923-0845-4050-956f-e04976a5db8a"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h59e2bd3dg4c8fgb3e9g4be1g17c0354f71d2" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Rune"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="1fa11c9b-ab06-41ab-b404-92cb4dc27830"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hffe0a439g2edag0f4bg85dbg933db0b1a8b0" version="1"/>
+                    <attribute id="Name" type="FixedString" value="RunicShield"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="4ae560b0-c5a0-4bf9-829a-f813993aebd7"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__MONK__"/>
                     <attribute id="UUID" type="guid" value="2f37e5b9-2eb8-422d-bc17-4735ba56768a"/>
                 </node>
@@ -194,8 +208,7 @@
                     <attribute id="UUID" type="guid" value="4c3ed561-7036-4a6b-aa01-1e1c2174f186"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="hcd8000b2gdb8aga27dg0c5agb3cd6b125346" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h8a2bbcc7gff7eg7312gb3f5g2e15ba81d07c" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8a2bbcc7gff7eg7312gb3f5g2e15ba81d07c" version="2"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
                     <attribute id="Name" type="FixedString" value="FavoredEnemy"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
@@ -336,6 +349,31 @@
                     <attribute id="UUID" type="guid" value="2c724d96-ff62-49af-a2fa-13e65f80a593"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="GrazingShot"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="3943d531-6878-4b8a-9cb6-e50cad1f6d58"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="MaverickSpirit"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="5677977b-4d79-4a62-976d-790b4a91e0ff"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="SkinOfYourTeeth"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="04bf42ea-e97c-4ec2-816c-92ec45b865c2"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h43421e50g805fg598bg75d5g05e5b202e34a" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="RiskyBusiness"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="739bc404-8849-4cf1-bd95-4d8d7b1aa03a"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ORIGIN FEAT__"/>
                     <attribute id="UUID" type="guid" value="d6f88eae-2cc1-405f-b544-abd2d9ce747b"/>
                 </node>
@@ -446,31 +484,6 @@
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="e6681241-1b8c-4098-b58f-cc4e1b77f1e0"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h43421e50g805fg598bg75d5g05e5b202e34a" version="1"/>
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="RiskyBusiness"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="739bc404-8849-4cf1-bd95-4d8d7b1aa03a"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="GrazingShot"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="3943d531-6878-4b8a-9cb6-e50cad1f6d58"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="MaverickSpirit"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="5677977b-4d79-4a62-976d-790b4a91e0ff"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="SkinOfYourTeeth"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="04bf42ea-e97c-4ec2-816c-92ec45b865c2"/>
                 </node>
             </children>
         </node>
