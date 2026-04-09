@@ -7010,10 +7010,9 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ff1deee8-698a-477c-b4bb-d1609f546b31" />
         <field name="Name" type="NameTableFieldDefinition" value="RefreshingStep" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();ApplyStatus(REFRESHING_STEP,100,-1);ApplyStatus(SELF,REFRESHING_STEP,100,-1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();ApplyStatus(REFRESHING_STEP,100,-1);GROUND:ApplyStatus(SELF,REFRESHING_STEP,100,-1);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
         <field name="AoEConditions" type="StringTableFieldDefinition" value="Ally();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_RefreshingStep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h832c95cdged4dg5872g8888g502dc91b83e0" version="1" />
