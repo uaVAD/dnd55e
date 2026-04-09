@@ -2174,7 +2174,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="28a6cc64-64e4-4f73-be2b-98250e5de50f" />
         <field name="Name" type="NameTableFieldDefinition" value="PsiWarrior_7_PsiPoweredLeap" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9f6e95bg1ecbg4d70g2b47g004a19f989d8" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53a46d69g6181g8c48g7c48g569803d1df00" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53a46d69g6181g8c48g7c48g569803d1df00" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="PsiWarrior_7_PsiPoweredLeap" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5407" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />

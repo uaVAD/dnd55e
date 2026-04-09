@@ -1896,8 +1896,8 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="21a440e2-13ce-4b12-b7a3-5847137807b2" />
         <field name="Icon" type="StringTableFieldDefinition" value="PsiWarrior_7_PsiPoweredLeap" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h82e5f786g25beg91b9g6a62g3f5142f4ec41" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha42816f3g2b46g7a69gebb9g476dfa5e4f31" version="1" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;PsiWarrior:1;Movement:Distance*0.5;" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha42816f3g2b46g7a69gebb9g476dfa5e4f31" version="2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;PsiWarrior:1;Movement:3;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1906,7 +1906,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PsiPoweredLeap_ShortRest" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1a4a0a22-3186-440f-aaf1-ce2537279d75" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Movement:Distance*0.5;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Movement:3;" />
       </fields>
     </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
