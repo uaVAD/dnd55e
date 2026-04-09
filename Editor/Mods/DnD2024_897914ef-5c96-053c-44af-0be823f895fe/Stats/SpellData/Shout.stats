@@ -2390,6 +2390,62 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8e5d2b7-483e-4305-b938-defea34df033" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Bind" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f297a9c5-cadb-4c19-96bc-f4d5eed62659" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_PactOfTheBlade_Bind_1;Shout_PactOfTheBlade_Bind_2;Shout_PactOfTheBlade_Bind_3;Shout_PactOfTheBlade_Bind_4;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Requirements" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fd4ac6c9-1e8a-45d6-93ea-5db7a0933cf0" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Bind_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8e5d2b7-483e-4305-b938-defea34df033" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_PactOfTheBlade_Bind" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, PACT_BLADE,100, -1);ApplyEquipmentStatus(MainHand, PACT_BLADE_WEAPON,100, 1);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9e2ba10-57d6-4715-8214-c217c58b1281" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Bind_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fd4ac6c9-1e8a-45d6-93ea-5db7a0933cf0" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, PACT_BLADE,100, -1);ApplyEquipmentStatus(MainHand, PACT_BLADE_NECROTIC,100, -1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h93c42699gb5efg50eeg700ag91b482874bb9" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PACT_BLADE,100, -1);ApplyStatus(PACT_BLADE_NECROTIC,100, -1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c12f2d4-3ec1-4828-8315-2a6a6a46ab6f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Bind_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c9e2ba10-57d6-4715-8214-c217c58b1281" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, PACT_BLADE,100, -1);ApplyEquipmentStatus(MainHand, PACT_BLADE_PSYCHIC,100, -1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Psychic" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe8ae593g19c8gc31cg51cdg845945c5b41b" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PACT_BLADE,100, -1);ApplyStatus(PACT_BLADE_PSYCHIC,100, -1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b4743922-8c1c-4868-a448-b8552fd08f9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Bind_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c9e2ba10-57d6-4715-8214-c217c58b1281" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, PACT_BLADE,100, -1);ApplyEquipmentStatus(MainHand, PACT_BLADE_RADIANT,100, -1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8697b53cg246dg4397g9db8gc35b4035bc5b" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PACT_BLADE,100, -1);ApplyStatus(PACT_BLADE_RADIANT,100, -1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="91abd8d7-3202-482f-b16f-08e93d89ccac" />
         <field name="Name" type="NameTableFieldDefinition" value="CelestialResilience" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />

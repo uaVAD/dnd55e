@@ -2598,4 +2598,11 @@ If a rune requires a saving throw, its save DC equals 8 + your proficiency bonus
   <content contentuid="h4a3c73bbg633cg224dg4073g6346f0550299" version="1">Great Stature</content>
   <content contentuid="h59e2bd3dg4c8fgb3e9g4be1g17c0354f71d2" version="1">Rune</content>
   <content contentuid="hffe0a439g2edag0f4bg85dbg933db0b1a8b0" version="1">Runic Shield</content>
+  <content contentuid="hf3b2ff84g1b07ga3eag2125ge551077a6e4d" version="1">Pact Weapon</content>
+  <content contentuid="h6c75a711gccb2g34c5g5489gfbaf6012200e" version="2">Pact Weapon: Necrotic Damage</content>
+  <content contentuid="hcd88f337g7b53g35deg791bgf37bf6314ed5" version="2">Pact Weapon: Psychic Damage</content>
+  <content contentuid="ha2a934dbg1420gf4c4g7431gcf508603657a" version="2">Pact Weapon: Radiant Damage</content>
+  <content contentuid="h93c42699gb5efg50eeg700ag91b482874bb9" version="1">Bind Pact Weapon (Necrotic Damage)</content>
+  <content contentuid="hbe8ae593g19c8gc31cg51cdg845945c5b41b" version="1">Bind Pact Weapon (Psychic Damage)</content>
+  <content contentuid="h8697b53cg246dg4397g9db8gc35b4035bc5b" version="1">Bind Pact Weapon (Radiant Damage)</content>
 </contentList>
