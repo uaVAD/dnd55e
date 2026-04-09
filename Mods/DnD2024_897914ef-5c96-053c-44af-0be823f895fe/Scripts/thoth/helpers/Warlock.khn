@@ -11,8 +11,7 @@ function IsWarlockCantrip()
 	| SpellId('Projectile_PoisonSpray')
 	| SpellId('Shout_Thunderclap')
 	| SpellId('Target_TollTheDead')
-	| SpellId('Target_TrueStrike_Melee')
-	| SpellId('Projectile_TrueStrike_Ranged')
+	| TrueStrike()
 end
 
 function IsEldritchSpearCantrip()

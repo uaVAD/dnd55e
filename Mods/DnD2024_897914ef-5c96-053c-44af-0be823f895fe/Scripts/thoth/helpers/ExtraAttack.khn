@@ -1,5 +1,5 @@
 function TrueStrike()
-    return SpellId('Target_TrueStrike_Melee') | SpellId('Target_TrueStrike_Radiant')
+    return SpellId('Target_TrueStrike_Melee') | SpellId('Target_TrueStrike_Radiant') | SpellId('Projectile_TrueStrike_Ranged') | SpellId('Projectile_TrueStrike_Radiant')
 end
 
 function BreathWeaponCheck()
