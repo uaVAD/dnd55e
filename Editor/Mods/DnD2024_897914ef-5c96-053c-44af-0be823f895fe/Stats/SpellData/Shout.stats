@@ -1816,6 +1816,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ddae0cf2-addd-4455-8c9a-4c2c66fe4346" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponBond" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="112f8006-da78-4df6-9ef2-02d54332d250" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="Requirements" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e8fa8695-7037-476f-85e9-775138557709" />
         <field name="Name" type="NameTableFieldDefinition" value="FrostRune" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FROST_RUNE,100,100);" />

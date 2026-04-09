@@ -1485,6 +1485,13 @@ using "Shout_SecondWind"
 data "Cooldown" ""
 data "UseCosts" "BonusActionPoint:1;SecondWind:1;"
 
+new entry "Shout_WeaponBond"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_WeaponBond"
+data "UseCosts" "BonusActionPoint:1;"
+data "Requirements" ""
+
 new entry "Shout_FrostRune"
 type "SpellData"
 data "SpellType" "Shout"
