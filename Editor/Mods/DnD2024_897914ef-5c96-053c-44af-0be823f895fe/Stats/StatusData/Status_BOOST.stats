@@ -1003,6 +1003,146 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6503a964-3dbe-4004-a1be-e82b93aba488" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0337d8d-7d77-496d-a8c5-332f6be5a769" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="AI_ONLY:DealDamage(2d8,Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4e819db-4c54-4056-a444-48867395fb75" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_SLASHING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c5b8bf9-ef7f-49bc-90ac-f774b8b4512b" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Slashing)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Slashing)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Slashing,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3d3e479-b007-49e5-b424-43fd5b49df94" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_PIERCING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8a828430-9fd6-49ad-baeb-ab01f5d7754c" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Piercing)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Piercing)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Piercing,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a084b53f-b82f-4313-a423-64aac674fa7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_BLUDGEONING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0840f8f0-3542-4cbd-ad0c-18fb730d69c8" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Bludgeoning)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Bludgeoning)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Bludgeoning,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68f6957d-7baa-4ab0-bde9-2ba24c6c843d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_ACID" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="507b392a-fc8f-4b19-8f97-f58ae683cb64" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Acid)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Acid)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Acid,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77b6aacb-6b9c-4543-8fab-21b27b8b625b" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_THUNDER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="261cfbf6-a671-4915-8068-6b119332a3bc" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Thunder,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="782d6e18-b7fc-4f74-beb4-c1a45fbc5ab9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c7fbe8b-d23c-4020-872f-f0ed77a0a7c6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Necrotic)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c96131f0-f416-4ab0-9562-1cc8a851d7ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_FIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2f2f5c1b-6f47-40a6-986f-2b53813ed1e1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Fire)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Fire,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46e1ad37-d2bc-43d6-bd5b-2024c81e7bdc" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_LIGHTNING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7bfb2dbb-860e-4455-95dc-9b1d43a6864d" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Lightning,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ccc5433-06d2-46fc-a536-15b1b3f7716c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_COLD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="164f83cf-8b72-4397-b5d1-6c0fa5ecbd20" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Cold)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Cold)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Cold,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03357324-c2a8-4c9e-9232-e3451ac4c191" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_PSYCHIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="11658e95-593c-45b6-b366-0c515f5fb416" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="941c5e10-6720-452f-b731-35de0d46380f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_POISON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01390142-f85e-4874-9000-f892d0a56d33" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Poison,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e057ce80-a401-4483-8740-b283c4154fdf" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_RADIANT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="996a0250-d182-4e3c-b220-bf2787e0fb80" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Radiant)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Radiant)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Radiant,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eab531ce-d16d-4946-abf9-ba1ee5a1f9a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_FORCE_FORCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d17267d9-0f0b-4cb3-bd72-cd3c24d0b292" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Force)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Force)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Force,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="64c01e65-31cd-4597-b212-97c31dce70ea" />
         <field name="Name" type="NameTableFieldDefinition" value="PHANTOM_STEED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="50c36bb8-6b7e-422e-95f6-c9b1ae98e326" />

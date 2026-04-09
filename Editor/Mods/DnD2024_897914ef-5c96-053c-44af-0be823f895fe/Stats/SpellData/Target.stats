@@ -3279,6 +3279,46 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8670b2c3-1dba-4cb6-98d9-8302cb2ea7a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalForce" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="362a8bcc-7aec-4d39-a833-fd01b4815e9d" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9cd55670-2bc8-4cb3-8f6b-08cae566995d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalForce_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cbec4780-ef63-40e1-bc1f-1608a0ec6692" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a12e0e4a-ab20-453c-b4fc-20cf4d7238b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalForce_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ede70d6-eecf-4a76-898c-ca996183e4e2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12af0827-c134-4e73-9485-09f89e440ec1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalForce_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fc27ac29-c8cf-4975-af5e-193d8d9819ae" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="716ec365-d118-4abc-bcde-4c25b9912daf" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalForce_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="25397558-5301-4f25-92db-4b6e2c27da0a" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="086b7c30-7450-4731-ba25-fa8cb74487dc" />
         <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2ed51899-8101-4622-a3d5-74c9cebf63a9" />
