@@ -1307,7 +1307,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2e01025f-900f-4a93-b5a9-25eda2bdc543" />
         <field name="Name" type="NameTableFieldDefinition" value="Abberant Level 3" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_MindSliver;Shout_ArmsOfHadar;Target_DissonantWhisper;Target_CalmEmotions;Shout_DetectThoughts" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_MindSliver;Shout_ArmsOfHadar;Target_DissonantWhispers;Target_CalmEmotions;Shout_DetectThoughts" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
