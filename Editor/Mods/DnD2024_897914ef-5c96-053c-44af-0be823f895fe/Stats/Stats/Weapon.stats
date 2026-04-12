@@ -1220,7 +1220,7 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ab150a98-0a8e-4ee2-9dca-580d77f99be3" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="71191c11-966f-4c19-b4ee-eb36d31c4944" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Light;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
@@ -1232,7 +1232,7 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="59c190d2-4b91-44f5-a720-f75d338dd341" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="71191c11-966f-4c19-b4ee-eb36d31c4944" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Heavy;Twohanded;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
@@ -1257,7 +1257,7 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fa9b6992-dbfc-4265-996b-73d9836cf7fe" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="71191c11-966f-4c19-b4ee-eb36d31c4944" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Twohanded;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
@@ -1281,7 +1281,7 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="118967f7-14de-41fa-bec8-3ba383252e9a" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="71191c11-966f-4c19-b4ee-eb36d31c4944" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Heavy;Twohanded;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
@@ -1391,7 +1391,7 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d9a98dce-1027-4324-939c-3c9cfe776731" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="71191c11-966f-4c19-b4ee-eb36d31c4944" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Twohanded;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
