@@ -2815,7 +2815,7 @@ Never Tell the Same Lie Twice. An overused skill becomes too predictable. Keep m
   <content contentuid="he8f7350dgec9cga3c4g613agaeb7f4a54136" version="1">Level 3: Honey-Sweet Blade</content>
   <content contentuid="h6adc649fgbd08g1d76g0aecg4e5c0ef03271" version="1">When you make a weapon attack against an interdicted creature, you can gain advantage on that attack (no action required). If the attack hits, it becomes a critical hit.</content>
   <content contentuid="h2cf5b57fgaa9bg9d02g3619g774b755bf5d6" version="1">Honey-Sweet Blades</content>
-  <content contentuid="hc39bb1c4g3c5bg1b8fga689g2acf69286fc7" version="1">If the attack hits, it becomes a critical hit.</content>
+  <content contentuid="hc39bb1c4g3c5bg1b8fga689g2acf69286fc7" version="2">If the attack hits an interdicted creature, it becomes a critical hit.</content>
   <content contentuid="haaa5a699g83efg4475gf3ccge6f351a2d6a3" version="1">Honey-Sweet Blades</content>
   <content contentuid="h5a374292g71a7g1e85g586dgd611bb96eb66" version="2">Level 11: Incontrovertible </content>
   <content contentuid="hcd348f9fg9dfdgcf82g6f70g46a4195d00cc" version="1">Interdicted creatures have disadvantage on Wisdom and Charisma saving throws for 2 turns.</content>
@@ -2831,4 +2831,48 @@ Moloch’s illriggers are silver-tongued enchanters, lulling his foes to complac
 
 Across the timescape, Hellspeakers enjoy a reputation as smiling rogues and swashbuckling villains. An asset in any negotiation, Hellspeakers know that in a world of lies, the truth can be as potent a weapon as steel.</content>
   <content contentuid="h778d0370g733dgefbfg0390g325187e3b8f4" version="1">Hellspeaker</content>
+  <content contentuid="h40728f51gaea4g5667gc83agba62cf124604" version="1">Precepts of Pride</content>
+  <content contentuid="hc0cff11age80fgb13fgfd62g598157b9f427" version="1">Dispater’s heavy shock troops must be effective battlefield commanders and quickly dispatch enemies. Painkillers follow precepts instructing them to lead Hell’s armies and wage war against Good across the timescape.
+
+Lead from the Front. I charge in at the front of every battle, inspiring my soldiers and terrifying my enemies.
+
+Commander. Wherever I go, I command. I don’t take orders from those who don’t have the will to lead.
+
+Victory at Any Cost. I respect the enemy leader and treat them honorably. But once swords are drawn, I use every trick in my arsenal to win, expecting them to do the same.
+
+Soldiers Die. I care not for the lives of my soldiers, for they are resources I spend to secure my victory.</content>
+  <content contentuid="h87611e23g6851gdd85gb4aagc5494b4af22b" version="1">Dispater’s Blessing</content>
+  <content contentuid="hdc9bc8a1g4363gafc5g0aa8g3cf81d9f7f39" version="1">When Dispater accepts you as his illrigger, you gain proficiency with heavy armor.</content>
+  <content contentuid="h764b69fagcd7ag05fdgf7dag5bd26082ad00" version="1">Devastator</content>
+  <content contentuid="hed5241fcg4e7bg125eg7f8fg43f7f8fbd64a" version="1">Grand Strategist</content>
+  <content contentuid="hcac28d23geb38gd19fge1c7gd81fdc6dc09b" version="2">You can order your allies to follow your formation (no action required). Choose a number of creatures within 60 feet of you that can hear you, up to your proficiency bonus. Each target can immediately move up to its speed without provoking opportunity attacks.</content>
+  <content contentuid="h8dc48af4gcdf0gdb45g88c4g86ba48d298cb" version="1">As an action, you invoke the authority of Dispater. You make a weapon attack and choose a number of willing creatures up to your proficiency bonus who you can see within 30 feet of you. Each creature you choose can use a reaction to make a weapon attack or cast a damage-dealing cantrip with a casting time of 1 action.
+
+Once you use this action, you can’t use it again until you finish a short or long rest.</content>
+  <content contentuid="h9dbc5d36ge613gcbd5ga51cg3c2f03e86ea8" version="1">Dispater’s Supremacy</content>
+  <content contentuid="hb48d28a7g8fd1g0221gb778gd0ba3bcb5fb5" version="1">Your attacks against interdicted creatures score a critical hit on a roll of 19 through 20.</content>
+  <content contentuid="h1e5932b4g971fg88dcg9f73g49b5740e78e1" version="1">You Die on My Command!</content>
+  <content contentuid="h98e2c15eg1bb0g6b5fg7c81ge9b4199a5810" version="1">When an ally within 30 feet of you who can hear you drops to 0 hit points without being killed outright, you can use your reaction to shout an order at them, causing them to drop to 1 hit point instead. Once you use this reaction, you can’t do so again until you finish a short or long rest.</content>
+  <content contentuid="hac72ef57geda5gbcb7gefd0gd8f3ef7ecd35" version="1">Devastator</content>
+  <content contentuid="h81b4dc8dg3da9gf440gb6ccgfc1f97fafdf6" version="1">As an action, you invoke the authority of Dispater. You make a weapon attack and choose a number of willing creatures up to your proficiency bonus who you can see within 30 feet of you. Each creature you choose can use a reaction to make a weapon attack or cast a damage-dealing cantrip with a casting time of 1 action.</content>
+  <content contentuid="ha7727e9ag0c15g6933gae63g6fa84b4bf2d4" version="1">GrandStrategist</content>
+  <content contentuid="h820d0d49g5c04gb627g8857g7f344163dd3d" version="1">You can order your allies to follow your formation (no action required). Choose a number of creatures within 60 feet of you that can hear you, up to your proficiency bonus. Each target can immediately move up to its speed without provoking opportunity attacks.</content>
+  <content contentuid="h56bd8cdag4e64g6c53ga757gdf3238045217" version="1">Devastator</content>
+  <content contentuid="h33401633g747fg999fg84bcgb4b2b4d7449f" version="1">Can use a reaction to make a weapon attack or cast a damage-dealing cantrip with a casting time of 1 action.</content>
+  <content contentuid="h3ead5e5egb4bfg7aa8g3997g651f56f21c32" version="1">Grand Strategist</content>
+  <content contentuid="h228f43e7g05d6g74e4g3a8agd9f46890dde0" version="1">Can immediately move up to its speed without provoking opportunity attacks.</content>
+  <content contentuid="h452f19f2ga929gf880gace7g93748aa82758" version="1">Devastator: Melee Weapon Attack</content>
+  <content contentuid="h60349a20g9e96g7eeeg2508g7315db437183" version="1">Devastator: Ranged Weapon Attack</content>
+  <content contentuid="h744333c6g715ag75dcgbd4dg06fc4b9c2830" version="1">You Die on My Command!</content>
+  <content contentuid="h8fa05c7bg2b56g954cgddfag9aa1c78d686f" version="1">You Die on My Command!</content>
+  <content contentuid="h28ffe78cgda09gea22ga11cg170716172528" version="2">You Die on My Command!</content>
+  <content contentuid="h47a016e4g2442g9c66ga3b8gb2f05f217dc0" version="2">When an ally within 30 feet of you who can hear you drops to 0 hit points without being killed outright, you can use your reaction to shout an order at them, causing them to drop to 1 hit point instead. Once you use this reaction, you can’t do so again until you finish a short or long rest.</content>
+  <content contentuid="h4dc2f45dg35b4g1e82ga16cg73f1f783e261" version="1">Painkiller</content>
+  <content contentuid="hf1e041c0ga156g608cg02dfg22c1dad1bf3a" version="1">The heavily armored death troopers of Hell, Painkillers serve Dispater, leading from the front of every major infernal battle.
+
+Dispater rules Dis, the City of War. When Hell invades another world, Dispater’s army does the fighting and dying. His Painkillers are master strategists who lead from the front, inspiring terror and awe in their soldiers. The imperious Painkillers are full of pride and hubris, and they often obsess over their personal appearance.
+
+Though among the most chivalrous of the illriggers, a Painkiller’s gallantry is twisted. They accept and honor challenges to single combat, and swiftly punish any who try to interfere—but if losing, they don’t hesitate to cheat, and if winning, they arrogantly toy with an enemy before finishing them.
+
+In a moment of weakness or desperation, a ruler in another world might see their army facing certain defeat and call on Dispater. Ever eager to sow strife and discord, Dispater often responds to these pleas by sending a Painkiller to lead the desperate ruler’s armies.</content>
 </contentList>

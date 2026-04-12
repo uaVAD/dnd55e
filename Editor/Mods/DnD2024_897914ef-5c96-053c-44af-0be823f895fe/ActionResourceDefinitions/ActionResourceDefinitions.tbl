@@ -553,6 +553,15 @@
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_72" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e4893ffa-28cf-47c3-b985-fddb087d4bb5" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="YouDieOnMyCommand" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h744333c6g715ag75dcgbd4dg06fc4b9c2830" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />

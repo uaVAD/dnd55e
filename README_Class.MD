@@ -504,16 +504,22 @@
 - Level 6: Infernal Conduit
 - Level 10: Blood Price
 - Level 11: Terrorizing Force
+### Hellspeaker
+- Level 3: Moloch’s Blessing
+- Level 3: Charm Enemy
+- Level 3: Honey-Sweet Blades
+- Level 7: Intransigent
+- Level 11: Incontrovertible
+### Painkiller
+- Level 3: Dispater’s Blessing
+- Level 3: Devastator
+- Level 3: Grand Strategist
+- Level 7: Dispater’s Supremacy
+- Level 11: You Die on My Command!
 ### Sanguine Knight
 - Level 3: Exsanguinate
 - Level 3: Sutekh’s Blessing
 - Level 3: Embolden Allies
 - Level 7: Blood for Blood
 - Level 11: Bloodstroke
-### Hellspeaker
-- Level 3: Moloch’s Blessing
-- Level 3: Charm Enemy
-- Level 3: Honey-Sweet Blades
-- Level 7: Intransigent
-- Level 11: Incontrovertible 
 ## Psion

@@ -7425,6 +7425,52 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b2bcea20-71d3-4619-bf8d-c62539da3de7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Devastator" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5f37c13-89e3-4a2a-ba0f-c3b6f654a78f" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DEVASTATOR,100,2);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Ally();" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(StandardProficiencyBonusScale)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_CommandersStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac72ef57geda5gbcb7gefd0gd8f3ef7ecd35" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h81b4dc8dg3da9gf440gb6ccgfc1f97fafdf6" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DEVASTATOR,100,2)" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a5fec6d6-bcd2-4f1a-96ac-8ef5a115eeaf" />
+        <field name="Name" type="NameTableFieldDefinition" value="GrandStrategist" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b2bcea20-71d3-4619-bf8d-c62539da3de7" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DASH,100,1);ApplyStatus(DISENGAGE,100,1);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FastMovement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha7727e9ag0c15g6933gae63g6fa84b4bf2d4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h820d0d49g5c04gb627g8857g7f344163dd3d" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DASH,100,1);ApplyStatus(DISENGAGE,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc8032ac-66f8-4d7b-9b77-e91cd5d6c951" />
+        <field name="Name" type="NameTableFieldDefinition" value="Devastator_Melee" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8e4a2dce-458a-4c98-a48e-ec90a5cae533" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h452f19f2ga929gf880gace7g93748aa82758" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);CastOffhand[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);RemoveStatus(SELF,DEVASTATOR);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Target_MainHandAttack" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="38f8798f-1d23-4982-b4c7-dffc0ae00453" />

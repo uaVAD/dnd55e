@@ -5397,6 +5397,77 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ffe47bba-5bac-4f69-b9c2-9c69fe680b12" />
+        <field name="Name" type="NameTableFieldDefinition" value="Painkiller" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40728f51gaea4g5667gc83agba62cf124604" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc0cff11age80fgb13fgfd62g598157b9f427" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Heroism" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c6f3c53e-a22f-4656-a6f2-640cdd9f6622" />
+        <field name="Name" type="NameTableFieldDefinition" value="PainKiller_3_DispatersBlessing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87611e23g6851gdd85gb4aagc5494b4af22b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc9bc8a1g4363gafc5g0aa8g3cf81d9f7f39" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HeavilyArmored" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(HeavyArmor);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5192128f-35ca-4dd6-9caf-d38643ee080e" />
+        <field name="Name" type="NameTableFieldDefinition" value="PainKiller_3_Devastator" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h764b69fagcd7ag05fdgf7dag5bd26082ad00" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8dc48af4gcdf0gdb45g88c4g86ba48d298cb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_CommandersStrike" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Devastator);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dc441c50-5c55-4ac4-8be3-1e97d8a70919" />
+        <field name="Name" type="NameTableFieldDefinition" value="PainKiller_3_GrandStrategist" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed5241fcg4e7bg125eg7f8fg43f7f8fbd64a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcac28d23geb38gd19fge1c7gd81fdc6dc09b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FastMovement" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_GrandStrategist);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5bd5a0f-8500-48f6-a0e5-f85c89f56866" />
+        <field name="Name" type="NameTableFieldDefinition" value="PainKiller_7_DispatersSupremacy" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9dbc5d36ge613gcbd5ga51cg3c2f03e86ea8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb48d28a7g8fd1g0221gb778gd0ba3bcb5fb5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ImprovedCritical" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('INTERDICTED',context.Target)):ReduceCriticalAttackThreshold(1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25c3665a-b888-477c-aaa4-98605fefa532" />
+        <field name="Name" type="NameTableFieldDefinition" value="PainKiller_11_YouDieOnMyCommand" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e5932b4g971fg88dcg9f73g49b5740e78e1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98e2c15eg1bb0g6b5fg7c81ge9b4199a5810" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_Rally" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_YouDieOnMyCommand);ActionResource(YouDieOnMyCommand,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="056a0c12-3e41-4e67-a705-01e9fea8219f" />

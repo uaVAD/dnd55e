@@ -7909,7 +7909,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,3,0);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,3,0);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(89b4404c-f719-4951-a703-65e8c38f5aa5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
       </fields>
@@ -7948,7 +7948,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,1,0);" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="f576dd16-d230-4233-bf3e-1d5ed0106b0c;11576009-15e0-4cb2-b0ce-77dab572f106" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="f576dd16-d230-4233-bf3e-1d5ed0106b0c;499d1db7-129f-4416-b762-43675c43d0c9;11576009-15e0-4cb2-b0ce-77dab572f106" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8122,6 +8122,39 @@
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="HellSpeaker_11_Incontrovertible" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_764" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Painkiller" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Painkiller;PainKiller_3_DispatersBlessing;PainKiller_3_Devastator;PainKiller_3_GrandStrategist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_765" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a6b22663-f64a-481d-b04a-13272f2a9dbb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Painkiller" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="PainKiller_7_DispatersSupremacy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_766" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bfa2ad65-8b15-4fac-b600-818e81b638a4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Painkiller" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="PainKiller_11_YouDieOnMyCommand" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

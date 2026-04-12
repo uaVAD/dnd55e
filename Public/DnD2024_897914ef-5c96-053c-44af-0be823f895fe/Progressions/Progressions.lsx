@@ -6113,7 +6113,7 @@
                     <attribute id="UUID" type="guid" value="fcf571dd-168b-4170-9842-a5ffddc050fa"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,3,0);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,3,0);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="PassivesAdded" type="LSString" value="Illrigger_1_BalefulInterdict"/>
@@ -6153,6 +6153,9 @@
                             <children>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="f576dd16-d230-4233-bf3e-1d5ed0106b0c"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="499d1db7-129f-4416-b762-43675c43d0c9"/>
                                 </node>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="11576009-15e0-4cb2-b0ce-77dab572f106"/>
@@ -6264,6 +6267,30 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="283cff6c-8c2a-4f08-afe4-419dee51bc9b"/>
                     <attribute id="UUID" type="guid" value="b4cc8361-5b26-484a-8d0c-c7bb142123fa"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Hellspeaker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HellSpeaker;HellSpeaker_3_MolochsBlessing;HellSpeaker_3_CharmEnemy;HellSpeaker_3_HoneySweetBlades"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c577a73f-ffb9-4391-9165-758c6601f051"/>
+                    <attribute id="UUID" type="guid" value="c577a73f-ffb9-4391-9165-758c6601f051"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Hellspeaker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HellSpeaker_7_Intransigent"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c577a73f-ffb9-4391-9165-758c6601f051"/>
+                    <attribute id="UUID" type="guid" value="db356844-11f8-49eb-8e50-47fd3a6493c4"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Hellspeaker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HellSpeaker_11_Incontrovertible"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c577a73f-ffb9-4391-9165-758c6601f051"/>
+                    <attribute id="UUID" type="guid" value="f548dfc1-7ae3-496b-91ec-5c3b19643b67"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Name" type="LSString" value="__RACE__"/>
@@ -6654,27 +6681,27 @@
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="Hellspeaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="HellSpeaker;HellSpeaker_3_MolochsBlessing;HellSpeaker_3_CharmEnemy;HellSpeaker_3_HoneySweetBlades"/>
+                    <attribute id="Name" type="LSString" value="Painkiller"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Painkiller;PainKiller_3_DispatersBlessing;PainKiller_3_Devastator;PainKiller_3_GrandStrategist"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="c577a73f-ffb9-4391-9165-758c6601f051"/>
-                    <attribute id="UUID" type="guid" value="c577a73f-ffb9-4391-9165-758c6601f051"/>
+                    <attribute id="TableUUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
+                    <attribute id="UUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="Name" type="LSString" value="Hellspeaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="HellSpeaker_7_Intransigent"/>
+                    <attribute id="Name" type="LSString" value="Painkiller"/>
+                    <attribute id="PassivesAdded" type="LSString" value="PainKiller_7_DispatersSupremacy"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="c577a73f-ffb9-4391-9165-758c6601f051"/>
-                    <attribute id="UUID" type="guid" value="db356844-11f8-49eb-8e50-47fd3a6493c4"/>
+                    <attribute id="TableUUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
+                    <attribute id="UUID" type="guid" value="a6b22663-f64a-481d-b04a-13272f2a9dbb"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="Hellspeaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="HellSpeaker_11_Incontrovertible"/>
+                    <attribute id="Name" type="LSString" value="Painkiller"/>
+                    <attribute id="PassivesAdded" type="LSString" value="PainKiller_11_YouDieOnMyCommand"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="c577a73f-ffb9-4391-9165-758c6601f051"/>
-                    <attribute id="UUID" type="guid" value="f548dfc1-7ae3-496b-91ec-5c3b19643b67"/>
+                    <attribute id="TableUUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
+                    <attribute id="UUID" type="guid" value="bfa2ad65-8b15-4fac-b600-818e81b638a4"/>
                 </node>
             </children>
         </node>

@@ -503,6 +503,12 @@
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="e6681241-1b8c-4098-b58f-cc4e1b77f1e0"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h744333c6g715ag75dcgbd4dg06fc4b9c2830" version="1"/>
+                    <attribute id="Name" type="FixedString" value="YouDieOnMyCommand"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="e4893ffa-28cf-47c3-b985-fddb087d4bb5"/>
+                </node>
             </children>
         </node>
     </region>

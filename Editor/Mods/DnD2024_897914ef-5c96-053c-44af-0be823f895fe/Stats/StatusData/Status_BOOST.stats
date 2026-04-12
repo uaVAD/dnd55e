@@ -3316,6 +3316,29 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Wisdom);Disadvantage(SavingThrow,Charisma);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d14f98fd-95c8-45ed-a273-80895f67444f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEVASTATOR" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56bd8cdag4e64g6c53ga757gdf3238045217" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33401633g747fg999fg84bcgb4b2b4d7449f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_CommandersStrike" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Devastator_Melee);UnlockSpell(Projectile_Devastator_Ranged);UnlockSpellVariant(IsCantrip(),ModifyUseCosts(Replace,ReactionActionPoint,1,0,ActionPoint),ModifyIconGlow());" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsCantrip()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnAttack" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="044aa7d1-3ca2-41fa-84b0-bcd4476a155a" />
+        <field name="Name" type="NameTableFieldDefinition" value="YOUDIEONMYCOMMAND" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8fa05c7bg2b56g954cgddfag9aa1c78d686f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_Rally" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1);Resurrect(100,1);RestoreResource(Movement, 100%, 0);UseActionResource(ActionPoint,100%,0);UseActionResource(BonusActionPoint,100%,0);ApplyStatus(RESURRECTING, 100, 1);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

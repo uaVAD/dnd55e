@@ -1077,12 +1077,12 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9c1aaa8d-18cb-479d-8041-1b6a71c32878" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_HoneySweetBlades" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2cf5b57fgaa9bg9d02g3619g774b755bf5d6" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc39bb1c4g3c5bg1b8fga689g2acf69286fc7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc39bb1c4g3c5bg1b8fga689g2acf69286fc7" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="HellSpeaker_3_HoneySweetBlades" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Source,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Source,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem() and HasStatus('INTERDICTED',context.Target);" />
         <field name="Properties" type="StringTableFieldDefinition" value="SetRoll(20)" />
         <field name="Cost" type="StringTableFieldDefinition" value="HoneySweetBlades:1;" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
@@ -1091,9 +1091,20 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a89f36f8-6450-4298-8208-aae6a989a040" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="fc366366-2ec1-4305-832e-4ac8056effae" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b9464834-3a75-4107-b416-09f0bc4993c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_YouDieOnMyCommand" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28ffe78cgda09gea22ga11cg170716172528" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h47a016e4g2442g9c66ga3b8gb2f05f217dc0" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_Rally" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnDeath" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Far" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target, context.Observer);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_TARGET,YOUDIEONMYCOMMAND,100,0);UseSpell(OBSERVER_TARGET,Target_Interrupt_Positive,true,true,true);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;YouDieOnMyCommandCharge:1;" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

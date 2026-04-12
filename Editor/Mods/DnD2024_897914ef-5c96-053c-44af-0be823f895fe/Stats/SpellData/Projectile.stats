@@ -2188,6 +2188,18 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5b9a73a3g7b6fg13b5gc7c3gdf58090d1c36" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20b7f862-8db1-4849-af0d-39d8f72f1872" />
+        <field name="Name" type="NameTableFieldDefinition" value="Devastator_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dc75f60c-beac-4588-a14a-43834eeb8f8f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h60349a20g9e96g7eeeg2508g7315db437183" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);CastOffhand[GROUND:DealDamage(OffhandRangedWeapon,OffhandRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];RemoveStatus(SELF,DEVASTATOR);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dbfa030b-ffcf-4767-9c87-44dc979dc28e" />
