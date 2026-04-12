@@ -3585,7 +3585,7 @@ data "PriorityOrder" "14001"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "UnlockSpell(Target_BurningSeals_Necrotic);UnlockSpell(Target_BurningSeals_Fire);UnlockSpell(Target_Seal);"
 data "StatsFunctorContext" "OnAttack"
-data "Conditions" "HasActionResource('Seal', 1, 0, false, false, context.Source) and IsWeaponAttack() and not IsMiss();"
+data "Conditions" "HasActionResource('Seal', 1, 0, false, false, context.Source) and IsWeaponAttack() and not IsMiss() and Enemy() and Character();"
 data "StatsFunctors" "UseActionResource(SELF,Seal,1,0);ApplyStatus(INTERDICTED,100,-1);IF(HasPassive('SanguineKnight_7_BloodForBlood',context.Source) and not CharacterLevelGreaterThan(8)):ApplyStatus(BLOOD_FOR_BLOOD,100,-1);IF(HasPassive('SanguineKnight_7_BloodForBlood',context.Source) and CharacterLevelGreaterThan(8)):ApplyStatus(BLOOD_FOR_BLOOD_4,100,-1);IF(HasPassive('HellSpeaker_11_Incontrovertible',context.Source)):ApplyStatus(INCONTROVERTIBLE,100,2);"
 
 new entry "Illrigger_2_Bravado"
