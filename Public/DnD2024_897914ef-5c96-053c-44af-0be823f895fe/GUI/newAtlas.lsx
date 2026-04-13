@@ -411,6 +411,13 @@
                     <attribute id="V2" type="float" value="0.03112793"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_WPN_PhalarAluve"/>
+                    <attribute id="U1" type="float" value="0.98449707"/>
+                    <attribute id="U2" type="float" value="0.99987793"/>
+                    <attribute id="V1" type="float" value="0.01574707"/>
+                    <attribute id="V2" type="float" value="0.03112793"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Medicine"/>
                     <attribute id="U1" type="float" value="0.50012207"/>
                     <attribute id="U2" type="float" value="0.51550293"/>
