@@ -2990,4 +2990,6 @@ Magic Is Mine to Command. Cunning is also as powerful as steel. I wield the dark
   <content contentuid="hd8bfa253g9a70g0b3dga7f3g8b52b646dc9a" version="1">Deprecated</content>
   <content contentuid="h01e4f65cg7f45g4509g7911g655523dbfc23" version="1">Magic Initiate: Wizard</content>
   <content contentuid="hf53d0a43g624eg7762g6910g0264f0ae7c73" version="1">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the wizard spell list.</content>
+  <content contentuid="hb45ab210g4dfeg44aage273g11ab2c83f7b8" version="1">Warding Seals</content>
+  <content contentuid="hd8757627g198cg4659gbdcbgf8c916e4b023" version="1">When you use your bonus action to place an illrigger’s seal on a creature, or when you burn a seal placed on a creature, you gain the effects of Blade Ward for 2 turns.</content>
 </contentList>

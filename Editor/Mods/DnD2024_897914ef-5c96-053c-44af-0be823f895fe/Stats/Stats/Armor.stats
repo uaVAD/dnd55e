@@ -419,6 +419,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9186c9d7-f987-44ee-8fa7-9fb259f6cfb7" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Paladin_LayOnHandsSupport_Gloves" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="99d3e47a-e89e-4d72-8877-f20eec7de2ce" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Paladin_LayOnHandsSupport_Gloves_Passive;MAG_Paladin_LayOnHandsSupport_Gloves_Illrigger_Passive;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -7027,6 +7027,18 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack()):CharacterWeaponDamage(StrengthModifier);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48742b48-3fa4-4dde-bf2c-36080ef7ea83" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Paladin_LayOnHandsSupport_Gloves_Illrigger_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1058c60e-6dd5-49d6-87e3-836c9e7bc8f7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb45ab210g4dfeg44aage273g11ab2c83f7b8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8757627g198cg4659gbdcbgf8c916e4b023" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IllriggerSeal();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BLADE_WARD, 100, 2)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />

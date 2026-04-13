@@ -5083,6 +5083,15 @@ type "PassiveData"
 using "MAG_StrengthBonusToWeaponDamage_Passive"
 data "Boosts" "IF(IsRangedWeaponAttack()):CharacterWeaponDamage(StrengthModifier);"
 
+new entry "MAG_Paladin_LayOnHandsSupport_Gloves_Illrigger_Passive"
+type "PassiveData"
+using "MAG_Paladin_LayOnHandsSupport_Gloves_Passive"
+data "DisplayName" "hb45ab210g4dfeg44aage273g11ab2c83f7b8;1"
+data "Description" "hd8757627g198cg4659gbdcbgf8c916e4b023;1"
+data "StatsFunctorContext" "OnCast;OnAttack;OnCastResolved"
+data "Conditions" "IllriggerSeal();"
+data "StatsFunctors" "ApplyStatus(SELF, BLADE_WARD, 100, 2)"
+
 new entry "__RACE__"
 type "PassiveData"
 

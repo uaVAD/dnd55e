@@ -1,6 +1,7 @@
 # Item
 - Blazer of Benevolence
 - Cap of Curing
+- Gloves of Heroism
 - Hellrider's Pride
 - Helmet of Smiting
 - Hunting Shortbow

@@ -297,6 +297,7 @@ using "MAG_ChargedLightning_AbilityCheckBoost_Gloves"
 new entry "MAG_Paladin_LayOnHandsSupport_Gloves"
 type "Armor"
 using "MAG_Paladin_LayOnHandsSupport_Gloves"
+data "PassivesOnEquip" "MAG_Paladin_LayOnHandsSupport_Gloves_Passive;MAG_Paladin_LayOnHandsSupport_Gloves_Illrigger_Passive;"
 
 new entry "SHA_JusticiarArmor_Gloves"
 type "Armor"
