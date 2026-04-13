@@ -13,3 +13,4 @@
 - Pistol +2
 - Spellthief
 - The Oak Father's Embrace
+- True Name (Illrigger Equipment, loot from He Who Was)

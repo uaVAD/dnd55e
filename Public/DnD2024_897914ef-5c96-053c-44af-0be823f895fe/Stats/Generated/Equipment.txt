@@ -95,3 +95,10 @@ add equipment entry "ARM_Robe_Body_Sorcerer_ShadowSorcery"
 add equipmentgroup
 add equipment entry "ARM_Robe_Body_Sorcerer_StormSorcery"
 
+new equipment "EQP_TrueName"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "MAG_TrueName"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+

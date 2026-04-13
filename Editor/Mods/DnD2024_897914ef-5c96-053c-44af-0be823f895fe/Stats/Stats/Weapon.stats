@@ -5616,5 +5616,16 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dadeb225-25bb-477e-9508-8a9e5290fe29" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TrueName" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10a873f8-9736-49d7-975f-128ad5f7b3bf" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="810cd576-55ba-43a0-a974-647f60e3e117" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_TrueName_Passive;MAG_TrueName_Passive_2;" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
