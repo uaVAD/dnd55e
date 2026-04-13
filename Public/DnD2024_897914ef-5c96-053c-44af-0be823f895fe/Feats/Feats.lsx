@@ -331,18 +331,18 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="EldritchAdept"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(ab56f79f-95ec-48e5-bd83-e80ba9afc844,1)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(ab56f79f-95ec-48e5-bd83-e80ba9afc844,1);SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
                     <attribute id="UUID" type="guid" value="a230431d-ce32-4a08-8d1b-bc6c6d462d0e"/>
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="FightingInitiate"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1);SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
                     <attribute id="UUID" type="guid" value="ef5a96c7-b21f-4a23-aa44-3997efe5b471"/>
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="MetamagicAdept"/>
                     <attribute id="PassivesAdded" type="LSString" value="MetamagicAdept"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(c3506532-36eb-4d18-823e-497a537a9619,2)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(c3506532-36eb-4d18-823e-497a537a9619,2);SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
                     <attribute id="UUID" type="guid" value="8af37785-7ab1-4010-82f2-7fd226593ea1"/>
                 </node>
                 <node id="Feat">
