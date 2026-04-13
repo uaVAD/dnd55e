@@ -524,6 +524,7 @@
                     <attribute id="UUID" type="guid" value="499d1db7-129f-4416-b762-43675c43d0c9"/>
                 </node>
                 <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h8f230721g7cfdg98e3gf8a5g5d16598f3c1e" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h2fe200c7ga105g2c4eg493fg373d790dcb13" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -534,6 +535,19 @@
                     <attribute id="SoundClassType" type="FixedString" value="Illrigger"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="UUID" type="guid" value="9d4ed957-c140-4955-89a6-56b8cb5313ee"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h7dfa2a4bg13bfg7ea9g611cgc213f4b0ba43" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfd5e585egb97dg0f1dg5612g9096a1551c2e" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="ArchitectOfRuin"/>
+                    <attribute id="ParentGuid" type="guid" value="33bd368d-2ff4-4add-8692-66d87372053a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Illrigger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="ba0844e2-726c-4e39-b6f7-c46733df19c4"/>
                 </node>
             </children>
         </node>

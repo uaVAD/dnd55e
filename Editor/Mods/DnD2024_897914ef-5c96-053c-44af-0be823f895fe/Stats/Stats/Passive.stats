@@ -4980,7 +4980,7 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(RESTRAINED,100,2)" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFF0000" is_substat="false">
+    <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c39dc0b2-1e3d-4b52-9648-a7eb43b327b2" />
         <field name="Name" type="NameTableFieldDefinition" value="__ILLRIGGER__" />
@@ -5258,7 +5258,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="CharacterWeaponDamage(1d8,Poison);" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFF0000" is_substat="false">
+    <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d5e99533-d96a-4df2-b03c-a0e990298cab" />
         <field name="Name" type="NameTableFieldDefinition" value="SanguineKnight" />
@@ -5355,7 +5355,7 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,11,Necrotic,Magical)" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFF0000" is_substat="false">
+    <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="93684aa4-e9d8-4605-85c5-9699caa2b70a" />
         <field name="Name" type="NameTableFieldDefinition" value="HellSpeaker" />
@@ -5424,7 +5424,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFF0000" is_substat="false">
+    <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ffe47bba-5bac-4f69-b9c2-9c69fe680b12" />
         <field name="Name" type="NameTableFieldDefinition" value="Painkiller" />
@@ -5495,7 +5495,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_YouDieOnMyCommand);ActionResource(YouDieOnMyCommand,1,0);" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFF0000" is_substat="false">
+    <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8d3c1ede-67ca-4c7c-9fc1-38f48b3e8a0b" />
         <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster" />
@@ -5564,6 +5564,81 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);AreaDamageEvade();ActionResource(Movement,3,0);Advantage(Skill, Stealth);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46852614-8d15-4d1d-a81f-9e666ae9e5e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haa18eb10gdcc4g80abg983dg6a81f3fa8b0c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3c31b801g72c4g4016g8dbagc376fb17c919" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="UnleashHell_Fire" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Spellblade,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21f1ee46-3d20-4508-a2f3-a6577e70c1c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin_3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01f5bb00ga933g06e9g6166g6a590fca24a4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha816b389ge8bag72c4gef70g5e1232a276d1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Arcana" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e33f2e2f-effe-4286-83ce-a16f27d4da82" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin_3_Spellblade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90cf32b2gf820g9778g512fge7868eab0c47" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1d004939g5a78gcfbage143g31b8dc1c1405" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VengefulBlade" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('Spellblade', 1, 0, false, false, context.Source);" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved;OnLongRest;OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultAddToHotbar;MetaMagic" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(IsSpell(),ModifyUseCosts(Add,Spellblade,1,0),ModifyUseCosts(Replace,BonusActionPoint,0,0,ActionPoint),ModifyIconGlow());" />
+        <field name="ToggleOffContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="35e438f9-7ef9-49a0-ab1c-ee318b2722e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin_7_HellishVersatility" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha475d6ebg3a6bgaa0fgbbb4g76088c3aea4b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h31f01a11ge447g9caegdcb4g2adfe1ce29e6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VengefulBlade" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ef6f42c-7d60-4f21-b27f-4565b7da5ac1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin_7_AxiomaticSeals" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9727eb4bg1c42g18b1gb937gf2efc10d9fec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2bafe613g30e6g3792g15edgaa3d3658c4b6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="UnleashHell_Fire" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dffac12a-a20e-4b10-888b-2089a4f3db3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin_11_Submit" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h528f5094gf88ag08d3ge649gc14b423059e7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0688f440gd1d1g007egd6e0g79bf22aff2aa" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('Seal', 2, 0, false, false, context.Source);" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved;OnLongRest;OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultAddToHotbar;MetaMagic" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(HeightenedSpellCheck(),ModifyUseCosts(Add,Seal,2,0),ModifySavingThrowDisadvantage(),ModifyIconGlow());" />
+        <field name="ToggleOffContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

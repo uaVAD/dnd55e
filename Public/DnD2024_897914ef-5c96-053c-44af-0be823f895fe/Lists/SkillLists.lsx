@@ -49,6 +49,11 @@
                     <attribute id="Skills" type="LSString" value="Arcana, Athletics, Deception, Insight, Intimidation, Investigation, Persuasion, Religion, Stealth"/>
                     <attribute id="UUID" type="guid" value="89b4404c-f719-4951-a703-65e8c38f5aa5"/>
                 </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="5.5 Architect of Ruin Skill List"/>
+                    <attribute id="Skills" type="LSString" value=" Arcana, History, Nature, Religion"/>
+                    <attribute id="UUID" type="guid" value="9752c342-09d0-4804-b909-7c92f1c5a17f"/>
+                </node>
             </children>
         </node>
     </region>

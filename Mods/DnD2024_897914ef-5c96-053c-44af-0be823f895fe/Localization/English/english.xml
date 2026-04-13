@@ -2948,4 +2948,34 @@ Shadowmasters are sworn not to reveal their true allegiance, and if need be, the
   <content contentuid="h4c5188d3gb6e3g5ec6g15ddgca76b9bd33bb" version="1">If the target is an interdicted creature, it makes the saving throw with Disadvantage.</content>
   <content contentuid="h79277297gd000gacc5g0460g0f13305310f6" version="1">Hells's Lash</content>
   <content contentuid="h0799ae05gc440g5f2bg286ega9d23975a5e2" version="1">While restrained by the shackles, the target takes [1] at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success.</content>
+  <content contentuid="hfd5e585egb97dg0f1dg5612g9096a1551c2e" version="1">Architect of Ruin</content>
+  <content contentuid="h7dfa2a4bg13bfg7ea9g611cgc213f4b0ba43" version="1">Architects of Ruin are cool and calculating arcane knights who serve Asmodeus, deploying spells, steel, and subterfuge to win at any cost.
+
+Asmodeus rules Acheron, the City of Fear. His illriggers scour the timescape, collecting secrets and spells designed to deceive and terrify his opponents. The war he fights against the other archdevils is one of deception and information.
+
+His Architects of Ruin work to make Hell’s enemies seem outnumbered and outmaneuvered. These illriggers are skillful spellblades on the battlefield, though some employ tactics such as research, infiltration, and propaganda to play mind games with their quarry. When an Architect of Ruin finally confronts an enemy, the advantage is theirs—they have studied, prepared, and gripped fate within their gauntlet, forcing it to favor them. They hungrily seek the dark arts to arm both themselves and Asmodeus with the impossible.</content>
+  <content contentuid="haa18eb10gdcc4g80abg983dg6a81f3fa8b0c" version="1">Precepts of Ruin</content>
+  <content contentuid="h3c31b801g72c4g4016g8dbagc376fb17c919" version="1">Architects of Ruin swear an oath to Asmodeus when they join the Order of Desolation. These precepts commit them to destroy Asmodeus’s enemies by commanding great magic, causing fear, and sowing distrust.
+
+The Battlefield of the Mind. By the time my armies meet yours, you’ll be filled with terror and doubt your own strength. I won’t have to lift a finger to defeat you.
+
+The Proper Secret. Once I know your secrets, I know your weakness.
+
+Knowledge Is Power. Lore is as powerful as steel. I learn every detail about my enemy and anticipate their every move, checkmating them before the game even begins.
+
+Magic Is Mine to Command. Cunning is also as powerful as steel. I wield the dark arcane arts to manipulate your senses, weaken your resolve, and strengthen my blade. Your soldiers will quake for fear of what dark magics may next cloak my blade.</content>
+  <content contentuid="h01f5bb00ga933g06e9g6166g6a590fca24a4" version="1">Asmodeus’s Blessing</content>
+  <content contentuid="ha816b389ge8bag72c4gef70g5e1232a276d1" version="1">When Asmodeus accepts you as an Architect of Ruin, he grants you access to his infernal knowledge. You gain proficiency in one of the following skills of your choice: Arcana, History, Nature, or Religion.</content>
+  <content contentuid="h90cf32b2gf820g9778g512fge7868eab0c47" version="1">Spellblade</content>
+  <content contentuid="h1d004939g5a78gcfbage143g31b8dc1c1405" version="1">You can cast the spell once per Short Rest without expending an action.</content>
+  <content contentuid="h136b52acg55efge3ecge543gaf51e46232a0" version="1">Spellblade</content>
+  <content contentuid="h79e8f4bbg9c6eg622cg3144g7c3d86633f1e" version="1">You can cast the spell once per Short Rest without expending an action.</content>
+  <content contentuid="ha475d6ebg3a6bgaa0fgbbb4g76088c3aea4b" version="1">Hellish Versatility</content>
+  <content contentuid="h31f01a11ge447g9caegdcb4g2adfe1ce29e6" version="1">Once on each of your turns, you can cast one of your illrigger cantrips in place of one of your attacks granted by your Extra Attack feature.</content>
+  <content contentuid="h9727eb4bg1c42g18b1gb937gf2efc10d9fec" version="1">Axiomatic Seals</content>
+  <content contentuid="h2bafe613g30e6g3792g15edgaa3d3658c4b6" version="1">Asmodeus’s secrets allow you to infuse your seals with manifest power. When you burn one or more seals to deal damage to a creature, you can activate this boon (no action required) to add your Charisma modifier (minimum of 1) to each seal’s damage roll.</content>
+  <content contentuid="h528f5094gf88ag08d3ge649gc14b423059e7" version="1">Submit</content>
+  <content contentuid="h0688f440gd1d1g007egd6e0g79bf22aff2aa" version="1">When you cast an illrigger spell you know, you can burn two seals on an interdicted creature (no action required) to impose disadvantage on their saving throw against the spell.</content>
+  <content contentuid="h8c14193dg02e1g6afbg94c5g63fe44038fa3" version="1">Axiomatic Seals: Fire</content>
+  <content contentuid="h3e91d02cg9178geb72g919bgd2f45a5bb6ea" version="1">Axiomatic Seals: Necrotic</content>
 </contentList>

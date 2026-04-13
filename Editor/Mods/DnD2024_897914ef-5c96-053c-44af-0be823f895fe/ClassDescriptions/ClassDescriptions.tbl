@@ -603,6 +603,23 @@
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_34" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ba0844e2-726c-4e39-b6f7-c46733df19c4" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="33bd368d-2ff4-4add-8692-66d87372053a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ArchitectOfRuin" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfd5e585egb97dg0f1dg5612g9096a1551c2e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7dfa2a4bg13bfg7ea9g611cgc213f4b0ba43" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="80e66947-21f9-49d5-b295-e3c97511f1b0" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Illrigger" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
   </stat_objects>

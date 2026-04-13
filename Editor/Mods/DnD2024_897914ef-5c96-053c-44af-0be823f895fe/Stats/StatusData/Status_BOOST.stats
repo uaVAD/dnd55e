@@ -3308,7 +3308,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('BURNING_SEALS_FIRE') or HasStatus('BURNING_SEALS_NECROTIC') or HasStatus('UNLEASH_HELL_FIRE') or HasStatus('UNLEASH_HELL_NECROTIC')" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnAttacked" enumeration_type_name="StatusEvent" version="1" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Death)):ApplyStatus(SELF,INTERDICTED_SEAL_RESTORE,100,0,,,,,true);IF(HasStatus('BURNING_SEALS_FIRE',context.Target)):DealDamage(Cause.LevelMapValue(Seal),Fire);IF(HasStatus('BURNING_SEALS_NECROTIC',context.Target)):DealDamage(Cause.LevelMapValue(Seal),Necrotic);IF(HasStatus('UNLEASH_HELL_FIRE',context.Target)):CreateExplosion(Projectile_UnleashHell_Fire);IF(HasStatus('UNLEASH_HELL_NECROTIC',context.Target)):CreateExplosion(Projectile_UnleashHell_Necrotic);RemoveStatus(BLOOD_FOR_BLOOD)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Death)):ApplyStatus(SELF,INTERDICTED_SEAL_RESTORE,100,0,,,,,true);IF(HasStatus('BURNING_SEALS_FIRE',context.Target)):DealDamage(Cause.LevelMapValue(Seal),Fire);IF(HasStatus('BURNING_SEALS_NECROTIC',context.Target)):DealDamage(Cause.LevelMapValue(Seal),Necrotic);IF(HasStatus('UNLEASH_HELL_FIRE',context.Target)):CreateExplosion(Projectile_UnleashHell_Fire);IF(HasStatus('UNLEASH_HELL_NECROTIC',context.Target)):CreateExplosion(Projectile_UnleashHell_Necrotic);IF(HasStatus('AXIOMATIC_SEALS_FIRE',context.Target))::DealDamage(Cause.CharismaModifier,Fire);IF(HasStatus('AXIOMATIC_SEALS_NECROTIC',context.Target))::DealDamage(Cause.CharismaModifier,Necrotic);RemoveStatus(BLOOD_FOR_BLOOD)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3538,6 +3538,22 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he467cf73g1f92gd216gb3e7g005114acd9e7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc11719c6g4c2age8c5gfbecg13c2297e09b8" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63e5b560-c725-4a89-bbff-9164914b75d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="AXIOMATIC_SEALS_FIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b7b228a4-6415-4d5b-adb6-58c448da139f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8c14193dg02e1g6afbg94c5g63fe44038fa3" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c101f766-40ce-4a25-8bb5-1c5662432f8b" />
+        <field name="Name" type="NameTableFieldDefinition" value="AXIOMATIC_SEALS_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63e5b560-c725-4a89-bbff-9164914b75d7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3e91d02cg9178geb72g919bgd2f45a5bb6ea" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
