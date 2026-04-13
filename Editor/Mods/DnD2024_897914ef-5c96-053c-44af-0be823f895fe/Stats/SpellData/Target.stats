@@ -1358,6 +1358,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bd2fc245-5645-452f-a2cd-d158b751bbe4" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="c34b836f-ac14-4222-8e32-bdb4d1c0f504" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="4742b1b9-b876-4eea-93ef-66e995c2995d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1432,8 +1433,8 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Psychic);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Intelligence" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MIND_SLIVER,100,2)" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MindSpike" />
-        <field name="TargetSound" type="StringTableFieldDefinition" value="CrSpell_Impact_MindSpike" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MentalSlam" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="CrSpell_Impact_MentalSlam" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
@@ -1442,11 +1443,13 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Internal" enumeration_type_name="HitAnimationType" version="1" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="752219e2-351d-46ea-9448-3a714b3d3acc" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bd2fc245-5645-452f-a2cd-d158b751bbe4" />
-        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="c34b836f-ac14-4222-8e32-bdb4d1c0f504" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3d211214-9d79-4f44-964c-23ca48cb1b3f" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b4dcc63a-058d-4a1c-9720-2d18512c0ed2" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="6300f7da-fb9d-416a-93f4-d43ed720c739" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D6Cantrip)/2,Psychic);" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="da341132-7322-4dab-af7e-def589d7ece7" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2367,7 +2370,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3d211214-9d79-4f44-964c-23ca48cb1b3f" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b4dcc63a-058d-4a1c-9720-2d18512c0ed2" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="6300f7da-fb9d-416a-93f4-d43ed720c739" />
-        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="da341132-7322-4dab-af7e-def589d7ece7" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="f23f8654-27d8-461e-a8cd-c3e6a19eba92" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2476,7 +2479,7 @@
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="752219e2-351d-46ea-9448-3a714b3d3acc" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d0dd8b17-c8ee-4515-aa12-878644ac7d6d" />
-        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="8bfaa952-a402-4c21-8b47-51aaec55a83c" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="6300f7da-fb9d-416a-93f4-d43ed720c739" />
         <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="52a7eb9b-10ae-4ffc-b0d4-0460df1d08a6" />
         <field name="DeathType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Death Type" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
@@ -5941,20 +5944,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="589fa89e-faf4-4619-a3fa-c5e43bb5f9f3" />
         <field name="Name" type="NameTableFieldDefinition" value="__FIGHTER__" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="b144ece4-5b8d-4793-b2ba-3ac6a2046c6f" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c7e3f94b-b631-4ed8-a464-2cee8f69e1f0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2236d97c-9477-4393-8cfb-a991a429d44b" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="b5f37c13-89e3-4a2a-ba0f-c3b6f654a78f" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -71,6 +71,8 @@
         <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="9a19e7d0-92e8-4a40-909c-10b657135051" />
         <field name="PreviewEffect" type="GuidObjectTableFieldDefinition" value="1615a7f7-21d9-4dd0-849b-d3c79a57c5ff" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
