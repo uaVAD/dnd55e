@@ -5367,11 +5367,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8a6692ea-8b34-4647-a9ff-8de074d18fa9" />
         <field name="Name" type="NameTableFieldDefinition" value="HellSpeaker_3_HoneySweetBlades" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he8f7350dgec9cga3c4g613agaeb7f4a54136" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6adc649fgbd08g1d76g0aecg4e5c0ef03271" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6adc649fgbd08g1d76g0aecg4e5c0ef03271" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="HellSpeaker_3_HoneySweetBlades" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('INTERDICTED',context.Target) and IsWeaponAttack()):Advantage(AttackRoll);ActionResource(HoneySweetBlades,1,0);UnlockInterrupt(Interrupt_HoneySweetBlades);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('SG_Charmed',context.Target) and IsWeaponAttack()):Advantage(AttackRoll);ActionResource(HoneySweetBlades,1,0);UnlockInterrupt(Interrupt_HoneySweetBlades);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5466,6 +5466,77 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_YouDieOnMyCommand);ActionResource(YouDieOnMyCommand,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d3c1ede-67ca-4c7c-9fc1-38f48b3e8a0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7dba3450g39bag19d3g835ag2ab113b94f26" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4266d444gc1f9g9997g415cge5bb994864d6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_ChannelDivinity_CloakOfShadows" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e917e3bf-06e7-43a6-aa2b-1014147c7e7a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_3_MarkedForDeath" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h019023d4g5948g3c2ag571bg962e5e390492" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e3d30b7g2c20gf8a7gd14eg44eb335e86b5" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Death" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('INTERDICTED',context.Target) and IsWeaponAttack()):Advantage(AttackRoll);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2be6344b-2bc6-4295-a34b-89187b328f33" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_3_StrikeFromTheDark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h474f2848gc11cga707gce0ag47a7c29bf27f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc78792c5gf4b3g8f75gc78fge4e46626954f" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_ShadowsoakedBlow" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_StrikeFromTheDark);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="855a05f8-db40-4c44-a8aa-334b0c91d738" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_3_NoEscape" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h000d2b9cg5e7egc014gf141ga2c0e4d9fc4f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8bb9020gf357g83bfgf655g10311ef27325" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_Garrote" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_NoEscape);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a29c813b-50fb-47c5-8b60-8e2ffe9e60cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_7_HellsAssassin" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5b1941eeg9c53g0d48g2159g640b7817db72" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0405792eg3f88g4dbfg0b92gfcb573fe9525" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Death" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('INTERDICTED',context.Target)):Reroll(MeleeWeaponDamage,2,true);IF(HasStatus('INTERDICTED',context.Target)):Reroll(RangedWeaponDamage,2,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea53d6f5-994e-4534-94be-7142443ae65c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_11_UmbralKiller" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59478469g65f2gdc36g0515g15430765aa77" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hecbd9ffcg2be8gbb16g7102g34164bd0d262" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_UmbralCloak" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);AreaDamageEvade();ActionResource(Movement,3,0);Advantage(Skill, Stealth);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

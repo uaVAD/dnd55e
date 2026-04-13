@@ -3339,6 +3339,29 @@
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1);Resurrect(100,1);RestoreResource(Movement, 100%, 0);UseActionResource(ActionPoint,100%,0);UseActionResource(BonusActionPoint,100%,0);ApplyStatus(RESURRECTING, 100, 1);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3beaa917-00c9-4cad-8cd5-c196726d5fb0" />
+        <field name="Name" type="NameTableFieldDefinition" value="NO_ESCAPE_TARGET" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0577896f-a320-4f4c-ade1-25960ca6c99e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h581f8d48gd1d3g12bag5dbegf06507357e90" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb18d7e9eg37d4g8642g14a4g092815e31296" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Bludgeoning);Distance(5)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="BlockVerbalComponent();DialogueBlock();ActionResourceConsumeMultiplier(Movement,4);MovementSpeedLimit(Walk);" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1d10,Bludgeoning)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d10,Bludgeoning,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1bc6727a-1a78-4465-8df9-f7e49d24b2f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="NO_ESCAPE_SOURCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dadb7895-4ef4-4749-84f2-e602e3209e8e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he467cf73g1f92gd216gb3e7g005114acd9e7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc11719c6g4c2age8c5gfbecg13c2297e09b8" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

@@ -522,4 +522,10 @@
 - Level 3: Embolden Allies
 - Level 7: Blood for Blood
 - Level 11: Bloodstroke
+### Shadowmaster
+- Level 3: Marked for Death
+- Level 3: Strike from the Dark
+- Level 3: No Escape
+- Level 7: Hell’s Assassin
+- Level 11: Umbral Killer
 ## Psion

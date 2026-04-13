@@ -7297,15 +7297,16 @@
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10,Necrotic,Magical);RegainHitPoints(SELF,(DamageDone));" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d10/2,Necrotic,Magical);RegainHitPoints(SELF,(DamageDone));" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(InfernalConduit),Necrotic,Magical);RegainHitPoints(SELF,(DamageDone));" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(InfernalConduit)/2,Necrotic,Magical);RegainHitPoints(SELF,(DamageDone));" />
         <field name="Icon" type="StringTableFieldDefinition" value="InfernalConduit_Devour" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h467e4d93g2c88g87degd375gc54b5a65a88d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8fd47ec3gac34g4144g6243g234bbbbbb9ae" version="1" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d10,Necrotic);RegainHitPoints(3d10)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8fd47ec3gac34g4144g6243g234bbbbbb9ae" version="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(InfernalConduit),Necrotic);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="FollowUpOriginalSpell" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(InfernalConduit),Necrotic);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7469,6 +7470,46 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);CastOffhand[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);RemoveStatus(SELF,DEVASTATOR);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Target_MainHandAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8c6b7cd-50ba-4b2e-8a18-0a3070a32a26" />
+        <field name="Name" type="NameTableFieldDefinition" value="StrikeFromTheDark" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22db3f9e-e05b-4655-89b0-5f17c0f7a3fd" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetCeiling" type="StringTableFieldDefinition" value="0" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value=".25" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="MeleeMainWeaponRange" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack);CastOffhand[Attack(AttackType.MeleeOffHandWeaponAttack)]" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon+LevelMapValue(ProficiencyBonusD4), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not Dead() and ((HasAdvantage(AttackType.MeleeWeaponAttack) and not HasDisadvantage(AttackType.MeleeWeaponAttack)) and HasStatus('INTERDICTED',context.Target);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_ShadowsoakedBlow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf7851a9dg2c90ga420g9853gd855b8d447bc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a979e60g8047g338bg7d21g17a10ae143c0" version="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon+LevelMapValue(ProficiencyBonusD4), MainMeleeWeaponDamageType);" />
+        <field name="HitCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad7d7f30-9bae-4a4d-8d88-f66c660e9ed7" />
+        <field name="Name" type="NameTableFieldDefinition" value="NoEscape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="972e36d3-5ca7-418b-a853-ff319de6cb08" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(NO_ESCAPE_TARGET, 100, 10);ApplyStatus(SELF, NO_ESCAPE_SOURCE, 100, 10);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6185df85g28ceg3fe6g4e39g5afb82fc5604" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h29339e6ag5488gb3c9gf071g0b4a21da192a" version="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MAG_GARROTE_TARGET,100,10)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

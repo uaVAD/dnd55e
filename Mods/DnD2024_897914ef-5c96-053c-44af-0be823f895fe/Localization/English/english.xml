@@ -2741,7 +2741,7 @@ In addition, making a ranged attack while within 5 feet of a hostile creature do
   <content contentuid="h79d9540bg9852g5efdg3c46g65c5ac3dee8d" version="1">Level 6: Infernal Conduit</content>
   <content contentuid="hbc394c87g819ag60dcgd3e4g840e740aede3" version="1">You can strengthen your allies at the cost of yourself—or drain your enemy’s life force for your own gain.</content>
   <content contentuid="h467e4d93g2c88g87degd375gc54b5a65a88d" version="1">Devour</content>
-  <content contentuid="h8fd47ec3gac34g4144g6243g234bbbbbb9ae" version="1">The target must make a Constitution saving throw. On a failed save, it takes 3d10 necrotic damage, and you regain hit points equal to the damage dealt. On a successful save, it takes half as much damage, and you regain hit points equal to the damage dealt.</content>
+  <content contentuid="h8fd47ec3gac34g4144g6243g234bbbbbb9ae" version="2">The target must make a Constitution saving throw. On a failed save, it takes [1], and you regain hit points equal to the damage dealt. On a successful save, it takes half as much damage, and you regain hit points equal to the damage dealt.</content>
   <content contentuid="h6b7c5b42gc865g9a66g25bcgcf6498b47b95" version="1">Invigorate</content>
   <content contentuid="ha334fba5ge039gfb31g1b15g55b8f07d80f4" version="1">Sacrifice half your remaining &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; to heal a target for the same amount.</content>
   <content contentuid="h29248f55g9799g09d8ge529g06704f76d155" version="1">Level 10: Blood Price</content>
@@ -2813,9 +2813,9 @@ Never Tell the Same Lie Twice. An overused skill becomes too predictable. Keep m
   <content contentuid="h6dff901fgee2cg0571g1cd5g5cccc5298b3e" version="1">Level 3: Charm Enemy</content>
   <content contentuid="h3eabef8fg88cagb8c2g7625g98663b906cac" version="3">When you use your Bonus Action to place a seal on a creature, you can charm it for 10 turns.</content>
   <content contentuid="he8f7350dgec9cga3c4g613agaeb7f4a54136" version="1">Level 3: Honey-Sweet Blade</content>
-  <content contentuid="h6adc649fgbd08g1d76g0aecg4e5c0ef03271" version="1">When you make a weapon attack against an interdicted creature, you can gain advantage on that attack (no action required). If the attack hits, it becomes a critical hit.</content>
+  <content contentuid="h6adc649fgbd08g1d76g0aecg4e5c0ef03271" version="2">When you make a weapon attack against a Charmed creature, you can gain Advantage on the attack roll (no action required). If the attack hits, it becomes a Critical Hit.</content>
   <content contentuid="h2cf5b57fgaa9bg9d02g3619g774b755bf5d6" version="1">Honey-Sweet Blades</content>
-  <content contentuid="hc39bb1c4g3c5bg1b8fga689g2acf69286fc7" version="2">If the attack hits an interdicted creature, it becomes a critical hit.</content>
+  <content contentuid="hc39bb1c4g3c5bg1b8fga689g2acf69286fc7" version="3">When you make a weapon attack against a Charmed creature, you can gain Advantage on the attack roll (no action required). If the attack hits, it becomes a Critical Hit.</content>
   <content contentuid="haaa5a699g83efg4475gf3ccge6f351a2d6a3" version="1">Honey-Sweet Blades</content>
   <content contentuid="h5a374292g71a7g1e85g586dgd611bb96eb66" version="2">Level 11: Incontrovertible </content>
   <content contentuid="hcd348f9fg9dfdgcf82g6f70g46a4195d00cc" version="1">Interdicted creatures have disadvantage on Wisdom and Charisma saving throws for 2 turns.</content>
@@ -2875,4 +2875,55 @@ Dispater rules Dis, the City of War. When Hell invades another world, Dispater�
 Though among the most chivalrous of the illriggers, a Painkiller’s gallantry is twisted. They accept and honor challenges to single combat, and swiftly punish any who try to interfere—but if losing, they don’t hesitate to cheat, and if winning, they arrogantly toy with an enemy before finishing them.
 
 In a moment of weakness or desperation, a ruler in another world might see their army facing certain defeat and call on Dispater. Ever eager to sow strife and discord, Dispater often responds to these pleas by sending a Painkiller to lead the desperate ruler’s armies.</content>
+  <content contentuid="h7dba3450g39bag19d3g835ag2ab113b94f26" version="1">Precepts of Shadow</content>
+  <content contentuid="h4266d444gc1f9g9997g415cge5bb994864d6" version="1">Shadowmasters swear an oath to Belial when they join the Order of Desolation. These precepts commit them to serve Belial’s foes as allies before revealing themselves as enemies.
+
+Plans Within Plans. My enemies must never discover my true goals. If needed, I will sacrifice myself to protect my schemes.
+
+Positions of Power. I control everything from the shadows by knowing who to deceive and where to hide in plain sight.
+
+Power in Patience. I study my enemy and methodically build their trust. My loyalty must be unquestionable so my inevitable betrayal is unthinkable.
+
+Hesitation Is Failure. Though I usually rely on agents, when the opportunity presents itself, I can unhesitatingly kill with efficiency and precision.</content>
+  <content contentuid="h019023d4g5948g3c2ag571bg962e5e390492" version="1">Marked for Death</content>
+  <content contentuid="h4e3d30b7g2c20gf8a7gd14eg44eb335e86b5" version="3">You are particularly skilled at fighting foes you have marked for death. You have Advantage on attack rolls against interdicted creatures.</content>
+  <content contentuid="h474f2848gc11cga707gce0ag47a7c29bf27f" version="1">Strike from the Dark</content>
+  <content contentuid="hc78792c5gf4b3g8f75gc78fge4e46626954f" version="2">You understand the power of striking from the shadows. Once per turn, when you hit an interdicted creature with a melee weapon attack and you have advantage on the attack roll, you can roll a number of d4s equal to your proficiency bonus and deal extra damage equal to the total you rolled.</content>
+  <content contentuid="h000d2b9cg5e7egc014gf141ga2c0e4d9fc4f" version="1">No Escape</content>
+  <content contentuid="hd8bb9020gf357g83bfgf655g10311ef27325" version="3">As a Bonus Action, wrap a shadow rope around a creature's throat to start &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET_HUMANOID"&gt;Garrotting&lt;/LSTag&gt; it.</content>
+  <content contentuid="h5b1941eeg9c53g0d48g2159g640b7817db72" version="1">Hell’s Assassin</content>
+  <content contentuid="h0405792eg3f88g4dbfg0b92gfcb573fe9525" version="3">Whenever you roll a 1 or 2 on a die to determine the damage of your weapon attacks against interdicted creatures, you can reroll the die.</content>
+  <content contentuid="h07d4538fg06e1g87c9geff7gba8b3b97a65f" version="1">Umbral Killer</content>
+  <content contentuid="hf4eda0d1g9d77gcfb5g49f3g7e6523196336" version="1">Shadows are your companion, aiding you in your exploits. You gain the following benefits:
+
+You gain darkvision out to 60 feet. If you already have darkvision, its range increases by 60 feet.
+Your movement speed increases by 10 feet.
+You have advantage on Dexterity (Stealth) checks made to hide. Whenever you make a Dexterity saving throw to take only half damage from an effect, you instead take no damage if you succeed on the saving throw, and half damage if you fail.</content>
+  <content contentuid="h5265c616g7dacgad00gefc6ge34e7ec6e7f4" version="1">Umbral Killer</content>
+  <content contentuid="h9b666f81g3924gf39eg6868gd20519f6b190" version="1">Shadows are your companion, aiding you in your exploits. You gain the following benefits:
+
+You gain darkvision out to 60 feet. If you already have darkvision, its range increases by 60 feet.
+Your movement speed increases by 10 feet.
+You have advantage on Dexterity (Stealth) checks made to hide. Whenever you make a Dexterity saving throw to take only half damage from an effect, you instead take no damage if you succeed on the saving throw, and half damage if you fail.</content>
+  <content contentuid="h59478469g65f2gdc36g0515g15430765aa77" version="1">Umbral Killer</content>
+  <content contentuid="hecbd9ffcg2be8gbb16g7102g34164bd0d262" version="2">Shadows are your companion, aiding you in your exploits. You gain the following benefits:
+
+You gain darkvision out to 60 feet. If you already have darkvision, its range increases by 60 feet.
+You can see normally in darkness, both magical and non-magical.
+Your movement speed increases by 10 feet.
+You have advantage on Dexterity (Stealth) checks made to hide. Whenever you make a Dexterity saving throw to take only half damage from an effect, you instead take no damage if you succeed on the saving throw, and half damage if you fail.</content>
+  <content contentuid="h2a979e60g8047g338bg7d21g17a10ae143c0" version="2">You understand the power of striking from the shadows. Once per turn, when you hit an interdicted creature with a melee weapon attack and you have advantage on the attack roll, you can roll a number of d4s equal to your proficiency bonus and deal extra damage equal to the total you rolled.</content>
+  <content contentuid="h29339e6ag5488gb3c9gf071g0b4a21da192a" version="2">As a Bonus Action, wrap a shadow rope around a creature's throat to start &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET_HUMANOID"&gt;Garrotting&lt;/LSTag&gt; it.</content>
+  <content contentuid="hf7851a9dg2c90ga420g9853gd855b8d447bc" version="1">Strike from the Dark</content>
+  <content contentuid="h6185df85g28ceg3fe6g4e39g5afb82fc5604" version="1">No Escape</content>
+  <content contentuid="h581f8d48gd1d3g12bag5dbegf06507357e90" version="1">No Escape</content>
+  <content contentuid="hb18d7e9eg37d4g8642g14a4g092815e31296" version="1">Affected entity is being strangled by a garrotte. It is &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silenced&lt;/LSTag&gt; and takes [1] per turn.</content>
+  <content contentuid="he467cf73g1f92gd216gb3e7g005114acd9e7" version="1">No Escape</content>
+  <content contentuid="hc11719c6g4c2age8c5gfbecg13c2297e09b8" version="1">Strangling a creature with a garrotte.</content>
+  <content contentuid="h2fe200c7ga105g2c4eg493fg373d790dcb13" version="1">Shadowmaster</content>
+  <content contentuid="h8f230721g7cfdg98e3gf8a5g5d16598f3c1e" version="1">The hidden assassins of Hell, Shadowmasters serve Belial and excel at stealth and disguise.
+
+Belial rules Gehennom, the City of Darkness. He strives to rule Hell through poison, torture, and assassination. His illriggers strike from the shadows or use deception to earn high-ranking positions close to powerful rulers. Many Shadowmasters run networks of spies and assassins who have no idea of the infernal provenance of their leader.
+
+Shadowmasters are sworn not to reveal their true allegiance, and if need be, they must take their own lives to fulfill this oath. Many Shadowmasters prepare elaborate plans for their own assassination so that, should they risk discovery, their assassination obscures the truth. Of course, these killers never learn they were hired by their deceased target.</content>
 </contentList>
