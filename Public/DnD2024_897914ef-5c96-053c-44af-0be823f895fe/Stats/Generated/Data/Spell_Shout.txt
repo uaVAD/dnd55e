@@ -1115,6 +1115,7 @@ data "SpellType" "Shout"
 using "Shout_RadianceOfTheDawn"
 data "SpellSuccess" "DealDamage(2d10+ClassLevel(Cleric),Radiant,Magical);"
 data "SpellFail" "DealDamage((2d10+ClassLevel(Cleric))/2,Radiant,Magical);"
+data "Description" "h6fbb1933ge0e0gc26ag9144gcde944d43651;1"
 data "TooltipDamageList" "DealDamage(2d10+ClassLevel(Cleric),Radiant)"
 
 new entry "Shout_WarPriest"

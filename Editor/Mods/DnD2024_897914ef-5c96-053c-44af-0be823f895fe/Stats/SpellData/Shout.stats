@@ -1360,6 +1360,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10+ClassLevel(Cleric),Radiant,Magical);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((2d10+ClassLevel(Cleric))/2,Radiant,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d10+ClassLevel(Cleric),Radiant)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6fbb1933ge0e0gc26ag9144gcde944d43651" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
