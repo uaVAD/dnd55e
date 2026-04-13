@@ -3895,3 +3895,13 @@ data "StatusType" "BOOST"
 using "PERFORM_POSITIVE_DOS2_3"
 data "RemoveEvents" "OnEquip;OnUnequip;OnMove;OnRemovePerformanceRequest;OnCombatEnded"
 
+new entry "__NPC__"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "DAMAGE_SHIELD_NPC_RADIANT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DAMAGE_SHIELD_NPC_RADIANT"
+data "Description" "h42e7e44fge041g864egc55fgbbdba0e4da67;1"
+

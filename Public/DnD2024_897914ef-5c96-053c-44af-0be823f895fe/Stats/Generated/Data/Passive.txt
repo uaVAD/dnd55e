@@ -5147,6 +5147,11 @@ new entry "Metamagic_Distant_GLO_Baelen"
 type "PassiveData"
 data "Boosts" "UnlockSpellVariant(DistantSpellCheck(),ModifyTargetRadius(Multiplicative,2.5));"
 
-new entry "New_Stat_0"
+new entry "DamageShield_NPC_Radiant"
 type "PassiveData"
+using "DamageShield_NPC_Radiant"
+data "Boosts" ""
+data "StatsFunctorContext" "OnDamaged"
+data "Conditions" "HasDamageDoneForType(DamageType.Radiant);"
+data "StatsFunctors" "DealDamage(SWAP,ProficiencyBonus,Force,Magical)"
 
