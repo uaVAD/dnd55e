@@ -1514,6 +1514,16 @@
                     <attribute id="Spells" type="LSString" value="Target_Jump"/>
                     <attribute id="UUID" type="guid" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Rock Gnome 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Prestidigitation"/>
+                    <attribute id="UUID" type="guid" value="87762fb9-bc0a-43bd-9467-74cebf09b38e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Forest Gnome 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SpeakWithAnimals_ForestGnome;Target_MinorIllusion"/>
+                    <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
+                </node>
             </children>
         </node>
     </region>

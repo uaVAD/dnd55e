@@ -6823,6 +6823,24 @@
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
                 </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="RockGnome"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Darkvision;RockGnome_ArtificersLore"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(87762fb9-bc0a-43bd-9467-74cebf09b38e,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="1e9f254e-6aa4-4e54-9937-82065b3182ee"/>
+                    <attribute id="UUID" type="guid" value="aa2257a9-1779-4d8b-be65-8a08eede07fa"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="ForestGnome"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Darkvision"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(582ed05c-c6fa-4d6f-99f9-efcc9de769f9,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="f0a6b572-9612-403f-981c-978c21225845"/>
+                    <attribute id="UUID" type="guid" value="a63bbb3c-c37c-4578-94e6-7d1c4c063d5c"/>
+                </node>
             </children>
         </node>
     </region>

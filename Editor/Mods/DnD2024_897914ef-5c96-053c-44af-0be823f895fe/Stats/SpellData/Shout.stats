@@ -745,6 +745,7 @@
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="27" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MagicCircle_Elemental" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h304c8356g8ee7gee35g4f51gd593700b631e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb6d34e0g71aega6e8g5c93gaf4c63c25c3c" version="1" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_ExpeditiousRetreat_L1to3" />
@@ -767,7 +768,8 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BURNING,100,-1);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Tagged('TORCH') or Tagged('CUSTOM_BURN_VFX');" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Light" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9b77345dg3b14g2b92g2dcegb47d678b5d96" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9b77345dg3b14g2b92g2dcegb47d678b5d96" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha1bc5cf5g9a11g73a8g06b2g71e2ab12d1d2" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreVisionBlock;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
@@ -781,6 +783,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Tagged('TORCH') or Tagged('CUSTOM_BURN_VFX');" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Darkness" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7dcf36cegab2dgf436g83fag871c5d97b6a7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h42a9eafag659dgb810gad4egb8a174c73524" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -793,6 +796,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Item_LOOT_Bathroom_Sponge_A" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h765e1e3cg4b04g748dg2d8bgdf11cdf13716" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha704fba0g722ag5d54g1576g599bf886f456" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

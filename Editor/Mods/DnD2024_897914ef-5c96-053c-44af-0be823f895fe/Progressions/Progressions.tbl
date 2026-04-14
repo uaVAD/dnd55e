@@ -8810,6 +8810,30 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_780" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aa2257a9-1779-4d8b-be65-8a08eede07fa" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e9f254e-6aa4-4e54-9937-82065b3182ee" />
+        <field name="FSName" type="StringTableFieldDefinition" value="RockGnome" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Darkvision;RockGnome_ArtificersLore" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(87762fb9-bc0a-43bd-9467-74cebf09b38e,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_781" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a63bbb3c-c37c-4578-94e6-7d1c4c063d5c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f0a6b572-9612-403f-981c-978c21225845" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ForestGnome" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Darkvision" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(582ed05c-c6fa-4d6f-99f9-efcc9de769f9,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_670" />

@@ -2095,5 +2095,19 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Jump" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87762fb9-bc0a-43bd-9467-74cebf09b38e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rock Gnome 1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Prestidigitation" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Forest Gnome 1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_SpeakWithAnimals_ForestGnome;Target_MinorIllusion" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
