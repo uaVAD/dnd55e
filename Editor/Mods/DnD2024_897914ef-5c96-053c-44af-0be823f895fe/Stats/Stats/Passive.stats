@@ -4994,10 +4994,9 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8eaee0fg754dg1d66g293cgf44cc84312b0" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14001" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;ToggledDefaultAddToHotbar;ToggledDefaultOn;IsToggled;Temporary" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasActionResource('Seal', 1, 0, false, false, context.Source) and IsWeaponAttack() and not IsMiss() and Enemy() and Character();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(SELF,Seal,1,0);ApplyStatus(INTERDICTED,100,-1);IF(HasPassive('SanguineKnight_7_BloodForBlood',context.Source) and not CharacterLevelGreaterThan(8)):ApplyStatus(BLOOD_FOR_BLOOD,100,-1);IF(HasPassive('SanguineKnight_7_BloodForBlood',context.Source) and CharacterLevelGreaterThan(8)):ApplyStatus(BLOOD_FOR_BLOOD_4,100,-1);IF(HasPassive('HellSpeaker_11_Incontrovertible',context.Source)):ApplyStatus(INCONTROVERTIBLE,100,2);" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BurningSeals_Necrotic);UnlockSpell(Target_BurningSeals_Fire);UnlockSpell(Target_Seal);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
@@ -5057,6 +5056,7 @@
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,PACT_BLADE_ILLRIGGER_MAINHAND,100,-1);ApplyEquipmentStatus(MainHMeleeOffHandand,PACT_BLADE_ILLRIGGER_OFFHAND,100,-1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

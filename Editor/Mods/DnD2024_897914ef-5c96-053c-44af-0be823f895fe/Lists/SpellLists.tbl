@@ -1945,6 +1945,13 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c267ea2-81d8-44d8-ade7-69607af73222" />
+        <field name="Name" type="NameTableFieldDefinition" value="Illrigger seal spells" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Seal;Target_BurningSeals_Necrotic;Target_BurningSeals_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e3c820a0-26cd-4edc-a90f-a46489e07fe6" />
         <field name="Name" type="NameTableFieldDefinition" value="Illrigger Vengeful Blade" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_VengefulBlade" />
