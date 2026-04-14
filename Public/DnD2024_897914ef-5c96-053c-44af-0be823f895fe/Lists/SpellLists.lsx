@@ -15,13 +15,13 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Bard Cantrip List"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_DancingLights;Projectile_FingerGuns;Target_Friends;Target_Light;Target_MageHand;Target_MinorIllusion;Projectile_StarryWisp;Target_TrueStrike;Shout_Thunderclap;Target_ViciousMockery"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_DancingLights;Projectile_FingerGuns;Target_Friends;Target_Light;Target_MageHand;Target_MinorIllusion;Shout_Prestidigitation;Projectile_StarryWisp;Target_TrueStrike;Shout_Thunderclap;Target_ViciousMockery"/>
                     <attribute id="UUID" type="guid" value="61f79a30-2cac-4a7a-b5fe-50c89d307dd6"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Bard Cantrip List to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_DancingLights;Projectile_FingerGuns;Target_Friends;Target_Light;Target_MageHand;Target_MinorIllusion;Projectile_StarryWisp;Target_TrueStrike;Shout_Thunderclap;Target_ViciousMockery"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_DancingLights;Projectile_FingerGuns;Target_Friends;Target_Light;Target_MageHand;Target_MinorIllusion;Shout_Prestidigitation;Projectile_StarryWisp;Target_TrueStrike;Shout_Thunderclap;Target_ViciousMockery"/>
                     <attribute id="UUID" type="guid" value="2c66bd03-4a2b-4ac1-9709-23058b769662"/>
                 </node>
                 <node id="SpellList">
@@ -815,7 +815,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer Cantrip List"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FingerGuns;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Shout_SwordBurst;Target_ShockingGrasp;Projectile_SorcerousBurst;Shout_Thunderclap;Target_TrueStrike;Target_VengefulBlade"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FingerGuns;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_Prestidigitation;Projectile_RayOfFrost;Shout_SwordBurst;Target_ShockingGrasp;Projectile_SorcerousBurst;Shout_Thunderclap;Target_TrueStrike;Target_VengefulBlade"/>
                     <attribute id="UUID" type="guid" value="485a68b4-c678-4888-be63-4a702efbe391"/>
                 </node>
                 <node id="SpellList">
@@ -1021,7 +1021,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Warlock Cantrip"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike;Target_VengefulBlade"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_Prestidigitation;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike;Target_VengefulBlade"/>
                     <attribute id="UUID" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40"/>
                 </node>
                 <node id="SpellList">
@@ -1228,13 +1228,13 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Wizard Cantrip"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FingerGuns;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike;Target_VengefulBlade"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FingerGuns;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_Prestidigitation;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike;Target_VengefulBlade"/>
                     <attribute id="UUID" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard Cantrip to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FingerGuns;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike;Target_VengefulBlade"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FingerGuns;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_Prestidigitation;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike;Target_VengefulBlade"/>
                     <attribute id="UUID" type="guid" value="08464608-5cde-4260-bd47-0682b06ffeee"/>
                 </node>
                 <node id="SpellList">
@@ -1407,6 +1407,11 @@
                     <attribute id="UUID" type="guid" value="3b2c73b4-8e0e-49e5-b906-34945d72b44f"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Illrigger seal spells"/>
+                    <attribute id="Spells" type="LSString" value="Target_Seal;Target_BurningSeals_Necrotic;Target_BurningSeals_Fire"/>
+                    <attribute id="UUID" type="guid" value="0c267ea2-81d8-44d8-ade7-69607af73222"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Illrigger Vengeful Blade"/>
                     <attribute id="Spells" type="LSString" value="Target_VengefulBlade"/>
                     <attribute id="UUID" type="guid" value="e3c820a0-26cd-4edc-a90f-a46489e07fe6"/>
@@ -1508,11 +1513,6 @@
                     <attribute id="Name" type="FixedString" value="Gith Level 3"/>
                     <attribute id="Spells" type="LSString" value="Target_Jump"/>
                     <attribute id="UUID" type="guid" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Illrigger seal spells"/>
-                    <attribute id="Spells" type="LSString" value="Target_Seal;Target_BurningSeals_Necrotic;Target_BurningSeals_Fire"/>
-                    <attribute id="UUID" type="guid" value="0c267ea2-81d8-44d8-ade7-69607af73222"/>
                 </node>
             </children>
         </node>

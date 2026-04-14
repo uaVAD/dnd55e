@@ -9,6 +9,7 @@
 - Hellfire
 - Mind Sliver
 - Poison Spray
+- Prestidigitation
 - Resistance
 - Sorcerous Burst
 - Spare the Dying
