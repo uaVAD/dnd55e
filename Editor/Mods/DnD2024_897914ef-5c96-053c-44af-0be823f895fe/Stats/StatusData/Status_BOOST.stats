@@ -3885,6 +3885,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eab96459-23f0-4c09-bffd-68a2fc4b10a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_PRESTIDIGITATION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_PRESTIDIGITATION" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Prestidigitation);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="12028f93-9b72-4cd8-951e-f8cdeb77a37c" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_RAYOFFROST" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />

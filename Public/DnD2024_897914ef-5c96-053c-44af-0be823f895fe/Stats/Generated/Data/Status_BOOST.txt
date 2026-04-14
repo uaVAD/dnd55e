@@ -3114,6 +3114,13 @@ using "MAGICINITIATE_ACIDSPLASH"
 data "StackId" "MAGICINITIATE_PRODUCEFLAME"
 data "Boosts" "UnlockSpell(Shout_ProduceFlame);"
 
+new entry "MAGICINITIATE_PRESTIDIGITATION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAGICINITIATE_ACIDSPLASH"
+data "StackId" "MAGICINITIATE_PRESTIDIGITATION"
+data "Boosts" "UnlockSpell(Shout_Prestidigitation);"
+
 new entry "MAGICINITIATE_RAYOFFROST"
 type "StatusData"
 data "StatusType" "BOOST"
