@@ -3957,6 +3957,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0664d558-d0f7-44aa-be67-1ddf1abf3c80" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_SWORDBURST" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SWORDBURST" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SwordBurst);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d277e57a-a0f1-4e8d-9dbd-aa8c380a786e" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_THAUMATURGY" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
@@ -4722,6 +4731,23 @@
         <field name="StackId" type="StringTableFieldDefinition" value="GLEAM_OF_WRATH" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);GameplayLight(3,false,0.1,true);" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f2204a1d-a79b-4efe-a3da-3ed69392b94a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbf84bb8-a79c-424e-a45b-05b04fe34768" />
+        <field name="Name" type="NameTableFieldDefinition" value="__THE CROOKED MOON__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5fdbaefe-9d0a-45f4-bdab-1ccb4f282e02" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEATH_DEFIER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b7f7341-fd8e-4161-a901-347bcf61eea8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbf7fe4b1g71e7g88d5g300dgca4d09fd7f60" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(Level)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DEATH_DEFIER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DownedStatus(DEATH_DEFIER_DOWNED,5);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

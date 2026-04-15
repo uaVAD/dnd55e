@@ -2116,15 +2116,15 @@ Last Stand. You have Advantage on attack rolls while Bloodied.</content>
   <content contentuid="h868d132cgda3cg9662gc17ega94ac1ad380e" version="1">Zhentarim Tactics</content>
   <content contentuid="he09232a3g8429ge28bga994gd171ef3f3292" version="1">Retaliate. Immediately after a creature within 5 feet of you hits you with a melee attack, you can make an Opportunity Attack against that creature.&lt;br&gt;&lt;br&gt;Versatile Merc. Choose a skill in which you have proficiency. You have Expertise in that skill.</content>
   <content contentuid="h3566bf7ege17bg0f56g4fbdgfac65706f1a2" version="1">When creating your character or respeccing, choose only one Magic Initiate Origin Feat. Selecting more than one may cause unexpected issues.</content>
-  <content contentuid="hca895012gaf5dg78a6g7a2eg37692b43b104" version="1">Deadly Archery</content>
+  <content contentuid="hca895012gaf5dg78a6g7a2eg37692b43b104" version="2">Feat: Deadly Archery</content>
   <content contentuid="hc67a4df3gcd8bgf957g4d35gee2424c14472" version="2">As a bonus action, you can give yourself advantage on your ranged weapon attack roll on the current turn. You can use this bonus action only if you haven’t moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.</content>
-  <content contentuid="h1f3d47b6gbc1fgf224g07d7g6347072349e6" version="1">Dragon-Slayer</content>
+  <content contentuid="h1f3d47b6gbc1fgf224g07d7g6347072349e6" version="2">Feat: Dragon-Slayer</content>
   <content contentuid="h2407b839gbdcdg7a29gb1ceg77ebf305424f" version="2">You have Advantage on Attack Rolls against Large or larger creatures. In addition, you deal additional damage equal to your Strength modifier when you hit such creatures.</content>
-  <content contentuid="hedc33adbg89b5ge699g0a6bgf060748fb8bb" version="1">Gleam of Wrath</content>
+  <content contentuid="hedc33adbg89b5ge699g0a6bgf060748fb8bb" version="2">Feat: Gleam of Wrath</content>
   <content contentuid="h1fa402eeg7070g07b2gbfbaga67c4ad37e78" version="3">As a bonus action, you can cause a melee weapon you are wielding to emit dim light in a 10-foot radius for 10 turns. The light is sunlight. While the weapon gleams, it deals radiant damage instead of its normal damage type.&lt;br&gt;&lt;br&gt;When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it.</content>
-  <content contentuid="h12c8377bg73a7g1523gd2f7gce9b3dfd5731" version="1">Nimbleness</content>
+  <content contentuid="h12c8377bg73a7g1523gd2f7gce9b3dfd5731" version="2">Feat: Nimbleness</content>
   <content contentuid="had1170f7ga4c6gba7cg3bc3gbf03f398ce3a" version="1">You gain a +1 bonus to AC. You lose this bonus if you are incapacitated or wielding a shield.</content>
-  <content contentuid="h4796f67cg2656g7e4fg0832gdc67d0ccef8e" version="1">Fierce Shot</content>
+  <content contentuid="h4796f67cg2656g7e4fg0832gdc67d0ccef8e" version="2">Feat: Fierce Shot</content>
   <content contentuid="h06a155bfgfa73g3924g9442gc7875f6aba6d" version="1">When making an attack with a ranged weapon, you use your Strength modifier for the attack and damage rolls. You must use the same modifier for both rolls.</content>
   <content contentuid="hef1660acg903fg1237g99f8g6b9c3a3e042b" version="1">Deadly Archery</content>
   <content contentuid="hd4674709g7d30gba4fgad6cg17adc9b95a51" version="2">As a Bonus Action, you give yourself Advantage on your ranged weapon attack roll on the current turn. You can use this feature only if you haven’t moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.</content>
@@ -3028,4 +3028,50 @@ Clean. You instantaneously clean an object no larger than 1 cubic foot.</content
   <content contentuid="h32ce3bc3gbd08g5553gcc7dga7ed37159c2b" version="1">Summon Fey: Red Cap (Illusion)</content>
   <content contentuid="h5e364771gbbf3gcea4gc521g7ebe73137887" version="1">Illusionist</content>
   <content contentuid="hd2b280acgffccg1945g84d8g178fda0ac2df" version="1">You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real.</content>
+  <content contentuid="hf232e287g63a4g3aa2g6f5fg25aabe4d8c7e" version="2">Feat: Altered</content>
+  <content contentuid="h1844772eg802eg78e4g4c43g59d82d32b9d4" version="2">You have been changed through magic, science, or a volatile blend of the two. You have a blatant physical augmentation of your choice from the options below. The augmentation is obvious—such as with stitches, grafts of other creature’s body parts, or implants—unless disguised.
+
+Natural Armor. You have scales, plates, or thick hide that grants you an AC of 10 + your Dexterity and Constitution modifier.
+
+Natural Weapons. You have claws, fangs, horns, or some other natural weapon that you can use to make Unarmed Strikes that deal 1d6 damage on a hit.
+
+Night Vision. You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 30 feet.</content>
+  <content contentuid="ha288579eg93c9g19b4gd809gcbf44c5b3b6b" version="1">Feat: Charm Twister</content>
+  <content contentuid="h02d99bfegfef1g8e2dg60b7g277ac219dbc2" version="1">You know hedge remedies and hexes passed down through Old Ways teachings, and you can impart them into small wicker charms you weave. You gain the following benefits.&lt;br&gt;&lt;br&gt;You always have the Bless and Hex spells prepared. In addition, you gain one 1st-level spell slot that can be used to cast them.</content>
+  <content contentuid="h62e3caedgde0fgd173g13ddg989c09ea72d8" version="1">Feat: Grave Keeper</content>
+  <content contentuid="he41177dagaf29g13c8gc756g66414bcb409d" version="1">Studying funeral rites and tending the dead’s rest has made you a conduit between the worlds of the living and the dead. You gain the following benefits.
+
+Divine Channel. You gain one use of the Channel Divinity feature from the Cleric class, and you can create the Turn Undead effect with it. If you already have Channel Divinity, you add this use to the feature from one class of your choice.</content>
+  <content contentuid="h5edcd5f5g2597g4cb6g5ebcg6f37e6b6f496" version="1">Experiment</content>
+  <content contentuid="h2ba4fa20gb5a4gcf6fg0c48g86e73cad2928" version="1">Feat: Altered&lt;br&gt;&lt;br&gt;You are forever altered in some drastic, physical way, perhaps even made monstrous. A blasphemous fusion of science, alchemy, and magic changed you, possibly to mend some unrecoverable malady, or to test the limits of your biology. The process was a success, at least to a point, but the change left its mark on you. The indelible warping of your form can be a source of fear for those who do not understand what they see.&lt;br&gt;&lt;br&gt;Altred. You gain natural armor (AC 10 + Dexterity and Constitution modifiers), natural weapons (1d6 unarmed strikes), and darkvision out to 60 feet (or +30 feet if you already have it).</content>
+  <content contentuid="h8de8eb2bg4b97gfd23gf17fg132f6e2c9157" version="1">Rest Warden</content>
+  <content contentuid="h7d405f4ag1770gee29gfd7egc0479b1be286" version="1">Feat: Grave Keeper&lt;br&gt;&lt;br&gt;In a place closer to the lands of the dead than the living, those who tend the eternal rest and disposition of the deceased are held in a mixture of high esteem and apprehension. You have plied the trade of the gravedigger, the mortician, and the embalmer. There are times when you have been the only one to say a kind word in honor of those who passed. The depredations of the Undead are well-known to you, and you don’t suffer their meddling in the rest of your charges.&lt;br&gt;&lt;br&gt;Grave Keeper. You gain one use of the Channel Divinity feature from the Cleric class, and you can create the Turn Undead effect with it. If you already have Channel Divinity, you add this use to the feature from one class of your choice.</content>
+  <content contentuid="h49b1f4ebg0b80g1cbbg3266g01728d057db5" version="1">Feat: Swift Witchcraft</content>
+  <content contentuid="h485ec73fg065ag11a4g6c56g26237d4aa777" version="1">Feat: Death Defier</content>
+  <content contentuid="h04a42f0bg5327gaeb5gd711g78bbff1f0780" version="1">If an effect would kill you outright without Death Saving Throws or would reduce you directly to 0 Hit Points without dealing damage, you are instead reduced to a number of Hit Points equal to your level. You can’t use this benefit again until you finish a Long Rest.</content>
+  <content contentuid="hbf7fe4b1g71e7g88d5g300dgca4d09fd7f60" version="1">Death Defier</content>
+  <content contentuid="hc19ea2ecg9a08gebf9gd8dbg264ac39f1d4e" version="1">Death Defier</content>
+  <content contentuid="hf825d6a4g01fbg9069gd8b6gd7c305318fc8" version="1">You can cast more than one spell that uses a spell slot on your turn.</content>
+  <content contentuid="h6b9942c5g3516g176fg224dg36bf0a71d821" version="1">Wicker Weaver</content>
+  <content contentuid="hdb90b6a2g422eg0fbeg786dgb67c50e37043" version="1">Feat: Charm Twister&lt;br&gt;&lt;br&gt;You know the ancient rites kept alive by secretive druids and hedge practitioners in the shadowed groves of the primordial forests. Remedies and hexes woven into wicker charms can stave off misfortune and ward away evil. They could just as likely invite gloom and the ire of the old spirits.&lt;br&gt;&lt;br&gt;Charm Twister. You always have the Bless and Hex spells prepared. In addition, you gain one 1st-level spell slot that can be used to cast them.</content>
+  <content contentuid="h417af85ag7511g8d7ag32c6g96d4b8febe56" version="1">Altered</content>
+  <content contentuid="hc64822f1g7cc1ga5c5g36f2g38615ca2fa8b" version="1">Charm Twister</content>
+  <content contentuid="h9a29ca57g6b16g45d2gd6b2g59beaebcff8a" version="1">Grave Keeper</content>
+  <content contentuid="hbc8108d4gfe3cg400bg087fg1b35d6a3ae28" version="1">Death Defier</content>
+  <content contentuid="hb62d358fga20fg4314g8013g4f3aaddafafa" version="1">Swift Witchcraft</content>
+  <content contentuid="h7f01c4e8gfd6bgf1bfg447bga0765ad58bc4" version="1">The Crooked Moon</content>
+  <content contentuid="h04efcf78gd463gee8ag06bcg23514d83c9a2" version="1">The Crooked Moon</content>
+  <content contentuid="h724861ebg88f2g481bg1282g74ea90aa0663" version="1">You have been changed through magic, science, or a volatile blend of the two. You have a blatant physical augmentation of your choice from the options below. The augmentation is obvious—such as with stitches, grafts of other creature’s body parts, or implants—unless disguised.
+
+Natural Armor. You have scales, plates, or thick hide that grants you an AC of 10 + your Dexterity and Constitution modifier.
+
+Natural Weapons. You have claws, fangs, horns, or some other natural weapon that you can use to make Unarmed Strikes that deal 1d6 damage on a hit.
+
+Night Vision. You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 30 feet.</content>
+  <content contentuid="h83fd0391g6b2fgac96ga1a2gb0b7edabeb3b" version="1">You know hedge remedies and hexes passed down through Old Ways teachings, and you can impart them into small wicker charms you weave. You gain the following benefits.&lt;br&gt;&lt;br&gt;You always have the Bless and Hex spells prepared. In addition, you gain one 1st-level spell slot that can be used to cast them.</content>
+  <content contentuid="h894a8c5dg5c28g7d23gb198gb51499628687" version="1">Studying funeral rites and tending the dead’s rest has made you a conduit between the worlds of the living and the dead. You gain the following benefits.
+
+Divine Channel. You gain one use of the Channel Divinity feature from the Cleric class, and you can create the Turn Undead effect with it. If you already have Channel Divinity, you add this use to the feature from one class of your choice.</content>
+  <content contentuid="h09b18db4g2c3fg8d01g01b6g0d3e69735925" version="1">If an effect would kill you outright without Death Saving Throws or would reduce you directly to 0 Hit Points without dealing damage, you are instead reduced to a number of Hit Points equal to your level. You can’t use this benefit again until you finish a Long Rest.</content>
+  <content contentuid="h46ad0c90g0874gdcd5g9dbdg6328d1abaf2f" version="1">You can cast more than one spell that uses a spell slot on your turn.</content>
 </contentList>

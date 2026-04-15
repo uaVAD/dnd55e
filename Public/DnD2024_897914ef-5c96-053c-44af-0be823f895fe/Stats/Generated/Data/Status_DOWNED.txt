@@ -14,3 +14,10 @@ using "RELENTLESS_RAGE_DOWNED"
 data "Boosts" "AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);CriticalHit(AttackTarget,Success,Always,2.5);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);StatusImmunity(SG_Condition);StatusImmunity(SHOCKWAVE);"
 data "OnApplyFunctors" "RemoveStatus(RELENTLESS_RAGE);RegainHitPoints(ClassLevel(Barbarian)*2,Guaranteed)"
 
+new entry "DEATH_DEFIER_DOWNED"
+type "StatusData"
+data "StatusType" "DOWNED"
+using "RELENTLESS_ENDURANCE_DOWNED"
+data "DisplayName" "hc19ea2ecg9a08gebf9gd8dbg264ac39f1d4e;1"
+data "OnApplyFunctors" "RemoveStatus(DEATH_DEFIER);RegainHitPoints(Level,Guaranteed)"
+
