@@ -5460,7 +5460,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c6f3c53e-a22f-4656-a6f2-640cdd9f6622" />
         <field name="Name" type="NameTableFieldDefinition" value="PainKiller_3_DispatersBlessing" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87611e23g6851gdd85gb4aagc5494b4af22b" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87611e23g6851gdd85gb4aagc5494b4af22b" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc9bc8a1g4363gafc5g0aa8g3cf81d9f7f39" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HeavilyArmored" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
@@ -5472,7 +5472,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5192128f-35ca-4dd6-9caf-d38643ee080e" />
         <field name="Name" type="NameTableFieldDefinition" value="PainKiller_3_Devastator" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h764b69fagcd7ag05fdgf7dag5bd26082ad00" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h764b69fagcd7ag05fdgf7dag5bd26082ad00" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8dc48af4gcdf0gdb45g88c4g86ba48d298cb" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_CommandersStrike" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
@@ -5484,7 +5484,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dc441c50-5c55-4ac4-8be3-1e97d8a70919" />
         <field name="Name" type="NameTableFieldDefinition" value="PainKiller_3_GrandStrategist" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed5241fcg4e7bg125eg7f8fg43f7f8fbd64a" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed5241fcg4e7bg125eg7f8fg43f7f8fbd64a" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcac28d23geb38gd19fge1c7gd81fdc6dc09b" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FastMovement" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
@@ -5496,7 +5496,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f5bd5a0f-8500-48f6-a0e5-f85c89f56866" />
         <field name="Name" type="NameTableFieldDefinition" value="PainKiller_7_DispatersSupremacy" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9dbc5d36ge613gcbd5ga51cg3c2f03e86ea8" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9dbc5d36ge613gcbd5ga51cg3c2f03e86ea8" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb48d28a7g8fd1g0221gb778gd0ba3bcb5fb5" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ImprovedCritical" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14107" />
@@ -5508,7 +5508,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="25c3665a-b888-477c-aaa4-98605fefa532" />
         <field name="Name" type="NameTableFieldDefinition" value="PainKiller_11_YouDieOnMyCommand" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e5932b4g971fg88dcg9f73g49b5740e78e1" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e5932b4g971fg88dcg9f73g49b5740e78e1" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98e2c15eg1bb0g6b5fg7c81ge9b4199a5810" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_Rally" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
@@ -5531,7 +5531,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e917e3bf-06e7-43a6-aa2b-1014147c7e7a" />
         <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_3_MarkedForDeath" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h019023d4g5948g3c2ag571bg962e5e390492" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h019023d4g5948g3c2ag571bg962e5e390492" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e3d30b7g2c20gf8a7gd14eg44eb335e86b5" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Death" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
@@ -5543,7 +5543,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2be6344b-2bc6-4295-a34b-89187b328f33" />
         <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_3_StrikeFromTheDark" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h474f2848gc11cga707gce0ag47a7c29bf27f" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h474f2848gc11cga707gce0ag47a7c29bf27f" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc78792c5gf4b3g8f75gc78fge4e46626954f" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_ShadowsoakedBlow" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
@@ -5555,7 +5555,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="855a05f8-db40-4c44-a8aa-334b0c91d738" />
         <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_3_NoEscape" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h000d2b9cg5e7egc014gf141ga2c0e4d9fc4f" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h000d2b9cg5e7egc014gf141ga2c0e4d9fc4f" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8bb9020gf357g83bfgf655g10311ef27325" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_Garrote" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
@@ -5567,7 +5567,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a29c813b-50fb-47c5-8b60-8e2ffe9e60cf" />
         <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_7_HellsAssassin" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5b1941eeg9c53g0d48g2159g640b7817db72" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5b1941eeg9c53g0d48g2159g640b7817db72" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0405792eg3f88g4dbfg0b92gfcb573fe9525" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Death" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14107" />
@@ -5579,7 +5579,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ea53d6f5-994e-4534-94be-7142443ae65c" />
         <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_11_UmbralKiller" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59478469g65f2gdc36g0515g15430765aa77" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59478469g65f2gdc36g0515g15430765aa77" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hecbd9ffcg2be8gbb16g7102g34164bd0d262" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_UmbralCloak" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
@@ -5603,7 +5603,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="21f1ee46-3d20-4508-a2f3-a6577e70c1c7" />
         <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin_3" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01f5bb00ga933g06e9g6166g6a590fca24a4" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01f5bb00ga933g06e9g6166g6a590fca24a4" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha816b389ge8bag72c4gef70g5e1232a276d1" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Arcana" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
@@ -5614,7 +5614,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e33f2e2f-effe-4286-83ce-a16f27d4da82" />
         <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin_3_Spellblade" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90cf32b2gf820g9778g512fge7868eab0c47" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90cf32b2gf820g9778g512fge7868eab0c47" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1d004939g5a78gcfbage143g31b8dc1c1405" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VengefulBlade" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
@@ -5629,7 +5629,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="35e438f9-7ef9-49a0-ab1c-ee318b2722e9" />
         <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin_7_HellishVersatility" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha475d6ebg3a6bgaa0fgbbb4g76088c3aea4b" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha475d6ebg3a6bgaa0fgbbb4g76088c3aea4b" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h31f01a11ge447g9caegdcb4g2adfe1ce29e6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VengefulBlade" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14107" />
@@ -5640,7 +5640,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7ef6f42c-7d60-4f21-b27f-4565b7da5ac1" />
         <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin_7_AxiomaticSeals" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9727eb4bg1c42g18b1gb937gf2efc10d9fec" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9727eb4bg1c42g18b1gb937gf2efc10d9fec" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2bafe613g30e6g3792g15edgaa3d3658c4b6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="UnleashHell_Fire" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14107" />
@@ -5651,7 +5651,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dffac12a-a20e-4b10-888b-2089a4f3db3b" />
         <field name="Name" type="NameTableFieldDefinition" value="ArchitectOfRuin_11_Submit" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h528f5094gf88ag08d3ge649gc14b423059e7" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h528f5094gf88ag08d3ge649gc14b423059e7" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0688f440gd1d1g007egd6e0g79bf22aff2aa" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
