@@ -398,6 +398,13 @@
                     <attribute id="UUID" type="guid" value="e4893ffa-28cf-47c3-b985-fddb087d4bb5"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h79e8f4bbg9c6eg622cg3144g7c3d86633f1e" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h136b52acg55efge3ecge543gaf51e46232a0" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Spellblade"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="2a6e9ad6-b77d-497d-a068-493769f56916"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ORIGIN FEAT__"/>
                     <attribute id="UUID" type="guid" value="d6f88eae-2cc1-405f-b544-abd2d9ce747b"/>
                 </node>
@@ -510,11 +517,12 @@
                     <attribute id="UUID" type="guid" value="e6681241-1b8c-4098-b58f-cc4e1b77f1e0"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h79e8f4bbg9c6eg622cg3144g7c3d86633f1e" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h136b52acg55efge3ecge543gaf51e46232a0" version="1"/>
-                    <attribute id="Name" type="FixedString" value="Spellblade"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="UUID" type="guid" value="2a6e9ad6-b77d-497d-a068-493769f56916"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9ce455eag578bgd8baged3cg2295ac52dd7b" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="PlanarReach"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="9a8fa384-30b8-4c08-a731-6fa41ed7dac9"/>
                 </node>
             </children>
         </node>

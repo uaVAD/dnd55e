@@ -8,6 +8,11 @@
 - Level 2: Channel Divinity
 - Level 5: Sear Undead
 - Level 7: Blessed Strikes
+## Astral
+- Level 3: Astral Domain Spells
+- Level 3: Create Void
+- Level 3: Planar Reach
+- Level 6: Spatial Exchange
 ## Death
 ## Nature
 ## Tempest

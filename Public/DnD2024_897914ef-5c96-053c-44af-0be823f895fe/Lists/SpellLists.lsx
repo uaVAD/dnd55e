@@ -1394,6 +1394,11 @@
                     <attribute id="UUID" type="guid" value="096e299c-d9ad-459c-8798-42c51456fc08"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Illusion Wizard 6"/>
+                    <attribute id="Spells" type="LSString" value="Target_SummonBeast;Target_SummonFey;Target_SummonBeast_Illusion;Target_SummonFey_Illusion"/>
+                    <attribute id="UUID" type="guid" value="2a428023-b6cd-4d77-a801-d1e1f772c83e"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__GUNSLINGER__"/>
                     <attribute id="UUID" type="guid" value="84011a1a-eff3-4e7f-8954-1f9c97bd44e4"/>
                 </node>
@@ -1525,9 +1530,24 @@
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Illusion Wizard 6"/>
-                    <attribute id="Spells" type="LSString" value="Target_SummonBeast;Target_SummonFey;Target_SummonBeast_Illusion;Target_SummonFey_Illusion"/>
-                    <attribute id="UUID" type="guid" value="2a428023-b6cd-4d77-a801-d1e1f772c83e"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Astral Domain SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blur;Projectile_GuidingBolt;Target_Invisibility;Target_Longstrider;Projectile_StarryWisp"/>
+                    <attribute id="UUID" type="guid" value="75a6848e-e004-471b-a369-0862923b02bb"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Astral Domain SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blink;Target_Slow"/>
+                    <attribute id="UUID" type="guid" value="9158e743-fdac-49cb-af9a-d26b17509013"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Astral Domain SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Teleportation_DimensionDoor"/>
+                    <attribute id="UUID" type="guid" value="9e40339d-a7af-4975-9225-ddfd8fca58bf"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Astral Domain SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DispelEvilAndGood;Wall_WallOfStone"/>
+                    <attribute id="UUID" type="guid" value="3318e90b-d58c-46ac-aa51-eddde1150973"/>
                 </node>
             </children>
         </node>

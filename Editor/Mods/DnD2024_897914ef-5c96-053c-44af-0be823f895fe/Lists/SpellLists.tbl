@@ -571,6 +571,34 @@
         <field name="Name" type="NameTableFieldDefinition" value="Cleric, Knowledge Domain 6" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75a6848e-e004-471b-a369-0862923b02bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Astral Domain SLevel 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Blur;Projectile_GuidingBolt;Target_Invisibility;Target_Longstrider;Projectile_StarryWisp" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9158e743-fdac-49cb-af9a-d26b17509013" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Astral Domain SLevel 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Blink;Target_Slow" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e40339d-a7af-4975-9225-ddfd8fca58bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Astral Domain SLevel 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Banishment;Teleportation_DimensionDoor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3318e90b-d58c-46ac-aa51-eddde1150973" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Astral Domain SLevel 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_DispelEvilAndGood;Wall_WallOfStone" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a650b325-6d8d-46ae-a2a8-28009a511806" />

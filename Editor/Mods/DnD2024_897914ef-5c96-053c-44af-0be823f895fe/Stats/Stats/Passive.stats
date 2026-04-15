@@ -1602,6 +1602,70 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Intelligence);IF(not HasProficiencyBonus(context.CheckedAbility,context.CheckedSkill,context.Source)):RollBonus(SkillCheck,WisdomModifier/2);IF(not HasProficiencyBonus(context.CheckedAbility,context.CheckedSkill,context.Source)):RollBonus(RawAbility,WisdomModifier/2);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16d9b60e-76be-4736-96a6-a52d7bba5725" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ASTRAL DOMAIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5804bcc5-bef3-4515-804f-baf06843a8bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Astral_3_AstralDomainSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6da1597ag642dg0e69g9c1cg73fd7e25fe9f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1b7aecd7g65c1g83b6g50ddg7fe12c1c16a8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Astral_3_PlanarReach" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="608cfbaf-b7a4-4d8b-adbb-a30fd0306558" />
+        <field name="Name" type="NameTableFieldDefinition" value="Astral_3_CreateVoid" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h84a93262ga4eag809fg7a75gd6a9a6da35cf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h520a3350gab70g330fge64fgd34f7914b820" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Astral_3_CreateVoid" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CreateVoid);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ae75df0a-5433-45b8-baaf-430b17efa9ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="Astral_3_PlanarReach" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2358cb4g9ac5g070fg4962g945473af7540" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea8f653bga035g6444ga74bg7a2cc46f5a2b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Astral_3_PlanarReach" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('PlanarReach', 1, 0, false, false, context.Source);" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved;OnLongRest;OnActionResourcesChanged;OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;MetaMagic;Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(DistantTouchSpellCheck(),ModifyTargetRadius(Override,9),ModifySpellFlags(Melee,0),ModifyUseCosts(Add,PlanarReach,1,0));" />
+        <field name="ToggleOffContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73bf7207-edc1-4e55-b754-026925460b30" />
+        <field name="Name" type="NameTableFieldDefinition" value="Astral_3_PlanarReach_Resource" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2c05466-36d4-4e10-ab02-fc8b6bf70580" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(PlanarReach,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(PlanarReach,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(PlanarReach,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(PlanarReach,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(PlanarReach,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(PlanarReach,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(PlanarReach,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ae410a30-bc5e-4137-8a72-4e6a2ecdfcd7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Astral_6_SpatialExchange" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02d3ddc5gfa53g6d67g4b7cgfd71aa6b71d7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h15e226b3g215bge214g85e0gbbc2eafde5c5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_BenignTransposition_Swap" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MistyStep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);UnlockSpell(Target_SpatialExchange);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7802f41d-bd65-4255-a3bf-5d50027cc099" />

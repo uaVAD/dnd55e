@@ -114,6 +114,25 @@
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_37" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0a7ae8c2-4fd5-48d8-9e5e-6a29189f3fb1" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="114e7aee-d1d4-4371-8d90-8a2080592faf" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="AstralDomain" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8c3059c7g991dgb256g6789g777eedf802cd" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="09684867-c032-4676-a80b-99a317d39fad" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Cleric" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="ShortName" type="TranslatedStringTableFieldDefinition" handle="hc89f541bg33a9g6e04g2561g6e4b1e11a18e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf149dfc0gc190g57f0g98c9g5ca3daadd069" version="1" />
+        <field name="SpellList" type="GuidObjectTableFieldDefinition" value="264c3b2d-8445-40f6-9a2f-383de3baa01e" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />

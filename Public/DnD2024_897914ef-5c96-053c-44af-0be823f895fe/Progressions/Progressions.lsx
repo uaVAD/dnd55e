@@ -903,6 +903,9 @@
                         <node id="SubClasses">
                             <children>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="0a7ae8c2-4fd5-48d8-9e5e-6a29189f3fb1"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="b927a22a-d64b-48d6-bc7c-38c5f7f6a061"/>
                                 </node>
                                 <node id="SubClass">
@@ -6841,6 +6844,47 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="AstralDomain"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Astral_3_AstralDomainSpells;Astral_3_CreateVoid;Astral_3_PlanarReach;Astral_3_PlanarReach_Resource"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(75a6848e-e004-471b-a369-0862923b02bb,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                    <attribute id="UUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="AstralDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(9158e743-fdac-49cb-af9a-d26b17509013,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                    <attribute id="UUID" type="guid" value="68c137af-8476-47fb-bd07-e14d897167ca"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="AstralDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(9e40339d-a7af-4975-9225-ddfd8fca58bf,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                    <attribute id="UUID" type="guid" value="ab8fa931-5fa4-41b4-862f-860abc05052b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="AstralDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(3318e90b-d58c-46ac-aa51-eddde1150973,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                    <attribute id="UUID" type="guid" value="0c928e33-300b-4e0e-a991-20bc702a95d0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="AstralDomain"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Astral_6_SpatialExchange"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                    <attribute id="UUID" type="guid" value="d3df1f2a-fb63-4863-ac93-ff4360420e5f"/>
                 </node>
             </children>
         </node>
