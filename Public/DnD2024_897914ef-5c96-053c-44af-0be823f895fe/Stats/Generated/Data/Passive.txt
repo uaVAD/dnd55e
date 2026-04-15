@@ -5165,6 +5165,13 @@ type "PassiveData"
 data "DisplayName" "h80d34500g1a50gfebfgbc79g489d53187849;1"
 data "Description" "h1ae5a709g9e4ag5e7agbf4ag35be3da03653;1"
 
+new entry "GOB_Torturer_Spear_Passive"
+type "PassiveData"
+using "GOB_Torturer_Spear_Passive"
+data "StatsFunctorContext" ""
+data "Conditions" ""
+data "StatsFunctors" ""
+
 new entry "__RACE__"
 type "PassiveData"
 

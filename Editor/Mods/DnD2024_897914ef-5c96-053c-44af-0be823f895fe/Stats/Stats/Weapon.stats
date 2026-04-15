@@ -32,6 +32,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df30ed50-e9fb-4db7-b3dc-db4908c05a89" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Vicious_Battleaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aa3d8380-adc7-4a47-abef-9decf7ffd712" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3ff89075-1ef3-487e-b456-a1b536fd681a" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_Vicious_Weapon_Passive;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f212e90f-103a-471b-863a-8cd9d2151317" />
         <field name="Name" type="NameTableFieldDefinition" value="WPN_DummyForEquipment" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1772ee40-dfce-49bd-812a-27a21b713c37" />
@@ -152,17 +163,6 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6364a270-0ca4-45e2-aab2-7673bb5c156e" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="df30ed50-e9fb-4db7-b3dc-db4908c05a89" />
-        <field name="Name" type="NameTableFieldDefinition" value="MAG_Vicious_Battleaxe" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="aa3d8380-adc7-4a47-abef-9decf7ffd712" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3ff89075-1ef3-487e-b456-a1b536fd681a" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_Vicious_Weapon_Passive;" />
-        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -4504,6 +4504,34 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcbe6fc9-a4a8-41bd-bbde-968066abb61a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Spear_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="86450ec8-d876-457f-92c0-7bb11e8f38f8" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.05" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f72e090-2ce6-4dd7-bc72-7f6623a42eae" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Pitchfork" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
+        <field name="ItemGroup" type="StringTableFieldDefinition" value="Pitchfork" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c8274575-61a2-43a7-bde0-65a278dde287" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac6cc0c7-e37f-464f-a284-3a4a42f529bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Goblin_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
+        <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="81b017b5-d185-4026-8871-a053aca8648c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6a3cb483-fa5c-4fd5-9e9f-a35f8be4f20d" />
         <field name="Name" type="NameTableFieldDefinition" value="WPN_Spear_1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
@@ -4517,24 +4545,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2922cf49-9afa-4eb5-8397-519aecb72464" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Spear_2" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="74d9758a-84e9-4244-9ae8-14acee76acb3" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="71191c11-966f-4c19-b4ee-eb36d31c4944" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Versatile;Magical" enumeration_type_name="WeaponFlags" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dcbe6fc9-a4a8-41bd-bbde-968066abb61a" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Spear_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="86450ec8-d876-457f-92c0-7bb11e8f38f8" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.05" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bc231af7-cf3a-4112-ae61-fbf64f08d018" />
+        <field name="Name" type="NameTableFieldDefinition" value="CHA_CompassSpear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a3cb483-fa5c-4fd5-9e9f-a35f8be4f20d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7fdf8022-629a-4b34-b0c0-3295bfb2903d" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="200" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;CHA_CompassSpear_Passive;" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4545,6 +4564,58 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="158e6f29-89e9-4279-8f8f-85078f047225" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67d08e8d-d74c-41ba-bb37-a0505c61baaa" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Kuotoa_Lightning_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a3cb483-fa5c-4fd5-9e9f-a35f8be4f20d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5dc55fa5-40df-4e67-ab78-d9320176e614" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_Kuotoa_Lightning_Spear_Passive;MAG_LightningThrow_Passive;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31eefda0-8ff1-4fdf-8235-8171724d48d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_Torturer_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a3cb483-fa5c-4fd5-9e9f-a35f8be4f20d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1fea9dfa-96a6-43c5-bce8-34452baa073e" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;GOB_Torturer_Spear_Passive;" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Charisma, ManeuverSaveDC())):ApplyStatus(GOB_TORTURED, 100, 2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="95a2c82b-f802-4769-835f-e5c3095d0b97" />
+        <field name="Name" type="NameTableFieldDefinition" value="FOR_TrueSoul_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a3cb483-fa5c-4fd5-9e9f-a35f8be4f20d" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Dexterity, ManeuverSaveDC())):ApplyStatus(BLINDED, 100, 2);" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="330" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;FOR_TrueSoul_SpearPassive;" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a2f4c951-7db4-4d60-9888-f2ad50af7110" />
+        <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2922cf49-9afa-4eb5-8397-519aecb72464" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Spear_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="74d9758a-84e9-4244-9ae8-14acee76acb3" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="71191c11-966f-4c19-b4ee-eb36d31c4944" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Versatile;Magical" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4572,75 +4643,20 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="67d08e8d-d74c-41ba-bb37-a0505c61baaa" />
-        <field name="Name" type="NameTableFieldDefinition" value="MAG_Kuotoa_Lightning_Spear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="6a3cb483-fa5c-4fd5-9e9f-a35f8be4f20d" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5dc55fa5-40df-4e67-ab78-d9320176e614" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_Kuotoa_Lightning_Spear_Passive;MAG_LightningThrow_Passive;" />
-        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f1cf514c-2cbf-4a53-9299-f2c8de060fe3" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_SHA_SeluneBlessing_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3ec56e49-8eb6-4731-a163-b79e0afc2f63" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_SHA_SeluneBlessing_Spear_Passive;Darkvision;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="31eefda0-8ff1-4fdf-8235-8171724d48d3" />
-        <field name="Name" type="NameTableFieldDefinition" value="GOB_Torturer_Spear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="6a3cb483-fa5c-4fd5-9e9f-a35f8be4f20d" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1fea9dfa-96a6-43c5-bce8-34452baa073e" />
-        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;GOB_Torturer_Spear_Passive;" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="95a2c82b-f802-4769-835f-e5c3095d0b97" />
-        <field name="Name" type="NameTableFieldDefinition" value="FOR_TrueSoul_Spear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="6a3cb483-fa5c-4fd5-9e9f-a35f8be4f20d" />
-        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Dexterity, 11)):ApplyStatus(BLINDED, 100, 2)" />
-        <field name="Value" type="IntegerTableFieldDefinition" value="330" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;FOR_TrueSoul_SpearPassive;" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a2f4c951-7db4-4d60-9888-f2ad50af7110" />
-        <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="bc231af7-cf3a-4112-ae61-fbf64f08d018" />
-        <field name="Name" type="NameTableFieldDefinition" value="CHA_CompassSpear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="6a3cb483-fa5c-4fd5-9e9f-a35f8be4f20d" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7fdf8022-629a-4b34-b0c0-3295bfb2903d" />
-        <field name="Value" type="IntegerTableFieldDefinition" value="200" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;CHA_CompassSpear_Passive;" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
-        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ac6cc0c7-e37f-464f-a284-3a4a42f529bd" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Goblin_Spear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
-        <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="81b017b5-d185-4026-8871-a053aca8648c" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1f72e090-2ce6-4dd7-bc72-7f6623a42eae" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Pitchfork" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
-        <field name="ItemGroup" type="StringTableFieldDefinition" value="Pitchfork" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c8274575-61a2-43a7-bde0-65a278dde287" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1d1faa42-f06c-40ce-9243-d1a195cf5bb6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_SHA_SharBlessing_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42fca697-dd3a-4cbe-9a89-7c9b6688214f" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_SHA_Apprentice_DaggerOfShar_Spell);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_SHA_SharBlessing_Spear_Passive;MAG_Shadow_BlindImmunity_Ring_Passive;" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

@@ -7142,6 +7142,16 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1ae5a709g9e4ag5e7agbf4ag35be3da03653" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63db72ac-4063-4fdf-931b-de66a18a5e00" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_Torturer_Spear_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e5d6ec57-e007-427e-bb02-4193c01f2c71" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />
