@@ -1621,6 +1621,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="015d7bd5-ebce-46c0-9c9e-155a4b2022b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_GIANT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="abfbc9ef-9132-44e8-b86a-7799cd2b2543" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VFX_RAGE);UnlockSpell(Shout_EndRage);UnlockSpell(Shout_ExtendRage);Attribute(ForceMainhandAlternativeEquipBones);ObjectSize(+1);ScaleMultiplier(1.33);CarryCapacityMultiplier(1.25);EntityThrowDamage(2);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db735627-f744-4438-a573-fef3e01586ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_GIANT_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d529b1d7-a08c-4722-b0a5-b24b6f92ad02" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VFX_RAGE);UnlockSpell(Shout_EndRage);UnlockSpell(Shout_ExtendRage);Attribute(ForceMainhandAlternativeEquipBones);ObjectSize(+1);ScaleMultiplier(1.33);CarryCapacityMultiplier(1.25);EntityThrowDamage(2);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="229bcbca-f97a-4228-aef1-f7d0042f9dbd" />
         <field name="Name" type="NameTableFieldDefinition" value="RECKLESS_ATTACK" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5e942caa-772e-4bee-a7a7-63b6417e6031" />
