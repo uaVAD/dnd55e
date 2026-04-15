@@ -1100,6 +1100,77 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="fc59ce34-fc8d-4ae9-b267-3a905bf48c02" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab32515d-e83a-42a4-a960-c417925b0244" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__SLEVEL_3__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e945e15d-b412-414a-a7ed-2feeaecc0edd" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonFey" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(5a35e773-59d4-4864-9249-acdf7aad1a6c, -1,,,'SummonFeyStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('be212ed5-a622-4560-96be-0ee27ea1f913') and not Character() and not Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_SummonFey" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1a950eaag6cb3g9b5cgfb98gc721a9abd164" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_FindFamiliar_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_FindFamiliar_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="8e035a07-8928-4008-a86d-7f45ed61e39a" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="23d05225-027b-4656-97f8-564b185d37a2" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="625abd19-4abb-4913-9081-a91b31f2913a" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonFey_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e945e15d-b412-414a-a7ed-2feeaecc0edd" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(f3b3cc9a-9513-48fe-83f5-adbd62d342d2, -1,,,'SummonFeyStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_SummonFey" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb1a0c03-5782-41fc-a6ed-8beae8ac508f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonFey_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="625abd19-4abb-4913-9081-a91b31f2913a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(27de1643-7e01-47ca-94cb-925688c93eb9, -1,,,'SummonFeyStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c7f137b-dd51-428f-9336-649e87bb2ac1" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonFey_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="625abd19-4abb-4913-9081-a91b31f2913a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(9ce82b94-656e-459d-a566-30239c40c69b, -1,,,'SummonFeyStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8163149e-a649-4421-af77-5b5a26ed3e76" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonFey_FeyStep" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7223d543gf408g50fagb634g0ce2909ad820" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ea4e8e48-47c2-4811-9676-14523ec3fa68" />

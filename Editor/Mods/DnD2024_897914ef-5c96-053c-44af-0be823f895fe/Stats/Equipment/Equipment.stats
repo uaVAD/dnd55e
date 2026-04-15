@@ -75,5 +75,34 @@
         <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0734089f-e082-4449-a671-f653e62fcb3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Redcap_SummonFey" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_FeyBlade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="710d3039-046f-4dbb-b50e-9179353dac98" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Redcap_SummonFey_4" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_FeyBlade_1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cec69c89-40b2-49f2-b75d-f34314f85f0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Redcap_SummonFey_5" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_FeyBlade_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d4b7931-fa09-43e1-bc1e-f66e26de9a4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Redcap_SummonFey_6" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_FeyBlade_3" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

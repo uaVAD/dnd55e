@@ -102,3 +102,20 @@ add equipment entry "MAG_TrueName"
 add equipmentgroup
 add equipment entry "ARM_Leather_Body"
 
+new equipment "EQP_Redcap_SummonFey"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_FeyBlade"
+
+new equipment "EQP_Redcap_SummonFey_4"
+add equipmentgroup
+add equipment entry "WPN_FeyBlade_1"
+
+new equipment "EQP_Redcap_SummonFey_5"
+add equipmentgroup
+add equipment entry "WPN_FeyBlade_2"
+
+new equipment "EQP_Redcap_SummonFey_6"
+add equipmentgroup
+add equipment entry "WPN_FeyBlade_3"
+

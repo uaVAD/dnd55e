@@ -3124,7 +3124,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7ad7a247-c272-453e-8439-8b3af63f8c67" />
         <field name="Name" type="NameTableFieldDefinition" value="FeyWanderer_3_FeyWandererSpells" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b83ca6ag67bbga7f4gb3acgd0dc994c7828" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ae962aag1f80gf20eg9ad2g481c0cb2a1fe" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ae962aag1f80gf20eg9ad2g481c0cb2a1fe" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />

@@ -4172,3 +4172,29 @@ data "ValueUUID" "81764c3c-c7a9-49a7-b145-d31ffd5aebe1"
 data "Rarity" "VeryRare"
 data "PassivesOnEquip" "WeaponMasterySap;MAG_TrueName_Passive;MAG_TrueName_Passive_2;"
 
+new entry "__NPC__"
+type "Weapon"
+
+new entry "WPN_FeyBlade"
+type "Weapon"
+using "WPN_Redcap_Sickle"
+data "Damage Type" "Force"
+data "Damage" "2d6"
+data "PassivesOffHand" ""
+data "Weapon Properties" "Light;Melee;Dippable;Finesse"
+
+new entry "WPN_FeyBlade_1"
+type "Weapon"
+using "WPN_FeyBlade"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+
+new entry "WPN_FeyBlade_2"
+type "Weapon"
+using "WPN_FeyBlade_1"
+data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical);"
+
+new entry "WPN_FeyBlade_3"
+type "Weapon"
+using "WPN_FeyBlade_1"
+data "DefaultBoosts" "WeaponEnchantment(3);WeaponProperty(Magical);"
+

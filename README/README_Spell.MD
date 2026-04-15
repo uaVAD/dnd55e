@@ -74,6 +74,7 @@
 - Lightning Arrow
 - Mass Healing Word
 - Phantom Steed
+- Summon Fey
 ## Level 4
 - Banishment
 - Confusion

@@ -2255,7 +2255,7 @@ data "Boosts" "IF(IsWeaponAttack()):CharacterWeaponDamage(LevelMapValue(FeyWande
 new entry "FeyWanderer_3_FeyWandererSpells"
 type "PassiveData"
 data "DisplayName" "h4b83ca6ag67bbga7f4gb3acgd0dc994c7828;1"
-data "Description" "h4ae962aag1f80gf20eg9ad2g481c0cb2a1fe;1"
+data "Description" "h4ae962aag1f80gf20eg9ad2g481c0cb2a1fe;2"
 data "Icon" "Action_FeyPresence"
 data "PriorityOrder" "8403"
 data "Properties" "Highlighted;ForceShowInCC"
