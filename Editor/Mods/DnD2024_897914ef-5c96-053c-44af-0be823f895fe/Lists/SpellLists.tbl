@@ -1427,6 +1427,38 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_GreaterRestoration;Target_FlameStrike" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e36ca77-611b-4b2f-b5e8-be41a45544b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DRACONIC__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2edc485-d2db-46dd-a0fa-df40578e1fdd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Draconic Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb;Target_Command_Container" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cbd1a730-9e1c-492e-8b33-a1893fab6bf8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Draconic Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_Fear;Target_Fly" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe4e7aad-c024-4ee4-a8a7-37862da0189c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Draconic Level 7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a63cd10-5142-4af2-91ae-fe102e03adf1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Draconic Level 9" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="28297251-2b44-4554-8723-4ab94229a3c0" />
