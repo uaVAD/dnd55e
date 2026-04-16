@@ -8105,6 +8105,37 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef98c2aa-ca32-4460-bc05-1dcfe5520924" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MAGIC ITEM__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="76111b33-f22c-42b0-95c3-dc50a89de65d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WeaponAction_FlashingDawn" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fdb15633-5f7c-4fb5-a6cf-6b1e3007226e" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9482a8d9-469c-4761-afa6-7de9983f368d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WeaponAction_SearingBlood" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e8b0af83-69fa-4e70-9672-dedc5469ce2f" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(BURNING,100,2);IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(BLEEDING,100,2);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(SELF, 1d6, Slashing);DealDamage(1d6+ProficiencyBonus, Fire);ExecuteWeaponFunctors(MainHand);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26ce4409-62e4-4cba-8290-d30aba3f0fc5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WeaponAction_RevitalizingStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9879f5b-5c3a-4e0b-9ed6-a981eb1c9f95" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f7f9ea83-aaf9-434e-9d60-c119e713bd60" />
         <field name="Name" type="NameTableFieldDefinition" value="__RACE__" />
       </fields>

@@ -7278,6 +7278,68 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cabb1f4e-2593-4f23-8e13-32c1e8d8e6e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Corrosive_Flail_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc064fa21ge684g65c0g9633g796b118177b3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33a83d2bg7e97g9bebg4b1ag640c88459c92" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc20b2be-0652-4585-a93f-3ef5f4f42b46" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Poison_Greatclub_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h93ef7658ga110g9063ga99fg02ab90d1135d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbbc19e32g5427g3585gaaabg3a72c966a807" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09dda926-939b-47c9-81a6-f7dc7f098035" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Fire_IncreaseSlashingDamageToBurning_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2f9c6fc-d9a4-43d3-a5c6-2749b81cc477" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hed352d94g7b9dg3b87g2d2bgb0b679111113" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a877b9f-c834-42be-8263-3bbad368f812" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_DrowCommander_Mace_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0d0ad934-96cc-463a-a440-1fc428a43253" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfc73e10fg17e9g9f07gc85fg541d0d54d67b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FAERIE_FIRE,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1923928-8edf-4d7b-9941-dd0d735558b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_PainPriest_Scourge_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="993f5466-76c2-4eb7-a271-868d6a9ac036" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="992537d4-2183-44ca-97fc-4ca7ff7a38bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Mobility_ExplosionOnJump_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="52177990-d218-4d36-be54-83b126a77691" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Temporary;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2dcdd2ab-a808-44cf-a241-434495b6a19e" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_Bow_SpellslotRecharge_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3a5221b7-de46-4175-9a4e-2488020552c4" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />

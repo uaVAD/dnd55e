@@ -856,6 +856,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0157a87f-3995-48a4-a6f4-f7371e43c73e" />
+        <field name="Name" type="NameTableFieldDefinition" value="FAERIE_FIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cbdd8645-71f7-4b2b-9a2e-82f9e19642bd" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="54b88032-b3a1-47e1-90a1-29d578fa67fd" />
         <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="948d324f-167c-42ab-b7d2-70a8e54257c8" />

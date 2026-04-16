@@ -5262,6 +5262,47 @@ data "StatsFunctorContext" ""
 data "Conditions" ""
 data "StatsFunctors" ""
 
+new entry "MAG_Corrosive_Flail_Passive"
+type "PassiveData"
+data "DisplayName" "hc064fa21ge684g65c0g9633g796b118177b3;1"
+data "Description" "h33a83d2bg7e97g9bebg4b1ag640c88459c92;1"
+data "DescriptionParams" "2"
+
+new entry "MAG_Poison_Greatclub_Passive"
+type "PassiveData"
+data "DisplayName" "h93ef7658ga110g9063ga99fg02ab90d1135d;1"
+data "Description" "hbbc19e32g5427g3585gaaabg3a72c966a807;1"
+
+new entry "MAG_Fire_IncreaseSlashingDamageToBurning_Passive"
+type "PassiveData"
+using "MAG_Fire_IncreaseSlashingDamageToBurning_Passive"
+data "Description" "hed352d94g7b9dg3b87g2d2bgb0b679111113;1"
+
+new entry "GOB_DrowCommander_Mace_Passive"
+type "PassiveData"
+using "GOB_DrowCommander_Mace_Passive"
+data "Description" "hfc73e10fg17e9g9f07gc85fg541d0d54d67b;1"
+data "DescriptionParams" "1"
+data "Properties" "OncePerTurn"
+data "StatsFunctors" "ApplyStatus(FAERIE_FIRE,100,1)"
+
+new entry "GOB_PainPriest_Scourge_Passive"
+type "PassiveData"
+using "GOB_PainPriest_Scourge_Passive"
+data "StatsFunctorContext" ""
+data "Conditions" ""
+data "StatsFunctors" ""
+
+new entry "MAG_Mobility_ExplosionOnJump_Passive"
+type "PassiveData"
+using "MAG_Mobility_ExplosionOnJump_Passive"
+data "Properties" "IsToggled;Temporary;OncePerTurn"
+
+new entry "UNI_Bow_SpellslotRecharge_Passive"
+type "PassiveData"
+using "UNI_Bow_SpellslotRecharge_Passive"
+data "Properties" "OncePerTurn"
+
 new entry "__RACE__"
 type "PassiveData"
 

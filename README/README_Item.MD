@@ -1,12 +1,16 @@
 # Item
+- Argument Solver
 - Blazer of Benevolence
 - Cap of Curing
-- Enforcer Club(loot from Flaming Fist Jacek)
-- Enforcer Helmet(loot from Flaming Fist Jacek)
-- Enforcer Shield(loot from Flaming Fist Jacek)
+- Corrosive Flail
+- Dragon's Grasp
+- Enforcer Club (Loot from Flaming Fist Jacek)
+- Enforcer Helmet (Loot from Flaming Fist Jacek)
+- Enforcer Shield (Loot from Flaming Fist Jacek)
 - Gloves of Heroism
 - Hellrider's Pride
 - Helmet of Smiting
+- Hoppy
 - Hunting Shortbow
 - Musket
 - Musket +1
@@ -14,6 +18,9 @@
 - Pistol
 - Pistol +1
 - Pistol +2
+- Rupturing Blade
 - Spellthief
 - The Oak Father's Embrace
-- True Name (Illrigger Equipment, loot from He Who Was)
+- The Sacred Star (Loot from a Heavy Chest in the Dank Crypt)
+- True Name (Illrigger Equipment, Loot from He Who Was)
+- Xyanyde

@@ -685,6 +685,13 @@ data "StackPriority" "3"
 data "OnApplyFunctors" "DealDamage(3d8, Necrotic,Magical);RemoveStatus(SELF, VENGEFUL_BLADE_10)"
 data "ApplyEffect" "54d3e1a2-7513-4f46-bb46-53dec4e83b8d"
 
+new entry "FAERIE_FIRE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FAERIE_FIRE"
+data "TickType" "StartTurn"
+data "StatusPropertyFlags" "TickingWithSource"
+
 new entry "FIRE_RUNE"
 type "StatusData"
 data "StatusType" "BOOST"

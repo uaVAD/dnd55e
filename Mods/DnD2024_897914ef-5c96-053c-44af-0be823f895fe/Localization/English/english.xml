@@ -3110,4 +3110,10 @@ At 3rd level, you always have Ensnaring Strike, Shillelagh, Shining Smite, and T
   <content contentuid="h33d907d8gd0a0gaee7g061fg578448183f33" version="1">Improved Shillelagh</content>
   <content contentuid="h698d6323ge92fg1fd9g8d8bg36d7db994d94" version="1">Wild Recovery</content>
   <content contentuid="hc24409fagede8g0aaag1ad3g32c2949bb667" version="2">As a Bonus Action, you can expend a use of your Wild Shape to regain a number of Hit Points equal to 2d6 plus your Druid level. This healing increases by 1d6 when you reach Druid levels 5 (3d6 plus your Druid level) and 10 (4d6 plus your Druid level).</content>
+  <content contentuid="hc064fa21ge684g65c0g9633g796b118177b3" version="1">Corrosive Strike</content>
+  <content contentuid="h33a83d2bg7e97g9bebg4b1ag640c88459c92" version="1">Deal additional Acid damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. On a hit, create a pool of acid around the target which reduces &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
+  <content contentuid="h93ef7658ga110g9063ga99fg02ab90d1135d" version="1">Poison Mist</content>
+  <content contentuid="hbbc19e32g5427g3585gaaabg3a72c966a807" version="1">Deal additional Poison damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. On a hit, surround the target in a noxious cloud that possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisons&lt;/LSTag&gt; those within it. </content>
+  <content contentuid="hed352d94g7b9dg3b87g2d2bgb0b679111113" version="1">On a hit, there is a chance to inflict the Burning condition. Deals an additional [1] to Burning targets.</content>
+  <content contentuid="hfc73e10fg17e9g9f07gc85fg541d0d54d67b" version="1">Once per turn, you can encase a target in &lt;LSTag Type="Status" Tooltip="FAERIE_FIRE"&gt;Faerie Fire&lt;/LSTag&gt; for [1] turns if you miss an attack against it.</content>
 </contentList>

@@ -430,5 +430,19 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BreathWeapon:1;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e246dcf-93e3-4be4-86b2-668a52124ffc" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MAGIC ITEM__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01ab41cf-6536-4315-bcff-3cdf52a42f72" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_SuperheavyWeapon_Spell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a4c7df03-bd82-46da-afdd-8d7c763b9407" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
